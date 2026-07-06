@@ -1,0 +1,397 @@
+# ADVANCED QUANTUM HARMONIZER (AQH) – ARCHITECTURE DESCRIPTION
+
+Author: Josef P.
+Purpose: Quantum-inspired harmonization system for arbitrary-length melodies
+
+---
+
+========================================
+PART I – SYSTEM ARCHITECTURE (DEVELOPER VIEW)
+========================================
+
+---
+
+1. OVERVIEW
+
+---
+
+Advanced Quantum Optimizer Harmonizer (AQH) is a modular system for automatic harmonization of melodies using a hybrid classical + quantum-inspired approach.
+
+The system:
+
+* accepts a melody in MusicXML format
+* converts it into a beat-level representation
+* transposes everything into C major
+* divides the melody into overlapping blocks
+* optimizes harmony locally within each block
+* merges results into a globally consistent harmonic progression
+* postprocesses the result
+* exports a new MusicXML with chord symbols and harmony
+
+Key property:
+The system supports arbitrary-length compositions and multiple time signatures.
+
+---
+
+2. CORE REPRESENTATION
+
+---
+
+The system operates on BEATS, not measures.
+
+Each beat:
+
+* contains melody information
+* receives exactly ONE chord
+
+This creates a uniform time grid for optimization.
+
+The melody is divided into:
+
+* fixed-length blocks (default: 8 beats)
+* overlapping windows (default overlap: 2 beats)
+
+Example:
+
+Block 1: beats 1–8  
+Block 2: beats 7–14  
+Block 3: beats 13–20  
+
+This ensures:
+
+* local optimization (within block)
+* global continuity (via overlap)
+
+---
+
+3. PROCESSING PIPELINE
+
+---
+
+1. Load MusicXML  
+2. Convert to BeatEvent representation  
+3. Transpose melody to C major  
+4. Build overlapping beat blocks  
+5. For each block:
+
+   * generate candidate chords per beat
+   * run quantum-inspired optimization
+   * produce best chord sequence
+
+6. Merge overlapping results  
+7. Apply postprocessing  
+8. Export to MusicXML  
+
+---
+
+4. MODULE STRUCTURE
+
+---
+
+## config.py
+
+Global configuration:
+
+* block size (default: 8)
+* overlap size (default: 2)
+* scoring weights
+* quantum parameters (iterations, temperature, coupling strength)
+* allowed chord types
+
+---
+
+## beat_representation.py
+
+Defines:
+
+class BeatEvent:
+
+Contains:
+
+* melody notes (MIDI)
+* bar index
+* beat index
+* metric strength
+* flags (strong beat, rest)
+
+---
+
+## musicxml_loader.py
+
+Responsibilities:
+
+* parse MusicXML
+* convert notes → MIDI
+* expand durations to beats
+* preserve rhythm (including dotted notes, rests, tuplets)
+* assign metric structure
+
+Output:
+List[BeatEvent]
+
+---
+
+## meter_utils.py
+
+Defines metric hierarchy:
+
+* strong vs weak beats
+* supports 4/4, 3/4, 2/4, 6/8
+
+---
+
+## transposition.py
+
+Normalizes all melodies to C major.
+
+Important:
+
+* no reverse transposition is performed
+* output is always in C major
+
+---
+
+## chord_library.py
+
+Defines harmonic vocabulary:
+
+* triads + seventh chords
+* functional labels (T, S, D)
+
+Each chord contains:
+
+* root
+* pitch classes
+* harmonic function
+
+---
+
+## candidate_selector.py
+
+For each beat:
+
+* generates candidate chords
+* ranks them based on local compatibility
+
+Criteria:
+
+* melody tone inclusion
+* harmonic stability
+* metric position
+
+Output:
+Top-K chords per beat
+
+---
+
+## scoring.py
+
+Defines evaluation model.
+
+Components:
+
+1. Melody compatibility  
+2. Metric strength  
+3. Functional harmony (T–S–D)  
+4. Voice-leading smoothness  
+5. Common tones  
+6. Cadential tendencies  
+
+This defines the global objective function.
+
+---
+
+## quantum_block_solver.py
+
+Core optimization engine.
+
+Responsibilities:
+
+* maintains probability weights for chords per beat
+* maintains coupling between neighboring beats
+* samples chord sequences
+* evaluates sequences globally
+* updates weights iteratively
+
+Output:
+Best chord sequence for the block
+
+---
+
+## overlap_merger.py
+
+Merges overlapping blocks.
+
+Rules:
+
+* agreement → keep chord
+* disagreement → choose higher-confidence chord
+
+Ensures smooth transitions.
+
+---
+
+## postprocessor.py
+
+Refinement layer:
+
+* removes harmonic noise (1-beat spikes)
+* stabilizes repeated tones
+* enforces cadence (ending on tonic)
+
+---
+
+## exporter.py
+
+Exports final result to MusicXML.
+
+Ensures:
+
+* melody preserved exactly
+* rhythm preserved
+* chord symbols rendered above staff
+* harmony staff independent of melody rhythm
+
+---
+
+## main.py
+
+Orchestrates the full pipeline.
+
+---
+
+5. BLOCK OPTIMIZATION MODEL
+
+---
+
+Each block is optimized globally.
+
+For each beat:
+
+* K candidates (typically 6–8)
+
+Search space:
+
+K^T (T = block size)
+
+Exploration is performed via:
+
+* stochastic sampling
+* iterative refinement
+
+---
+
+6. OVERLAP STRATEGY
+
+---
+
+Blocks overlap to enforce continuity.
+
+Merge:
+
+* agreement preferred
+* otherwise confidence-based decision
+
+---
+
+7. LIMITATIONS
+
+---
+
+* no modulation
+* limited voice leading
+* no polyphonic melody support
+* simplified harmonic language
+
+---
+
+8. EXTENSIONS
+
+---
+
+* voice leading optimization
+* modulation detection
+* style conditioning
+* multi-output generation
+
+---
+
+========================================
+PART II – QUANTUM-INSPIRED MODEL (CONCEPTUAL VIEW)
+========================================
+
+---
+
+9. MOTIVATION
+
+---
+
+The system does not implement physical quantum computation.
+
+Instead, it adopts **principles inspired by quantum theory** to structure the search over harmonic possibilities.
+
+Goal:
+
+Efficient exploration of a large combinatorial space of chord sequences.
+
+---
+
+10. SUPERPOSITION
+
+---
+
+At each time step t, the system maintains a distribution over chords:
+
+    ψ_t = ∑ w(c) · |c⟩
+
+Interpretation:
+
+* multiple harmonic possibilities coexist
+* no single deterministic choice is made initially
+
+This allows parallel exploration of alternatives.
+
+---
+
+11. INTERFERENCE
+
+---
+
+Chord sequences are evaluated globally:
+
+    E(c₁, ..., c_T)
+
+During optimization:
+
+* high-scoring sequences reinforce their chords
+* low-scoring sequences suppress them
+
+Result:
+
+* constructive interference → good harmonies amplified  
+* destructive interference → bad harmonies removed  
+
+---
+
+12. COUPLING (ENTANGLEMENT-LIKE EFFECT)
+
+---
+
+Adjacent time steps are not independent.
+
+A coupling matrix is defined:
+
+    J_t(c_i, c_j)
+
+This models compatibility between chords.
+
+Selection depends on:
+
+* local weight w(c)
+* previous chord via coupling
+
+Effect:
+
+* harmonic decisions become interdependent
+
+RUN: python -m advanced_quantum_harmonizer.main

@@ -1,0 +1,66 @@
+AQH Evaluator – Description
+===========================
+
+Purpose
+-------
+This evaluator measures structural properties of harmonized MusicXML files produced by the
+Advanced Quantum Harmonizer (AQH). It is intended for the ISD 2026 experiments.
+
+The current version keeps all previously implemented structural metrics unchanged and adds
+reference-based comparison against the original harmony stored in MusicLibrary.
+
+Important reference logic
+-------------------------
+If the original harmony contains a chord only at the beginning of a measure or phrase, and no
+new harmony event appears later, the evaluator assumes that this chord remains active until the
+next harmony event. This allows fair comparison with AQH outputs, which may assign harmony on
+every beat.
+
+New reference-based metrics
+---------------------------
+- reference_file
+- reference_found
+- reference_num_harmony_events
+- reference_num_harmonic_segments
+- exact_chord_match_ratio
+- functional_agreement_ratio
+- harmonic_similarity_ratio
+- final_function_match
+
+Interpretation
+--------------
+exact_chord_match_ratio:
+    strict comparison of root + chord kind
+
+functional_agreement_ratio:
+    tolerant comparison on the level of broad tonal functions:
+    T = tonic area, S = subdominant area, D = dominant area, O = other
+
+harmonic_similarity_ratio:
+    overlap-based comparison of chord pitch-class content, intended to capture
+    cases such as:
+    - C vs Cmaj7
+    - C vs C/G
+    - C vs Em7
+    - F vs Dm
+
+final_function_match:
+    whether the final harmonic function matches the reference ending
+
+Why this matters
+----------------
+AQH should not be evaluated only by exact chord copying.
+A generated harmony may still be musically valid and structurally close to the
+reference even when the chord symbol differs.
+
+Examples:
+- C -> Cmaj7
+- C -> C/G
+- C -> Em7
+- F -> Dm
+
+These are not exact matches, but they may still preserve harmonic function or
+pitch-class similarity.
+
+jak to pustit :python evaluator.py --glob "../advanced_quantum_harmonizer/output/*.musicxml" --csv results_extended.csv
+nebo single file: python evaluator.py --input "../advanced_quantum_harmonizer/output/Autumn-Leaves_harmonized.musicxml"

@@ -1,0 +1,2514 @@
+<?xml version='1.0' encoding='utf-8'?>
+<score-partwise version="3.1"><work><work-title>Quantum Harmonizer (Optimized)</work-title></work><identification><creator type="composer">Josef P.</creator></identification><part-list><score-part id="P1"><part-name>Melody</part-name></score-part><score-part id="P2"><part-name>Chords (LH Bass)</part-name></score-part></part-list><part id="P1"><measure number="1">
+      
+      
+      <attributes>
+        
+        
+        <divisions>4</divisions>
+        
+        
+        <key>
+          
+          
+          <fifths>0</fifths>
+          
+        
+          <mode>major</mode>
+        </key>
+        
+        
+        <time>
+          
+          
+          <beats>4</beats>
+          
+          
+          <beat-type>4</beat-type>
+          
+        
+        </time>
+        
+        
+        <clef>
+          
+          
+          <sign>G</sign>
+          
+          
+          <line>2</line>
+          
+        
+        </clef>
+        
+      
+      </attributes>
+      
+      
+      <harmony><root><root-step>F</root-step></root><kind text="maj7">major-seventh</kind><staff>1</staff><harmony-text>Fmaj7</harmony-text></harmony><note>
+        <rest />
+        <duration>4</duration>
+        <type>quarter</type>
+      </note>
+      <note>
+        
+        
+        <pitch>
+          
+          
+          <step>A</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <harmony><root><root-step>B</root-step></root><kind text="m7b5">half-diminished</kind><staff>1</staff><harmony-text>Bm7b5</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>B</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <harmony><root><root-step>A</root-step></root><kind text="m">minor</kind><staff>1</staff><harmony-text>Am</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>C</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+    
+    </measure>
+    
+    
+    <measure number="2">
+      
+      
+      <barline location="left">
+        
+        
+        <bar-style>heavy-light</bar-style>
+        
+        
+        <repeat direction="forward" />
+        
+      
+      </barline>
+      
+      
+      <harmony><root><root-step>F</root-step></root><bass><bass-step>A</bass-step></bass><kind text="maj7">major-seventh</kind><staff>1</staff><harmony-text>Fmaj7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>F</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>16</duration>
+        
+        
+        <tie type="start" />
+        
+        
+        <type>whole</type>
+        
+        
+        <notations>
+          
+          
+          <tied type="start" />
+          
+        
+        </notations>
+        
+      
+      </note>
+      
+    
+    </measure>
+    
+    
+    <measure number="3">
+      
+      
+      <harmony><root><root-step>F</root-step></root><bass><bass-step>A</bass-step></bass><kind text="maj7">major-seventh</kind><staff>1</staff><harmony-text>Fmaj7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>F</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <tie type="stop" />
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>down</stem>
+        
+        
+        <notations>
+          
+          
+          <tied type="stop" />
+          
+        
+        </notations>
+        
+      
+      </note>
+      
+      
+      <harmony><root><root-step>G</root-step></root><kind>major</kind><staff>1</staff><harmony-text>G</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>G</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <harmony><root><root-step>A</root-step></root><kind text="m">minor</kind><staff>1</staff><harmony-text>Am</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>A</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <harmony><root><root-step>B</root-step></root><bass><bass-step>A</bass-step></bass><kind text="m7b5">half-diminished</kind><staff>1</staff><harmony-text>Bm7b5</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>B</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+    
+    </measure>
+    
+    
+    <measure number="4">
+      
+      
+      <harmony><root><root-step>C</root-step></root><bass><bass-step>G</bass-step></bass><kind text="maj7">major-seventh</kind><staff>1</staff><harmony-text>Cmaj7</harmony-text></harmony><harmony><root><root-step>C</root-step></root><bass><bass-step>G</bass-step></bass><kind>major</kind><staff>1</staff><offset>4</offset><harmony-text>C</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>E</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>8</duration>
+        
+        
+        <type>half</type>
+        
+        
+        <stem>down</stem>
+        
+      
+      </note>
+      
+      
+      <harmony><root><root-step>C</root-step></root><bass><bass-step>G</bass-step></bass><kind text="maj7">major-seventh</kind><staff>1</staff><harmony-text>Cmaj7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>E</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>8</duration>
+        
+        
+        <tie type="start" />
+        
+        
+        <type>half</type>
+        
+        
+        <stem>down</stem>
+        
+        
+        <notations>
+          
+          
+          <tied type="start" />
+          
+        
+        </notations>
+        
+      
+      </note>
+      
+    
+    </measure>
+    
+    
+    <measure number="5">
+      
+      
+      <harmony><root><root-step>F</root-step></root><kind>major</kind><staff>1</staff><harmony-text>F</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>E</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <tie type="stop" />
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>down</stem>
+        
+        
+        <notations>
+          
+          
+          <tied type="stop" />
+          
+        
+        </notations>
+        
+      
+      </note>
+      
+      
+      <harmony><root><root-step>F</root-step></root><bass><bass-step>A</bass-step></bass><kind text="maj7">major-seventh</kind><staff>1</staff><harmony-text>Fmaj7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>F</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <harmony><root><root-step>C</root-step></root><bass><bass-step>B</bass-step><bass-alter>-1</bass-alter></bass><kind text="7">dominant</kind><staff>1</staff><harmony-text>C7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>G</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <harmony><root><root-step>A</root-step></root><kind text="m7">minor-seventh</kind><staff>1</staff><harmony-text>Am7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>A</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+    
+    </measure>
+    
+    
+    <measure number="6">
+      
+      
+      <print new-system="yes" />
+      
+      
+      <harmony><root><root-step>B</root-step></root><bass><bass-step>A</bass-step></bass><kind text="m7b5">half-diminished</kind><staff>1</staff><harmony-text>Bm7b5</harmony-text></harmony><harmony><root><root-step>E</root-step></root><bass><bass-step>G</bass-step></bass><kind text="m7">minor-seventh</kind><staff>1</staff><offset>8</offset><harmony-text>Em7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>D</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>16</duration>
+        
+        
+        <tie type="start" />
+        
+        
+        <type>whole</type>
+        
+        
+        <notations>
+          
+          
+          <tied type="start" />
+          
+        
+        </notations>
+        
+      
+      </note>
+      
+    
+    </measure>
+    
+    
+    <measure number="7">
+      
+      
+      <barline location="left">
+        
+        
+        <ending number="1" type="start" />
+        
+      
+      </barline>
+      
+      
+      <harmony><root><root-step>E</root-step></root><bass><bass-step>G</bass-step></bass><kind text="m7">minor-seventh</kind><staff>1</staff><harmony-text>Em7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>D</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <tie type="stop" />
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+        
+        <notations>
+          
+          
+          <tied type="stop" />
+          
+        
+        </notations>
+        
+      
+      </note>
+      
+      
+      <note>
+        
+        
+        <pitch>
+          
+          
+          <step>E</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <harmony><root><root-step>D</root-step><root-alter>-1</root-alter></root><bass><bass-step>A</bass-step><bass-alter>-1</bass-alter></bass><kind text="7">dominant</kind><staff>1</staff><harmony-text>Db7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>G</step>
+          
+          
+          <alter>-1</alter>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <accidental>sharp</accidental>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <note>
+        
+        
+        <pitch>
+          
+          
+          <step>A</step>
+          
+          
+          <alter>-1</alter>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <accidental>sharp</accidental>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <barline location="right">
+        
+        
+        <ending number="1" type="stop" />
+        
+      
+      </barline>
+      
+    
+    </measure>
+    
+    
+    <measure number="8">
+      
+      
+      <barline location="left">
+        
+        
+        <ending number="1" type="start" />
+        
+      
+      </barline>
+      
+      
+      <harmony><root><root-step>C</root-step></root><bass><bass-step>G</bass-step></bass><kind text="maj7">major-seventh</kind><staff>1</staff><harmony-text>Cmaj7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>C</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>16</duration>
+        
+        
+        <type>whole</type>
+        
+      
+      </note>
+      
+      
+      <barline location="right">
+        
+        
+        <ending number="1" type="stop" />
+        
+      
+      </barline>
+      
+    
+    </measure>
+    
+    
+    <measure number="9">
+      
+      
+      <barline location="left">
+        
+        
+        <ending number="1" type="start" />
+        
+      
+      </barline>
+      
+      
+      <harmony><root><root-step>F</root-step></root><kind>major</kind><staff>1</staff><harmony-text>F</harmony-text></harmony><note>
+        
+        
+        <rest />
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+      
+      </note>
+      
+      
+      <harmony><root><root-step>F</root-step></root><bass><bass-step>A</bass-step></bass><kind text="maj7">major-seventh</kind><staff>1</staff><harmony-text>Fmaj7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>A</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <harmony><root><root-step>B</root-step></root><bass><bass-step>A</bass-step></bass><kind text="m7b5">half-diminished</kind><staff>1</staff><harmony-text>Bm7b5</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>B</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <harmony><root><root-step>C</root-step></root><bass><bass-step>G</bass-step></bass><kind text="maj7">major-seventh</kind><staff>1</staff><harmony-text>Cmaj7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>C</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <barline location="right">
+        
+        
+        <bar-style>light-heavy</bar-style>
+        
+        
+        <ending number="1" type="stop" />
+        
+        
+        <repeat direction="backward" />
+        
+      
+      </barline>
+      
+    
+    </measure>
+    
+    
+    <measure number="10">
+      
+      
+      <barline location="left">
+        
+        
+        <ending number="2" type="start" />
+        
+      
+      </barline>
+      
+      
+      <harmony><root><root-step>E</root-step></root><bass><bass-step>G</bass-step></bass><kind text="m7">minor-seventh</kind><staff>1</staff><harmony-text>Em7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>D</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <note>
+        
+        
+        <pitch>
+          
+          
+          <step>B</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <harmony><root><root-step>D</root-step></root><bass><bass-step>F</bass-step></bass><kind text="m">minor</kind><staff>1</staff><harmony-text>Dm</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>D</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <harmony><root><root-step>D</root-step></root><bass><bass-step>F</bass-step></bass><kind text="m7">minor-seventh</kind><staff>1</staff><harmony-text>Dm7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>C</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <barline location="right">
+        
+        
+        <ending number="2" type="stop" />
+        
+      
+      </barline>
+      
+    
+    </measure>
+    
+    
+    <measure number="11">
+      
+      
+      <barline location="left">
+        
+        
+        <ending number="2" type="start" />
+        
+      
+      </barline>
+      
+      
+      <harmony><root><root-step>A</root-step></root><bass><bass-step>E</bass-step></bass><kind text="m">minor</kind><staff>1</staff><harmony-text>Am</harmony-text></harmony><harmony><root><root-step>A</root-step></root><bass><bass-step>E</bass-step></bass><kind text="m7">minor-seventh</kind><staff>1</staff><offset>4</offset><harmony-text>Am7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>A</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>16</duration>
+        
+        
+        <tie type="start" />
+        
+        
+        <type>whole</type>
+        
+        
+        <notations>
+          
+          
+          <tied type="start" />
+          
+        
+        </notations>
+        
+      
+      </note>
+      
+      
+      <barline location="right">
+        
+        
+        <ending number="2" type="stop" />
+        
+      
+      </barline>
+      
+    
+    </measure>
+    
+    
+    <measure number="12">
+      
+      
+      <barline location="left">
+        
+        
+        <ending number="2" type="start" />
+        
+      
+      </barline>
+      
+      
+      <harmony><root><root-step>A</root-step></root><bass><bass-step>E</bass-step></bass><kind text="m7">minor-seventh</kind><staff>1</staff><harmony-text>Am7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>A</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <tie type="stop" />
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+        
+        <notations>
+          
+          
+          <tied type="stop" />
+          
+        
+        </notations>
+        
+      
+      </note>
+      
+      
+      <harmony><root><root-step>D</root-step></root><bass><bass-step>F</bass-step></bass><kind text="m7">minor-seventh</kind><staff>1</staff><harmony-text>Dm7</harmony-text></harmony><note>
+        
+        
+        <rest />
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+      
+      </note>
+      
+      
+      <harmony><root><root-step>B</root-step></root><bass><bass-step>F</bass-step></bass><kind text="m7b5">half-diminished</kind><staff>1</staff><harmony-text>Bm7b5</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>A</step>
+          
+          
+          <alter>-1</alter>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <accidental>sharp</accidental>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <harmony><root><root-step>B</root-step></root><bass><bass-step>F</bass-step></bass><kind>major</kind><staff>1</staff><harmony-text>B</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>A</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <barline location="right">
+        
+        
+        <bar-style>light-light</bar-style>
+        
+        
+        <ending number="2" type="stop" />
+        
+      
+      </barline>
+      
+    
+    </measure>
+    
+    
+    <measure number="13">
+      
+      
+      <print new-system="yes" />
+      
+      
+      <harmony><root><root-step>B</root-step></root><bass><bass-step>F</bass-step></bass><kind text="m7b5">half-diminished</kind><staff>1</staff><harmony-text>Bm7b5</harmony-text></harmony><harmony><root><root-step>B</root-step></root><bass><bass-step>F</bass-step></bass><kind>major</kind><staff>1</staff><offset>12</offset><harmony-text>B</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>B</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <harmony><root><root-step>A</root-step></root><bass><bass-step>E</bass-step></bass><kind text="m">minor</kind><staff>1</staff><harmony-text>Am</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>E</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <harmony><root><root-step>B</root-step></root><bass><bass-step>F</bass-step></bass><kind text="m7b5">half-diminished</kind><staff>1</staff><harmony-text>Bm7b5</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>B</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>8</duration>
+        
+        
+        <tie type="start" />
+        
+        
+        <type>half</type>
+        
+        
+        <stem>up</stem>
+        
+        
+        <notations>
+          
+          
+          <tied type="start" />
+          
+        
+        </notations>
+        
+      
+      </note>
+      
+    
+    </measure>
+    
+    
+    <measure number="14">
+      
+      
+      <harmony><root><root-step>B</root-step></root><bass><bass-step>F</bass-step></bass><kind text="m7b5">half-diminished</kind><staff>1</staff><harmony-text>Bm7b5</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>B</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <tie type="stop" />
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+        
+        <notations>
+          
+          
+          <tied type="stop" />
+          
+        
+        </notations>
+        
+      
+      </note>
+      
+      
+      <harmony><root><root-step>B</root-step></root><bass><bass-step>F</bass-step></bass><kind>major</kind><staff>1</staff><harmony-text>B</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>B</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <harmony><root><root-step>B</root-step></root><bass><bass-step>F</bass-step></bass><kind text="m7b5">half-diminished</kind><staff>1</staff><harmony-text>Bm7b5</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>A</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <note>
+        
+        
+        <pitch>
+          
+          
+          <step>B</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+    
+    </measure>
+    
+    
+    <measure number="15">
+      
+      
+      <harmony><root><root-step>C</root-step></root><bass><bass-step>E</bass-step></bass><kind text="maj7">major-seventh</kind><staff>1</staff><harmony-text>Cmaj7</harmony-text></harmony><harmony><root><root-step>C</root-step></root><bass><bass-step>E</bass-step></bass><kind>major</kind><staff>1</staff><offset>12</offset><harmony-text>C</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>C</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>16</duration>
+        
+        
+        <tie type="start" />
+        
+        
+        <type>whole</type>
+        
+        
+        <notations>
+          
+          
+          <tied type="start" />
+          
+        
+        </notations>
+        
+      
+      </note>
+      
+    
+    </measure>
+    
+    
+    <measure number="16">
+      
+      
+      <harmony><root><root-step>C</root-step></root><bass><bass-step>E</bass-step></bass><kind text="maj7">major-seventh</kind><staff>1</staff><harmony-text>Cmaj7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>C</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <tie type="stop" />
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+        
+        <notations>
+          
+          
+          <tied type="stop" />
+          
+        
+        </notations>
+        
+      
+      </note>
+      
+      
+      <note>
+        
+        
+        <pitch>
+          
+          
+          <step>C</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <harmony><root><root-step>C</root-step></root><bass><bass-step>E</bass-step></bass><kind>major</kind><staff>1</staff><harmony-text>C</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>B</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <harmony><root><root-step>C</root-step></root><bass><bass-step>E</bass-step></bass><kind text="maj7">major-seventh</kind><staff>1</staff><harmony-text>Cmaj7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>C</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+    
+    </measure>
+    
+    
+    <measure number="17">
+      
+      
+      <print new-system="yes" />
+      
+      
+      <harmony><root><root-step>B</root-step></root><bass><bass-step>F</bass-step></bass><kind text="m7b5">half-diminished</kind><staff>1</staff><harmony-text>Bm7b5</harmony-text></harmony><harmony><root><root-step>E</root-step></root><bass><bass-step>G</bass-step></bass><kind text="m7">minor-seventh</kind><staff>1</staff><offset>4</offset><harmony-text>Em7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>D</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>16</duration>
+        
+        
+        <tie type="start" />
+        
+        
+        <type>whole</type>
+        
+        
+        <notations>
+          
+          
+          <tied type="start" />
+          
+        
+        </notations>
+        
+      
+      </note>
+      
+    
+    </measure>
+    
+    
+    <measure number="18">
+      
+      
+      <harmony><root><root-step>G</root-step></root><kind text="7">dominant</kind><staff>1</staff><harmony-text>G7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>D</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <tie type="stop" />
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+        
+        <notations>
+          
+          
+          <tied type="stop" />
+          
+        
+        </notations>
+        
+      
+      </note>
+      
+      
+      <note>
+        
+        
+        <pitch>
+          
+          
+          <step>G</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <note>
+        
+        
+        <pitch>
+          
+          
+          <step>G</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>down</stem>
+        
+      
+      </note>
+      
+      
+      <note>
+        
+        
+        <pitch>
+          
+          
+          <step>F</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>down</stem>
+        
+      
+      </note>
+      
+    
+    </measure>
+    
+    
+    <measure number="19">
+      
+      
+      <harmony><root><root-step>C</root-step></root><bass><bass-step>G</bass-step></bass><kind text="maj7">major-seventh</kind><staff>1</staff><harmony-text>Cmaj7</harmony-text></harmony><harmony><root><root-step>C</root-step></root><bass><bass-step>G</bass-step></bass><kind>major</kind><staff>1</staff><offset>12</offset><harmony-text>C</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>E</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>16</duration>
+        
+        
+        <tie type="start" />
+        
+        
+        <type>whole</type>
+        
+        
+        <notations>
+          
+          
+          <tied type="start" />
+          
+        
+        </notations>
+        
+      
+      </note>
+      
+    
+    </measure>
+    
+    
+    <measure number="20">
+      
+      
+      <harmony><root><root-step>C</root-step></root><bass><bass-step>G</bass-step></bass><kind text="maj7">major-seventh</kind><staff>1</staff><harmony-text>Cmaj7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>E</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <tie type="stop" />
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>down</stem>
+        
+        
+        <notations>
+          
+          
+          <tied type="stop" />
+          
+        
+        </notations>
+        
+      
+      </note>
+      
+      
+      <note>
+        
+        
+        <rest />
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+      
+      </note>
+      
+      
+      <harmony><root><root-step>F</root-step></root><bass><bass-step>A</bass-step></bass><kind text="maj7">major-seventh</kind><staff>1</staff><harmony-text>Fmaj7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>E</step>
+          
+          
+          <alter>-1</alter>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <accidental>sharp</accidental>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <note>
+        
+        
+        <pitch>
+          
+          
+          <step>E</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>down</stem>
+        
+      
+      </note>
+      
+      
+      <barline location="right">
+        
+        
+        <bar-style>light-light</bar-style>
+        
+      
+      </barline>
+      
+    
+    </measure>
+    
+    
+    <measure number="21">
+      
+      
+      <print new-system="yes" />
+      
+      
+      <harmony><root><root-step>F</root-step></root><bass><bass-step>A</bass-step></bass><kind text="maj7">major-seventh</kind><staff>1</staff><harmony-text>Fmaj7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>F</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>down</stem>
+        
+      
+      </note>
+      
+      
+      <note>
+        
+        
+        <pitch>
+          
+          
+          <step>F</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>down</stem>
+        
+      
+      </note>
+      
+      
+      <harmony><root><root-step>B</root-step></root><bass><bass-step>A</bass-step></bass><kind text="m7b5">half-diminished</kind><staff>1</staff><harmony-text>Bm7b5</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>D</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <note>
+        
+        
+        <pitch>
+          
+          
+          <step>D</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+    
+    </measure>
+    
+    
+    <measure number="22">
+      
+      
+      <harmony><root><root-step>C</root-step></root><bass><bass-step>G</bass-step></bass><kind text="maj7">major-seventh</kind><staff>1</staff><harmony-text>Cmaj7</harmony-text></harmony><harmony><root><root-step>G</root-step></root><kind text="7">dominant</kind><staff>1</staff><offset>8</offset><harmony-text>G7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>B</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>12</duration>
+        
+        
+        <type>half</type>
+        
+        
+        <dot />
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <note>
+        
+        
+        <pitch>
+          
+          
+          <step>F</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>down</stem>
+        
+      
+      </note>
+      
+    
+    </measure>
+    
+    
+    <measure number="23">
+      
+      
+      <harmony><root><root-step>E</root-step></root><bass><bass-step>G</bass-step></bass><kind text="m7">minor-seventh</kind><staff>1</staff><harmony-text>Em7</harmony-text></harmony><harmony><root><root-step>C</root-step></root><bass><bass-step>G</bass-step></bass><kind text="maj7">major-seventh</kind><staff>1</staff><offset>12</offset><harmony-text>Cmaj7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>E</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>8</duration>
+        
+        
+        <type>half</type>
+        
+        
+        <stem>down</stem>
+        
+      
+      </note>
+      
+      
+      <note>
+        
+        
+        <pitch>
+          
+          
+          <step>E</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>8</duration>
+        
+        
+        <tie type="start" />
+        
+        
+        <type>half</type>
+        
+        
+        <stem>down</stem>
+        
+        
+        <notations>
+          
+          
+          <tied type="start" />
+          
+        
+        </notations>
+        
+      
+      </note>
+      
+    
+    </measure>
+    
+    
+    <measure number="24">
+      
+      
+      <harmony><root><root-step>C</root-step></root><bass><bass-step>G</bass-step></bass><kind text="maj7">major-seventh</kind><staff>1</staff><harmony-text>Cmaj7</harmony-text></harmony><harmony><root><root-step>F</root-step></root><bass><bass-step>A</bass-step></bass><kind text="maj7">major-seventh</kind><staff>1</staff><offset>8</offset><harmony-text>Fmaj7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>E</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>12</duration>
+        
+        
+        <tie type="stop" />
+        
+        
+        <type>half</type>
+        
+        
+        <dot />
+        
+        
+        <stem>down</stem>
+        
+        
+        <notations>
+          
+          
+          <tied type="stop" />
+          
+        
+        </notations>
+        
+      
+      </note>
+      
+      
+      <note>
+        
+        
+        <pitch>
+          
+          
+          <step>A</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+    
+    </measure>
+    
+    
+    <measure number="25">
+      
+      
+      <print new-system="yes" />
+      
+      
+      <harmony><root><root-step>B</root-step></root><bass><bass-step>A</bass-step></bass><kind text="m7b5">half-diminished</kind><staff>1</staff><harmony-text>Bm7b5</harmony-text></harmony><harmony><root><root-step>B</root-step></root><bass><bass-step>F</bass-step></bass><kind>major</kind><staff>1</staff><offset>4</offset><harmony-text>B</harmony-text></harmony><harmony><root><root-step>E</root-step></root><bass><bass-step>G</bass-step></bass><kind text="m7">minor-seventh</kind><staff>1</staff><offset>8</offset><harmony-text>Em7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>D</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>12</duration>
+        
+        
+        <type>half</type>
+        
+        
+        <dot />
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <harmony><root><root-step>D</root-step></root><bass><bass-step>F</bass-step></bass><kind text="m7">minor-seventh</kind><staff>1</staff><harmony-text>Dm7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>C</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+    
+    </measure>
+    
+    
+    <measure number="26">
+      
+      
+      <harmony><root><root-step>B</root-step></root><bass><bass-step>F</bass-step></bass><kind text="m7b5">half-diminished</kind><staff>1</staff><harmony-text>Bm7b5</harmony-text></harmony><harmony><root><root-step>C</root-step></root><bass><bass-step>E</bass-step></bass><kind text="maj7">major-seventh</kind><staff>1</staff><offset>4</offset><harmony-text>Cmaj7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>B</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>8</duration>
+        
+        
+        <type>half</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <note>
+        
+        
+        <pitch>
+          
+          
+          <step>C</step>
+          
+          
+          <octave>4</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+      
+      <note>
+        
+        
+        <pitch>
+          
+          
+          <step>E</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>4</duration>
+        
+        
+        <type>quarter</type>
+        
+        
+        <stem>up</stem>
+        
+      
+      </note>
+      
+    
+    </measure>
+    
+    
+    <measure number="27">
+      
+      
+      <harmony><root><root-step>A</root-step></root><bass><bass-step>E</bass-step></bass><kind text="m">minor</kind><staff>1</staff><harmony-text>Am</harmony-text></harmony><harmony><root><root-step>A</root-step></root><bass><bass-step>E</bass-step></bass><kind text="m7">minor-seventh</kind><staff>1</staff><offset>4</offset><harmony-text>Am7</harmony-text></harmony><note>
+        
+        
+        <pitch>
+          
+          
+          <step>A</step>
+          
+          
+          <octave>3</octave>
+          
+        
+        </pitch>
+        
+        
+        <duration>16</duration>
+        
+        
+        <type>whole</type>
+        
+      
+      </note>
+      
+    
+    </measure>
+    
+    
+    <measure number="28">
+      
+      
+      <harmony><root><root-step>B</root-step></root><bass><bass-step>F</bass-step></bass><kind text="m7b5">half-diminished</kind><staff>1</staff><harmony-text>Bm7b5</harmony-text></harmony><harmony><root><root-step>C</root-step></root><bass><bass-step>E</bass-step></bass><kind text="maj7">major-seventh</kind><staff>1</staff><offset>4</offset><harmony-text>Cmaj7</harmony-text></harmony><harmony><root><root-step>C</root-step></root><kind text="maj7">major-seventh</kind><staff>1</staff><offset>12</offset><harmony-text>Cmaj7</harmony-text></harmony><note>
+        
+        
+        <rest />
+        
+        
+        <duration>16</duration>
+        
+        
+        <type>whole</type>
+        
+      
+      </note>
+      
+    
+    </measure>
+    
+  
+  </part><part id="P2"><measure number="1"><attributes><divisions>4</divisions><key>
+          
+          
+          <fifths>0</fifths>
+          
+        
+          <mode>major</mode>
+        </key>
+        
+        
+        <time>
+          
+          
+          <beats>4</beats>
+          
+          
+          <beat-type>4</beat-type>
+          
+        
+        </time>
+        
+        
+        <clef><sign>F</sign><line>4</line></clef></attributes><note><pitch><step>F</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>A</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>C</step><octave>4</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>E</step><octave>4</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><pitch><step>B</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>D</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>F</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>A</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>A</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>E</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>E</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note></measure><measure number="2"><note><pitch><step>A</step><octave>2</octave></pitch><duration>16</duration><voice>1</voice><staff>1</staff><type>whole</type></note><note><chord /><pitch><step>F</step><octave>3</octave></pitch><duration>16</duration><voice>1</voice><staff>1</staff><type>whole</type></note><note><chord /><pitch><step>C</step><octave>4</octave></pitch><duration>16</duration><voice>1</voice><staff>1</staff><type>whole</type></note><note><chord /><pitch><step>E</step><octave>4</octave></pitch><duration>16</duration><voice>1</voice><staff>1</staff><type>whole</type></note></measure><measure number="3"><note><pitch><step>A</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>F</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>E</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>G</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>B</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>D</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>D</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>A</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>E</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>E</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>A</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>B</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>D</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>F</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note></measure><measure number="4"><note><pitch><step>G</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>E</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>B</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>G</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>E</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>E</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>G</step><octave>2</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>E</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>B</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note></measure><measure number="5"><note><pitch><step>F</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>A</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>A</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>F</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>E</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>B</step><alter>-1</alter><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>E</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>G</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>A</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>E</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>G</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note></measure><measure number="6"><note><pitch><step>A</step><octave>2</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>B</step><octave>2</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>D</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>F</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><pitch><step>G</step><octave>2</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>E</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>B</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>D</step><octave>4</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note></measure><measure number="7"><note><pitch><step>G</step><octave>2</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>E</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>B</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>D</step><octave>4</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><pitch><step>A</step><alter>-1</alter><octave>2</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>D</step><alter>-1</alter><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>F</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>B</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note></measure><measure number="8"><note><pitch><step>G</step><octave>2</octave></pitch><duration>16</duration><voice>1</voice><staff>1</staff><type>whole</type></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>16</duration><voice>1</voice><staff>1</staff><type>whole</type></note><note><chord /><pitch><step>E</step><octave>3</octave></pitch><duration>16</duration><voice>1</voice><staff>1</staff><type>whole</type></note><note><chord /><pitch><step>B</step><octave>3</octave></pitch><duration>16</duration><voice>1</voice><staff>1</staff><type>whole</type></note></measure><measure number="9"><note><pitch><step>F</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>A</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>A</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>F</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>E</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>A</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>B</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>D</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>F</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>G</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>E</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>B</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note></measure><measure number="10"><note><pitch><step>G</step><octave>2</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>E</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>B</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>D</step><octave>4</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><pitch><step>F</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>D</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>A</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>A</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>F</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>D</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>A</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note></measure><measure number="11"><note><pitch><step>E</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>A</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>E</step><octave>2</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note><note><chord /><pitch><step>A</step><octave>2</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note><note><chord /><pitch><step>G</step><octave>3</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note></measure><measure number="12"><note><pitch><step>E</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>A</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>G</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>F</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>D</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>A</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>F</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>B</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>D</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>A</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>F</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>B</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>D</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>D</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note></measure><measure number="13"><note><pitch><step>F</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>B</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>D</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>A</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>E</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>A</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>F</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>B</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>D</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>A</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>F</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>B</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>D</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>D</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note></measure><measure number="14"><note><pitch><step>F</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>B</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>D</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>A</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>F</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>B</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>D</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>D</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>F</step><octave>2</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>B</step><octave>2</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>D</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>A</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note></measure><measure number="15"><note><pitch><step>E</step><octave>2</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note><note><chord /><pitch><step>G</step><octave>3</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note><note><chord /><pitch><step>B</step><octave>3</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note><note><pitch><step>E</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>G</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>G</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note></measure><measure number="16"><note><pitch><step>E</step><octave>2</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>G</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>B</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><pitch><step>E</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>G</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>G</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>E</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>G</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>B</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note></measure><measure number="17"><note><pitch><step>F</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>B</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>D</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>A</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>G</step><octave>2</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note><note><chord /><pitch><step>E</step><octave>3</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note><note><chord /><pitch><step>B</step><octave>3</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note><note><chord /><pitch><step>D</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note></measure><measure number="18"><note><pitch><step>G</step><octave>2</octave></pitch><duration>16</duration><voice>1</voice><staff>1</staff><type>whole</type></note><note><chord /><pitch><step>B</step><octave>2</octave></pitch><duration>16</duration><voice>1</voice><staff>1</staff><type>whole</type></note><note><chord /><pitch><step>D</step><octave>3</octave></pitch><duration>16</duration><voice>1</voice><staff>1</staff><type>whole</type></note><note><chord /><pitch><step>F</step><octave>3</octave></pitch><duration>16</duration><voice>1</voice><staff>1</staff><type>whole</type></note></measure><measure number="19"><note><pitch><step>G</step><octave>2</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note><note><chord /><pitch><step>E</step><octave>3</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note><note><chord /><pitch><step>B</step><octave>3</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note><note><pitch><step>G</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>E</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>E</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note></measure><measure number="20"><note><pitch><step>G</step><octave>2</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>E</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>B</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><pitch><step>A</step><octave>2</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>F</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>C</step><octave>4</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>E</step><octave>4</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note></measure><measure number="21"><note><pitch><step>A</step><octave>2</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>F</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>C</step><octave>4</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>E</step><octave>4</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><pitch><step>A</step><octave>2</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>B</step><octave>2</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>D</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>F</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note></measure><measure number="22"><note><pitch><step>G</step><octave>2</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>E</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>B</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><pitch><step>G</step><octave>2</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>B</step><octave>2</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>D</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>F</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note></measure><measure number="23"><note><pitch><step>G</step><octave>2</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note><note><chord /><pitch><step>E</step><octave>3</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note><note><chord /><pitch><step>B</step><octave>3</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note><note><chord /><pitch><step>D</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note><note><pitch><step>G</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>E</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>B</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note></measure><measure number="24"><note><pitch><step>G</step><octave>2</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>E</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>B</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><pitch><step>A</step><octave>2</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>F</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>C</step><octave>4</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>E</step><octave>4</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note></measure><measure number="25"><note><pitch><step>A</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>B</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>D</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>F</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>F</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>B</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>D</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>D</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>G</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>E</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>B</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>D</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>F</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>D</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>A</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note></measure><measure number="26"><note><pitch><step>F</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>B</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>D</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>A</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>E</step><octave>2</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note><note><chord /><pitch><step>G</step><octave>3</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note><note><chord /><pitch><step>B</step><octave>3</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note></measure><measure number="27"><note><pitch><step>E</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>A</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>C</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>E</step><octave>2</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note><note><chord /><pitch><step>A</step><octave>2</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note><note><chord /><pitch><step>G</step><octave>3</octave></pitch><duration>12</duration><voice>1</voice><staff>1</staff><type>half</type><dot /></note></measure><measure number="28"><note><pitch><step>F</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>B</step><octave>2</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>D</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>A</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><pitch><step>E</step><octave>2</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>C</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>G</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><chord /><pitch><step>B</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice><staff>1</staff><type>half</type></note><note><pitch><step>C</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>E</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>G</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note><note><chord /><pitch><step>B</step><octave>3</octave></pitch><duration>4</duration><voice>1</voice><staff>1</staff><type>quarter</type></note></measure></part></score-partwise>
