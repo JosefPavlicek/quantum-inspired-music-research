@@ -1,4 +1,4 @@
-# QuantumOne-ISD2026
+# ISD2026 QuantumOne
 
 This repository contains the research prototype accompanying the ISD 2026 paper:
 
