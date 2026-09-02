@@ -4,6 +4,10 @@ This repository contains the research prototype accompanying the ISD 2026 paper:
 
 **Designing Maintainable Hybrid Generative Systems: A Quantum-Inspired Approach to Automated Music Harmony Generation**
 
+The **full version of the paper** is available on arXiv:
+
+[**Designing Maintainable Hybrid Generative Systems: A Quantum-Inspired Approach to Automated Music Harmony Generation**](https://arxiv.org/pdf/2607.06296)
+
 The project implements an automated music harmony generation pipeline based on a melody input in MusicXML format. It combines a quantum-inspired candidate exploration module with a rule-based post-processing optimizer and an evaluation pipeline used to compute the metrics reported in the paper.
 
 ## Repository structure
