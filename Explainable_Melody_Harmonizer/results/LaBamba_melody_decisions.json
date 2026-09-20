@@ -1,0 +1,492 @@
+[
+  {
+    "segment": 0,
+    "measure": 1,
+    "start_beat": "1",
+    "duration": "2",
+    "chord": "F",
+    "roman": "IV",
+    "function": "predominant",
+    "melody_compatibility": 1.0,
+    "functional_transition": 0.5,
+    "persistence": 0.5,
+    "cadence": 0.0,
+    "local_score": 0.675,
+    "path_score": 0.675,
+    "alternatives": [
+      {
+        "chord": "Dm",
+        "roman": "ii",
+        "local_score": 0.675,
+        "path_score": 0.675
+      },
+      {
+        "chord": "G7",
+        "roman": "V7",
+        "local_score": 0.675,
+        "path_score": 0.675
+      },
+      {
+        "chord": "Dm7",
+        "roman": "ii7",
+        "local_score": 0.675,
+        "path_score": 0.675
+      }
+    ]
+  },
+  {
+    "segment": 1,
+    "measure": 1,
+    "start_beat": "3",
+    "duration": "2",
+    "chord": "G7",
+    "roman": "V7",
+    "function": "dominant",
+    "melody_compatibility": 0.95,
+    "functional_transition": 1.0,
+    "persistence": 0.55,
+    "cadence": 0.0,
+    "local_score": 0.78,
+    "path_score": 1.455,
+    "alternatives": [
+      {
+        "chord": "Bdim",
+        "roman": "vii°",
+        "local_score": 0.78,
+        "path_score": 1.455
+      },
+      {
+        "chord": "Bdim7",
+        "roman": "viiø7",
+        "local_score": 0.78,
+        "path_score": 1.455
+      },
+      {
+        "chord": "F",
+        "roman": "IV",
+        "local_score": 0.7125,
+        "path_score": 1.3875000000000002
+      }
+    ]
+  },
+  {
+    "segment": 2,
+    "measure": 2,
+    "start_beat": "1",
+    "duration": "2",
+    "chord": "C",
+    "roman": "I",
+    "function": "tonic",
+    "melody_compatibility": 1.0,
+    "functional_transition": 1.0,
+    "persistence": 0.55,
+    "cadence": 0.0,
+    "local_score": 0.805,
+    "path_score": 2.2600000000000002,
+    "alternatives": [
+      {
+        "chord": "Am",
+        "roman": "vi",
+        "local_score": 0.805,
+        "path_score": 2.2600000000000002
+      },
+      {
+        "chord": "Em",
+        "roman": "iii",
+        "local_score": 0.7300000000000001,
+        "path_score": 2.185
+      },
+      {
+        "chord": "F",
+        "roman": "IV",
+        "local_score": 0.5375,
+        "path_score": 1.9250000000000003
+      }
+    ]
+  },
+  {
+    "segment": 3,
+    "measure": 2,
+    "start_beat": "3",
+    "duration": "2",
+    "chord": "G7",
+    "roman": "V7",
+    "function": "dominant",
+    "melody_compatibility": 0.93125,
+    "functional_transition": 0.8,
+    "persistence": 0.55,
+    "cadence": 0.0,
+    "local_score": 0.7206250000000001,
+    "path_score": 2.9806250000000003,
+    "alternatives": [
+      {
+        "chord": "F",
+        "roman": "IV",
+        "local_score": 0.6425000000000001,
+        "path_score": 2.9025000000000003
+      },
+      {
+        "chord": "Dm",
+        "roman": "ii",
+        "local_score": 0.6425000000000001,
+        "path_score": 2.9025000000000003
+      },
+      {
+        "chord": "Dm7",
+        "roman": "ii7",
+        "local_score": 0.6425000000000001,
+        "path_score": 2.9025000000000003
+      }
+    ]
+  },
+  {
+    "segment": 4,
+    "measure": 3,
+    "start_beat": "1",
+    "duration": "2",
+    "chord": "G7",
+    "roman": "V7",
+    "function": "dominant",
+    "melody_compatibility": 1.0,
+    "functional_transition": 0.55,
+    "persistence": 1.0,
+    "cadence": 0.0,
+    "local_score": 0.7374999999999999,
+    "path_score": 3.718125,
+    "alternatives": [
+      {
+        "chord": "C",
+        "roman": "I",
+        "local_score": 0.7133333333333333,
+        "path_score": 3.6939583333333337
+      },
+      {
+        "chord": "Em",
+        "roman": "iii",
+        "local_score": 0.7133333333333333,
+        "path_score": 3.6939583333333337
+      },
+      {
+        "chord": "G",
+        "roman": "V",
+        "local_score": 0.7133333333333333,
+        "path_score": 3.6158333333333337
+      }
+    ]
+  },
+  {
+    "segment": 5,
+    "measure": 3,
+    "start_beat": "3",
+    "duration": "2",
+    "chord": "G7",
+    "roman": "V7",
+    "function": "dominant",
+    "melody_compatibility": 0.95,
+    "functional_transition": 0.55,
+    "persistence": 1.0,
+    "cadence": 0.0,
+    "local_score": 0.7125,
+    "path_score": 4.430625,
+    "alternatives": [
+      {
+        "chord": "F",
+        "roman": "IV",
+        "local_score": 0.755,
+        "path_score": 4.448958333333334
+      },
+      {
+        "chord": "Dm",
+        "roman": "ii",
+        "local_score": 0.755,
+        "path_score": 4.448958333333334
+      },
+      {
+        "chord": "Dm7",
+        "roman": "ii7",
+        "local_score": 0.755,
+        "path_score": 4.448958333333334
+      }
+    ]
+  },
+  {
+    "segment": 6,
+    "measure": 4,
+    "start_beat": "1",
+    "duration": "2",
+    "chord": "C",
+    "roman": "I",
+    "function": "tonic",
+    "melody_compatibility": 1.0,
+    "functional_transition": 1.0,
+    "persistence": 0.55,
+    "cadence": 0.0,
+    "local_score": 0.805,
+    "path_score": 5.235625,
+    "alternatives": [
+      {
+        "chord": "Am",
+        "roman": "vi",
+        "local_score": 0.805,
+        "path_score": 5.235625
+      },
+      {
+        "chord": "Em",
+        "roman": "iii",
+        "local_score": 0.7300000000000001,
+        "path_score": 5.1606250000000005
+      },
+      {
+        "chord": "F",
+        "roman": "IV",
+        "local_score": 0.5375,
+        "path_score": 4.986458333333333
+      }
+    ]
+  },
+  {
+    "segment": 7,
+    "measure": 4,
+    "start_beat": "3",
+    "duration": "2",
+    "chord": "G7",
+    "roman": "V7",
+    "function": "dominant",
+    "melody_compatibility": 1.0,
+    "functional_transition": 0.8,
+    "persistence": 0.55,
+    "cadence": 0.0,
+    "local_score": 0.755,
+    "path_score": 5.990625,
+    "alternatives": [
+      {
+        "chord": "G",
+        "roman": "V",
+        "local_score": 0.6518750000000001,
+        "path_score": 5.8875
+      },
+      {
+        "chord": "Dm",
+        "roman": "ii",
+        "local_score": 0.6425000000000001,
+        "path_score": 5.878125
+      },
+      {
+        "chord": "Dm7",
+        "roman": "ii7",
+        "local_score": 0.6425000000000001,
+        "path_score": 5.878125
+      }
+    ]
+  },
+  {
+    "segment": 8,
+    "measure": 5,
+    "start_beat": "1",
+    "duration": "2",
+    "chord": "G7",
+    "roman": "V7",
+    "function": "dominant",
+    "melody_compatibility": 1.0,
+    "functional_transition": 0.55,
+    "persistence": 1.0,
+    "cadence": 0.0,
+    "local_score": 0.7374999999999999,
+    "path_score": 6.7281249999999995,
+    "alternatives": [
+      {
+        "chord": "G",
+        "roman": "V",
+        "local_score": 0.805,
+        "path_score": 6.6831249999999995
+      },
+      {
+        "chord": "Bdim",
+        "roman": "vii°",
+        "local_score": 0.805,
+        "path_score": 6.6831249999999995
+      },
+      {
+        "chord": "Bdim7",
+        "roman": "viiø7",
+        "local_score": 0.805,
+        "path_score": 6.6831249999999995
+      }
+    ]
+  },
+  {
+    "segment": 9,
+    "measure": 5,
+    "start_beat": "3",
+    "duration": "2",
+    "chord": "G7",
+    "roman": "V7",
+    "function": "dominant",
+    "melody_compatibility": 0.8240000000000001,
+    "functional_transition": 0.55,
+    "persistence": 1.0,
+    "cadence": 0.0,
+    "local_score": 0.6495000000000001,
+    "path_score": 7.377624999999999,
+    "alternatives": [
+      {
+        "chord": "C",
+        "roman": "I",
+        "local_score": 0.618,
+        "path_score": 7.346125
+      },
+      {
+        "chord": "Am",
+        "roman": "vi",
+        "local_score": 0.618,
+        "path_score": 7.346125
+      },
+      {
+        "chord": "Em",
+        "roman": "iii",
+        "local_score": 0.618,
+        "path_score": 7.346125
+      }
+    ]
+  },
+  {
+    "segment": 10,
+    "measure": 6,
+    "start_beat": "1",
+    "duration": "2",
+    "chord": "C",
+    "roman": "I",
+    "function": "tonic",
+    "melody_compatibility": 1.0,
+    "functional_transition": 1.0,
+    "persistence": 0.55,
+    "cadence": 0.0,
+    "local_score": 0.805,
+    "path_score": 8.182625,
+    "alternatives": [
+      {
+        "chord": "Am",
+        "roman": "vi",
+        "local_score": 0.805,
+        "path_score": 8.182625
+      },
+      {
+        "chord": "Em",
+        "roman": "iii",
+        "local_score": 0.7300000000000001,
+        "path_score": 8.107624999999999
+      },
+      {
+        "chord": "F",
+        "roman": "IV",
+        "local_score": 0.5800000000000001,
+        "path_score": 7.926125
+      }
+    ]
+  },
+  {
+    "segment": 11,
+    "measure": 6,
+    "start_beat": "3",
+    "duration": "2",
+    "chord": "G7",
+    "roman": "V7",
+    "function": "dominant",
+    "melody_compatibility": 1.0,
+    "functional_transition": 0.8,
+    "persistence": 0.55,
+    "cadence": 0.0,
+    "local_score": 0.755,
+    "path_score": 8.937625,
+    "alternatives": [
+      {
+        "chord": "C",
+        "roman": "I",
+        "local_score": 0.659375,
+        "path_score": 8.842
+      },
+      {
+        "chord": "G",
+        "roman": "V",
+        "local_score": 0.6518750000000001,
+        "path_score": 8.8345
+      },
+      {
+        "chord": "Em",
+        "roman": "iii",
+        "local_score": 0.6143750000000001,
+        "path_score": 8.797
+      }
+    ]
+  },
+  {
+    "segment": 12,
+    "measure": 7,
+    "start_beat": "1",
+    "duration": "2",
+    "chord": "G7",
+    "roman": "V7",
+    "function": "dominant",
+    "melody_compatibility": 1.0,
+    "functional_transition": 0.55,
+    "persistence": 1.0,
+    "cadence": 0.0,
+    "local_score": 0.7374999999999999,
+    "path_score": 9.675125000000001,
+    "alternatives": [
+      {
+        "chord": "C",
+        "roman": "I",
+        "local_score": 0.7133333333333333,
+        "path_score": 9.650958333333334
+      },
+      {
+        "chord": "Em",
+        "roman": "iii",
+        "local_score": 0.7133333333333333,
+        "path_score": 9.650958333333334
+      },
+      {
+        "chord": "G",
+        "roman": "V",
+        "local_score": 0.6008333333333333,
+        "path_score": 9.538458333333335
+      }
+    ]
+  },
+  {
+    "segment": 13,
+    "measure": 7,
+    "start_beat": "3",
+    "duration": "2",
+    "chord": "C",
+    "roman": "I",
+    "function": "tonic",
+    "melody_compatibility": 0.5875,
+    "functional_transition": 1.0,
+    "persistence": 0.55,
+    "cadence": 1.0,
+    "local_score": 0.74875,
+    "path_score": 10.423875,
+    "alternatives": [
+      {
+        "chord": "Dm",
+        "roman": "ii",
+        "local_score": 0.71125,
+        "path_score": 10.362208333333333
+      },
+      {
+        "chord": "Dm7",
+        "roman": "ii7",
+        "local_score": 0.71125,
+        "path_score": 10.362208333333333
+      },
+      {
+        "chord": "G7",
+        "roman": "V7",
+        "local_score": 0.6687500000000001,
+        "path_score": 10.343875
+      }
+    ]
+  }
+]

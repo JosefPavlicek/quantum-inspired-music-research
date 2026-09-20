@@ -8,8 +8,10 @@ TRANSITIONS={
  ("dominant","tonic"):1.00, ("dominant","predominant"):0.25, ("dominant","dominant"):0.55,
 }
 
+def segment_has_sounding_notes(segment):
+    return any(not n.is_rest for n in segment.notes)
+
 def _overlap(note, segment):
-    """Sounding duration of a NoteEvent inside its onset segment."""
     if note.is_rest: return Fraction(0)
     local=note.beat-Fraction(1)
     seg_start=segment.start_beat-Fraction(1)
@@ -17,17 +19,17 @@ def _overlap(note, segment):
     return max(Fraction(0), min(local+note.duration,seg_end)-max(local,seg_start))
 
 def melody_compatibility(segment, chord, key_pitch_classes=None, config=None):
-    """Duration × metric weighted chord-tone compatibility."""
     num=0.0; den=0.0
     chord_value=1.0; scale_value=0.45; chromatic_value=0.0
     if config:
         m=config.get("scoring",{}).get("melody",{})
-        chord_value=m.get("chord_tone",chord_value); scale_value=m.get("diatonic_non_chord_tone",scale_value); chromatic_value=m.get("chromatic_non_chord_tone",chromatic_value)
+        chord_value=m.get("chord_tone",chord_value)
+        scale_value=m.get("diatonic_non_chord_tone",scale_value)
+        chromatic_value=m.get("chromatic_non_chord_tone",chromatic_value)
     for n in segment.notes:
         d=float(_overlap(n,segment))
         if d<=0: continue
-        w=d*n.metric_strength
-        den+=w
+        w=d*n.metric_strength; den+=w
         if n.pitch_class in chord.pitch_classes: q=chord_value
         elif key_pitch_classes is not None and n.pitch_class in key_pitch_classes: q=scale_value
         else: q=chromatic_value
@@ -54,5 +56,5 @@ def cadential_score(previous_chord, chord, is_final=False, config=None):
 
 def local_score(melody, transition, persist, cadence, weights=None):
     w=weights or DEFAULT_WEIGHTS
-    return (w["melody_compatibility"]*melody + w["functional_transition"]*transition +
-            w["persistence"]*persist + w["cadence"]*cadence)
+    return (w["melody_compatibility"]*melody+w["functional_transition"]*transition+
+            w["persistence"]*persist+w["cadence"]*cadence)
