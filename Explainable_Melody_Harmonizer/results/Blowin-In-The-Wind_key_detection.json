@@ -1,0 +1,104 @@
+{
+  "xml_key": "D major",
+  "detected_key": "D major",
+  "key_detection_score": 0.7946999269571381,
+  "key_source": "detected",
+  "ranking": [
+    {
+      "key": "D major",
+      "score": 0.7946999269571381
+    },
+    {
+      "key": "A major",
+      "score": 0.776975686697994
+    },
+    {
+      "key": "A minor",
+      "score": 0.5892175420262449
+    },
+    {
+      "key": "F# minor",
+      "score": 0.5851000221352092
+    },
+    {
+      "key": "G major",
+      "score": 0.36176396730309823
+    },
+    {
+      "key": "D minor",
+      "score": 0.36106950806385757
+    },
+    {
+      "key": "B minor",
+      "score": 0.28978828709307064
+    },
+    {
+      "key": "E minor",
+      "score": 0.2718209275685512
+    },
+    {
+      "key": "E major",
+      "score": 0.2094332899862355
+    },
+    {
+      "key": "C major",
+      "score": 0.1192719133300665
+    },
+    {
+      "key": "G minor",
+      "score": 0.0904896295100828
+    },
+    {
+      "key": "F major",
+      "score": 0.03466005741710513
+    },
+    {
+      "key": "C# minor",
+      "score": -0.02030908755778704
+    },
+    {
+      "key": "B major",
+      "score": -0.172652435545019
+    },
+    {
+      "key": "A# major",
+      "score": -0.25462399084006654
+    },
+    {
+      "key": "F# major",
+      "score": -0.27225044218743577
+    },
+    {
+      "key": "D# minor",
+      "score": -0.3567158100838339
+    },
+    {
+      "key": "G# minor",
+      "score": -0.37406821533891293
+    },
+    {
+      "key": "C minor",
+      "score": -0.4176497570427324
+    },
+    {
+      "key": "A# minor",
+      "score": -0.43200760237705815
+    },
+    {
+      "key": "D# major",
+      "score": -0.44846606120524135
+    },
+    {
+      "key": "C# major",
+      "score": -0.5031789573431227
+    },
+    {
+      "key": "F minor",
+      "score": -0.5867354439966921
+    },
+    {
+      "key": "G# major",
+      "score": -0.6456329545707521
+    }
+  ]
+}
