@@ -28,7 +28,7 @@ Repository folder:
 
 ### Explainable Melody Harmonizer (EMH) for AHFE2026 paper
 
-A transparent and reproducible system for **automatic music harmony generation from monophonic melody using Viterbi-like dynamic programming**.
+A transparent and reproducible system for **automatic music harmony generation from monophonic melody using Viterbi-like dynamic programming**. It was prepared for the paper name **From Human Narrative to Harmonic Structure: A Human-Centered Investigation of Algorithmic Music Generation through Chord-Wheel Analysis**
 
 Unlike the quantum-inspired approach, EMH represents harmonic decisions explicitly. It analyzes the melody, detects its tonal context, divides it into meter-aware harmonic decision segments, evaluates possible chord candidates using interpretable scoring components, and searches for a globally coherent harmonic sequence.
 
