@@ -26,7 +26,7 @@ Repository folder:
 
 ---
 
-### Explainable Melody Harmonizer (EMH) for AHFE2026 paper
+### AHFE2026 Explainable Melody Harmonizer (EMH)
 
 A transparent and reproducible system for **automatic music harmony generation from monophonic melody using Viterbi-like dynamic programming**. It was prepared for the paper name **From Human Narrative to Harmonic Structure: A Human-Centered Investigation of Algorithmic Music Generation through Chord-Wheel Analysis**
 
