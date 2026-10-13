@@ -1,0 +1,229 @@
+{
+  "status": "post_hoc_diagnostics_only",
+  "cases": 19,
+  "excluded": [
+    {
+      "id": "ZbgOYlpkonY",
+      "status": "excluded",
+      "reason": "Compound meter pending verified time-base mapping"
+    }
+  ],
+  "counts": {
+    "total": 448,
+    "evaluated": 439,
+    "reference_chord_unavailable": 203,
+    "exact_chord_match": 90,
+    "available_but_not_selected": 146,
+    "no_reference": 9
+  },
+  "flags": {
+    "root_covered": 420,
+    "function_evaluable": 420,
+    "function_mismatch": 220,
+    "root_match": 139,
+    "chord_match": 90,
+    "candidate_covered": 236,
+    "function_match": 200,
+    "covered_wrong_root": 145,
+    "mixed_reference": 40,
+    "root_match_chord_mismatch": 49,
+    "root_unavailable": 19,
+    "dominant_below_half": 7,
+    "partial_reference": 4
+  },
+  "rates_pct": {
+    "exact_chord_match": 20.5,
+    "reference_chord_unavailable": 46.24,
+    "available_but_not_selected": 33.26,
+    "root_agreement": 31.66,
+    "function_agreement": 47.62,
+    "chord_agreement_given_coverage": 38.14
+  },
+  "example_segments": {
+    "reference_chord_unavailable": {
+      "case_id": "WeglGvV-mrY",
+      "segment": 0,
+      "generated_chord": "E",
+      "human_root_pc": 2,
+      "human_pitch_classes": [
+        2,
+        4,
+        6,
+        9
+      ]
+    },
+    "exact_chord_match": {
+      "case_id": "WeglGvV-mrY",
+      "segment": 2,
+      "generated_chord": "A",
+      "human_root_pc": 9,
+      "human_pitch_classes": [
+        1,
+        4,
+        9
+      ]
+    },
+    "available_but_not_selected": {
+      "case_id": "WeglGvV-mrY",
+      "segment": 4,
+      "generated_chord": "Bm",
+      "human_root_pc": 6,
+      "human_pitch_classes": [
+        1,
+        6,
+        9
+      ]
+    }
+  },
+  "per_case": [
+    {
+      "id": "WeglGvV-mrY",
+      "evaluated": 32,
+      "reference_chord_unavailable": 12,
+      "exact_chord_match": 8,
+      "available_but_not_selected": 12
+    },
+    {
+      "id": "JkmZwVP_gqn",
+      "evaluated": 8,
+      "available_but_not_selected": 2,
+      "reference_chord_unavailable": 6
+    },
+    {
+      "id": "ZOxVOadBodq",
+      "evaluated": 32,
+      "available_but_not_selected": 18,
+      "exact_chord_match": 6,
+      "reference_chord_unavailable": 8
+    },
+    {
+      "id": "ROmNzOJEmNw",
+      "evaluated": 8,
+      "reference_chord_unavailable": 8
+    },
+    {
+      "id": "dPoDRNyBgnM",
+      "evaluated": 22,
+      "reference_chord_unavailable": 16,
+      "exact_chord_match": 6,
+      "no_reference": 2
+    },
+    {
+      "id": "bWgMwzPjolX",
+      "evaluated": 16,
+      "reference_chord_unavailable": 12,
+      "exact_chord_match": 2,
+      "available_but_not_selected": 2
+    },
+    {
+      "id": "ROmNrGLzmNw",
+      "evaluated": 32,
+      "exact_chord_match": 16,
+      "available_but_not_selected": 8,
+      "reference_chord_unavailable": 8
+    },
+    {
+      "id": "yvmreJldoOW",
+      "evaluated": 14,
+      "exact_chord_match": 4,
+      "available_but_not_selected": 6,
+      "reference_chord_unavailable": 4,
+      "no_reference": 2
+    },
+    {
+      "id": "EzngRENMmJj",
+      "evaluated": 16,
+      "reference_chord_unavailable": 4,
+      "exact_chord_match": 6,
+      "available_but_not_selected": 6
+    },
+    {
+      "id": "AaoGwpKBoeQ",
+      "evaluated": 16,
+      "available_but_not_selected": 10,
+      "reference_chord_unavailable": 6
+    },
+    {
+      "id": "nvgyQQy_gkA",
+      "evaluated": 34,
+      "reference_chord_unavailable": 26,
+      "available_but_not_selected": 6,
+      "exact_chord_match": 2
+    },
+    {
+      "id": "wnvgyAWzgkA",
+      "evaluated": 38,
+      "exact_chord_match": 12,
+      "available_but_not_selected": 16,
+      "reference_chord_unavailable": 10
+    },
+    {
+      "id": "Abm_kLQPmak",
+      "evaluated": 36,
+      "exact_chord_match": 7,
+      "reference_chord_unavailable": 28,
+      "available_but_not_selected": 1
+    },
+    {
+      "id": "lamknwlZoDM",
+      "evaluated": 16,
+      "reference_chord_unavailable": 16
+    },
+    {
+      "id": "kygzRznBgKB",
+      "evaluated": 28,
+      "reference_chord_unavailable": 10,
+      "exact_chord_match": 6,
+      "available_but_not_selected": 12,
+      "no_reference": 4
+    },
+    {
+      "id": "d_gwrJdemGV",
+      "evaluated": 15,
+      "available_but_not_selected": 6,
+      "reference_chord_unavailable": 3,
+      "exact_chord_match": 6,
+      "no_reference": 1
+    },
+    {
+      "id": "dZbgOJKbmnY",
+      "evaluated": 12,
+      "exact_chord_match": 4,
+      "reference_chord_unavailable": 2,
+      "available_but_not_selected": 6
+    },
+    {
+      "id": "YAg-E_nagle",
+      "evaluated": 32,
+      "reference_chord_unavailable": 24,
+      "available_but_not_selected": 7,
+      "exact_chord_match": 1
+    },
+    {
+      "id": "BbWgMwZXolX",
+      "evaluated": 32,
+      "available_but_not_selected": 28,
+      "exact_chord_match": 4
+    }
+  ],
+  "interpretation_limitations": [
+    "A dominant-overlap reference chord is a simplification, not a unique human solution.",
+    "Function labels are inferred from EMH key and candidate roots, not independent human annotations.",
+    "Mixed reference, key ambiguity, and temporal mismatch are diagnostic flags, not established causes.",
+    "The 19-case selected sample supports descriptive PoC findings only."
+  ],
+  "frozen_emh_sha256": {
+    "__init__.py": "fb20ea1c13a6c4c49c5090a7e29d6732fc086243922929600de88bdff2a43eb9",
+    "explanation.py": "1859274a4db0139bcbd71b253092260e06f132a7f9e6e50370f31c8f9e996c17",
+    "harmony.py": "723b29cf720a80cbc924e13bdf602b0b76ba2e910f73f2522a1b08c7a836f6e6",
+    "key_detection.py": "d7cceca0d29b89b2f4643987cdc3309c21d55ea3d1a182e3680db69b71f60488",
+    "meter.py": "928a15c1c6767254669e9d51ce0e7f8b201614919216e84952949dafaf0bdbba",
+    "model.py": "e69512e40257235869d526f7417c103e1248ec855bb49da07f2af00934c2d28c",
+    "musicxml_loader.py": "1f6cc88fc20a9b1180e38c0ea56fb2e6be599dab49423c188fe17baa29cfff75",
+    "musicxml_writer.py": "c40cee7766e86cb0100188306abe8890ec3c3bb2a0656dfaec75eeb6429151fd",
+    "optimizer.py": "0c05eb1a7b15cc596c42a4b45f38cee33bb0d7c0d544fb8a81a3401b62af799b",
+    "pipeline.py": "f25991d603b0cb45bd8cdd865deff0b704a77d7cd74b419bc653f536e986494e",
+    "scoring.py": "66cf7031f487a8ae0653c5dd6af8802517ed9853b2fab396914ec473e55bad62",
+    "segmentation.py": "62eed0a582d2d4d57d2378120b83f785da6a035d0814fe76ac3da57c2cfee197"
+  }
+}

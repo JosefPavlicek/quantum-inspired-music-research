@@ -1,0 +1,2176 @@
+{
+  "id": "YAg-E_nagle",
+  "detected_key": "G major",
+  "decisions": [
+    {
+      "segment": 0,
+      "measure": 1,
+      "start_beat": "1",
+      "duration": "2",
+      "chord": "C",
+      "roman": "IV",
+      "function": "predominant",
+      "melody_compatibility": 1.0,
+      "functional_transition": 0.5,
+      "persistence": 0.5,
+      "cadence": 0.0,
+      "local_score": 0.675,
+      "path_score": 0.675,
+      "alternatives": [
+        {
+          "chord": "G",
+          "roman": "I",
+          "local_score": 0.675,
+          "path_score": 0.675
+        },
+        {
+          "chord": "Em",
+          "roman": "vi",
+          "local_score": 0.675,
+          "path_score": 0.675
+        },
+        {
+          "chord": "Am7",
+          "roman": "ii7",
+          "local_score": 0.675,
+          "path_score": 0.675
+        }
+      ]
+    },
+    {
+      "segment": 1,
+      "measure": 1,
+      "start_beat": "3",
+      "duration": "2",
+      "chord": "F#dim7",
+      "roman": "vii\u00f87",
+      "function": "dominant",
+      "melody_compatibility": 0.8166666666666668,
+      "functional_transition": 1.0,
+      "persistence": 0.55,
+      "cadence": 0.0,
+      "local_score": 0.7133333333333335,
+      "path_score": 1.3883333333333336,
+      "alternatives": [
+        {
+          "chord": "C",
+          "roman": "IV",
+          "local_score": 0.6883333333333335,
+          "path_score": 1.3633333333333335
+        },
+        {
+          "chord": "Am7",
+          "roman": "ii7",
+          "local_score": 0.6883333333333335,
+          "path_score": 1.3633333333333335
+        },
+        {
+          "chord": "Em",
+          "roman": "vi",
+          "local_score": 0.6708333333333334,
+          "path_score": 1.3458333333333334
+        }
+      ]
+    },
+    {
+      "segment": 2,
+      "measure": 2,
+      "start_beat": "1",
+      "duration": "2",
+      "chord": "G",
+      "roman": "I",
+      "function": "tonic",
+      "melody_compatibility": 0.6983870967741936,
+      "functional_transition": 1.0,
+      "persistence": 0.55,
+      "cadence": 0.0,
+      "local_score": 0.6541935483870969,
+      "path_score": 2.0425268817204305,
+      "alternatives": [
+        {
+          "chord": "D",
+          "roman": "V",
+          "local_score": 0.7429032258064517,
+          "path_score": 2.106236559139785
+        },
+        {
+          "chord": "D7",
+          "roman": "V7",
+          "local_score": 0.7429032258064517,
+          "path_score": 2.106236559139785
+        },
+        {
+          "chord": "F#dim",
+          "roman": "vii\u00b0",
+          "local_score": 0.6808064516129032,
+          "path_score": 2.044139784946237
+        }
+      ]
+    },
+    {
+      "segment": 3,
+      "measure": 2,
+      "start_beat": "3",
+      "duration": "2",
+      "chord": "C",
+      "roman": "IV",
+      "function": "predominant",
+      "melody_compatibility": 0.8166666666666668,
+      "functional_transition": 0.9,
+      "persistence": 0.55,
+      "cadence": 0.0,
+      "local_score": 0.6883333333333335,
+      "path_score": 2.730860215053764,
+      "alternatives": [
+        {
+          "chord": "Am",
+          "roman": "ii",
+          "local_score": 0.6883333333333335,
+          "path_score": 2.730860215053764
+        },
+        {
+          "chord": "Am7",
+          "roman": "ii7",
+          "local_score": 0.6883333333333335,
+          "path_score": 2.730860215053764
+        },
+        {
+          "chord": "Em",
+          "roman": "vi",
+          "local_score": 0.6216666666666668,
+          "path_score": 2.727903225806452
+        }
+      ]
+    },
+    {
+      "segment": 4,
+      "measure": 3,
+      "start_beat": "1",
+      "duration": "2",
+      "chord": "F#dim7",
+      "roman": "vii\u00f87",
+      "function": "dominant",
+      "melody_compatibility": 0.7735294117647059,
+      "functional_transition": 1.0,
+      "persistence": 0.55,
+      "cadence": 0.0,
+      "local_score": 0.691764705882353,
+      "path_score": 3.422624920936117,
+      "alternatives": [
+        {
+          "chord": "Em",
+          "roman": "vi",
+          "local_score": 0.691764705882353,
+          "path_score": 3.4067378241619233
+        },
+        {
+          "chord": "C",
+          "roman": "IV",
+          "local_score": 0.666764705882353,
+          "path_score": 3.394667931688805
+        },
+        {
+          "chord": "Am",
+          "roman": "ii",
+          "local_score": 0.666764705882353,
+          "path_score": 3.394667931688805
+        }
+      ]
+    },
+    {
+      "segment": 5,
+      "measure": 3,
+      "start_beat": "3",
+      "duration": "2",
+      "chord": "G",
+      "roman": "I",
+      "function": "tonic",
+      "melody_compatibility": 1.0,
+      "functional_transition": 1.0,
+      "persistence": 0.55,
+      "cadence": 0.0,
+      "local_score": 0.805,
+      "path_score": 4.227624920936117,
+      "alternatives": [
+        {
+          "chord": "Em",
+          "roman": "vi",
+          "local_score": 0.7133333333333335,
+          "path_score": 4.13595825426945
+        },
+        {
+          "chord": "C",
+          "roman": "IV",
+          "local_score": 0.6883333333333335,
+          "path_score": 4.095071157495257
+        },
+        {
+          "chord": "Am7",
+          "roman": "ii7",
+          "local_score": 0.6883333333333335,
+          "path_score": 4.095071157495257
+        }
+      ]
+    },
+    {
+      "segment": 6,
+      "measure": 4,
+      "start_beat": "1",
+      "duration": "2",
+      "chord": "F#dim",
+      "roman": "vii\u00b0",
+      "function": "dominant",
+      "melody_compatibility": 0.8395833333333332,
+      "functional_transition": 0.8,
+      "persistence": 0.55,
+      "cadence": 0.0,
+      "local_score": 0.6747916666666667,
+      "path_score": 4.902416587602784,
+      "alternatives": [
+        {
+          "chord": "F#dim7",
+          "roman": "vii\u00f87",
+          "local_score": 0.6747916666666667,
+          "path_score": 4.902416587602784
+        },
+        {
+          "chord": "C",
+          "roman": "IV",
+          "local_score": 0.6654166666666667,
+          "path_score": 4.8930415876027835
+        },
+        {
+          "chord": "Am7",
+          "roman": "ii7",
+          "local_score": 0.6654166666666667,
+          "path_score": 4.8930415876027835
+        }
+      ]
+    },
+    {
+      "segment": 7,
+      "measure": 4,
+      "start_beat": "3",
+      "duration": "2",
+      "chord": "F#dim",
+      "roman": "vii\u00b0",
+      "function": "dominant",
+      "melody_compatibility": 0.0,
+      "functional_transition": 0.55,
+      "persistence": 1.0,
+      "cadence": 0.0,
+      "local_score": 0.23750000000000002,
+      "path_score": 5.139916587602784,
+      "alternatives": [
+        {
+          "chord": "F#dim7",
+          "roman": "vii\u00f87",
+          "local_score": 0.23750000000000002,
+          "path_score": 5.139916587602784
+        },
+        {
+          "chord": "C",
+          "roman": "IV",
+          "local_score": 0.23750000000000002,
+          "path_score": 5.130541587602783
+        },
+        {
+          "chord": "Am7",
+          "roman": "ii7",
+          "local_score": 0.23750000000000002,
+          "path_score": 5.130541587602783
+        }
+      ]
+    },
+    {
+      "segment": 8,
+      "measure": 5,
+      "start_beat": "1",
+      "duration": "2",
+      "chord": "G",
+      "roman": "I",
+      "function": "tonic",
+      "melody_compatibility": 1.0,
+      "functional_transition": 1.0,
+      "persistence": 0.55,
+      "cadence": 0.0,
+      "local_score": 0.805,
+      "path_score": 5.944916587602783,
+      "alternatives": [
+        {
+          "chord": "Em",
+          "roman": "vi",
+          "local_score": 0.805,
+          "path_score": 5.944916587602783
+        },
+        {
+          "chord": "C",
+          "roman": "IV",
+          "local_score": 0.7374999999999999,
+          "path_score": 5.868041587602783
+        },
+        {
+          "chord": "Am7",
+          "roman": "ii7",
+          "local_score": 0.7374999999999999,
+          "path_score": 5.868041587602783
+        }
+      ]
+    },
+    {
+      "segment": 9,
+      "measure": 5,
+      "start_beat": "3",
+      "duration": "2",
+      "chord": "F#dim7",
+      "roman": "vii\u00f87",
+      "function": "dominant",
+      "melody_compatibility": 0.8166666666666668,
+      "functional_transition": 0.8,
+      "persistence": 0.55,
+      "cadence": 0.0,
+      "local_score": 0.6633333333333334,
+      "path_score": 6.6082499209361165,
+      "alternatives": [
+        {
+          "chord": "C",
+          "roman": "IV",
+          "local_score": 0.6883333333333335,
+          "path_score": 6.633249920936117
+        },
+        {
+          "chord": "Am7",
+          "roman": "ii7",
+          "local_score": 0.6883333333333335,
+          "path_score": 6.633249920936117
+        },
+        {
+          "chord": "Em",
+          "roman": "vi",
+          "local_score": 0.6708333333333334,
+          "path_score": 6.615749920936117
+        }
+      ]
+    },
+    {
+      "segment": 10,
+      "measure": 6,
+      "start_beat": "1",
+      "duration": "2",
+      "chord": "G",
+      "roman": "I",
+      "function": "tonic",
+      "melody_compatibility": 0.6983870967741936,
+      "functional_transition": 1.0,
+      "persistence": 0.55,
+      "cadence": 0.0,
+      "local_score": 0.6541935483870969,
+      "path_score": 7.262443469323213,
+      "alternatives": [
+        {
+          "chord": "D",
+          "roman": "V",
+          "local_score": 0.7429032258064517,
+          "path_score": 7.376153146742569
+        },
+        {
+          "chord": "D7",
+          "roman": "V7",
+          "local_score": 0.7429032258064517,
+          "path_score": 7.376153146742569
+        },
+        {
+          "chord": "F#dim",
+          "roman": "vii\u00b0",
+          "local_score": 0.6808064516129032,
+          "path_score": 7.31405637254902
+        }
+      ]
+    },
+    {
+      "segment": 11,
+      "measure": 6,
+      "start_beat": "3",
+      "duration": "2",
+      "chord": "C",
+      "roman": "IV",
+      "function": "predominant",
+      "melody_compatibility": 0.8166666666666668,
+      "functional_transition": 0.9,
+      "persistence": 0.55,
+      "cadence": 0.0,
+      "local_score": 0.6883333333333335,
+      "path_score": 7.950776802656547,
+      "alternatives": [
+        {
+          "chord": "G",
+          "roman": "I",
+          "local_score": 0.6216666666666667,
+          "path_score": 7.997819813409236
+        },
+        {
+          "chord": "Em",
+          "roman": "vi",
+          "local_score": 0.6216666666666668,
+          "path_score": 7.997819813409236
+        },
+        {
+          "chord": "Bm",
+          "roman": "iii",
+          "local_score": 0.6216666666666667,
+          "path_score": 7.997819813409236
+        }
+      ]
+    },
+    {
+      "segment": 12,
+      "measure": 7,
+      "start_beat": "1",
+      "duration": "2",
+      "chord": "F#dim7",
+      "roman": "vii\u00f87",
+      "function": "dominant",
+      "melody_compatibility": 0.7735294117647059,
+      "functional_transition": 1.0,
+      "persistence": 0.55,
+      "cadence": 0.0,
+      "local_score": 0.691764705882353,
+      "path_score": 8.6425415085389,
+      "alternatives": [
+        {
+          "chord": "Em",
+          "roman": "vi",
+          "local_score": 0.691764705882353,
+          "path_score": 8.676654411764707
+        },
+        {
+          "chord": "C",
+          "roman": "IV",
+          "local_score": 0.666764705882353,
+          "path_score": 8.664584519291589
+        },
+        {
+          "chord": "Am",
+          "roman": "ii",
+          "local_score": 0.666764705882353,
+          "path_score": 8.664584519291589
+        }
+      ]
+    },
+    {
+      "segment": 13,
+      "measure": 7,
+      "start_beat": "3",
+      "duration": "2",
+      "chord": "G",
+      "roman": "I",
+      "function": "tonic",
+      "melody_compatibility": 1.0,
+      "functional_transition": 1.0,
+      "persistence": 0.55,
+      "cadence": 0.0,
+      "local_score": 0.805,
+      "path_score": 9.4475415085389,
+      "alternatives": [
+        {
+          "chord": "C",
+          "roman": "IV",
+          "local_score": 0.6883333333333335,
+          "path_score": 9.364987745098041
+        },
+        {
+          "chord": "Am7",
+          "roman": "ii7",
+          "local_score": 0.6883333333333335,
+          "path_score": 9.364987745098041
+        },
+        {
+          "chord": "Em",
+          "roman": "vi",
+          "local_score": 0.7133333333333335,
+          "path_score": 9.355874841872232
+        }
+      ]
+    },
+    {
+      "segment": 14,
+      "measure": 8,
+      "start_beat": "1",
+      "duration": "2",
+      "chord": "C",
+      "roman": "IV",
+      "function": "predominant",
+      "melody_compatibility": 0.7708333333333333,
+      "functional_transition": 0.9,
+      "persistence": 0.55,
+      "cadence": 0.0,
+      "local_score": 0.6654166666666667,
+      "path_score": 10.112958175205566,
+      "alternatives": [
+        {
+          "chord": "F#dim",
+          "roman": "vii\u00b0",
+          "local_score": 0.6747916666666667,
+          "path_score": 10.122333175205565
+        },
+        {
+          "chord": "F#dim7",
+          "roman": "vii\u00f87",
+          "local_score": 0.6747916666666667,
+          "path_score": 10.122333175205565
+        },
+        {
+          "chord": "Am7",
+          "roman": "ii7",
+          "local_score": 0.6654166666666667,
+          "path_score": 10.112958175205566
+        }
+      ]
+    },
+    {
+      "segment": 15,
+      "measure": 8,
+      "start_beat": "3",
+      "duration": "2",
+      "chord": "C",
+      "roman": "IV",
+      "function": "predominant",
+      "melody_compatibility": 0.0,
+      "functional_transition": 0.55,
+      "persistence": 1.0,
+      "cadence": 0.0,
+      "local_score": 0.23750000000000002,
+      "path_score": 10.350458175205567,
+      "alternatives": [
+        {
+          "chord": "F#dim",
+          "roman": "vii\u00b0",
+          "local_score": 0.23750000000000002,
+          "path_score": 10.359833175205566
+        },
+        {
+          "chord": "F#dim7",
+          "roman": "vii\u00f87",
+          "local_score": 0.23750000000000002,
+          "path_score": 10.359833175205566
+        },
+        {
+          "chord": "Am7",
+          "roman": "ii7",
+          "local_score": 0.23750000000000002,
+          "path_score": 10.350458175205567
+        }
+      ]
+    },
+    {
+      "segment": 16,
+      "measure": 9,
+      "start_beat": "1",
+      "duration": "2",
+      "chord": "F#dim",
+      "roman": "vii\u00b0",
+      "function": "dominant",
+      "melody_compatibility": 1.0,
+      "functional_transition": 1.0,
+      "persistence": 0.55,
+      "cadence": 0.0,
+      "local_score": 0.805,
+      "path_score": 11.155458175205567,
+      "alternatives": [
+        {
+          "chord": "F#dim7",
+          "roman": "vii\u00f87",
+          "local_score": 0.805,
+          "path_score": 11.155458175205567
+        },
+        {
+          "chord": "C",
+          "roman": "IV",
+          "local_score": 0.7374999999999999,
+          "path_score": 11.087958175205568
+        },
+        {
+          "chord": "Am7",
+          "roman": "ii7",
+          "local_score": 0.7374999999999999,
+          "path_score": 11.087958175205568
+        }
+      ]
+    },
+    {
+      "segment": 17,
+      "measure": 9,
+      "start_beat": "3",
+      "duration": "2",
+      "chord": "G",
+      "roman": "I",
+      "function": "tonic",
+      "melody_compatibility": 1.0,
+      "functional_transition": 1.0,
+      "persistence": 0.55,
+      "cadence": 0.0,
+      "local_score": 0.805,
+      "path_score": 11.960458175205567,
+      "alternatives": [
+        {
+          "chord": "Em",
+          "roman": "vi",
+          "local_score": 0.805,
+          "path_score": 11.960458175205567
+        },
+        {
+          "chord": "Bm",
+          "roman": "iii",
+          "local_score": 0.6675000000000001,
+          "path_score": 11.822958175205567
+        },
+        {
+          "chord": "C",
+          "roman": "IV",
+          "local_score": 0.6,
+          "path_score": 11.687958175205567
+        }
+      ]
+    },
+    {
+      "segment": 18,
+      "measure": 10,
+      "start_beat": "1",
+      "duration": "2",
+      "chord": "Am7",
+      "roman": "ii7",
+      "function": "predominant",
+      "melody_compatibility": 0.7516129032258065,
+      "functional_transition": 0.9,
+      "persistence": 0.55,
+      "cadence": 0.0,
+      "local_score": 0.6558064516129033,
+      "path_score": 12.61626462681847,
+      "alternatives": [
+        {
+          "chord": "D",
+          "roman": "V",
+          "local_score": 0.6929032258064517,
+          "path_score": 12.653361401012019
+        },
+        {
+          "chord": "D7",
+          "roman": "V7",
+          "local_score": 0.6929032258064517,
+          "path_score": 12.653361401012019
+        },
+        {
+          "chord": "F#dim",
+          "roman": "vii\u00b0",
+          "local_score": 0.6308064516129033,
+          "path_score": 12.59126462681847
+        }
+      ]
+    },
+    {
+      "segment": 19,
+      "measure": 10,
+      "start_beat": "3",
+      "duration": "2",
+      "chord": "F#dim7",
+      "roman": "vii\u00f87",
+      "function": "dominant",
+      "melody_compatibility": 1.0,
+      "functional_transition": 1.0,
+      "persistence": 0.55,
+      "cadence": 0.0,
+      "local_score": 0.805,
+      "path_score": 13.42126462681847,
+      "alternatives": [
+        {
+          "chord": "Em",
+          "roman": "vi",
+          "local_score": 0.805,
+          "path_score": 13.458361401012018
+        },
+        {
+          "chord": "Am7",
+          "roman": "ii7",
+          "local_score": 0.7374999999999999,
+          "path_score": 13.35376462681847
+        },
+        {
+          "chord": "C",
+          "roman": "IV",
+          "local_score": 0.78,
+          "path_score": 13.352151723592662
+        }
+      ]
+    },
+    {
+      "segment": 20,
+      "measure": 11,
+      "start_beat": "1",
+      "duration": "2",
+      "chord": "G",
+      "roman": "I",
+      "function": "tonic",
+      "melody_compatibility": 1.0,
+      "functional_transition": 1.0,
+      "persistence": 0.55,
+      "cadence": 0.0,
+      "local_score": 0.805,
+      "path_score": 14.22626462681847,
+      "alternatives": [
+        {
+          "chord": "Bm",
+          "roman": "iii",
+          "local_score": 0.805,
+          "path_score": 14.22626462681847
+        },
+        {
+          "chord": "D",
+          "roman": "V",
+          "local_score": 0.755,
+          "path_score": 14.213361401012019
+        },
+        {
+          "chord": "D7",
+          "roman": "V7",
+          "local_score": 0.755,
+          "path_score": 14.213361401012019
+        }
+      ]
+    },
+    {
+      "segment": 21,
+      "measure": 11,
+      "start_beat": "3",
+      "duration": "2",
+      "chord": "G",
+      "roman": "I",
+      "function": "tonic",
+      "melody_compatibility": 0.0,
+      "functional_transition": 0.65,
+      "persistence": 1.0,
+      "cadence": 0.0,
+      "local_score": 0.2625,
+      "path_score": 14.488764626818469,
+      "alternatives": [
+        {
+          "chord": "Bm",
+          "roman": "iii",
+          "local_score": 0.2625,
+          "path_score": 14.488764626818469
+        },
+        {
+          "chord": "D",
+          "roman": "V",
+          "local_score": 0.23750000000000002,
+          "path_score": 14.45086140101202
+        },
+        {
+          "chord": "D7",
+          "roman": "V7",
+          "local_score": 0.23750000000000002,
+          "path_score": 14.45086140101202
+        }
+      ]
+    },
+    {
+      "segment": 22,
+      "measure": 12,
+      "start_beat": "1",
+      "duration": "2",
+      "chord": "Am7",
+      "roman": "ii7",
+      "function": "predominant",
+      "melody_compatibility": 1.0,
+      "functional_transition": 0.9,
+      "persistence": 0.55,
+      "cadence": 0.0,
+      "local_score": 0.78,
+      "path_score": 15.268764626818468,
+      "alternatives": [
+        {
+          "chord": "Am",
+          "roman": "ii",
+          "local_score": 0.78,
+          "path_score": 15.268764626818468
+        },
+        {
+          "chord": "D",
+          "roman": "V",
+          "local_score": 0.755,
+          "path_score": 15.24376462681847
+        },
+        {
+          "chord": "D7",
+          "roman": "V7",
+          "local_score": 0.755,
+          "path_score": 15.24376462681847
+        }
+      ]
+    },
+    {
+      "segment": 23,
+      "measure": 12,
+      "start_beat": "3",
+      "duration": "2",
+      "chord": "Am7",
+      "roman": "ii7",
+      "function": "predominant",
+      "melody_compatibility": 0.79375,
+      "functional_transition": 0.55,
+      "persistence": 1.0,
+      "cadence": 0.0,
+      "local_score": 0.634375,
+      "path_score": 15.903139626818469,
+      "alternatives": [
+        {
+          "chord": "G",
+          "roman": "I",
+          "local_score": 0.701875,
+          "path_score": 15.945639626818469
+        },
+        {
+          "chord": "Em",
+          "roman": "vi",
+          "local_score": 0.701875,
+          "path_score": 15.945639626818469
+        },
+        {
+          "chord": "D",
+          "roman": "V",
+          "local_score": 0.633125,
+          "path_score": 15.901889626818468
+        }
+      ]
+    },
+    {
+      "segment": 24,
+      "measure": 13,
+      "start_beat": "1",
+      "duration": "2",
+      "chord": "F#dim",
+      "roman": "vii\u00b0",
+      "function": "dominant",
+      "melody_compatibility": 1.0,
+      "functional_transition": 1.0,
+      "persistence": 0.55,
+      "cadence": 0.0,
+      "local_score": 0.805,
+      "path_score": 16.70813962681847,
+      "alternatives": [
+        {
+          "chord": "C",
+          "roman": "IV",
+          "local_score": 0.78,
+          "path_score": 16.72563962681847
+        },
+        {
+          "chord": "Am",
+          "roman": "ii",
+          "local_score": 0.78,
+          "path_score": 16.72563962681847
+        },
+        {
+          "chord": "Am7",
+          "roman": "ii7",
+          "local_score": 0.78,
+          "path_score": 16.72563962681847
+        }
+      ]
+    },
+    {
+      "segment": 25,
+      "measure": 13,
+      "start_beat": "3",
+      "duration": "2",
+      "chord": "G",
+      "roman": "I",
+      "function": "tonic",
+      "melody_compatibility": 1.0,
+      "functional_transition": 1.0,
+      "persistence": 0.55,
+      "cadence": 0.0,
+      "local_score": 0.805,
+      "path_score": 17.513139626818468,
+      "alternatives": [
+        {
+          "chord": "Em",
+          "roman": "vi",
+          "local_score": 0.805,
+          "path_score": 17.513139626818468
+        },
+        {
+          "chord": "Bm",
+          "roman": "iii",
+          "local_score": 0.6675000000000001,
+          "path_score": 17.37563962681847
+        },
+        {
+          "chord": "C",
+          "roman": "IV",
+          "local_score": 0.6,
+          "path_score": 17.32563962681847
+        }
+      ]
+    },
+    {
+      "segment": 26,
+      "measure": 14,
+      "start_beat": "1",
+      "duration": "2",
+      "chord": "D",
+      "roman": "V",
+      "function": "dominant",
+      "melody_compatibility": 0.8758064516129033,
+      "functional_transition": 0.8,
+      "persistence": 0.55,
+      "cadence": 0.0,
+      "local_score": 0.6929032258064517,
+      "path_score": 18.20604285262492,
+      "alternatives": [
+        {
+          "chord": "D7",
+          "roman": "V7",
+          "local_score": 0.6929032258064517,
+          "path_score": 18.20604285262492
+        },
+        {
+          "chord": "Am7",
+          "roman": "ii7",
+          "local_score": 0.6558064516129033,
+          "path_score": 18.16894607843137
+        },
+        {
+          "chord": "F#dim",
+          "roman": "vii\u00b0",
+          "local_score": 0.6308064516129033,
+          "path_score": 18.14394607843137
+        }
+      ]
+    },
+    {
+      "segment": 27,
+      "measure": 14,
+      "start_beat": "3",
+      "duration": "2",
+      "chord": "Em",
+      "roman": "vi",
+      "function": "tonic",
+      "melody_compatibility": 1.0,
+      "functional_transition": 1.0,
+      "persistence": 0.55,
+      "cadence": 0.0,
+      "local_score": 0.805,
+      "path_score": 19.011042852624918,
+      "alternatives": [
+        {
+          "chord": "F#dim7",
+          "roman": "vii\u00f87",
+          "local_score": 0.805,
+          "path_score": 18.97394607843137
+        },
+        {
+          "chord": "Am7",
+          "roman": "ii7",
+          "local_score": 0.7374999999999999,
+          "path_score": 18.906446078431372
+        },
+        {
+          "chord": "C",
+          "roman": "IV",
+          "local_score": 0.78,
+          "path_score": 18.904833175205567
+        }
+      ]
+    },
+    {
+      "segment": 28,
+      "measure": 15,
+      "start_beat": "1",
+      "duration": "2",
+      "chord": "D",
+      "roman": "V",
+      "function": "dominant",
+      "melody_compatibility": 1.0,
+      "functional_transition": 0.8,
+      "persistence": 0.55,
+      "cadence": 0.0,
+      "local_score": 0.755,
+      "path_score": 19.766042852624917,
+      "alternatives": [
+        {
+          "chord": "G",
+          "roman": "I",
+          "local_score": 0.805,
+          "path_score": 19.77894607843137
+        },
+        {
+          "chord": "Bm",
+          "roman": "iii",
+          "local_score": 0.805,
+          "path_score": 19.77894607843137
+        },
+        {
+          "chord": "D7",
+          "roman": "V7",
+          "local_score": 0.755,
+          "path_score": 19.766042852624917
+        }
+      ]
+    },
+    {
+      "segment": 29,
+      "measure": 15,
+      "start_beat": "3",
+      "duration": "2",
+      "chord": "D",
+      "roman": "V",
+      "function": "dominant",
+      "melody_compatibility": 0.0,
+      "functional_transition": 0.55,
+      "persistence": 1.0,
+      "cadence": 0.0,
+      "local_score": 0.23750000000000002,
+      "path_score": 20.003542852624918,
+      "alternatives": [
+        {
+          "chord": "G",
+          "roman": "I",
+          "local_score": 0.2625,
+          "path_score": 20.04144607843137
+        },
+        {
+          "chord": "Bm",
+          "roman": "iii",
+          "local_score": 0.2625,
+          "path_score": 20.04144607843137
+        },
+        {
+          "chord": "D7",
+          "roman": "V7",
+          "local_score": 0.23750000000000002,
+          "path_score": 20.003542852624918
+        }
+      ]
+    },
+    {
+      "segment": 30,
+      "measure": 16,
+      "start_beat": "1",
+      "duration": "2",
+      "chord": "G",
+      "roman": "I",
+      "function": "tonic",
+      "melody_compatibility": 1.0,
+      "functional_transition": 1.0,
+      "persistence": 0.55,
+      "cadence": 0.0,
+      "local_score": 0.805,
+      "path_score": 20.808542852624917,
+      "alternatives": [
+        {
+          "chord": "Bm",
+          "roman": "iii",
+          "local_score": 0.805,
+          "path_score": 20.808542852624917
+        },
+        {
+          "chord": "D",
+          "roman": "V",
+          "local_score": 0.755,
+          "path_score": 20.79644607843137
+        },
+        {
+          "chord": "D7",
+          "roman": "V7",
+          "local_score": 0.755,
+          "path_score": 20.79644607843137
+        }
+      ]
+    },
+    {
+      "segment": 31,
+      "measure": 16,
+      "start_beat": "3",
+      "duration": "2",
+      "chord": "G",
+      "roman": "I",
+      "function": "tonic",
+      "melody_compatibility": 0.0,
+      "functional_transition": 0.65,
+      "persistence": 1.0,
+      "cadence": 0.75,
+      "local_score": 0.375,
+      "path_score": 21.183542852624917,
+      "alternatives": [
+        {
+          "chord": "Bm",
+          "roman": "iii",
+          "local_score": 0.2625,
+          "path_score": 21.071042852624917
+        },
+        {
+          "chord": "D",
+          "roman": "V",
+          "local_score": 0.23750000000000002,
+          "path_score": 21.03394607843137
+        },
+        {
+          "chord": "D7",
+          "roman": "V7",
+          "local_score": 0.23750000000000002,
+          "path_score": 21.03394607843137
+        }
+      ]
+    }
+  ],
+  "evaluation": {
+    "segments": [
+      {
+        "segment": 0,
+        "status": "evaluated",
+        "human_root_pc": 2,
+        "generated_root_pc": 0,
+        "human_pitch_classes": [
+          0,
+          2,
+          7,
+          9
+        ],
+        "generated_pitch_classes": [
+          0,
+          4,
+          7
+        ],
+        "root_agreement": false,
+        "chord_agreement": false,
+        "candidate_coverage": false,
+        "root_candidate_coverage": true,
+        "human_function": "dominant",
+        "generated_function": "predominant",
+        "function_agreement": false,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          5,
+          2,
+          3
+        ],
+        "generated_chord": "C"
+      },
+      {
+        "segment": 1,
+        "status": "evaluated",
+        "human_root_pc": 2,
+        "generated_root_pc": 6,
+        "human_pitch_classes": [
+          0,
+          2,
+          7,
+          9
+        ],
+        "generated_pitch_classes": [
+          0,
+          4,
+          6,
+          9
+        ],
+        "root_agreement": false,
+        "chord_agreement": false,
+        "candidate_coverage": false,
+        "root_candidate_coverage": true,
+        "human_function": "dominant",
+        "generated_function": "dominant",
+        "function_agreement": true,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          5,
+          2,
+          3
+        ],
+        "generated_chord": "F#dim7"
+      },
+      {
+        "segment": 2,
+        "status": "evaluated",
+        "human_root_pc": 2,
+        "generated_root_pc": 7,
+        "human_pitch_classes": [
+          0,
+          2,
+          7,
+          9
+        ],
+        "generated_pitch_classes": [
+          2,
+          7,
+          11
+        ],
+        "root_agreement": false,
+        "chord_agreement": false,
+        "candidate_coverage": false,
+        "root_candidate_coverage": true,
+        "human_function": "dominant",
+        "generated_function": "tonic",
+        "function_agreement": false,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          5,
+          2,
+          3
+        ],
+        "generated_chord": "G"
+      },
+      {
+        "segment": 3,
+        "status": "evaluated",
+        "human_root_pc": 2,
+        "generated_root_pc": 0,
+        "human_pitch_classes": [
+          0,
+          2,
+          7,
+          9
+        ],
+        "generated_pitch_classes": [
+          0,
+          4,
+          7
+        ],
+        "root_agreement": false,
+        "chord_agreement": false,
+        "candidate_coverage": false,
+        "root_candidate_coverage": true,
+        "human_function": "dominant",
+        "generated_function": "predominant",
+        "function_agreement": false,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          5,
+          2,
+          3
+        ],
+        "generated_chord": "C"
+      },
+      {
+        "segment": 4,
+        "status": "evaluated",
+        "human_root_pc": 2,
+        "generated_root_pc": 6,
+        "human_pitch_classes": [
+          2,
+          6,
+          9
+        ],
+        "generated_pitch_classes": [
+          0,
+          4,
+          6,
+          9
+        ],
+        "root_agreement": false,
+        "chord_agreement": false,
+        "candidate_coverage": true,
+        "root_candidate_coverage": true,
+        "human_function": "dominant",
+        "generated_function": "dominant",
+        "function_agreement": true,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          4,
+          3
+        ],
+        "generated_chord": "F#dim7"
+      },
+      {
+        "segment": 5,
+        "status": "evaluated",
+        "human_root_pc": 2,
+        "generated_root_pc": 7,
+        "human_pitch_classes": [
+          2,
+          6,
+          9
+        ],
+        "generated_pitch_classes": [
+          2,
+          7,
+          11
+        ],
+        "root_agreement": false,
+        "chord_agreement": false,
+        "candidate_coverage": true,
+        "root_candidate_coverage": true,
+        "human_function": "dominant",
+        "generated_function": "tonic",
+        "function_agreement": false,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          4,
+          3
+        ],
+        "generated_chord": "G"
+      },
+      {
+        "segment": 6,
+        "status": "evaluated",
+        "human_root_pc": 2,
+        "generated_root_pc": 6,
+        "human_pitch_classes": [
+          0,
+          2,
+          6,
+          9
+        ],
+        "generated_pitch_classes": [
+          0,
+          6,
+          9
+        ],
+        "root_agreement": false,
+        "chord_agreement": false,
+        "candidate_coverage": false,
+        "root_candidate_coverage": true,
+        "human_function": "dominant",
+        "generated_function": "dominant",
+        "function_agreement": true,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          4,
+          3,
+          3
+        ],
+        "generated_chord": "F#dim"
+      },
+      {
+        "segment": 7,
+        "status": "evaluated",
+        "human_root_pc": 2,
+        "generated_root_pc": 6,
+        "human_pitch_classes": [
+          0,
+          2,
+          6,
+          9
+        ],
+        "generated_pitch_classes": [
+          0,
+          6,
+          9
+        ],
+        "root_agreement": false,
+        "chord_agreement": false,
+        "candidate_coverage": false,
+        "root_candidate_coverage": true,
+        "human_function": "dominant",
+        "generated_function": "dominant",
+        "function_agreement": true,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          4,
+          3,
+          3
+        ],
+        "generated_chord": "F#dim"
+      },
+      {
+        "segment": 8,
+        "status": "evaluated",
+        "human_root_pc": 2,
+        "generated_root_pc": 7,
+        "human_pitch_classes": [
+          0,
+          2,
+          7,
+          9
+        ],
+        "generated_pitch_classes": [
+          2,
+          7,
+          11
+        ],
+        "root_agreement": false,
+        "chord_agreement": false,
+        "candidate_coverage": false,
+        "root_candidate_coverage": true,
+        "human_function": "dominant",
+        "generated_function": "tonic",
+        "function_agreement": false,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          5,
+          2,
+          3
+        ],
+        "generated_chord": "G"
+      },
+      {
+        "segment": 9,
+        "status": "evaluated",
+        "human_root_pc": 2,
+        "generated_root_pc": 6,
+        "human_pitch_classes": [
+          0,
+          2,
+          7,
+          9
+        ],
+        "generated_pitch_classes": [
+          0,
+          4,
+          6,
+          9
+        ],
+        "root_agreement": false,
+        "chord_agreement": false,
+        "candidate_coverage": false,
+        "root_candidate_coverage": true,
+        "human_function": "dominant",
+        "generated_function": "dominant",
+        "function_agreement": true,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          5,
+          2,
+          3
+        ],
+        "generated_chord": "F#dim7"
+      },
+      {
+        "segment": 10,
+        "status": "evaluated",
+        "human_root_pc": 2,
+        "generated_root_pc": 7,
+        "human_pitch_classes": [
+          0,
+          2,
+          7,
+          9
+        ],
+        "generated_pitch_classes": [
+          2,
+          7,
+          11
+        ],
+        "root_agreement": false,
+        "chord_agreement": false,
+        "candidate_coverage": false,
+        "root_candidate_coverage": true,
+        "human_function": "dominant",
+        "generated_function": "tonic",
+        "function_agreement": false,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          5,
+          2,
+          3
+        ],
+        "generated_chord": "G"
+      },
+      {
+        "segment": 11,
+        "status": "evaluated",
+        "human_root_pc": 2,
+        "generated_root_pc": 0,
+        "human_pitch_classes": [
+          0,
+          2,
+          7,
+          9
+        ],
+        "generated_pitch_classes": [
+          0,
+          4,
+          7
+        ],
+        "root_agreement": false,
+        "chord_agreement": false,
+        "candidate_coverage": false,
+        "root_candidate_coverage": true,
+        "human_function": "dominant",
+        "generated_function": "predominant",
+        "function_agreement": false,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          5,
+          2,
+          3
+        ],
+        "generated_chord": "C"
+      },
+      {
+        "segment": 12,
+        "status": "evaluated",
+        "human_root_pc": 2,
+        "generated_root_pc": 6,
+        "human_pitch_classes": [
+          2,
+          6,
+          9
+        ],
+        "generated_pitch_classes": [
+          0,
+          4,
+          6,
+          9
+        ],
+        "root_agreement": false,
+        "chord_agreement": false,
+        "candidate_coverage": true,
+        "root_candidate_coverage": true,
+        "human_function": "dominant",
+        "generated_function": "dominant",
+        "function_agreement": true,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          4,
+          3
+        ],
+        "generated_chord": "F#dim7"
+      },
+      {
+        "segment": 13,
+        "status": "evaluated",
+        "human_root_pc": 2,
+        "generated_root_pc": 7,
+        "human_pitch_classes": [
+          2,
+          6,
+          9
+        ],
+        "generated_pitch_classes": [
+          2,
+          7,
+          11
+        ],
+        "root_agreement": false,
+        "chord_agreement": false,
+        "candidate_coverage": true,
+        "root_candidate_coverage": true,
+        "human_function": "dominant",
+        "generated_function": "tonic",
+        "function_agreement": false,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          4,
+          3
+        ],
+        "generated_chord": "G"
+      },
+      {
+        "segment": 14,
+        "status": "evaluated",
+        "human_root_pc": 2,
+        "generated_root_pc": 0,
+        "human_pitch_classes": [
+          0,
+          2,
+          6,
+          9
+        ],
+        "generated_pitch_classes": [
+          0,
+          4,
+          7
+        ],
+        "root_agreement": false,
+        "chord_agreement": false,
+        "candidate_coverage": false,
+        "root_candidate_coverage": true,
+        "human_function": "dominant",
+        "generated_function": "predominant",
+        "function_agreement": false,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          4,
+          3,
+          3
+        ],
+        "generated_chord": "C"
+      },
+      {
+        "segment": 15,
+        "status": "evaluated",
+        "human_root_pc": 2,
+        "generated_root_pc": 0,
+        "human_pitch_classes": [
+          0,
+          2,
+          6,
+          9
+        ],
+        "generated_pitch_classes": [
+          0,
+          4,
+          7
+        ],
+        "root_agreement": false,
+        "chord_agreement": false,
+        "candidate_coverage": false,
+        "root_candidate_coverage": true,
+        "human_function": "dominant",
+        "generated_function": "predominant",
+        "function_agreement": false,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          4,
+          3,
+          3
+        ],
+        "generated_chord": "C"
+      },
+      {
+        "segment": 16,
+        "status": "evaluated",
+        "human_root_pc": 7,
+        "generated_root_pc": 6,
+        "human_pitch_classes": [
+          0,
+          2,
+          7
+        ],
+        "generated_pitch_classes": [
+          0,
+          6,
+          9
+        ],
+        "root_agreement": false,
+        "chord_agreement": false,
+        "candidate_coverage": false,
+        "root_candidate_coverage": true,
+        "human_function": "tonic",
+        "generated_function": "dominant",
+        "function_agreement": false,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          5,
+          2
+        ],
+        "generated_chord": "F#dim"
+      },
+      {
+        "segment": 17,
+        "status": "evaluated",
+        "human_root_pc": 7,
+        "generated_root_pc": 7,
+        "human_pitch_classes": [
+          0,
+          2,
+          7
+        ],
+        "generated_pitch_classes": [
+          2,
+          7,
+          11
+        ],
+        "root_agreement": true,
+        "chord_agreement": false,
+        "candidate_coverage": false,
+        "root_candidate_coverage": true,
+        "human_function": "tonic",
+        "generated_function": "tonic",
+        "function_agreement": true,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          5,
+          2
+        ],
+        "generated_chord": "G"
+      },
+      {
+        "segment": 18,
+        "status": "evaluated",
+        "human_root_pc": 2,
+        "generated_root_pc": 9,
+        "human_pitch_classes": [
+          2,
+          6,
+          9
+        ],
+        "generated_pitch_classes": [
+          0,
+          4,
+          7,
+          9
+        ],
+        "root_agreement": false,
+        "chord_agreement": false,
+        "candidate_coverage": true,
+        "root_candidate_coverage": true,
+        "human_function": "dominant",
+        "generated_function": "predominant",
+        "function_agreement": false,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          4,
+          3
+        ],
+        "generated_chord": "Am7"
+      },
+      {
+        "segment": 19,
+        "status": "evaluated",
+        "human_root_pc": 2,
+        "generated_root_pc": 6,
+        "human_pitch_classes": [
+          2,
+          6,
+          9
+        ],
+        "generated_pitch_classes": [
+          0,
+          4,
+          6,
+          9
+        ],
+        "root_agreement": false,
+        "chord_agreement": false,
+        "candidate_coverage": true,
+        "root_candidate_coverage": true,
+        "human_function": "dominant",
+        "generated_function": "dominant",
+        "function_agreement": true,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          4,
+          3
+        ],
+        "generated_chord": "F#dim7"
+      },
+      {
+        "segment": 20,
+        "status": "evaluated",
+        "human_root_pc": 9,
+        "generated_root_pc": 7,
+        "human_pitch_classes": [
+          2,
+          4,
+          7,
+          9
+        ],
+        "generated_pitch_classes": [
+          2,
+          7,
+          11
+        ],
+        "root_agreement": false,
+        "chord_agreement": false,
+        "candidate_coverage": false,
+        "root_candidate_coverage": true,
+        "human_function": "predominant",
+        "generated_function": "tonic",
+        "function_agreement": false,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          5,
+          2,
+          3
+        ],
+        "generated_chord": "G"
+      },
+      {
+        "segment": 21,
+        "status": "evaluated",
+        "human_root_pc": 9,
+        "generated_root_pc": 7,
+        "human_pitch_classes": [
+          2,
+          4,
+          7,
+          9
+        ],
+        "generated_pitch_classes": [
+          2,
+          7,
+          11
+        ],
+        "root_agreement": false,
+        "chord_agreement": false,
+        "candidate_coverage": false,
+        "root_candidate_coverage": true,
+        "human_function": "predominant",
+        "generated_function": "tonic",
+        "function_agreement": false,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          5,
+          2,
+          3
+        ],
+        "generated_chord": "G"
+      },
+      {
+        "segment": 22,
+        "status": "evaluated",
+        "human_root_pc": 9,
+        "generated_root_pc": 9,
+        "human_pitch_classes": [
+          2,
+          4,
+          7,
+          9
+        ],
+        "generated_pitch_classes": [
+          0,
+          4,
+          7,
+          9
+        ],
+        "root_agreement": true,
+        "chord_agreement": false,
+        "candidate_coverage": false,
+        "root_candidate_coverage": true,
+        "human_function": "predominant",
+        "generated_function": "predominant",
+        "function_agreement": true,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          5,
+          2,
+          3
+        ],
+        "generated_chord": "Am7"
+      },
+      {
+        "segment": 23,
+        "status": "evaluated",
+        "human_root_pc": 9,
+        "generated_root_pc": 9,
+        "human_pitch_classes": [
+          2,
+          4,
+          7,
+          9
+        ],
+        "generated_pitch_classes": [
+          0,
+          4,
+          7,
+          9
+        ],
+        "root_agreement": true,
+        "chord_agreement": false,
+        "candidate_coverage": false,
+        "root_candidate_coverage": true,
+        "human_function": "predominant",
+        "generated_function": "predominant",
+        "function_agreement": true,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          5,
+          2,
+          3
+        ],
+        "generated_chord": "Am7"
+      },
+      {
+        "segment": 24,
+        "status": "evaluated",
+        "human_root_pc": 7,
+        "generated_root_pc": 6,
+        "human_pitch_classes": [
+          0,
+          2,
+          7
+        ],
+        "generated_pitch_classes": [
+          0,
+          6,
+          9
+        ],
+        "root_agreement": false,
+        "chord_agreement": false,
+        "candidate_coverage": false,
+        "root_candidate_coverage": true,
+        "human_function": "tonic",
+        "generated_function": "dominant",
+        "function_agreement": false,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          5,
+          2
+        ],
+        "generated_chord": "F#dim"
+      },
+      {
+        "segment": 25,
+        "status": "evaluated",
+        "human_root_pc": 7,
+        "generated_root_pc": 7,
+        "human_pitch_classes": [
+          0,
+          2,
+          7
+        ],
+        "generated_pitch_classes": [
+          2,
+          7,
+          11
+        ],
+        "root_agreement": true,
+        "chord_agreement": false,
+        "candidate_coverage": false,
+        "root_candidate_coverage": true,
+        "human_function": "tonic",
+        "generated_function": "tonic",
+        "function_agreement": true,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          5,
+          2
+        ],
+        "generated_chord": "G"
+      },
+      {
+        "segment": 26,
+        "status": "evaluated",
+        "human_root_pc": 2,
+        "generated_root_pc": 2,
+        "human_pitch_classes": [
+          2,
+          6,
+          9
+        ],
+        "generated_pitch_classes": [
+          2,
+          6,
+          9
+        ],
+        "root_agreement": true,
+        "chord_agreement": true,
+        "candidate_coverage": true,
+        "root_candidate_coverage": true,
+        "human_function": "dominant",
+        "generated_function": "dominant",
+        "function_agreement": true,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          4,
+          3
+        ],
+        "generated_chord": "D"
+      },
+      {
+        "segment": 27,
+        "status": "evaluated",
+        "human_root_pc": 2,
+        "generated_root_pc": 4,
+        "human_pitch_classes": [
+          2,
+          6,
+          9
+        ],
+        "generated_pitch_classes": [
+          4,
+          7,
+          11
+        ],
+        "root_agreement": false,
+        "chord_agreement": false,
+        "candidate_coverage": true,
+        "root_candidate_coverage": true,
+        "human_function": "dominant",
+        "generated_function": "tonic",
+        "function_agreement": false,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          4,
+          3
+        ],
+        "generated_chord": "Em"
+      },
+      {
+        "segment": 28,
+        "status": "evaluated",
+        "human_root_pc": 9,
+        "generated_root_pc": 2,
+        "human_pitch_classes": [
+          2,
+          4,
+          9
+        ],
+        "generated_pitch_classes": [
+          2,
+          6,
+          9
+        ],
+        "root_agreement": false,
+        "chord_agreement": false,
+        "candidate_coverage": false,
+        "root_candidate_coverage": true,
+        "human_function": "predominant",
+        "generated_function": "dominant",
+        "function_agreement": false,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          5,
+          2
+        ],
+        "generated_chord": "D"
+      },
+      {
+        "segment": 29,
+        "status": "evaluated",
+        "human_root_pc": 9,
+        "generated_root_pc": 2,
+        "human_pitch_classes": [
+          2,
+          4,
+          9
+        ],
+        "generated_pitch_classes": [
+          2,
+          6,
+          9
+        ],
+        "root_agreement": false,
+        "chord_agreement": false,
+        "candidate_coverage": false,
+        "root_candidate_coverage": true,
+        "human_function": "predominant",
+        "generated_function": "dominant",
+        "function_agreement": false,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          5,
+          2
+        ],
+        "generated_chord": "D"
+      },
+      {
+        "segment": 30,
+        "status": "evaluated",
+        "human_root_pc": 9,
+        "generated_root_pc": 7,
+        "human_pitch_classes": [
+          2,
+          4,
+          9
+        ],
+        "generated_pitch_classes": [
+          2,
+          7,
+          11
+        ],
+        "root_agreement": false,
+        "chord_agreement": false,
+        "candidate_coverage": false,
+        "root_candidate_coverage": true,
+        "human_function": "predominant",
+        "generated_function": "tonic",
+        "function_agreement": false,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          5,
+          2
+        ],
+        "generated_chord": "G"
+      },
+      {
+        "segment": 31,
+        "status": "evaluated",
+        "human_root_pc": 9,
+        "generated_root_pc": 7,
+        "human_pitch_classes": [
+          2,
+          4,
+          9
+        ],
+        "generated_pitch_classes": [
+          2,
+          7,
+          11
+        ],
+        "root_agreement": false,
+        "chord_agreement": false,
+        "candidate_coverage": false,
+        "root_candidate_coverage": true,
+        "human_function": "predominant",
+        "generated_function": "tonic",
+        "function_agreement": false,
+        "reference_coverage_fraction": 1.0,
+        "dominant_reference_fraction": 1.0,
+        "mixed_reference": false,
+        "human_intervals": [
+          5,
+          2
+        ],
+        "generated_chord": "G"
+      }
+    ],
+    "summary": {
+      "total_segments": 32,
+      "evaluated_segments": 32,
+      "root_agreement": 0.15625,
+      "chord_agreement": 0.03125,
+      "function_agreement": 0.375,
+      "function_evaluable_segments": 32,
+      "candidate_coverage": 0.25,
+      "root_candidate_coverage": 1.0,
+      "chord_agreement_given_coverage": 0.125,
+      "unmixed_root_agreement": 0.15625,
+      "unmixed_segments": 32,
+      "mixed_reference_segments": 0
+    }
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "dataset": "SheetSage Hooktheory.json.gz",
+  "split": "TEST",
+  "seed": "EMH-HookTheory-AHFE-v1",
+  "selection_method": "SHA256(seed + colon + record_id), ascending",
+  "requested": 20,
+  "eligible": 2296,
+  "test_exclusion_counts": {
+    "missing_annotation_tag": 268,
+    "unsupported_meter": 115,
+    "changing_or_missing_meter_key": 82
+  },
+  "selected": [
+    {
+      "id": "WeglGvV-mrY",
+      "artist": "red-velvet",
+      "song": "cool-world",
+      "meter": {
+        "beat": 0,
+        "beats_per_bar": 4,
+        "beat_unit": 4
+      },
+      "num_beats": 64,
+      "melody_events": 83,
+      "reference_chords": 13
+    },
+    {
+      "id": "JkmZwVP_gqn",
+      "artist": "toby-fox",
+      "song": "the-lordling---homestuck",
+      "meter": {
+        "beat": 0,
+        "beats_per_bar": 3,
+        "beat_unit": 4
+      },
+      "num_beats": 24,
+      "melody_events": 36,
+      "reference_chords": 9
+    },
+    {
+      "id": "ZOxVOadBodq",
+      "artist": "avicii",
+      "song": "liar-liar",
+      "meter": {
+        "beat": 0,
+        "beats_per_bar": 4,
+        "beat_unit": 4
+      },
+      "num_beats": 64,
+      "melody_events": 67,
+      "reference_chords": 32
+    },
+    {
+      "id": "ROmNzOJEmNw",
+      "artist": "puddle-of-mudd",
+      "song": "blurry",
+      "meter": {
+        "beat": 0,
+        "beats_per_bar": 4,
+        "beat_unit": 4
+      },
+      "num_beats": 16,
+      "melody_events": 31,
+      "reference_chords": 4
+    },
+    {
+      "id": "dPoDRNyBgnM",
+      "artist": "franz-liszt",
+      "song": "hungarian-rhapsody-no-2---ii-friska",
+      "meter": {
+        "beat": 0,
+        "beats_per_bar": 4,
+        "beat_unit": 4
+      },
+      "num_beats": 48,
+      "melody_events": 41,
+      "reference_chords": 9
+    },
+    {
+      "id": "bWgMwzPjolX",
+      "artist": "justice",
+      "song": "planisphere",
+      "meter": {
+        "beat": 0,
+        "beats_per_bar": 4,
+        "beat_unit": 4
+      },
+      "num_beats": 32,
+      "melody_events": 4,
+      "reference_chords": 14
+    },
+    {
+      "id": "ROmNrGLzmNw",
+      "artist": "kevin-macleod",
+      "song": "call-to-adventure",
+      "meter": {
+        "beat": 0,
+        "beats_per_bar": 4,
+        "beat_unit": 4
+      },
+      "num_beats": 64,
+      "melody_events": 19,
+      "reference_chords": 18
+    },
+    {
+      "id": "yvmreJldoOW",
+      "artist": "gemini",
+      "song": "graduation",
+      "meter": {
+        "beat": 0,
+        "beats_per_bar": 4,
+        "beat_unit": 4
+      },
+      "num_beats": 32,
+      "melody_events": 39,
+      "reference_chords": 5
+    },
+    {
+      "id": "EzngRENMmJj",
+      "artist": "the-bird-and-the-bee",
+      "song": "polite-dance-song",
+      "meter": {
+        "beat": 0,
+        "beats_per_bar": 4,
+        "beat_unit": 4
+      },
+      "num_beats": 32,
+      "melody_events": 15,
+      "reference_chords": 7
+    },
+    {
+      "id": "AaoGwpKBoeQ",
+      "artist": "toby-fox",
+      "song": "hopes-and-dreams",
+      "meter": {
+        "beat": 0,
+        "beats_per_bar": 4,
+        "beat_unit": 4
+      },
+      "num_beats": 32,
+      "melody_events": 29,
+      "reference_chords": 5
+    },
+    {
+      "id": "nvgyQQy_gkA",
+      "artist": "michel-legrand",
+      "song": "chanson-des-jumelles",
+      "meter": {
+        "beat": 0,
+        "beats_per_bar": 4,
+        "beat_unit": 4
+      },
+      "num_beats": 68,
+      "melody_events": 56,
+      "reference_chords": 17
+    },
+    {
+      "id": "wnvgyAWzgkA",
+      "artist": "rob-hubbard",
+      "song": "commando-highscore---remember-the-war",
+      "meter": {
+        "beat": 0,
+        "beats_per_bar": 4,
+        "beat_unit": 4
+      },
+      "num_beats": 76,
+      "melody_events": 61,
+      "reference_chords": 20
+    },
+    {
+      "id": "Abm_kLQPmak",
+      "artist": "a-r-rahman",
+      "song": "roja",
+      "meter": {
+        "beat": 0,
+        "beats_per_bar": 4,
+        "beat_unit": 4
+      },
+      "num_beats": 72,
+      "melody_events": 88,
+      "reference_chords": 40
+    },
+    {
+      "id": "ZbgOYlpkonY",
+      "artist": "kevin-macleod",
+      "song": "angevin",
+      "meter": {
+        "beat": 0,
+        "beats_per_bar": 6,
+        "beat_unit": 8
+      },
+      "num_beats": 96,
+      "melody_events": 62,
+      "reference_chords": 11
+    },
+    {
+      "id": "lamknwlZoDM",
+      "artist": "kevin-macleod",
+      "song": "inspired",
+      "meter": {
+        "beat": 0,
+        "beats_per_bar": 4,
+        "beat_unit": 4
+      },
+      "num_beats": 32,
+      "melody_events": 12,
+      "reference_chords": 8
+    },
+    {
+      "id": "kygzRznBgKB",
+      "artist": "regina-spektor",
+      "song": "baby-jesus",
+      "meter": {
+        "beat": 0,
+        "beats_per_bar": 4,
+        "beat_unit": 4
+      },
+      "num_beats": 64,
+      "melody_events": 119,
+      "reference_chords": 27
+    },
+    {
+      "id": "d_gwrJdemGV",
+      "artist": "czeslaw-niemen",
+      "song": "wiem-ze-nie-wrocisz",
+      "meter": {
+        "beat": 0,
+        "beats_per_bar": 4,
+        "beat_unit": 4
+      },
+      "num_beats": 32,
+      "melody_events": 44,
+      "reference_chords": 18
+    },
+    {
+      "id": "dZbgOJKbmnY",
+      "artist": "paul-romero",
+      "song": "heroes-of-might-and-magic-3-main-theme",
+      "meter": {
+        "beat": 0,
+        "beats_per_bar": 4,
+        "beat_unit": 4
+      },
+      "num_beats": 24,
+      "melody_events": 45,
+      "reference_chords": 11
+    },
+    {
+      "id": "YAg-E_nagle",
+      "artist": "mari-yamaguchi",
+      "song": "mega-man-5---charge-man-stage",
+      "meter": {
+        "beat": 0,
+        "beats_per_bar": 4,
+        "beat_unit": 4
+      },
+      "num_beats": 64,
+      "melody_events": 59,
+      "reference_chords": 12
+    },
+    {
+      "id": "BbWgMwZXolX",
+      "artist": "abba",
+      "song": "mamma-mia",
+      "meter": {
+        "beat": 0,
+        "beats_per_bar": 4,
+        "beat_unit": 4
+      },
+      "num_beats": 64,
+      "melody_events": 73,
+      "reference_chords": 16
+    }
+  ]
+}

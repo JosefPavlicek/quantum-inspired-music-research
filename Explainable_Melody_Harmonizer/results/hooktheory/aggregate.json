@@ -1,0 +1,44 @@
+{
+  "root_agreement": {
+    "matches": 139,
+    "evaluated": 439,
+    "rate": 0.31662870159453305
+  },
+  "chord_agreement": {
+    "matches": 90,
+    "evaluated": 439,
+    "rate": 0.20501138952164008
+  },
+  "function_agreement": {
+    "matches": 200,
+    "evaluated": 420,
+    "rate": 0.47619047619047616
+  },
+  "candidate_coverage": {
+    "matches": 236,
+    "evaluated": 439,
+    "rate": 0.5375854214123007
+  },
+  "root_candidate_coverage": {
+    "matches": 420,
+    "evaluated": 439,
+    "rate": 0.9567198177676538
+  },
+  "chord_agreement_given_coverage": {
+    "matches": 90,
+    "evaluated": 236,
+    "rate": 0.3813559322033898
+  },
+  "unmixed_root_agreement": {
+    "matches": 125,
+    "evaluated": 399,
+    "rate": 0.3132832080200501
+  },
+  "processed_cases": 19,
+  "excluded_cases": [
+    {
+      "id": "ZbgOYlpkonY",
+      "reason": "Compound meter pending verified time-base mapping"
+    }
+  ]
+}
