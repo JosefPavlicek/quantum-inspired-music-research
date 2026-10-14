@@ -1,6 +1,6 @@
 # Explainable Melody Harmonizer (EMH)
 
-Transparent, reproducible, and explainable automatic harmony generation from monophonic MusicXML.
+Transparent, reproducible, and explainable automatic harmony generation from monophonic melody, with MusicXML experiments and a separate HookTheory corpus-evaluation workflow.
 
 EMH generates a harmonic sequence from a melody using explicit music-theoretical scoring and a global Viterbi-like dynamic-programming optimization. In addition to the selected chords, it exports a detailed decision log that makes the individual harmonic decisions inspectable and reproducible.
 
@@ -12,7 +12,15 @@ EMH was designed as an explainable baseline for the research line:
 
 EMH is a separate approach alongside the existing quantum-inspired harmonizer in this repository. It is not its replacement.
 
-The system is intended to support experiments in which computationally generated harmony can later be compared with human/original harmonic decisions while preserving a strict separation between generation and evaluation.
+The system supports two complementary experimental settings: six case-based MusicXML harmonizations and a frozen-model evaluation on selected HookTheory excerpts. Both preserve a strict separation between generation and post-hoc comparison with human/reference chords.
+
+## Research artifacts and publications
+
+**Case-based AHFE 2026 study:** *From Human Narrative to Harmonic Structure: A Human-Centered Investigation of Algorithmic Music Generation through the Chord Wheel Diagram*. This study investigates individual songs and the relationship between generated harmony and human harmonic decisions.
+
+**HookTheory corpus AHFE 2026 study:** *From Individual Songs to Music Corpora: Evaluating Explainable Harmonic Decision-Making on HookTheory*. This follow-up evaluates the unchanged EMH v0.12 model against independently collected chord annotations.
+
+The HookTheory experimental baseline is identified by the Git tag `emh-v0.12.1-hooktheory`. The tag identifies a reproducible software/experiment snapshot, **not a new harmonic decision model**. Post-hoc diagnostics added later should be committed separately without moving or rewriting that tag.
 
 ## Quick start
 
@@ -56,7 +64,7 @@ The generated files are written to:
 results/
 ```
 
-The experimental MusicXML files used in the current study are stored in:
+The six case-based experimental MusicXML files are stored in:
 
 ```text
 examples/
@@ -70,7 +78,7 @@ Exact commands for reproducing every experimental run are provided below.
 - Reference/original harmony does not influence generation.
 - The global key is detected from melodic pitch content.
 - Harmonic segmentation respects meter and note duration.
-- Compound meters are treated according to their natural pulse structure.
+- The MusicXML core handles supported compound meters according to their natural pulse structure; the HookTheory adapter has a separate time-base validation requirement.
 - Chord candidates are explicit rather than hidden in a black-box model.
 - Harmonic decisions are evaluated using interpretable scoring components.
 - The complete chord sequence is optimized globally using a Viterbi-like dynamic-programming procedure.
@@ -329,9 +337,13 @@ python -m pytest -q
 
 Use `python -m pytest -q` rather than plain `pytest -q` to ensure that the local `emh` package is resolved consistently in the execution environment.
 
-The regression suite tests the implementation itself. It is separate from the six musical experiments described below.
+The regression suite tests the implementation itself. It is separate from the six MusicXML experiments and the HookTheory corpus evaluation described below.
 
-## Experimental MusicXML dataset
+## Case-based MusicXML experiments
+
+The following six-song workflow is the original case-based experiment. It is separate from the HookTheory TEST-partition corpus experiment.
+
+### Experimental MusicXML dataset
 
 The experimental MusicXML inputs are stored in:
 
@@ -429,7 +441,7 @@ python harmonizer.py \
   --output results
 ```
 
-## Reproducing the complete experiment
+## Reproducing the six-song MusicXML experiment
 
 To reproduce the complete experiment from a clean installation:
 
@@ -537,7 +549,7 @@ This distinction prevents reference-harmony leakage and makes it possible to com
 
 The experimental EMH implementation is treated as a frozen baseline.
 
-The following aspects must remain unchanged across the six experimental songs:
+The following aspects must remain unchanged across the six MusicXML experiments and the frozen HookTheory corpus evaluation:
 
 - key-detection method,
 - segmentation rules,
@@ -557,7 +569,7 @@ A genuine software defect may be corrected, but such a correction should be docu
 
 ## Current experimental version
 
-The current experimental baseline is **EMH v0.12**.
+The frozen harmonic model is **EMH v0.12**. The HookTheory corpus experiment is preserved under the Git tag **`emh-v0.12.1-hooktheory`**. The latter is a release identifier, not a different model or a tuning step.
 
 The version includes:
 
@@ -602,6 +614,98 @@ A difference from the human reference can, for example, result from:
 
 For this reason, subsequent evaluation should not be reduced to exact chord matching alone.
 
+## HookTheory corpus evaluation (AHFE 2026 follow-up)
+
+### Purpose and frozen-model design
+
+The corpus experiment tests whether the **same frozen EMH v0.12 decision rules** used for individual songs can be evaluated against independently collected human harmony annotations. The HookTheory symbolic corpus is distributed through the SheetSage project; original dataset access and reuse are governed by its upstream terms.
+
+The evaluation uses a deterministic selection manifest from the HookTheory **TEST partition**. Twenty excerpts were selected, **19 were processed**, and **one was excluded** because compound-meter time-base mapping had not been verified in the HookTheory adapter. The resulting sample contains **439 evaluable harmonic decision segments**. This is a selected proof-of-concept sample, not a representative estimate of performance across all popular music.
+
+The frozen candidate set contains seven diatonic triads (`I`, `ii`, `iii`, `IV`, `V`, `vi`, `vii°`) and three selected seventh-chord candidates (`ii7`, `V7`, `viiø7`) relative to the melody-inferred key. The weights remain melody compatibility `0.50`, functional transitions `0.25`, persistence `0.10`, and cadence `0.15`.
+
+**Reference-harmony firewall:** Only melodic events and necessary structural/timing data are passed to the generator. Human-reference chord labels are loaded separately by the evaluator *after* harmonization. The generator does not train on, receive, or optimize against the reference chords. Reference key annotations are likewise used only for the subsequent key audit.
+
+### Running and auditing the corpus experiment
+
+Execute these commands from `Explainable_Melody_Harmonizer/` in a Python environment with the dependencies installed:
+
+```bash
+python -m pytest -q
+python experiments/run_hooktheory_poc.py
+python experiments/audit_hooktheory_poc.py --output results/hooktheory --core emh
+```
+
+The experiment requires the HookTheory source archive and selection manifest expected by the local loader. The source dataset is not bundled in this README and should be obtained according to the upstream distribution conditions. Consult the corresponding scripts for any additional path or environment requirements; the commands above assume the project's standard directory layout.
+
+For the **additional post-hoc key audit**, use the separately committed diagnostic script, when present:
+
+```bash
+python experiments/audit_hooktheory_keys.py
+```
+
+This reads the reference key annotations and the previously generated EMH key results; it must not feed the human-reference key back into the harmonizer. The audit produces `results/hooktheory/key_audit_raw.json` in the current workflow. If using the original frozen Git tag, the later key-audit script may not yet be present and should be checked out from the subsequent diagnostic commit.
+
+The main corpus results and diagnostics are organized under `results/hooktheory/`, including aggregate results and decision-level audit outputs such as `aggregate.json`, `diagnostics.json`, and `diagnostics.md` where present.
+
+### Evaluation protocol
+
+Generated and human harmony are compared on the fixed EMH harmonic-decision grid. The human-reference chord for each segment is selected by **maximum temporal overlap**. This simplifies segments with multiple reference chords: **40 segments** have mixed reference harmony, and **four** have incomplete reference coverage.
+
+Harmonic-function agreement is computed **relative to the key inferred by EMH from melody**, not from independently validated human functional labels. The metrics below use different denominators and should not be interpreted as interchangeable measures of musical quality.
+
+| Measure | Matches / evaluated | Rate |
+| --- | ---: | ---: |
+| Chord-root agreement | 139 / 439 | 31.66% |
+| Exact chord agreement | 90 / 439 | 20.50% |
+| Harmonic-function agreement (EMH-inferred key) | 200 / 420 | 47.62% |
+| Candidate chord coverage | 236 / 439 | 53.76% |
+| Candidate root coverage | 420 / 439 | 95.67% |
+| Exact chord agreement, conditional on candidate coverage | 90 / 236 | 38.14% |
+| Root agreement on unmixed segments | 125 / 399 | 31.33% |
+
+### Decision-level diagnostics
+
+The 439 evaluated segments are partitioned into three **mutually exclusive** outcomes:
+
+| Outcome | Segments | Share |
+| --- | ---: | ---: |
+| Exact human-reference chord match | 90 | 20.50% |
+| Reference chord absent from the available candidate set | 203 | 46.24% |
+| Reference chord available but not selected | 146 | 33.26% |
+| **Total** | **439** | **100.00%** |
+
+This separates a **representational constraint** (the reference chord was not selectable under the detected key and frozen vocabulary) from a **selection difference** (the chord was selectable but another path won). The latter does **not** identify which scoring component caused the decision; controlled ablation or counterfactual analysis would be required for causal attribution. Neither category implies that the generated chord is aesthetically incorrect.
+
+### Post-hoc tonal-context audit
+
+A separate audit compares EMH's melody-derived key with the HookTheory reference key annotation. An exact tonic pitch-class and major/minor mode match was observed in **8 of 19 processed excerpts (42.1%)**. The other annotations differ in tonic, mode, or scale type. This comparison is **post-hoc** and does not change the original generation or seven metrics above.
+
+The limited key agreement cautions against interpreting the **47.62% harmonic-function agreement** as an independently validated match to human harmonic intention. Key annotations were not independently verified against the full musical context, and short melodies may support ambiguous or alternative tonal interpretations. Tonal-context differences may interact with both candidate availability and chord selection; they are **not a fourth mutually exclusive segment outcome**.
+
+### Interpretation and future work
+
+The corpus experiment measures correspondence with one human-annotated harmonic reference, **not subjective musical quality**, nor whether a generated chord is the only correct harmonization. It does not include a listening test or a human usability study.
+
+The decision-level audit can help musicians, teachers, and researchers inspect alternative harmonic decisions and formulate targeted experiments. Potential educational or human–AI collaboration benefits remain hypotheses for future human-centered evaluation.
+
+Future controlled studies can vary candidate vocabulary (including additional sevenths, sixths, secondary dominants, and extensions), key inference, harmonic segmentation, and scoring weights **as separately versioned experiments**, while preserving the original v0.12 baseline.
+
+### Corpus-related project files
+
+The corpus workflow extends the original MusicXML-only structure with:
+
+- `hooktheory/` — HookTheory parsing/adaptation and related support code.
+- `experiments/run_hooktheory_poc.py` — frozen corpus evaluation runner.
+- `experiments/audit_hooktheory_poc.py` — decision-level diagnostics.
+- `experiments/audit_hooktheory_keys.py` — later post-hoc tonal-context audit, when committed.
+- `results/hooktheory/` — experiment summaries and diagnostic outputs.
+- `data/hooktheory/` — local source-data location where configured; source data may be untracked and subject to upstream licensing.
+
+For the publication's reproducibility reference, use the Git tag `emh-v0.12.1-hooktheory` and identify any later diagnostic commit separately.
+
+---
+
 ## Status
 
 EMH v0.12 is implemented and operational as a frozen experimental explainable harmonization baseline.
@@ -619,4 +723,4 @@ MusicXML melody
 → separate post-hoc comparison with human harmony
 ```
 
-The six experimental MusicXML inputs are included in `examples/`, and the commands required to reproduce each harmonization run are documented above.
+The six experimental MusicXML inputs are included in `examples/`, and the commands required to reproduce each harmonization run are documented above. The HookTheory experiment and its post-hoc diagnostics are described in the dedicated section below.
