@@ -1,0 +1,421 @@
+[
+  {
+    "id": "WeglGvV-mrY",
+    "artist": "red-velvet",
+    "song": "cool-world",
+    "status": "ok",
+    "emh_detected_key": "A major",
+    "hooktheory_key_annotations": [
+      {
+        "beat": 0,
+        "tonic_pitch_class": 9,
+        "scale_degree_intervals": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": "JkmZwVP_gqn",
+    "artist": "toby-fox",
+    "song": "the-lordling---homestuck",
+    "status": "ok",
+    "emh_detected_key": "G# major",
+    "hooktheory_key_annotations": [
+      {
+        "beat": 0,
+        "tonic_pitch_class": 1,
+        "scale_degree_intervals": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ZOxVOadBodq",
+    "artist": "avicii",
+    "song": "liar-liar",
+    "status": "ok",
+    "emh_detected_key": "A major",
+    "hooktheory_key_annotations": [
+      {
+        "beat": 0,
+        "tonic_pitch_class": 11,
+        "scale_degree_intervals": [
+          2,
+          1,
+          2,
+          2,
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ROmNzOJEmNw",
+    "artist": "puddle-of-mudd",
+    "song": "blurry",
+    "status": "ok",
+    "emh_detected_key": "D# minor",
+    "hooktheory_key_annotations": [
+      {
+        "beat": 0,
+        "tonic_pitch_class": 3,
+        "scale_degree_intervals": [
+          2,
+          1,
+          2,
+          2,
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dPoDRNyBgnM",
+    "artist": "franz-liszt",
+    "song": "hungarian-rhapsody-no-2---ii-friska",
+    "status": "ok",
+    "emh_detected_key": "F# minor",
+    "hooktheory_key_annotations": [
+      {
+        "beat": 0,
+        "tonic_pitch_class": 6,
+        "scale_degree_intervals": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bWgMwzPjolX",
+    "artist": "justice",
+    "song": "planisphere",
+    "status": "ok",
+    "emh_detected_key": "A# major",
+    "hooktheory_key_annotations": [
+      {
+        "beat": 0,
+        "tonic_pitch_class": 3,
+        "scale_degree_intervals": [
+          2,
+          1,
+          2,
+          2,
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ROmNrGLzmNw",
+    "artist": "kevin-macleod",
+    "song": "call-to-adventure",
+    "status": "ok",
+    "emh_detected_key": "F# minor",
+    "hooktheory_key_annotations": [
+      {
+        "beat": 0,
+        "tonic_pitch_class": 2,
+        "scale_degree_intervals": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yvmreJldoOW",
+    "artist": "gemini",
+    "song": "graduation",
+    "status": "ok",
+    "emh_detected_key": "D minor",
+    "hooktheory_key_annotations": [
+      {
+        "beat": 0,
+        "tonic_pitch_class": 7,
+        "scale_degree_intervals": [
+          2,
+          1,
+          2,
+          2,
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EzngRENMmJj",
+    "artist": "the-bird-and-the-bee",
+    "song": "polite-dance-song",
+    "status": "ok",
+    "emh_detected_key": "C major",
+    "hooktheory_key_annotations": [
+      {
+        "beat": 0,
+        "tonic_pitch_class": 0,
+        "scale_degree_intervals": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": "AaoGwpKBoeQ",
+    "artist": "toby-fox",
+    "song": "hopes-and-dreams",
+    "status": "ok",
+    "emh_detected_key": "F# major",
+    "hooktheory_key_annotations": [
+      {
+        "beat": 0,
+        "tonic_pitch_class": 11,
+        "scale_degree_intervals": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nvgyQQy_gkA",
+    "artist": "michel-legrand",
+    "song": "chanson-des-jumelles",
+    "status": "ok",
+    "emh_detected_key": "F minor",
+    "hooktheory_key_annotations": [
+      {
+        "beat": 0,
+        "tonic_pitch_class": 3,
+        "scale_degree_intervals": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wnvgyAWzgkA",
+    "artist": "rob-hubbard",
+    "song": "commando-highscore---remember-the-war",
+    "status": "ok",
+    "emh_detected_key": "A major",
+    "hooktheory_key_annotations": [
+      {
+        "beat": 0,
+        "tonic_pitch_class": 9,
+        "scale_degree_intervals": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Abm_kLQPmak",
+    "artist": "a-r-rahman",
+    "song": "roja",
+    "status": "ok",
+    "emh_detected_key": "E minor",
+    "hooktheory_key_annotations": [
+      {
+        "beat": 0,
+        "tonic_pitch_class": 4,
+        "scale_degree_intervals": [
+          2,
+          1,
+          2,
+          2,
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ZbgOYlpkonY",
+    "artist": "kevin-macleod",
+    "song": "angevin",
+    "status": "excluded_or_missing_result",
+    "hooktheory_key_annotations": [
+      {
+        "beat": 0,
+        "tonic_pitch_class": 7,
+        "scale_degree_intervals": [
+          2,
+          1,
+          2,
+          2,
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lamknwlZoDM",
+    "artist": "kevin-macleod",
+    "song": "inspired",
+    "status": "ok",
+    "emh_detected_key": "E minor",
+    "hooktheory_key_annotations": [
+      {
+        "beat": 0,
+        "tonic_pitch_class": 0,
+        "scale_degree_intervals": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kygzRznBgKB",
+    "artist": "regina-spektor",
+    "song": "baby-jesus",
+    "status": "ok",
+    "emh_detected_key": "C major",
+    "hooktheory_key_annotations": [
+      {
+        "beat": 0,
+        "tonic_pitch_class": 5,
+        "scale_degree_intervals": [
+          2,
+          1,
+          2,
+          2,
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d_gwrJdemGV",
+    "artist": "czeslaw-niemen",
+    "song": "wiem-ze-nie-wrocisz",
+    "status": "ok",
+    "emh_detected_key": "C minor",
+    "hooktheory_key_annotations": [
+      {
+        "beat": 0,
+        "tonic_pitch_class": 0,
+        "scale_degree_intervals": [
+          2,
+          1,
+          2,
+          2,
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dZbgOJKbmnY",
+    "artist": "paul-romero",
+    "song": "heroes-of-might-and-magic-3-main-theme",
+    "status": "ok",
+    "emh_detected_key": "A major",
+    "hooktheory_key_annotations": [
+      {
+        "beat": 0,
+        "tonic_pitch_class": 9,
+        "scale_degree_intervals": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": "YAg-E_nagle",
+    "artist": "mari-yamaguchi",
+    "song": "mega-man-5---charge-man-stage",
+    "status": "ok",
+    "emh_detected_key": "G major",
+    "hooktheory_key_annotations": [
+      {
+        "beat": 0,
+        "tonic_pitch_class": 2,
+        "scale_degree_intervals": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BbWgMwZXolX",
+    "artist": "abba",
+    "song": "mamma-mia",
+    "status": "ok",
+    "emh_detected_key": "D major",
+    "hooktheory_key_annotations": [
+      {
+        "beat": 0,
+        "tonic_pitch_class": 2,
+        "scale_degree_intervals": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          2
+        ]
+      }
+    ]
+  }
+]
