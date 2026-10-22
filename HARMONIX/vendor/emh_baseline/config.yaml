@@ -1,0 +1,44 @@
+version: "0.1"
+
+segmentation:
+  mode: auto
+  supported_meters:
+    "2/4":  [0]
+    "3/4":  [0]
+    "4/4":  [0, 2]
+    "6/8":  [0, 3]
+    "12/8": [0, 3, 6, 9]
+
+candidates:
+  diatonic_triads: true
+  common_sevenths: true
+  secondary_dominants: false
+
+scoring:
+  weights:
+    melody_compatibility: 0.50
+    functional_transition: 0.25
+    persistence: 0.10
+    cadence: 0.15
+
+  melody:
+    chord_tone: 1.00
+    diatonic_non_chord_tone: 0.45
+    chromatic_non_chord_tone: 0.00
+
+  metric_strength:
+    strong: 1.50
+    medium: 1.20
+    weak: 1.00
+
+  persistence:
+    same_chord: 1.00
+    chord_change: 0.55
+
+explainability:
+  alternatives: 3
+  export_json: true
+  export_csv: true
+
+output:
+  write_musicxml: true
