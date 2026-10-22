@@ -1,0 +1,3 @@
+# Shared datasets for new research projects
+/data/*
+!/data/README.md

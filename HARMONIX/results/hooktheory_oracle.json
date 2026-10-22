@@ -1,0 +1,339 @@
+{
+  "summary": {
+    "n_selected": 20,
+    "n_evaluated": 16,
+    "n_excluded": 4,
+    "mean_baseline_agreement": 0.38292118930905694,
+    "mean_targeted_gain": 0.0931547619047619,
+    "mean_random_expected_gain": 0.1089991685501815,
+    "mean_targeted_advantage": -0.015844406645419598,
+    "wins_ties_losses": {
+      "wins": 7,
+      "ties": 2,
+      "losses": 7
+    },
+    "warning": "Exploratory study; only exact reference chords in EMH vocabulary; missing/mixed labels excluded. Selection may be biased by feasibility filtering. Not musical quality."
+  },
+  "songs": [
+    {
+      "id": "WeglGvV-mrY",
+      "status": "ok",
+      "reference_status_counts": {
+        "out_of_vocabulary": 12,
+        "covered": 17,
+        "mixed_or_partial": 3
+      },
+      "segments": 32,
+      "covered_segments": 17,
+      "baseline_agreement": 0.47058823529411764,
+      "chosen_position": 18,
+      "chosen_agreement": 0.47058823529411764,
+      "chosen_gain": 0.0,
+      "random_expected_agreement": 0.4982698961937716,
+      "random_expected_gain": 0.02768166089965396,
+      "advantage_over_random": -0.02768166089965396,
+      "candidate_count": 17
+    },
+    {
+      "id": "JkmZwVP_gqn",
+      "status": "ok",
+      "reference_status_counts": {
+        "covered": 2,
+        "out_of_vocabulary": 4,
+        "mixed_or_partial": 2
+      },
+      "segments": 8,
+      "covered_segments": 2,
+      "baseline_agreement": 0.0,
+      "chosen_position": 2,
+      "chosen_agreement": 0.5,
+      "chosen_gain": 0.5,
+      "random_expected_agreement": 0.75,
+      "random_expected_gain": 0.75,
+      "advantage_over_random": -0.25,
+      "candidate_count": 2
+    },
+    {
+      "id": "ZOxVOadBodq",
+      "status": "ok",
+      "reference_status_counts": {
+        "covered": 16,
+        "mixed_or_partial": 8,
+        "out_of_vocabulary": 8
+      },
+      "segments": 32,
+      "covered_segments": 16,
+      "baseline_agreement": 0.0625,
+      "chosen_position": 28,
+      "chosen_agreement": 0.1875,
+      "chosen_gain": 0.125,
+      "random_expected_agreement": 0.1328125,
+      "random_expected_gain": 0.0703125,
+      "advantage_over_random": 0.0546875,
+      "candidate_count": 16
+    },
+    {
+      "id": "ROmNzOJEmNw",
+      "status": "excluded",
+      "reason": "No fully aligned, vocabulary-covered reference chords"
+    },
+    {
+      "id": "dPoDRNyBgnM",
+      "status": "ok",
+      "reference_status_counts": {
+        "out_of_vocabulary": 16,
+        "covered": 6,
+        "no_reference": 2
+      },
+      "segments": 24,
+      "covered_segments": 6,
+      "baseline_agreement": 1.0,
+      "chosen_position": 2,
+      "chosen_agreement": 1.0,
+      "chosen_gain": 0.0,
+      "random_expected_agreement": 1.0,
+      "random_expected_gain": 0.0,
+      "advantage_over_random": 0.0,
+      "candidate_count": 6
+    },
+    {
+      "id": "bWgMwzPjolX",
+      "status": "excluded",
+      "reason": "No fully aligned, vocabulary-covered reference chords"
+    },
+    {
+      "id": "ROmNrGLzmNw",
+      "status": "ok",
+      "reference_status_counts": {
+        "covered": 24,
+        "out_of_vocabulary": 5,
+        "mixed_or_partial": 3
+      },
+      "segments": 32,
+      "covered_segments": 24,
+      "baseline_agreement": 0.6666666666666666,
+      "chosen_position": 11,
+      "chosen_agreement": 0.6666666666666666,
+      "chosen_gain": 0.0,
+      "random_expected_agreement": 0.6875,
+      "random_expected_gain": 0.02083333333333337,
+      "advantage_over_random": -0.02083333333333337,
+      "candidate_count": 24
+    },
+    {
+      "id": "yvmreJldoOW",
+      "status": "ok",
+      "reference_status_counts": {
+        "covered": 10,
+        "out_of_vocabulary": 4,
+        "no_reference": 2
+      },
+      "segments": 16,
+      "covered_segments": 10,
+      "baseline_agreement": 0.4,
+      "chosen_position": 9,
+      "chosen_agreement": 0.5,
+      "chosen_gain": 0.09999999999999998,
+      "random_expected_agreement": 0.41000000000000003,
+      "random_expected_gain": 0.010000000000000009,
+      "advantage_over_random": 0.08999999999999997,
+      "candidate_count": 10
+    },
+    {
+      "id": "EzngRENMmJj",
+      "status": "ok",
+      "reference_status_counts": {
+        "out_of_vocabulary": 4,
+        "covered": 12
+      },
+      "segments": 16,
+      "covered_segments": 12,
+      "baseline_agreement": 0.5,
+      "chosen_position": 9,
+      "chosen_agreement": 0.5833333333333334,
+      "chosen_gain": 0.08333333333333337,
+      "random_expected_agreement": 0.5555555555555556,
+      "random_expected_gain": 0.05555555555555558,
+      "advantage_over_random": 0.02777777777777779,
+      "candidate_count": 12
+    },
+    {
+      "id": "AaoGwpKBoeQ",
+      "status": "ok",
+      "reference_status_counts": {
+        "covered": 10,
+        "out_of_vocabulary": 5,
+        "mixed_or_partial": 1
+      },
+      "segments": 16,
+      "covered_segments": 10,
+      "baseline_agreement": 0.0,
+      "chosen_position": 8,
+      "chosen_agreement": 0.2,
+      "chosen_gain": 0.2,
+      "random_expected_agreement": 0.25,
+      "random_expected_gain": 0.25,
+      "advantage_over_random": -0.04999999999999999,
+      "candidate_count": 10
+    },
+    {
+      "id": "nvgyQQy_gkA",
+      "status": "ok",
+      "reference_status_counts": {
+        "out_of_vocabulary": 26,
+        "covered": 8
+      },
+      "segments": 34,
+      "covered_segments": 8,
+      "baseline_agreement": 0.25,
+      "chosen_position": 13,
+      "chosen_agreement": 0.375,
+      "chosen_gain": 0.125,
+      "random_expected_agreement": 0.375,
+      "random_expected_gain": 0.125,
+      "advantage_over_random": 0.0,
+      "candidate_count": 8
+    },
+    {
+      "id": "wnvgyAWzgkA",
+      "status": "ok",
+      "reference_status_counts": {
+        "covered": 28,
+        "out_of_vocabulary": 10
+      },
+      "segments": 38,
+      "covered_segments": 28,
+      "baseline_agreement": 0.42857142857142855,
+      "chosen_position": 18,
+      "chosen_agreement": 0.4642857142857143,
+      "chosen_gain": 0.035714285714285754,
+      "random_expected_agreement": 0.4464285714285714,
+      "random_expected_gain": 0.01785714285714285,
+      "advantage_over_random": 0.017857142857142905,
+      "candidate_count": 28
+    },
+    {
+      "id": "Abm_kLQPmak",
+      "status": "ok",
+      "reference_status_counts": {
+        "covered": 8,
+        "out_of_vocabulary": 20,
+        "mixed_or_partial": 8
+      },
+      "segments": 36,
+      "covered_segments": 8,
+      "baseline_agreement": 0.875,
+      "chosen_position": 24,
+      "chosen_agreement": 1.0,
+      "chosen_gain": 0.125,
+      "random_expected_agreement": 0.890625,
+      "random_expected_gain": 0.015625,
+      "advantage_over_random": 0.109375,
+      "candidate_count": 8
+    },
+    {
+      "id": "ZbgOYlpkonY",
+      "status": "excluded",
+      "reason": "Command '['/workspaces/quantum-inspired-music-research/HARMONIX/.venv/bin/python', '/workspaces/quantum-inspired-music-research/HARMONIX/harmonix/_hooktheory_worker.py', '/workspaces/quantum-inspired-music-research/data/hooktheory/Hooktheory.json.gz', 'ZbgOYlpkonY']' returned non-zero exit status 1."
+    },
+    {
+      "id": "lamknwlZoDM",
+      "status": "excluded",
+      "reason": "No fully aligned, vocabulary-covered reference chords"
+    },
+    {
+      "id": "kygzRznBgKB",
+      "status": "ok",
+      "reference_status_counts": {
+        "out_of_vocabulary": 9,
+        "covered": 12,
+        "mixed_or_partial": 7,
+        "no_reference": 4
+      },
+      "segments": 32,
+      "covered_segments": 12,
+      "baseline_agreement": 0.25,
+      "chosen_position": 6,
+      "chosen_agreement": 0.25,
+      "chosen_gain": 0.0,
+      "random_expected_agreement": 0.4097222222222222,
+      "random_expected_gain": 0.1597222222222222,
+      "advantage_over_random": -0.1597222222222222,
+      "candidate_count": 12
+    },
+    {
+      "id": "d_gwrJdemGV",
+      "status": "ok",
+      "reference_status_counts": {
+        "mixed_or_partial": 4,
+        "covered": 9,
+        "out_of_vocabulary": 2,
+        "no_reference": 1
+      },
+      "segments": 16,
+      "covered_segments": 9,
+      "baseline_agreement": 0.5555555555555556,
+      "chosen_position": 10,
+      "chosen_agreement": 0.5555555555555556,
+      "chosen_gain": 0.0,
+      "random_expected_agreement": 0.5925925925925926,
+      "random_expected_gain": 0.03703703703703698,
+      "advantage_over_random": -0.03703703703703698,
+      "candidate_count": 9
+    },
+    {
+      "id": "dZbgOJKbmnY",
+      "status": "ok",
+      "reference_status_counts": {
+        "covered": 10,
+        "out_of_vocabulary": 2
+      },
+      "segments": 12,
+      "covered_segments": 10,
+      "baseline_agreement": 0.4,
+      "chosen_position": 3,
+      "chosen_agreement": 0.4,
+      "chosen_gain": 0.0,
+      "random_expected_agreement": 0.48,
+      "random_expected_gain": 0.07999999999999996,
+      "advantage_over_random": -0.07999999999999996,
+      "candidate_count": 10
+    },
+    {
+      "id": "YAg-E_nagle",
+      "status": "ok",
+      "reference_status_counts": {
+        "out_of_vocabulary": 24,
+        "covered": 8
+      },
+      "segments": 32,
+      "covered_segments": 8,
+      "baseline_agreement": 0.125,
+      "chosen_position": 5,
+      "chosen_agreement": 0.25,
+      "chosen_gain": 0.125,
+      "random_expected_agreement": 0.21875,
+      "random_expected_gain": 0.09375,
+      "advantage_over_random": 0.03125,
+      "candidate_count": 8
+    },
+    {
+      "id": "BbWgMwZXolX",
+      "status": "ok",
+      "reference_status_counts": {
+        "covered": 28,
+        "mixed_or_partial": 4
+      },
+      "segments": 32,
+      "covered_segments": 28,
+      "baseline_agreement": 0.14285714285714285,
+      "chosen_position": 7,
+      "chosen_agreement": 0.21428571428571427,
+      "chosen_gain": 0.07142857142857142,
+      "random_expected_agreement": 0.17346938775510204,
+      "random_expected_gain": 0.03061224489795919,
+      "advantage_over_random": 0.040816326530612235,
+      "candidate_count": 28
+    }
+  ]
+}
