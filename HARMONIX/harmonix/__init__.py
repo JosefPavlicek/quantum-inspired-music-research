@@ -1,2 +1,2 @@
-"""HARMONIX research platform; isolated EMH baseline bridge."""
-__version__ = "0.1.0"
+"""HARMONIX research platform; frozen EMH remains isolated."""
+__version__ = "0.2.0"

@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 results/*
 !results/.gitkeep
+harmonix_research.egg-info/
