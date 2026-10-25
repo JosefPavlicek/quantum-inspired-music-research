@@ -1,5 +1,16 @@
 # Explainable Melody Harmonizer (EMH)
 
+> [!CAUTION]
+> **IMPORTANT SCIENTIFIC DISCLOSURE — KNOWN HARMONIC IMPLEMENTATION ERROR AND MODEL LIMITATIONS (identified October 2026)**
+>
+> During subsequent research on **HARMONIX**, which builds on the Explainable Melody Harmonizer (EMH), we identified a **music-theoretical implementation error** in the frozen EMH chord-candidate generator (`emh/harmony.py`), alongside important limitations of its harmonic vocabulary. Researchers reusing EMH or interpreting its published experimental results should be aware of the following:
+>
+> 1. **Incorrect dominant-seventh construction in major keys.** The baseline creates the seventh-chord candidate on scale degree V with pitch-class intervals `(0, 4, 7, 11)` above its root. This is a **major-seventh chord (Vmaj7)**, not a conventional **dominant seventh (V7)**, which requires `(0, 4, 7, 10)`. The candidate is nevertheless labelled `V7` by the implementation. Consequently, both the candidate's actual pitch content and its displayed harmonic label must be interpreted with caution.
+> 2. **Natural-minor-only candidate generation.** For minor keys, the baseline uses natural-minor scale degrees and does not introduce the raised leading tone required for the conventional major dominant **V** and dominant seventh **V7** in harmonic-minor practice. These common functional-harmony options are therefore absent from the baseline candidate set.
+> 3. **Restricted candidate vocabulary.** For each melody-inferred global key, EMH generates only **10 candidates: seven diatonic triads and three selected seventh-chord variants on degrees ii, V, and vii**. The available chords are thus highly dependent on the inferred key, and many ordinary human-reference chords may not be representable, even when their chord qualities are musically familiar.
+>
+> **Research and reproducibility policy:** These findings were identified *after* the original EMH experimental baseline was frozen. **The historical EMH v0.12 model and its tagged experimental snapshot (`emh-v0.12.1-hooktheory`) are intentionally not retroactively modified.** Earlier measurements remain reproducible as measurements of that specific implementation, but they must **not** be interpreted as performance estimates for a corrected dominant-seventh or expanded-vocabulary harmonizer. Corrected and extended candidate-generation models will be developed and evaluated separately within **HARMONIX**, the follow-up research project, with explicit versioning and new controlled experiments. This disclosure documents a known limitation; it does not imply that the earlier results have been recomputed or corrected.
+
 Transparent, reproducible, and explainable automatic harmony generation from monophonic melody, with MusicXML experiments and a separate HookTheory corpus-evaluation workflow.
 
 EMH generates a harmonic sequence from a melody using explicit music-theoretical scoring and a global Viterbi-like dynamic-programming optimization. In addition to the selected chords, it exports a detailed decision log that makes the individual harmonic decisions inspectable and reproducible.
