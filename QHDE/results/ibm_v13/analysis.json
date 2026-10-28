@@ -1,0 +1,275 @@
+{
+  "version": "QHDE-v0.13",
+  "job_id": "dbh3hqsdgr2s73cslji0",
+  "backend": "ibm_pittsburgh",
+  "metrics": {
+    "caller": "qiskit_ibm_runtime~sampler.py",
+    "qiskit_version": "qiskit_ibm_runtime-0.51.0,qiskit-2.6.1*",
+    "timestamps": {
+      "created": "2026-10-28T18:03:23.411621Z",
+      "finished": "2026-10-28T18:03:46.371168Z",
+      "running": "2026-10-28T18:03:24.268578Z"
+    },
+    "usage": {
+      "qpu_charge_time_seconds": 6,
+      "value": 0.096328,
+      "unit": "resource_units",
+      "status": "complete",
+      "details": [
+        {
+          "value": 0.096328,
+          "unit": "resource_units",
+          "metric": {
+            "id": "caffe3ca-729c-5750-8777-df63bbf8bfd9",
+            "value": 6
+          }
+        }
+      ]
+    },
+    "circuits_execution_time_ns": 4049510144
+  },
+  "records": [
+    {
+      "score_file": "QHDE/results/hooktheory_v04/scores_000.json",
+      "record_id": "LAgQGkwEoyO",
+      "full_optimum_represented": true,
+      "num_tied_optima": 1,
+      "optimal_basis_indices": [
+        2
+      ],
+      "measurements": [
+        {
+          "label": "uniform",
+          "hits": 72,
+          "shots": 1024,
+          "probability": 0.0703125,
+          "wilson_95": [
+            0.05620551291213331,
+            0.08763143628315125
+          ],
+          "ideal_probability": 0.0625
+        },
+        {
+          "label": "p1",
+          "hits": 147,
+          "shots": 1024,
+          "probability": 0.1435546875,
+          "wilson_95": [
+            0.1234091768364291,
+            0.1663646560187501
+          ],
+          "ideal_probability": 0.16271333488338338
+        },
+        {
+          "label": "p2",
+          "hits": 208,
+          "shots": 1024,
+          "probability": 0.203125,
+          "wilson_95": [
+            0.17961326843015973,
+            0.2288558964684005
+          ],
+          "ideal_probability": 0.24517211235617115
+        }
+      ],
+      "qaoa_vs_uniform_p1_delta": 0.0732421875,
+      "qaoa_vs_uniform_p2_delta": 0.1328125
+    },
+    {
+      "score_file": "QHDE/results/hooktheory_v04/scores_001.json",
+      "record_id": "bWgMvrVkxlX",
+      "full_optimum_represented": true,
+      "num_tied_optima": 9,
+      "optimal_basis_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10
+      ],
+      "measurements": [
+        {
+          "label": "uniform",
+          "hits": 565,
+          "shots": 1024,
+          "probability": 0.5517578125,
+          "wilson_95": [
+            0.5211602498564081,
+            0.5819684812632508
+          ],
+          "ideal_probability": 0.5625
+        },
+        {
+          "label": "p1",
+          "hits": 963,
+          "shots": 1024,
+          "probability": 0.9404296875,
+          "wilson_95": [
+            0.9242201476565264,
+            0.9533469794183069
+          ],
+          "ideal_probability": 0.9789443426290418
+        },
+        {
+          "label": "p2",
+          "hits": 917,
+          "shots": 1024,
+          "probability": 0.8955078125,
+          "wilson_95": [
+            0.8752700496879688,
+            0.9127891220754625
+          ],
+          "ideal_probability": 0.9793124763916021
+        }
+      ],
+      "qaoa_vs_uniform_p1_delta": 0.388671875,
+      "qaoa_vs_uniform_p2_delta": 0.34375
+    },
+    {
+      "score_file": "QHDE/results/hooktheory_v04/scores_002.json",
+      "record_id": "DpgvlyPBoad",
+      "full_optimum_represented": true,
+      "num_tied_optima": 3,
+      "optimal_basis_indices": [
+        0,
+        4,
+        8
+      ],
+      "measurements": [
+        {
+          "label": "uniform",
+          "hits": 184,
+          "shots": 1024,
+          "probability": 0.1796875,
+          "wilson_95": [
+            0.15738263001532554,
+            0.20438673211206837
+          ],
+          "ideal_probability": 0.1875
+        },
+        {
+          "label": "p1",
+          "hits": 476,
+          "shots": 1024,
+          "probability": 0.46484375,
+          "wilson_95": [
+            0.4344828041665433,
+            0.49546749167670723
+          ],
+          "ideal_probability": 0.4807420035006896
+        },
+        {
+          "label": "p2",
+          "hits": 696,
+          "shots": 1024,
+          "probability": 0.6796875,
+          "wilson_95": [
+            0.650482420886652,
+            0.7075494003589562
+          ],
+          "ideal_probability": 0.7464121660295435
+        }
+      ],
+      "qaoa_vs_uniform_p1_delta": 0.28515625,
+      "qaoa_vs_uniform_p2_delta": 0.5
+    },
+    {
+      "score_file": "QHDE/results/hooktheory_v04/scores_003.json",
+      "record_id": "nZgWXMVQxry",
+      "full_optimum_represented": true,
+      "num_tied_optima": 2,
+      "optimal_basis_indices": [
+        0,
+        5
+      ],
+      "measurements": [
+        {
+          "label": "uniform",
+          "hits": 142,
+          "shots": 1024,
+          "probability": 0.138671875,
+          "wilson_95": [
+            0.1188506012658997,
+            0.16119410601195322
+          ],
+          "ideal_probability": 0.125
+        },
+        {
+          "label": "p1",
+          "hits": 378,
+          "shots": 1024,
+          "probability": 0.369140625,
+          "wilson_95": [
+            0.34012341075611346,
+            0.3991360237715414
+          ],
+          "ideal_probability": 0.42056226119687257
+        },
+        {
+          "label": "p2",
+          "hits": 459,
+          "shots": 1024,
+          "probability": 0.4482421875,
+          "wilson_95": [
+            0.41803151873674915,
+            0.4788397501435919
+          ],
+          "ideal_probability": 0.5027430899613506
+        }
+      ],
+      "qaoa_vs_uniform_p1_delta": 0.23046875,
+      "qaoa_vs_uniform_p2_delta": 0.3095703125
+    },
+    {
+      "score_file": "QHDE/results/hooktheory_v04/scores_004.json",
+      "record_id": "RPxeyBjaxb_",
+      "full_optimum_represented": true,
+      "num_tied_optima": 1,
+      "optimal_basis_indices": [
+        0
+      ],
+      "measurements": [
+        {
+          "label": "uniform",
+          "hits": 64,
+          "shots": 1024,
+          "probability": 0.0625,
+          "wilson_95": [
+            0.04924657680438506,
+            0.07902377146717741
+          ],
+          "ideal_probability": 0.0625
+        },
+        {
+          "label": "p1",
+          "hits": 295,
+          "shots": 1024,
+          "probability": 0.2880859375,
+          "wilson_95": [
+            0.26118016521283915,
+            0.31657578473119885
+          ],
+          "ideal_probability": 0.32106941627818236
+        },
+        {
+          "label": "p2",
+          "hits": 260,
+          "shots": 1024,
+          "probability": 0.25390625,
+          "wilson_95": [
+            0.22820127677081442,
+            0.28145079413193946
+          ],
+          "ideal_probability": 0.34459657485562856
+        }
+      ],
+      "qaoa_vs_uniform_p1_delta": 0.2255859375,
+      "qaoa_vs_uniform_p2_delta": 0.19140625
+    }
+  ],
+  "interpretation_note": "Wilson intervals are per-binomial estimates; repeated independent jobs are needed for calibration drift and robustness. No quantum advantage inferred."
+}

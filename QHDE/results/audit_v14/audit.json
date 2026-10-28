@@ -1,0 +1,902 @@
+{
+  "version": "QHDE-v0.14",
+  "offline_only": true,
+  "submitted_jobs": 0,
+  "job_id": "dbh3hqsdgr2s73cslji0",
+  "backend": "ibm_pittsburgh",
+  "original_metrics": {
+    "caller": "qiskit_ibm_runtime~sampler.py",
+    "qiskit_version": "qiskit_ibm_runtime-0.51.0,qiskit-2.6.1*",
+    "timestamps": {
+      "created": "2026-10-28T18:03:23.411621Z",
+      "finished": "2026-10-28T18:03:46.371168Z",
+      "running": "2026-10-28T18:03:24.268578Z"
+    },
+    "usage": {
+      "qpu_charge_time_seconds": 6,
+      "value": 0.096328,
+      "unit": "resource_units",
+      "status": "complete",
+      "details": [
+        {
+          "value": 0.096328,
+          "unit": "resource_units",
+          "metric": {
+            "id": "caffe3ca-729c-5750-8777-df63bbf8bfd9",
+            "value": 6
+          }
+        }
+      ]
+    },
+    "circuits_execution_time_ns": 4049510144
+  },
+  "important_limits": [
+    "Only five selected TRAIN records; one job per circuit; results share calibration conditions.",
+    "Four-by-four model-selected subset, not the full 100-pair problem.",
+    "Optimum is defined by corrected EMH model scores, not human harmony.",
+    "Classical exhaustive search finds the optimum with just 16 score evaluations; no quantum advantage claim.",
+    "Count-to-basis mapping is assumed from Qiskit measure(q[i], c[i]); verify layout and measurement map separately before publication.",
+    "Binomial intervals do not account for calibration drift or correlated hardware errors.",
+    "QAOA parameters were optimized classically; their optimization cost is excluded from the QPU shots."
+  ],
+  "records": [
+    {
+      "record_id": "LAgQGkwEoyO",
+      "score_file": "QHDE/results/hooktheory_v04/scores_000.json",
+      "num_tied_optima": 1,
+      "full_optimum_represented": true,
+      "optimal_basis_indices": [
+        2
+      ],
+      "scores_16": [
+        1.3675000000000002,
+        1.4125,
+        1.48,
+        1.0925,
+        1.3412903225806452,
+        1.3412903225806452,
+        1.3487903225806452,
+        1.0662903225806453,
+        1.323790322580645,
+        1.2787903225806452,
+        1.3912903225806454,
+        1.0037903225806453,
+        1.2437096774193548,
+        1.2437096774193548,
+        1.206209677419355,
+        0.9687096774193549
+      ],
+      "results": [
+        {
+          "model": "uniform",
+          "shots": 1024,
+          "optimal_hits": 72,
+          "optimal_probability": 0.0703125,
+          "optimal_wilson_95": [
+            0.05620574476797616,
+            0.08763108682891405
+          ],
+          "ideal_optimal_probability": 0.0625,
+          "ideal_gap_percentage_points": 0.78125,
+          "expected_harmonic_score": 1.2596915165070566,
+          "score_sem": 0.004719643067603196,
+          "score_mean_normal_95": [
+            1.2504411860017048,
+            1.2689418470124083
+          ],
+          "total_variation_distance_from_ideal": 0.046875,
+          "ideal_expected_harmonic_score": 1.2568850806451615
+        },
+        {
+          "model": "p1",
+          "shots": 1024,
+          "optimal_hits": 147,
+          "optimal_probability": 0.1435546875,
+          "optimal_wilson_95": [
+            0.12340952275605446,
+            0.1663642125459113
+          ],
+          "ideal_optimal_probability": 0.16271333488338338,
+          "ideal_gap_percentage_points": -1.915864738338338,
+          "expected_harmonic_score": 1.3447555443548387,
+          "score_sem": 0.003094238975443409,
+          "score_mean_normal_95": [
+            1.3386909473555728,
+            1.3508201413541046
+          ],
+          "total_variation_distance_from_ideal": 0.09370904096023461,
+          "ideal_expected_harmonic_score": 1.3622197593848786
+        },
+        {
+          "model": "p2",
+          "shots": 1024,
+          "optimal_hits": 208,
+          "optimal_probability": 0.203125,
+          "optimal_wilson_95": [
+            0.17961367945216467,
+            0.2288554041965959
+          ],
+          "ideal_optimal_probability": 0.24517211235617115,
+          "ideal_gap_percentage_points": -4.204711235617115,
+          "expected_harmonic_score": 1.3688983744959677,
+          "score_sem": 0.002629358538124912,
+          "score_mean_normal_95": [
+            1.3637449264181503,
+            1.3740518225737852
+          ],
+          "total_variation_distance_from_ideal": 0.11460132928765587,
+          "ideal_expected_harmonic_score": 1.3842431316294275
+        }
+      ],
+      "p1_minus_uniform": {
+        "delta_percentage_points": 7.32421875,
+        "normal_95_percentage_points": [
+          4.666304136812248,
+          9.982133363187753
+        ],
+        "standard_error_percentage_points": 1.3561037923083035
+      },
+      "p2_minus_uniform": {
+        "delta_percentage_points": 13.28125,
+        "normal_95_percentage_points": [
+          10.361573968723773,
+          16.20092603127623
+        ],
+        "standard_error_percentage_points": 1.4896579892672657
+      },
+      "p2_minus_p1": {
+        "delta_percentage_points": 5.95703125,
+        "normal_95_percentage_points": [
+          2.688314882198676,
+          9.225747617801325
+        ],
+        "standard_error_percentage_points": 1.6677430645671676
+      },
+      "classical_baselines": {
+        "exact_enumeration": {
+          "candidate_evaluations": 16,
+          "optimum_score": 1.48,
+          "guarantees_optimum": true
+        },
+        "single_uniform_draw_optimum_probability": 0.0625,
+        "random_with_replacement": [
+          {
+            "draws": 1,
+            "probability_at_least_one_optimum": 0.0625,
+            "expected_best_score": 1.2568850806451615
+          },
+          {
+            "draws": 2,
+            "probability_at_least_one_optimum": 0.12109375,
+            "expected_best_score": 1.338354964717742
+          },
+          {
+            "draws": 4,
+            "probability_at_least_one_optimum": 0.2275238037109375,
+            "expected_best_score": 1.3907620756087764
+          },
+          {
+            "draws": 8,
+            "probability_at_least_one_optimum": 0.4032805261667818,
+            "expected_best_score": 1.4252643217008578
+          },
+          {
+            "draws": 16,
+            "probability_at_least_one_optimum": 0.6439258695482072,
+            "expected_best_score": 1.452393949871186
+          },
+          {
+            "draws": 32,
+            "probability_at_least_one_optimum": 0.8732112136229997,
+            "expected_best_score": 1.4711132150804207
+          },
+          {
+            "draws": 64,
+            "probability_at_least_one_optimum": 0.9839246036490473,
+            "expected_best_score": 1.4789107488321154
+          },
+          {
+            "draws": 128,
+            "probability_at_least_one_optimum": 0.9997415816321598,
+            "expected_best_score": 1.4799825559592272
+          },
+          {
+            "draws": 1024,
+            "probability_at_least_one_optimum": 1.0,
+            "expected_best_score": 1.48
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "bWgMvrVkxlX",
+      "score_file": "QHDE/results/hooktheory_v04/scores_001.json",
+      "num_tied_optima": 9,
+      "full_optimum_represented": true,
+      "optimal_basis_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10
+      ],
+      "scores_16": [
+        1.4233823529411764,
+        1.4233823529411764,
+        1.4233823529411764,
+        1.3558823529411765,
+        1.4233823529411764,
+        1.4233823529411764,
+        1.4233823529411764,
+        1.3108823529411766,
+        1.4233823529411764,
+        1.4233823529411764,
+        1.4233823529411764,
+        1.3108823529411766,
+        1.3558823529411765,
+        1.3108823529411766,
+        1.3108823529411766,
+        1.2358823529411764
+      ],
+      "results": [
+        {
+          "model": "uniform",
+          "shots": 1024,
+          "optimal_hits": 565,
+          "optimal_probability": 0.5517578125,
+          "optimal_wilson_95": [
+            0.5211608135562885,
+            0.5819679317286316
+          ],
+          "ideal_optimal_probability": 0.5625,
+          "ideal_gap_percentage_points": -1.07421875,
+          "expected_harmonic_score": 1.3736289349724264,
+          "score_sem": 0.0018850961315718935,
+          "score_mean_normal_95": [
+            1.3699342144180062,
+            1.3773236555268467
+          ],
+          "total_variation_distance_from_ideal": 0.0380859375,
+          "ideal_expected_harmonic_score": 1.3751011029411764
+        },
+        {
+          "model": "p1",
+          "shots": 1024,
+          "optimal_hits": 963,
+          "optimal_probability": 0.9404296875,
+          "optimal_wilson_95": [
+            0.9242204779378205,
+            0.9533467696753672
+          ],
+          "ideal_optimal_probability": 0.9789443426290418,
+          "ideal_gap_percentage_points": -3.851465512904184,
+          "expected_harmonic_score": 1.4167246380974263,
+          "score_sem": 0.000887835650870407,
+          "score_mean_normal_95": [
+            1.4149845121838038,
+            1.4184647640110488
+          ],
+          "total_variation_distance_from_ideal": 0.06304435918029538,
+          "ideal_expected_harmonic_score": 1.4208181202527523
+        },
+        {
+          "model": "p2",
+          "shots": 1024,
+          "optimal_hits": 917,
+          "optimal_probability": 0.8955078125,
+          "optimal_wilson_95": [
+            0.8752704493648329,
+            0.9127888306425751
+          ],
+          "ideal_optimal_probability": 0.9793124763916021,
+          "ideal_gap_percentage_points": -8.380466389160212,
+          "expected_harmonic_score": 1.4119638959099263,
+          "score_sem": 0.0011068414868331286,
+          "score_mean_normal_95": [
+            1.4097945264420269,
+            1.4141332653778258
+          ],
+          "total_variation_distance_from_ideal": 0.14199266575164093,
+          "ideal_expected_harmonic_score": 1.420798813110156
+        }
+      ],
+      "p1_minus_uniform": {
+        "delta_percentage_points": 38.8671875,
+        "normal_95_percentage_points": [
+          35.493809754833194,
+          42.240565245166806
+        ],
+        "standard_error_percentage_points": 1.7211427072980967
+      },
+      "p2_minus_uniform": {
+        "delta_percentage_points": 34.375,
+        "normal_95_percentage_points": [
+          30.79891164753915,
+          37.95108835246085
+        ],
+        "standard_error_percentage_points": 1.8245683861850759
+      },
+      "p2_minus_p1": {
+        "delta_percentage_points": -4.4921875,
+        "normal_95_percentage_points": [
+          -6.861143713214241,
+          -2.123231286785759
+        ],
+        "standard_error_percentage_points": 1.2086733293133145
+      },
+      "classical_baselines": {
+        "exact_enumeration": {
+          "candidate_evaluations": 16,
+          "optimum_score": 1.4233823529411764,
+          "guarantees_optimum": true
+        },
+        "single_uniform_draw_optimum_probability": 0.5625,
+        "random_with_replacement": [
+          {
+            "draws": 1,
+            "probability_at_least_one_optimum": 0.5625,
+            "expected_best_score": 1.3751011029411764
+          },
+          {
+            "draws": 2,
+            "probability_at_least_one_optimum": 0.80859375,
+            "expected_best_score": 1.4057749310661765
+          },
+          {
+            "draws": 4,
+            "probability_at_least_one_optimum": 0.9633636474609375,
+            "expected_best_score": 1.4204791012932272
+          },
+          {
+            "draws": 8,
+            "probability_at_least_one_optimum": 0.9986577776726335,
+            "expected_best_score": 1.423287660190459
+          },
+          {
+            "draws": 16,
+            "probability_at_least_one_optimum": 0.9999981984392239,
+            "expected_best_score": 1.4233822309635926
+          },
+          {
+            "draws": 32,
+            "probability_at_least_one_optimum": 0.9999999999967544,
+            "expected_best_score": 1.4233823529409573
+          },
+          {
+            "draws": 64,
+            "probability_at_least_one_optimum": 1.0,
+            "expected_best_score": 1.4233823529411764
+          },
+          {
+            "draws": 128,
+            "probability_at_least_one_optimum": 1.0,
+            "expected_best_score": 1.4233823529411764
+          },
+          {
+            "draws": 1024,
+            "probability_at_least_one_optimum": 1.0,
+            "expected_best_score": 1.4233823529411764
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DpgvlyPBoad",
+      "score_file": "QHDE/results/hooktheory_v04/scores_002.json",
+      "num_tied_optima": 3,
+      "full_optimum_represented": true,
+      "optimal_basis_indices": [
+        0,
+        4,
+        8
+      ],
+      "scores_16": [
+        0.9550000000000001,
+        0.7925,
+        0.7925,
+        0.7925,
+        0.9550000000000001,
+        0.7925,
+        0.7925,
+        0.7925,
+        0.9550000000000001,
+        0.7925,
+        0.7925,
+        0.7925,
+        0.8674999999999999,
+        0.8425,
+        0.8425,
+        0.8425
+      ],
+      "results": [
+        {
+          "model": "uniform",
+          "shots": 1024,
+          "optimal_hits": 184,
+          "optimal_probability": 0.1796875,
+          "optimal_wilson_95": [
+            0.1573830175412373,
+            0.2043862569218991
+          ],
+          "ideal_optimal_probability": 0.1875,
+          "ideal_gap_percentage_points": -0.78125,
+          "expected_harmonic_score": 0.835419921875,
+          "score_sem": 0.0019005169400129716,
+          "score_mean_normal_95": [
+            0.8316949770911845,
+            0.8391448666588156
+          ],
+          "total_variation_distance_from_ideal": 0.0478515625,
+          "ideal_expected_harmonic_score": 0.8370312499999999
+        },
+        {
+          "model": "p1",
+          "shots": 1024,
+          "optimal_hits": 476,
+          "optimal_probability": 0.46484375,
+          "optimal_wilson_95": [
+            0.4344833575759357,
+            0.49546692864562814
+          ],
+          "ideal_optimal_probability": 0.4807420035006896,
+          "ideal_gap_percentage_points": -1.5898253500689574,
+          "expected_harmonic_score": 0.8862011718749999,
+          "score_sem": 0.002112062803678859,
+          "score_mean_normal_95": [
+            0.8820616048140503,
+            0.8903407389359496
+          ],
+          "total_variation_distance_from_ideal": 0.0641978616172875,
+          "ideal_expected_harmonic_score": 0.8902665929471284
+        },
+        {
+          "model": "p2",
+          "shots": 1024,
+          "optimal_hits": 696,
+          "optimal_probability": 0.6796875,
+          "optimal_wilson_95": [
+            0.6504829681147684,
+            0.7075489023083503
+          ],
+          "ideal_optimal_probability": 0.7464121660295435,
+          "ideal_gap_percentage_points": -6.672466602954352,
+          "expected_harmonic_score": 0.9148144531250002,
+          "score_sem": 0.0019030732111390922,
+          "score_mean_normal_95": [
+            0.9110844981418031,
+            0.9185444081081973
+          ],
+          "total_variation_distance_from_ideal": 0.09195891573790636,
+          "ideal_expected_harmonic_score": 0.925603232506061
+        }
+      ],
+      "p1_minus_uniform": {
+        "delta_percentage_points": 28.515625,
+        "normal_95_percentage_points": [
+          24.660525537046283,
+          32.37072446295372
+        ],
+        "standard_error_percentage_points": 1.9669236082671504
+      },
+      "p2_minus_uniform": {
+        "delta_percentage_points": 50.0,
+        "normal_95_percentage_points": [
+          46.299065909831945,
+          53.70093409016805
+        ],
+        "standard_error_percentage_points": 1.888266361100538
+      },
+      "p2_minus_p1": {
+        "delta_percentage_points": 21.484375,
+        "normal_95_percentage_points": [
+          17.30113315263397,
+          25.66761684736603
+        ],
+        "standard_error_percentage_points": 2.1343462672610474
+      },
+      "classical_baselines": {
+        "exact_enumeration": {
+          "candidate_evaluations": 16,
+          "optimum_score": 0.9550000000000001,
+          "guarantees_optimum": true
+        },
+        "single_uniform_draw_optimum_probability": 0.1875,
+        "random_with_replacement": [
+          {
+            "draws": 1,
+            "probability_at_least_one_optimum": 0.1875,
+            "expected_best_score": 0.83703125
+          },
+          {
+            "draws": 2,
+            "probability_at_least_one_optimum": 0.33984375,
+            "expected_best_score": 0.867353515625
+          },
+          {
+            "draws": 4,
+            "probability_at_least_one_optimum": 0.5641937255859375,
+            "expected_best_score": 0.9039511489868164
+          },
+          {
+            "draws": 8,
+            "probability_at_least_one_optimum": 0.8100728911813349,
+            "expected_best_score": 0.9353774253145094
+          },
+          {
+            "draws": 16,
+            "probability_at_least_one_optimum": 0.9639276933357829,
+            "expected_best_score": 0.9515880856516546
+          },
+          {
+            "draws": 32,
+            "probability_at_least_one_optimum": 0.9986987886919226,
+            "expected_best_score": 0.9548836321953658
+          },
+          {
+            "draws": 64,
+            "probability_at_least_one_optimum": 0.9999983068491317,
+            "expected_best_score": 0.9549998515970318
+          },
+          {
+            "draws": 128,
+            "probability_at_least_one_optimum": 0.9999999999971333,
+            "expected_best_score": 0.9549999999997493
+          },
+          {
+            "draws": 1024,
+            "probability_at_least_one_optimum": 1.0,
+            "expected_best_score": 0.9550000000000001
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "nZgWXMVQxry",
+      "score_file": "QHDE/results/hooktheory_v04/scores_003.json",
+      "num_tied_optima": 2,
+      "full_optimum_represented": true,
+      "optimal_basis_indices": [
+        0,
+        5
+      ],
+      "scores_16": [
+        1.4125,
+        1.3675000000000002,
+        1.2508333333333335,
+        1.2508333333333335,
+        1.3675000000000002,
+        1.4125,
+        1.2508333333333335,
+        1.2508333333333335,
+        1.3280769230769232,
+        1.3280769230769232,
+        1.2189102564102563,
+        1.1739102564102564,
+        1.3280769230769232,
+        1.3280769230769232,
+        1.1739102564102564,
+        1.2189102564102563
+      ],
+      "results": [
+        {
+          "model": "uniform",
+          "shots": 1024,
+          "optimal_hits": 142,
+          "optimal_probability": 0.138671875,
+          "optimal_wilson_95": [
+            0.11885094097997437,
+            0.16119366740831967
+          ],
+          "ideal_optimal_probability": 0.125,
+          "ideal_gap_percentage_points": 1.3671875,
+          "expected_harmonic_score": 1.2921707231570512,
+          "score_sem": 0.002385615224117666,
+          "score_mean_normal_95": [
+            1.2874950031999286,
+            1.2968464431141737
+          ],
+          "total_variation_distance_from_ideal": 0.033203125,
+          "ideal_expected_harmonic_score": 1.2913301282051282
+        },
+        {
+          "model": "p1",
+          "shots": 1024,
+          "optimal_hits": 378,
+          "optimal_probability": 0.369140625,
+          "optimal_wilson_95": [
+            0.3401239331564168,
+            0.39913546555718166
+          ],
+          "ideal_optimal_probability": 0.42056226119687257,
+          "ideal_gap_percentage_points": -5.142163619687256,
+          "expected_harmonic_score": 1.3704058994391026,
+          "score_sem": 0.001432144169906208,
+          "score_mean_normal_95": [
+            1.3675989484232767,
+            1.3732128504549286
+          ],
+          "total_variation_distance_from_ideal": 0.06139476343313904,
+          "ideal_expected_harmonic_score": 1.376015669552225
+        },
+        {
+          "model": "p2",
+          "shots": 1024,
+          "optimal_hits": 459,
+          "optimal_probability": 0.4482421875,
+          "optimal_wilson_95": [
+            0.41803206827136846,
+            0.47883918644371154
+          ],
+          "ideal_optimal_probability": 0.5027430899613506,
+          "ideal_gap_percentage_points": -5.450090246135064,
+          "expected_harmonic_score": 1.3761777594150642,
+          "score_sem": 0.00135350662785618,
+          "score_mean_normal_95": [
+            1.3735249351507046,
+            1.3788305836794237
+          ],
+          "total_variation_distance_from_ideal": 0.07200245983988282,
+          "ideal_expected_harmonic_score": 1.3825923326241893
+        }
+      ],
+      "p1_minus_uniform": {
+        "delta_percentage_points": 23.046875,
+        "normal_95_percentage_points": [
+          19.411364401823114,
+          26.68238559817689
+        ],
+        "standard_error_percentage_points": 1.8548864153509383
+      },
+      "p2_minus_uniform": {
+        "delta_percentage_points": 30.95703125,
+        "normal_95_percentage_points": [
+          27.24773993726386,
+          34.66632256273614
+        ],
+        "standard_error_percentage_points": 1.8925303284836574
+      },
+      "p2_minus_p1": {
+        "delta_percentage_points": 7.91015625,
+        "normal_95_percentage_points": [
+          3.6658392209854256,
+          12.154473279014574
+        ],
+        "standard_error_percentage_points": 2.165507646576455
+      },
+      "classical_baselines": {
+        "exact_enumeration": {
+          "candidate_evaluations": 16,
+          "optimum_score": 1.4125,
+          "guarantees_optimum": true
+        },
+        "single_uniform_draw_optimum_probability": 0.125,
+        "random_with_replacement": [
+          {
+            "draws": 1,
+            "probability_at_least_one_optimum": 0.125,
+            "expected_best_score": 1.2913301282051282
+          },
+          {
+            "draws": 2,
+            "probability_at_least_one_optimum": 0.234375,
+            "expected_best_score": 1.3338621794871794
+          },
+          {
+            "draws": 4,
+            "probability_at_least_one_optimum": 0.413818359375,
+            "expected_best_score": 1.3686847080328528
+          },
+          {
+            "draws": 8,
+            "probability_at_least_one_optimum": 0.6563910841941833,
+            "expected_best_score": 1.392788617076018
+          },
+          {
+            "draws": 16,
+            "probability_at_least_one_optimum": 0.8819329129787512,
+            "expected_best_score": 1.4067906808694473
+          },
+          {
+            "draws": 32,
+            "probability_at_least_one_optimum": 0.9860601629623169,
+            "expected_best_score": 1.4118687471716134
+          },
+          {
+            "draws": 64,
+            "probability_at_least_one_optimum": 0.9998056809433629,
+            "expected_best_score": 1.4124912552446454
+          },
+          {
+            "draws": 128,
+            "probability_at_least_one_optimum": 0.9999999622401042,
+            "expected_best_score": 1.4124999983008049
+          },
+          {
+            "draws": 1024,
+            "probability_at_least_one_optimum": 1.0,
+            "expected_best_score": 1.4125
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "RPxeyBjaxb_",
+      "score_file": "QHDE/results/hooktheory_v04/scores_004.json",
+      "num_tied_optima": 1,
+      "full_optimum_represented": true,
+      "optimal_basis_indices": [
+        0
+      ],
+      "scores_16": [
+        1.415714285714286,
+        1.3121428571428573,
+        1.3121428571428573,
+        1.3121428571428573,
+        1.3860989010989013,
+        1.2825274725274727,
+        1.2825274725274727,
+        1.2825274725274727,
+        1.3564835164835167,
+        1.252912087912088,
+        1.252912087912088,
+        1.252912087912088,
+        1.112445054945055,
+        1.1463736263736264,
+        1.1463736263736264,
+        1.1463736263736264
+      ],
+      "results": [
+        {
+          "model": "uniform",
+          "shots": 1024,
+          "optimal_hits": 64,
+          "optimal_probability": 0.0625,
+          "optimal_wilson_95": [
+            0.04924679278261251,
+            0.07902343575240298
+          ],
+          "ideal_optimal_probability": 0.0625,
+          "ideal_gap_percentage_points": 0.0,
+          "expected_harmonic_score": 1.2637165983430632,
+          "score_sem": 0.0026999590645750333,
+          "score_mean_normal_95": [
+            1.2584247757750224,
+            1.2690084209111039
+          ],
+          "total_variation_distance_from_ideal": 0.041015625,
+          "ideal_expected_harmonic_score": 1.2657881181318684
+        },
+        {
+          "model": "p1",
+          "shots": 1024,
+          "optimal_hits": 295,
+          "optimal_probability": 0.2880859375,
+          "optimal_wilson_95": [
+            0.2611806436803261,
+            0.3165752482663221
+          ],
+          "ideal_optimal_probability": 0.32106941627818236,
+          "ideal_gap_percentage_points": -3.2983478778182365,
+          "expected_harmonic_score": 1.3292603612208107,
+          "score_sem": 0.0024293497389069126,
+          "score_mean_normal_95": [
+            1.3244989231891438,
+            1.3340217992524777
+          ],
+          "total_variation_distance_from_ideal": 0.07441437427258032,
+          "ideal_expected_harmonic_score": 1.3328366307325594
+        },
+        {
+          "model": "p2",
+          "shots": 1024,
+          "optimal_hits": 260,
+          "optimal_probability": 0.25390625,
+          "optimal_wilson_95": [
+            0.22820173108428665,
+            0.28145027246665966
+          ],
+          "ideal_optimal_probability": 0.34459657485562856,
+          "ideal_gap_percentage_points": -9.069032485562856,
+          "expected_harmonic_score": 1.3309952352335166,
+          "score_sem": 0.00200474805854363,
+          "score_mean_normal_95": [
+            1.327066001209701,
+            1.334924469257332
+          ],
+          "total_variation_distance_from_ideal": 0.1304439237335987,
+          "ideal_expected_harmonic_score": 1.3440295286576585
+        }
+      ],
+      "p1_minus_uniform": {
+        "delta_percentage_points": 22.55859375,
+        "normal_95_percentage_points": [
+          19.413440580170654,
+          25.703746919829346
+        ],
+        "standard_error_percentage_points": 1.6046994586784986
+      },
+      "p2_minus_uniform": {
+        "delta_percentage_points": 19.140625,
+        "normal_95_percentage_points": [
+          16.090261204240303,
+          22.190988795759697
+        ],
+        "standard_error_percentage_points": 1.5563366448361795
+      },
+      "p2_minus_p1": {
+        "delta_percentage_points": -3.41796875,
+        "normal_95_percentage_points": [
+          -7.265111448292055,
+          0.42917394829205535
+        ],
+        "standard_error_percentage_points": 1.96286395989521
+      },
+      "classical_baselines": {
+        "exact_enumeration": {
+          "candidate_evaluations": 16,
+          "optimum_score": 1.415714285714286,
+          "guarantees_optimum": true
+        },
+        "single_uniform_draw_optimum_probability": 0.0625,
+        "random_with_replacement": [
+          {
+            "draws": 1,
+            "probability_at_least_one_optimum": 0.0625,
+            "expected_best_score": 1.2657881181318684
+          },
+          {
+            "draws": 2,
+            "probability_at_least_one_optimum": 0.12109375,
+            "expected_best_score": 1.3137108301854397
+          },
+          {
+            "draws": 4,
+            "probability_at_least_one_optimum": 0.2275238037109375,
+            "expected_best_score": 1.3501325414468957
+          },
+          {
+            "draws": 8,
+            "probability_at_least_one_optimum": 0.4032805261667818,
+            "expected_best_score": 1.3787136925661947
+          },
+          {
+            "draws": 16,
+            "probability_at_least_one_optimum": 0.6439258695482072,
+            "expected_best_score": 1.400056833424495
+          },
+          {
+            "draws": 32,
+            "probability_at_least_one_optimum": 0.8732112136229997,
+            "expected_best_score": 1.4114888481348493
+          },
+          {
+            "draws": 64,
+            "probability_at_least_one_optimum": 0.9839246036490473,
+            "expected_best_score": 1.4152323767594788
+          },
+          {
+            "draws": 128,
+            "probability_at_least_one_optimum": 0.9997415816321598,
+            "expected_best_score": 1.4157066314365296
+          },
+          {
+            "draws": 1024,
+            "probability_at_least_one_optimum": 1.0,
+            "expected_best_score": 1.415714285714286
+          }
+        ]
+      }
+    }
+  ],
+  "v12_pilot": {
+    "job_id": "dbh3ad4dgr2s73csl19g",
+    "backend": "ibm_marrakesh",
+    "uniform_probability": 0.0732421875,
+    "qaoa_probability": 0.1376953125,
+    "note": "Different backend/date; do not pool with v0.13 as independent repeats."
+  }
+}

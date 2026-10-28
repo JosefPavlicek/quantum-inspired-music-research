@@ -16,3 +16,11 @@ __pycache__/
 
 # Local ZIP archives
 QHDE_*.zip
+
+# Python temporary files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local ZIP archives
+QHDE_*.zip

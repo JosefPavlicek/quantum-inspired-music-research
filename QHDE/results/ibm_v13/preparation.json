@@ -1,0 +1,501 @@
+{
+  "version": "QHDE-v0.13",
+  "created_utc": "2026-10-28T18:00:07.492812+00:00",
+  "backend": "ibm_pittsburgh",
+  "queue_at_preparation": 1,
+  "shots": 1024,
+  "seed_transpiler": 42,
+  "optimization_level": 2,
+  "source_summary": "QHDE/results/hardware_v10/summary.json",
+  "source_summary_sha256": "3ff2f99668c39e6aea58a770a644f8b3cd99e63c773afc603cd5655e24df7c7b",
+  "records": [
+    {
+      "score_file": "QHDE/results/hooktheory_v04/scores_000.json",
+      "score_sha256": "b62a38d270f4e03d4d07748f00b28e4c662e489ee46fe8577d6a9ab59cbbe37d",
+      "circuits": [],
+      "record_id": "LAgQGkwEoyO",
+      "problem": {
+        "a_indices": [
+          9,
+          2,
+          6,
+          5
+        ],
+        "b_indices": [
+          6,
+          9,
+          2,
+          4
+        ],
+        "full_optimum_represented": true,
+        "subset_optimum": 1.48,
+        "optimal_basis_indices": [
+          2
+        ],
+        "ideal_uniform_optimum_probability": 0.0625
+      },
+      "p1": {
+        "qaoa_params": [
+          2.4896384493286576,
+          5.8475764826807595
+        ],
+        "ideal_optimum_probability": 0.16271333488338338
+      },
+      "p2": {
+        "qaoa_params": [
+          2.1788346151340168,
+          2.5295395088984183,
+          4.066344931534257,
+          6.018621900341305
+        ],
+        "ideal_optimum_probability": 0.24517211235617115
+      }
+    },
+    {
+      "score_file": "QHDE/results/hooktheory_v04/scores_001.json",
+      "score_sha256": "776771b89189e24a3d023fbd9eb9365822b315e02bb81969b1b50ea645497189",
+      "circuits": [],
+      "record_id": "bWgMvrVkxlX",
+      "problem": {
+        "a_indices": [
+          1,
+          3,
+          7,
+          6
+        ],
+        "b_indices": [
+          6,
+          8,
+          9,
+          1
+        ],
+        "full_optimum_represented": true,
+        "subset_optimum": 1.4233823529411764,
+        "optimal_basis_indices": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10
+        ],
+        "ideal_uniform_optimum_probability": 0.5625
+      },
+      "p1": {
+        "qaoa_params": [
+          2.5294877478855593,
+          5.83391136846572
+        ],
+        "ideal_optimum_probability": 0.9789443426290418
+      },
+      "p2": {
+        "qaoa_params": [
+          2.558782389278291,
+          4.601314513829959,
+          0.013926657408819099,
+          1.2295423312429636
+        ],
+        "ideal_optimum_probability": 0.9793124763916021
+      }
+    },
+    {
+      "score_file": "QHDE/results/hooktheory_v04/scores_002.json",
+      "score_sha256": "f12ea9c40e3cb0d7cefc6aeef8988b564ff949687e4de3e5b4fdfd8b9d588bed",
+      "circuits": [],
+      "record_id": "DpgvlyPBoad",
+      "problem": {
+        "a_indices": [
+          0,
+          2,
+          5,
+          1
+        ],
+        "b_indices": [
+          7,
+          4,
+          6,
+          8
+        ],
+        "full_optimum_represented": true,
+        "subset_optimum": 0.9550000000000001,
+        "optimal_basis_indices": [
+          0,
+          4,
+          8
+        ],
+        "ideal_uniform_optimum_probability": 0.1875
+      },
+      "p1": {
+        "qaoa_params": [
+          2.011420570278241,
+          5.805124168139013
+        ],
+        "ideal_optimum_probability": 0.4807420035006896
+      },
+      "p2": {
+        "qaoa_params": [
+          1.6141781875749515,
+          2.436859742200541,
+          2.2300067146525464,
+          2.7339219066047935
+        ],
+        "ideal_optimum_probability": 0.7464121660295435
+      }
+    },
+    {
+      "score_file": "QHDE/results/hooktheory_v04/scores_003.json",
+      "score_sha256": "9ddba606f1c536280adb47e1be4a41d92ff6182693c945fa86b02cb901c24b35",
+      "circuits": [],
+      "record_id": "nZgWXMVQxry",
+      "problem": {
+        "a_indices": [
+          3,
+          7,
+          0,
+          5
+        ],
+        "b_indices": [
+          3,
+          7,
+          0,
+          5
+        ],
+        "full_optimum_represented": true,
+        "subset_optimum": 1.4125,
+        "optimal_basis_indices": [
+          0,
+          5
+        ],
+        "ideal_uniform_optimum_probability": 0.125
+      },
+      "p1": {
+        "qaoa_params": [
+          2.943112788059103,
+          5.5302321491663315
+        ],
+        "ideal_optimum_probability": 0.42056226119687257
+      },
+      "p2": {
+        "qaoa_params": [
+          1.5808087162483975,
+          5.784789529383813,
+          2.161330235541753,
+          5.860170919467938
+        ],
+        "ideal_optimum_probability": 0.5027430899613506
+      }
+    },
+    {
+      "score_file": "QHDE/results/hooktheory_v04/scores_004.json",
+      "score_sha256": "e876c2b547eb7310fa1f69cafa8f0098549b0bfee8169ee241eb732a184f7a7a",
+      "circuits": [],
+      "record_id": "RPxeyBjaxb_",
+      "problem": {
+        "a_indices": [
+          0,
+          5,
+          2,
+          3
+        ],
+        "b_indices": [
+          7,
+          4,
+          6,
+          8
+        ],
+        "full_optimum_represented": true,
+        "subset_optimum": 1.415714285714286,
+        "optimal_basis_indices": [
+          0
+        ],
+        "ideal_uniform_optimum_probability": 0.0625
+      },
+      "p1": {
+        "qaoa_params": [
+          2.962223001145803,
+          5.705971143109703
+        ],
+        "ideal_optimum_probability": 0.32106941627818236
+      },
+      "p2": {
+        "qaoa_params": [
+          1.5732506902858205,
+          3.8120464276941988,
+          3.0104279678439076,
+          2.1172234469164333
+        ],
+        "ideal_optimum_probability": 0.34459657485562856
+      }
+    }
+  ],
+  "circuits_order": [
+    "scores_000_uniform",
+    "scores_000_p1",
+    "scores_000_p2",
+    "scores_001_uniform",
+    "scores_001_p1",
+    "scores_001_p2",
+    "scores_002_uniform",
+    "scores_002_p1",
+    "scores_002_p2",
+    "scores_003_uniform",
+    "scores_003_p1",
+    "scores_003_p2",
+    "scores_004_uniform",
+    "scores_004_p1",
+    "scores_004_p2"
+  ],
+  "transpiled": [
+    {
+      "name": "scores_000_uniform",
+      "depth": 4,
+      "size": 16,
+      "operations": {
+        "rz": 8,
+        "sx": 4,
+        "measure": 4
+      },
+      "two_qubit_count": 0,
+      "two_qubit_by_gate": {},
+      "two_qubit_error_metadata_missing": 0,
+      "product_of_2q_gate_fidelities_partial": 1.0
+    },
+    {
+      "name": "scores_000_p1",
+      "depth": 83,
+      "size": 103,
+      "operations": {
+        "sx": 44,
+        "rz": 35,
+        "cz": 20,
+        "measure": 4
+      },
+      "two_qubit_count": 20,
+      "two_qubit_by_gate": {
+        "cz": 20
+      },
+      "two_qubit_error_metadata_missing": 0,
+      "product_of_2q_gate_fidelities_partial": 0.9717415972673351
+    },
+    {
+      "name": "scores_000_p2",
+      "depth": 160,
+      "size": 207,
+      "operations": {
+        "sx": 90,
+        "rz": 74,
+        "cz": 39,
+        "measure": 4
+      },
+      "two_qubit_count": 39,
+      "two_qubit_by_gate": {
+        "cz": 39
+      },
+      "two_qubit_error_metadata_missing": 0,
+      "product_of_2q_gate_fidelities_partial": 0.9445507579723411
+    },
+    {
+      "name": "scores_001_uniform",
+      "depth": 4,
+      "size": 16,
+      "operations": {
+        "rz": 8,
+        "sx": 4,
+        "measure": 4
+      },
+      "two_qubit_count": 0,
+      "two_qubit_by_gate": {},
+      "two_qubit_error_metadata_missing": 0,
+      "product_of_2q_gate_fidelities_partial": 1.0
+    },
+    {
+      "name": "scores_001_p1",
+      "depth": 83,
+      "size": 109,
+      "operations": {
+        "sx": 44,
+        "rz": 37,
+        "cz": 20,
+        "x": 4,
+        "measure": 4
+      },
+      "two_qubit_count": 20,
+      "two_qubit_by_gate": {
+        "cz": 20
+      },
+      "two_qubit_error_metadata_missing": 0,
+      "product_of_2q_gate_fidelities_partial": 0.9717415972673351
+    },
+    {
+      "name": "scores_001_p2",
+      "depth": 162,
+      "size": 210,
+      "operations": {
+        "sx": 90,
+        "rz": 77,
+        "cz": 39,
+        "measure": 4
+      },
+      "two_qubit_count": 39,
+      "two_qubit_by_gate": {
+        "cz": 39
+      },
+      "two_qubit_error_metadata_missing": 0,
+      "product_of_2q_gate_fidelities_partial": 0.9445507579723411
+    },
+    {
+      "name": "scores_002_uniform",
+      "depth": 4,
+      "size": 16,
+      "operations": {
+        "rz": 8,
+        "sx": 4,
+        "measure": 4
+      },
+      "two_qubit_count": 0,
+      "two_qubit_by_gate": {},
+      "two_qubit_error_metadata_missing": 0,
+      "product_of_2q_gate_fidelities_partial": 1.0
+    },
+    {
+      "name": "scores_002_p1",
+      "depth": 82,
+      "size": 108,
+      "operations": {
+        "sx": 44,
+        "rz": 36,
+        "cz": 20,
+        "x": 4,
+        "measure": 4
+      },
+      "two_qubit_count": 20,
+      "two_qubit_by_gate": {
+        "cz": 20
+      },
+      "two_qubit_error_metadata_missing": 0,
+      "product_of_2q_gate_fidelities_partial": 0.9717415972673351
+    },
+    {
+      "name": "scores_002_p2",
+      "depth": 153,
+      "size": 198,
+      "operations": {
+        "sx": 90,
+        "rz": 65,
+        "cz": 39,
+        "measure": 4
+      },
+      "two_qubit_count": 39,
+      "two_qubit_by_gate": {
+        "cz": 39
+      },
+      "two_qubit_error_metadata_missing": 0,
+      "product_of_2q_gate_fidelities_partial": 0.9445507579723411
+    },
+    {
+      "name": "scores_003_uniform",
+      "depth": 4,
+      "size": 16,
+      "operations": {
+        "rz": 8,
+        "sx": 4,
+        "measure": 4
+      },
+      "two_qubit_count": 0,
+      "two_qubit_by_gate": {},
+      "two_qubit_error_metadata_missing": 0,
+      "product_of_2q_gate_fidelities_partial": 1.0
+    },
+    {
+      "name": "scores_003_p1",
+      "depth": 34,
+      "size": 57,
+      "operations": {
+        "sx": 22,
+        "rz": 21,
+        "cz": 9,
+        "measure": 4,
+        "x": 1
+      },
+      "two_qubit_count": 9,
+      "two_qubit_by_gate": {
+        "cz": 9
+      },
+      "two_qubit_error_metadata_missing": 0,
+      "product_of_2q_gate_fidelities_partial": 0.9867512092157459
+    },
+    {
+      "name": "scores_003_p2",
+      "depth": 71,
+      "size": 113,
+      "operations": {
+        "sx": 46,
+        "rz": 40,
+        "cz": 21,
+        "measure": 4,
+        "x": 2
+      },
+      "two_qubit_count": 21,
+      "two_qubit_by_gate": {
+        "cz": 21
+      },
+      "two_qubit_error_metadata_missing": 0,
+      "product_of_2q_gate_fidelities_partial": 0.9700386650105957
+    },
+    {
+      "name": "scores_004_uniform",
+      "depth": 4,
+      "size": 16,
+      "operations": {
+        "rz": 8,
+        "sx": 4,
+        "measure": 4
+      },
+      "two_qubit_count": 0,
+      "two_qubit_by_gate": {},
+      "two_qubit_error_metadata_missing": 0,
+      "product_of_2q_gate_fidelities_partial": 1.0
+    },
+    {
+      "name": "scores_004_p1",
+      "depth": 82,
+      "size": 108,
+      "operations": {
+        "sx": 44,
+        "rz": 36,
+        "cz": 20,
+        "x": 4,
+        "measure": 4
+      },
+      "two_qubit_count": 20,
+      "two_qubit_by_gate": {
+        "cz": 20
+      },
+      "two_qubit_error_metadata_missing": 0,
+      "product_of_2q_gate_fidelities_partial": 0.9717415972673351
+    },
+    {
+      "name": "scores_004_p2",
+      "depth": 155,
+      "size": 203,
+      "operations": {
+        "sx": 90,
+        "rz": 70,
+        "cz": 39,
+        "measure": 4
+      },
+      "two_qubit_count": 39,
+      "two_qubit_by_gate": {
+        "cz": 39
+      },
+      "two_qubit_error_metadata_missing": 0,
+      "product_of_2q_gate_fidelities_partial": 0.9445507579723411
+    }
+  ],
+  "total_2q_gates": 266,
+  "qpy_file": "circuits.qpy",
+  "limitation": "5 TRAIN tasks, 16/100 selected pairs, same source of model scores, no reference harmony, no quantum speedup claim"
+}

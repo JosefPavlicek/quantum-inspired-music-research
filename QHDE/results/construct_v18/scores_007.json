@@ -1,0 +1,1021 @@
+{
+  "model": "harmonix_corrected_candidates_frozen_emh_scoring",
+  "candidate_variant": "corrected",
+  "tonic": "A",
+  "mode": "minor",
+  "candidate_count": 10,
+  "pair_count": 100,
+  "segments": 2,
+  "second_segment_is_final": false,
+  "total_song_segments": null,
+  "task": "first_two_segments_local_prefix",
+  "candidate_vocabulary": [
+    {
+      "symbol": "Am",
+      "roman": "i",
+      "function": "tonic",
+      "pitch_classes": [
+        0,
+        4,
+        9
+      ]
+    },
+    {
+      "symbol": "Bdim",
+      "roman": "ii°",
+      "function": "predominant",
+      "pitch_classes": [
+        2,
+        5,
+        11
+      ]
+    },
+    {
+      "symbol": "C",
+      "roman": "III",
+      "function": "tonic",
+      "pitch_classes": [
+        0,
+        4,
+        7
+      ]
+    },
+    {
+      "symbol": "Dm",
+      "roman": "iv",
+      "function": "predominant",
+      "pitch_classes": [
+        2,
+        5,
+        9
+      ]
+    },
+    {
+      "symbol": "E",
+      "roman": "V",
+      "function": "dominant",
+      "pitch_classes": [
+        4,
+        8,
+        11
+      ]
+    },
+    {
+      "symbol": "F",
+      "roman": "VI",
+      "function": "tonic",
+      "pitch_classes": [
+        0,
+        5,
+        9
+      ]
+    },
+    {
+      "symbol": "G",
+      "roman": "VII",
+      "function": "dominant",
+      "pitch_classes": [
+        2,
+        7,
+        11
+      ]
+    },
+    {
+      "symbol": "Bm7b5",
+      "roman": "iiø7",
+      "function": "predominant",
+      "pitch_classes": [
+        2,
+        5,
+        9,
+        11
+      ]
+    },
+    {
+      "symbol": "E7",
+      "roman": "V7",
+      "function": "dominant",
+      "pitch_classes": [
+        2,
+        4,
+        8,
+        11
+      ]
+    },
+    {
+      "symbol": "G7",
+      "roman": "VII7",
+      "function": "dominant",
+      "pitch_classes": [
+        2,
+        5,
+        7,
+        11
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "a": "Am",
+      "a_roman": "i",
+      "b": "Am",
+      "b_roman": "i",
+      "a_index": 0,
+      "b_index": 0,
+      "score": 0.9816176470588235
+    },
+    {
+      "a": "Am",
+      "a_roman": "i",
+      "b": "Bdim",
+      "b_roman": "ii°",
+      "a_index": 0,
+      "b_index": 1,
+      "score": 0.8616176470588235
+    },
+    {
+      "a": "Am",
+      "a_roman": "i",
+      "b": "C",
+      "b_roman": "III",
+      "a_index": 0,
+      "b_index": 2,
+      "score": 0.9366176470588234
+    },
+    {
+      "a": "Am",
+      "a_roman": "i",
+      "b": "Dm",
+      "b_roman": "iv",
+      "a_index": 0,
+      "b_index": 3,
+      "score": 0.8616176470588235
+    },
+    {
+      "a": "Am",
+      "a_roman": "i",
+      "b": "E",
+      "b_roman": "V",
+      "a_index": 0,
+      "b_index": 4,
+      "score": 0.8366176470588236
+    },
+    {
+      "a": "Am",
+      "a_roman": "i",
+      "b": "F",
+      "b_roman": "VI",
+      "a_index": 0,
+      "b_index": 5,
+      "score": 0.9366176470588234
+    },
+    {
+      "a": "Am",
+      "a_roman": "i",
+      "b": "G",
+      "b_roman": "VII",
+      "a_index": 0,
+      "b_index": 6,
+      "score": 0.8366176470588236
+    },
+    {
+      "a": "Am",
+      "a_roman": "i",
+      "b": "Bm7b5",
+      "b_roman": "iiø7",
+      "a_index": 0,
+      "b_index": 7,
+      "score": 0.8616176470588235
+    },
+    {
+      "a": "Am",
+      "a_roman": "i",
+      "b": "E7",
+      "b_roman": "V7",
+      "a_index": 0,
+      "b_index": 8,
+      "score": 0.8366176470588236
+    },
+    {
+      "a": "Am",
+      "a_roman": "i",
+      "b": "G7",
+      "b_roman": "VII7",
+      "a_index": 0,
+      "b_index": 9,
+      "score": 0.8366176470588236
+    },
+    {
+      "a": "Bdim",
+      "a_roman": "ii°",
+      "b": "Am",
+      "b_roman": "i",
+      "a_index": 1,
+      "b_index": 0,
+      "score": 0.7248529411764706
+    },
+    {
+      "a": "Bdim",
+      "a_roman": "ii°",
+      "b": "Bdim",
+      "b_roman": "ii°",
+      "a_index": 1,
+      "b_index": 1,
+      "score": 0.6573529411764705
+    },
+    {
+      "a": "Bdim",
+      "a_roman": "ii°",
+      "b": "C",
+      "b_roman": "III",
+      "a_index": 1,
+      "b_index": 2,
+      "score": 0.7248529411764706
+    },
+    {
+      "a": "Bdim",
+      "a_roman": "ii°",
+      "b": "Dm",
+      "b_roman": "iv",
+      "a_index": 1,
+      "b_index": 3,
+      "score": 0.6123529411764705
+    },
+    {
+      "a": "Bdim",
+      "a_roman": "ii°",
+      "b": "E",
+      "b_roman": "V",
+      "a_index": 1,
+      "b_index": 4,
+      "score": 0.7248529411764706
+    },
+    {
+      "a": "Bdim",
+      "a_roman": "ii°",
+      "b": "F",
+      "b_roman": "VI",
+      "a_index": 1,
+      "b_index": 5,
+      "score": 0.7248529411764706
+    },
+    {
+      "a": "Bdim",
+      "a_roman": "ii°",
+      "b": "G",
+      "b_roman": "VII",
+      "a_index": 1,
+      "b_index": 6,
+      "score": 0.7248529411764706
+    },
+    {
+      "a": "Bdim",
+      "a_roman": "ii°",
+      "b": "Bm7b5",
+      "b_roman": "iiø7",
+      "a_index": 1,
+      "b_index": 7,
+      "score": 0.6123529411764705
+    },
+    {
+      "a": "Bdim",
+      "a_roman": "ii°",
+      "b": "E7",
+      "b_roman": "V7",
+      "a_index": 1,
+      "b_index": 8,
+      "score": 0.7248529411764706
+    },
+    {
+      "a": "Bdim",
+      "a_roman": "ii°",
+      "b": "G7",
+      "b_roman": "VII7",
+      "a_index": 1,
+      "b_index": 9,
+      "score": 0.7248529411764706
+    },
+    {
+      "a": "C",
+      "a_roman": "III",
+      "b": "Am",
+      "b_roman": "i",
+      "a_index": 2,
+      "b_index": 0,
+      "score": 0.9366176470588234
+    },
+    {
+      "a": "C",
+      "a_roman": "III",
+      "b": "Bdim",
+      "b_roman": "ii°",
+      "a_index": 2,
+      "b_index": 1,
+      "score": 0.8616176470588235
+    },
+    {
+      "a": "C",
+      "a_roman": "III",
+      "b": "C",
+      "b_roman": "III",
+      "a_index": 2,
+      "b_index": 2,
+      "score": 0.9816176470588235
+    },
+    {
+      "a": "C",
+      "a_roman": "III",
+      "b": "Dm",
+      "b_roman": "iv",
+      "a_index": 2,
+      "b_index": 3,
+      "score": 0.8616176470588235
+    },
+    {
+      "a": "C",
+      "a_roman": "III",
+      "b": "E",
+      "b_roman": "V",
+      "a_index": 2,
+      "b_index": 4,
+      "score": 0.8366176470588236
+    },
+    {
+      "a": "C",
+      "a_roman": "III",
+      "b": "F",
+      "b_roman": "VI",
+      "a_index": 2,
+      "b_index": 5,
+      "score": 0.9366176470588234
+    },
+    {
+      "a": "C",
+      "a_roman": "III",
+      "b": "G",
+      "b_roman": "VII",
+      "a_index": 2,
+      "b_index": 6,
+      "score": 0.8366176470588236
+    },
+    {
+      "a": "C",
+      "a_roman": "III",
+      "b": "Bm7b5",
+      "b_roman": "iiø7",
+      "a_index": 2,
+      "b_index": 7,
+      "score": 0.8616176470588235
+    },
+    {
+      "a": "C",
+      "a_roman": "III",
+      "b": "E7",
+      "b_roman": "V7",
+      "a_index": 2,
+      "b_index": 8,
+      "score": 0.8366176470588236
+    },
+    {
+      "a": "C",
+      "a_roman": "III",
+      "b": "G7",
+      "b_roman": "VII7",
+      "a_index": 2,
+      "b_index": 9,
+      "score": 0.8366176470588236
+    },
+    {
+      "a": "Dm",
+      "a_roman": "iv",
+      "b": "Am",
+      "b_roman": "i",
+      "a_index": 3,
+      "b_index": 0,
+      "score": 0.7248529411764706
+    },
+    {
+      "a": "Dm",
+      "a_roman": "iv",
+      "b": "Bdim",
+      "b_roman": "ii°",
+      "a_index": 3,
+      "b_index": 1,
+      "score": 0.6123529411764705
+    },
+    {
+      "a": "Dm",
+      "a_roman": "iv",
+      "b": "C",
+      "b_roman": "III",
+      "a_index": 3,
+      "b_index": 2,
+      "score": 0.7248529411764706
+    },
+    {
+      "a": "Dm",
+      "a_roman": "iv",
+      "b": "Dm",
+      "b_roman": "iv",
+      "a_index": 3,
+      "b_index": 3,
+      "score": 0.6573529411764705
+    },
+    {
+      "a": "Dm",
+      "a_roman": "iv",
+      "b": "E",
+      "b_roman": "V",
+      "a_index": 3,
+      "b_index": 4,
+      "score": 0.7248529411764706
+    },
+    {
+      "a": "Dm",
+      "a_roman": "iv",
+      "b": "F",
+      "b_roman": "VI",
+      "a_index": 3,
+      "b_index": 5,
+      "score": 0.7248529411764706
+    },
+    {
+      "a": "Dm",
+      "a_roman": "iv",
+      "b": "G",
+      "b_roman": "VII",
+      "a_index": 3,
+      "b_index": 6,
+      "score": 0.7248529411764706
+    },
+    {
+      "a": "Dm",
+      "a_roman": "iv",
+      "b": "Bm7b5",
+      "b_roman": "iiø7",
+      "a_index": 3,
+      "b_index": 7,
+      "score": 0.6123529411764705
+    },
+    {
+      "a": "Dm",
+      "a_roman": "iv",
+      "b": "E7",
+      "b_roman": "V7",
+      "a_index": 3,
+      "b_index": 8,
+      "score": 0.7248529411764706
+    },
+    {
+      "a": "Dm",
+      "a_roman": "iv",
+      "b": "G7",
+      "b_roman": "VII7",
+      "a_index": 3,
+      "b_index": 9,
+      "score": 0.7248529411764706
+    },
+    {
+      "a": "E",
+      "a_roman": "V",
+      "b": "Am",
+      "b_roman": "i",
+      "a_index": 4,
+      "b_index": 0,
+      "score": 0.8623529411764705
+    },
+    {
+      "a": "E",
+      "a_roman": "V",
+      "b": "Bdim",
+      "b_roman": "ii°",
+      "a_index": 4,
+      "b_index": 1,
+      "score": 0.5373529411764706
+    },
+    {
+      "a": "E",
+      "a_roman": "V",
+      "b": "C",
+      "b_roman": "III",
+      "a_index": 4,
+      "b_index": 2,
+      "score": 0.8623529411764705
+    },
+    {
+      "a": "E",
+      "a_roman": "V",
+      "b": "Dm",
+      "b_roman": "iv",
+      "a_index": 4,
+      "b_index": 3,
+      "score": 0.5373529411764706
+    },
+    {
+      "a": "E",
+      "a_roman": "V",
+      "b": "E",
+      "b_roman": "V",
+      "a_index": 4,
+      "b_index": 4,
+      "score": 0.6573529411764705
+    },
+    {
+      "a": "E",
+      "a_roman": "V",
+      "b": "F",
+      "b_roman": "VI",
+      "a_index": 4,
+      "b_index": 5,
+      "score": 0.8623529411764705
+    },
+    {
+      "a": "E",
+      "a_roman": "V",
+      "b": "G",
+      "b_roman": "VII",
+      "a_index": 4,
+      "b_index": 6,
+      "score": 0.6123529411764705
+    },
+    {
+      "a": "E",
+      "a_roman": "V",
+      "b": "Bm7b5",
+      "b_roman": "iiø7",
+      "a_index": 4,
+      "b_index": 7,
+      "score": 0.5373529411764706
+    },
+    {
+      "a": "E",
+      "a_roman": "V",
+      "b": "E7",
+      "b_roman": "V7",
+      "a_index": 4,
+      "b_index": 8,
+      "score": 0.6123529411764705
+    },
+    {
+      "a": "E",
+      "a_roman": "V",
+      "b": "G7",
+      "b_roman": "VII7",
+      "a_index": 4,
+      "b_index": 9,
+      "score": 0.6123529411764705
+    },
+    {
+      "a": "F",
+      "a_roman": "VI",
+      "b": "Am",
+      "b_roman": "i",
+      "a_index": 5,
+      "b_index": 0,
+      "score": 0.9366176470588234
+    },
+    {
+      "a": "F",
+      "a_roman": "VI",
+      "b": "Bdim",
+      "b_roman": "ii°",
+      "a_index": 5,
+      "b_index": 1,
+      "score": 0.8616176470588235
+    },
+    {
+      "a": "F",
+      "a_roman": "VI",
+      "b": "C",
+      "b_roman": "III",
+      "a_index": 5,
+      "b_index": 2,
+      "score": 0.9366176470588234
+    },
+    {
+      "a": "F",
+      "a_roman": "VI",
+      "b": "Dm",
+      "b_roman": "iv",
+      "a_index": 5,
+      "b_index": 3,
+      "score": 0.8616176470588235
+    },
+    {
+      "a": "F",
+      "a_roman": "VI",
+      "b": "E",
+      "b_roman": "V",
+      "a_index": 5,
+      "b_index": 4,
+      "score": 0.8366176470588236
+    },
+    {
+      "a": "F",
+      "a_roman": "VI",
+      "b": "F",
+      "b_roman": "VI",
+      "a_index": 5,
+      "b_index": 5,
+      "score": 0.9816176470588235
+    },
+    {
+      "a": "F",
+      "a_roman": "VI",
+      "b": "G",
+      "b_roman": "VII",
+      "a_index": 5,
+      "b_index": 6,
+      "score": 0.8366176470588236
+    },
+    {
+      "a": "F",
+      "a_roman": "VI",
+      "b": "Bm7b5",
+      "b_roman": "iiø7",
+      "a_index": 5,
+      "b_index": 7,
+      "score": 0.8616176470588235
+    },
+    {
+      "a": "F",
+      "a_roman": "VI",
+      "b": "E7",
+      "b_roman": "V7",
+      "a_index": 5,
+      "b_index": 8,
+      "score": 0.8366176470588236
+    },
+    {
+      "a": "F",
+      "a_roman": "VI",
+      "b": "G7",
+      "b_roman": "VII7",
+      "a_index": 5,
+      "b_index": 9,
+      "score": 0.8366176470588236
+    },
+    {
+      "a": "G",
+      "a_roman": "VII",
+      "b": "Am",
+      "b_roman": "i",
+      "a_index": 6,
+      "b_index": 0,
+      "score": 0.8623529411764705
+    },
+    {
+      "a": "G",
+      "a_roman": "VII",
+      "b": "Bdim",
+      "b_roman": "ii°",
+      "a_index": 6,
+      "b_index": 1,
+      "score": 0.5373529411764706
+    },
+    {
+      "a": "G",
+      "a_roman": "VII",
+      "b": "C",
+      "b_roman": "III",
+      "a_index": 6,
+      "b_index": 2,
+      "score": 0.8623529411764705
+    },
+    {
+      "a": "G",
+      "a_roman": "VII",
+      "b": "Dm",
+      "b_roman": "iv",
+      "a_index": 6,
+      "b_index": 3,
+      "score": 0.5373529411764706
+    },
+    {
+      "a": "G",
+      "a_roman": "VII",
+      "b": "E",
+      "b_roman": "V",
+      "a_index": 6,
+      "b_index": 4,
+      "score": 0.6123529411764705
+    },
+    {
+      "a": "G",
+      "a_roman": "VII",
+      "b": "F",
+      "b_roman": "VI",
+      "a_index": 6,
+      "b_index": 5,
+      "score": 0.8623529411764705
+    },
+    {
+      "a": "G",
+      "a_roman": "VII",
+      "b": "G",
+      "b_roman": "VII",
+      "a_index": 6,
+      "b_index": 6,
+      "score": 0.6573529411764705
+    },
+    {
+      "a": "G",
+      "a_roman": "VII",
+      "b": "Bm7b5",
+      "b_roman": "iiø7",
+      "a_index": 6,
+      "b_index": 7,
+      "score": 0.5373529411764706
+    },
+    {
+      "a": "G",
+      "a_roman": "VII",
+      "b": "E7",
+      "b_roman": "V7",
+      "a_index": 6,
+      "b_index": 8,
+      "score": 0.6123529411764705
+    },
+    {
+      "a": "G",
+      "a_roman": "VII",
+      "b": "G7",
+      "b_roman": "VII7",
+      "a_index": 6,
+      "b_index": 9,
+      "score": 0.6123529411764705
+    },
+    {
+      "a": "Bm7b5",
+      "a_roman": "iiø7",
+      "b": "Am",
+      "b_roman": "i",
+      "a_index": 7,
+      "b_index": 0,
+      "score": 0.7248529411764706
+    },
+    {
+      "a": "Bm7b5",
+      "a_roman": "iiø7",
+      "b": "Bdim",
+      "b_roman": "ii°",
+      "a_index": 7,
+      "b_index": 1,
+      "score": 0.6123529411764705
+    },
+    {
+      "a": "Bm7b5",
+      "a_roman": "iiø7",
+      "b": "C",
+      "b_roman": "III",
+      "a_index": 7,
+      "b_index": 2,
+      "score": 0.7248529411764706
+    },
+    {
+      "a": "Bm7b5",
+      "a_roman": "iiø7",
+      "b": "Dm",
+      "b_roman": "iv",
+      "a_index": 7,
+      "b_index": 3,
+      "score": 0.6123529411764705
+    },
+    {
+      "a": "Bm7b5",
+      "a_roman": "iiø7",
+      "b": "E",
+      "b_roman": "V",
+      "a_index": 7,
+      "b_index": 4,
+      "score": 0.7248529411764706
+    },
+    {
+      "a": "Bm7b5",
+      "a_roman": "iiø7",
+      "b": "F",
+      "b_roman": "VI",
+      "a_index": 7,
+      "b_index": 5,
+      "score": 0.7248529411764706
+    },
+    {
+      "a": "Bm7b5",
+      "a_roman": "iiø7",
+      "b": "G",
+      "b_roman": "VII",
+      "a_index": 7,
+      "b_index": 6,
+      "score": 0.7248529411764706
+    },
+    {
+      "a": "Bm7b5",
+      "a_roman": "iiø7",
+      "b": "Bm7b5",
+      "b_roman": "iiø7",
+      "a_index": 7,
+      "b_index": 7,
+      "score": 0.6573529411764705
+    },
+    {
+      "a": "Bm7b5",
+      "a_roman": "iiø7",
+      "b": "E7",
+      "b_roman": "V7",
+      "a_index": 7,
+      "b_index": 8,
+      "score": 0.7248529411764706
+    },
+    {
+      "a": "Bm7b5",
+      "a_roman": "iiø7",
+      "b": "G7",
+      "b_roman": "VII7",
+      "a_index": 7,
+      "b_index": 9,
+      "score": 0.7248529411764706
+    },
+    {
+      "a": "E7",
+      "a_roman": "V7",
+      "b": "Am",
+      "b_roman": "i",
+      "a_index": 8,
+      "b_index": 0,
+      "score": 0.8623529411764705
+    },
+    {
+      "a": "E7",
+      "a_roman": "V7",
+      "b": "Bdim",
+      "b_roman": "ii°",
+      "a_index": 8,
+      "b_index": 1,
+      "score": 0.5373529411764706
+    },
+    {
+      "a": "E7",
+      "a_roman": "V7",
+      "b": "C",
+      "b_roman": "III",
+      "a_index": 8,
+      "b_index": 2,
+      "score": 0.8623529411764705
+    },
+    {
+      "a": "E7",
+      "a_roman": "V7",
+      "b": "Dm",
+      "b_roman": "iv",
+      "a_index": 8,
+      "b_index": 3,
+      "score": 0.5373529411764706
+    },
+    {
+      "a": "E7",
+      "a_roman": "V7",
+      "b": "E",
+      "b_roman": "V",
+      "a_index": 8,
+      "b_index": 4,
+      "score": 0.6123529411764705
+    },
+    {
+      "a": "E7",
+      "a_roman": "V7",
+      "b": "F",
+      "b_roman": "VI",
+      "a_index": 8,
+      "b_index": 5,
+      "score": 0.8623529411764705
+    },
+    {
+      "a": "E7",
+      "a_roman": "V7",
+      "b": "G",
+      "b_roman": "VII",
+      "a_index": 8,
+      "b_index": 6,
+      "score": 0.6123529411764705
+    },
+    {
+      "a": "E7",
+      "a_roman": "V7",
+      "b": "Bm7b5",
+      "b_roman": "iiø7",
+      "a_index": 8,
+      "b_index": 7,
+      "score": 0.5373529411764706
+    },
+    {
+      "a": "E7",
+      "a_roman": "V7",
+      "b": "E7",
+      "b_roman": "V7",
+      "a_index": 8,
+      "b_index": 8,
+      "score": 0.6573529411764705
+    },
+    {
+      "a": "E7",
+      "a_roman": "V7",
+      "b": "G7",
+      "b_roman": "VII7",
+      "a_index": 8,
+      "b_index": 9,
+      "score": 0.6123529411764705
+    },
+    {
+      "a": "G7",
+      "a_roman": "VII7",
+      "b": "Am",
+      "b_roman": "i",
+      "a_index": 9,
+      "b_index": 0,
+      "score": 0.8623529411764705
+    },
+    {
+      "a": "G7",
+      "a_roman": "VII7",
+      "b": "Bdim",
+      "b_roman": "ii°",
+      "a_index": 9,
+      "b_index": 1,
+      "score": 0.5373529411764706
+    },
+    {
+      "a": "G7",
+      "a_roman": "VII7",
+      "b": "C",
+      "b_roman": "III",
+      "a_index": 9,
+      "b_index": 2,
+      "score": 0.8623529411764705
+    },
+    {
+      "a": "G7",
+      "a_roman": "VII7",
+      "b": "Dm",
+      "b_roman": "iv",
+      "a_index": 9,
+      "b_index": 3,
+      "score": 0.5373529411764706
+    },
+    {
+      "a": "G7",
+      "a_roman": "VII7",
+      "b": "E",
+      "b_roman": "V",
+      "a_index": 9,
+      "b_index": 4,
+      "score": 0.6123529411764705
+    },
+    {
+      "a": "G7",
+      "a_roman": "VII7",
+      "b": "F",
+      "b_roman": "VI",
+      "a_index": 9,
+      "b_index": 5,
+      "score": 0.8623529411764705
+    },
+    {
+      "a": "G7",
+      "a_roman": "VII7",
+      "b": "G",
+      "b_roman": "VII",
+      "a_index": 9,
+      "b_index": 6,
+      "score": 0.6123529411764705
+    },
+    {
+      "a": "G7",
+      "a_roman": "VII7",
+      "b": "Bm7b5",
+      "b_roman": "iiø7",
+      "a_index": 9,
+      "b_index": 7,
+      "score": 0.5373529411764706
+    },
+    {
+      "a": "G7",
+      "a_roman": "VII7",
+      "b": "E7",
+      "b_roman": "V7",
+      "a_index": 9,
+      "b_index": 8,
+      "score": 0.6123529411764705
+    },
+    {
+      "a": "G7",
+      "a_roman": "VII7",
+      "b": "G7",
+      "b_roman": "VII7",
+      "a_index": 9,
+      "b_index": 9,
+      "score": 0.6573529411764705
+    }
+  ],
+  "record_id": "_NgbbeRrgQA",
+  "source_split": "TRAIN"
+}

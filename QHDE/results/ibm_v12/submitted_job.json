@@ -1,0 +1,12 @@
+{
+  "job_id": "dbh3ad4dgr2s73csl19g",
+  "backend": "ibm_marrakesh",
+  "shots": 1024,
+  "circuits_order": [
+    "uniform",
+    "qaoa"
+  ],
+  "submitted_utc": "2026-10-28T17:47:32.373731+00:00",
+  "status": "submitted",
+  "qpu_cost_unknown": true
+}

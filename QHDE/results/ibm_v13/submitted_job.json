@@ -1,0 +1,23 @@
+{
+  "job_id": "dbh3hqsdgr2s73cslji0",
+  "backend": "ibm_pittsburgh",
+  "submitted_utc": "2026-10-28T18:03:23.562754+00:00",
+  "shots": 1024,
+  "circuits_order": [
+    "scores_000_uniform",
+    "scores_000_p1",
+    "scores_000_p2",
+    "scores_001_uniform",
+    "scores_001_p1",
+    "scores_001_p2",
+    "scores_002_uniform",
+    "scores_002_p1",
+    "scores_002_p2",
+    "scores_003_uniform",
+    "scores_003_p1",
+    "scores_003_p2",
+    "scores_004_uniform",
+    "scores_004_p1",
+    "scores_004_p2"
+  ]
+}

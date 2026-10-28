@@ -1,0 +1,144 @@
+{
+  "version": "QHDE-v0.15",
+  "offline_only": true,
+  "n_records": 5,
+  "source_job": "dbh3hqsdgr2s73cslji0",
+  "records": [
+    {
+      "record_id": "LAgQGkwEoyO",
+      "optimum_count": 1,
+      "distinct_scores": 14,
+      "range_score": 0.5112903225806451,
+      "best_second_distinct_gap": 0.0674999999999999,
+      "score_sd": 0.14690854493002997,
+      "shifted_score_entropy_bits": 3.745377943382715,
+      "uniform_success": 0.0703125,
+      "p1_success": 0.1435546875,
+      "p2_success": 0.203125,
+      "delta_p2_minus_p1_pp": 5.95703125,
+      "p1_mean_score": 1.3447555443548387,
+      "p2_mean_score": 1.3688983744959677,
+      "delta_mean_score": 0.024142830141129057,
+      "ideal_p1_success": 0.16271333488338338,
+      "ideal_p2_success": 0.24517211235617115,
+      "ideal_depth_gain_pp": 8.245877747278776,
+      "measured_depth_gain_pp": 5.95703125,
+      "delta_95_ci_pp": [
+        2.688314882198676,
+        9.225747617801325
+      ]
+    },
+    {
+      "record_id": "bWgMvrVkxlX",
+      "optimum_count": 9,
+      "distinct_scores": 4,
+      "range_score": 0.1875,
+      "best_second_distinct_gap": 0.0674999999999999,
+      "score_sd": 0.05999816891737192,
+      "shifted_score_entropy_bits": 3.8178720955657237,
+      "uniform_success": 0.5517578125,
+      "p1_success": 0.9404296875,
+      "p2_success": 0.8955078125,
+      "delta_p2_minus_p1_pp": -4.4921875,
+      "p1_mean_score": 1.4167246380974263,
+      "p2_mean_score": 1.4119638959099263,
+      "delta_mean_score": -0.0047607421875,
+      "ideal_p1_success": 0.9789443426290418,
+      "ideal_p2_success": 0.9793124763916021,
+      "ideal_depth_gain_pp": 0.03681337625602854,
+      "measured_depth_gain_pp": -4.4921875,
+      "delta_95_ci_pp": [
+        -6.861143713214241,
+        -2.123231286785759
+      ]
+    },
+    {
+      "record_id": "DpgvlyPBoad",
+      "optimum_count": 3,
+      "distinct_scores": 4,
+      "range_score": 0.1625000000000001,
+      "best_second_distinct_gap": 0.08750000000000013,
+      "score_sd": 0.061550403316611206,
+      "shifted_score_entropy_bits": 2.6078562595712413,
+      "uniform_success": 0.1796875,
+      "p1_success": 0.46484375,
+      "p2_success": 0.6796875,
+      "delta_p2_minus_p1_pp": 21.484375,
+      "p1_mean_score": 0.8862011718749999,
+      "p2_mean_score": 0.9148144531250002,
+      "delta_mean_score": 0.02861328125000029,
+      "ideal_p1_success": 0.4807420035006896,
+      "ideal_p2_success": 0.7464121660295435,
+      "ideal_depth_gain_pp": 26.567016252885395,
+      "measured_depth_gain_pp": 21.484375,
+      "delta_95_ci_pp": [
+        17.30113315263397,
+        25.66761684736603
+      ]
+    },
+    {
+      "record_id": "nZgWXMVQxry",
+      "optimum_count": 2,
+      "distinct_scores": 6,
+      "range_score": 0.23858974358974372,
+      "best_second_distinct_gap": 0.04499999999999993,
+      "score_sd": 0.07541276912733243,
+      "shifted_score_entropy_bits": 3.6288307556548625,
+      "uniform_success": 0.138671875,
+      "p1_success": 0.369140625,
+      "p2_success": 0.4482421875,
+      "delta_p2_minus_p1_pp": 7.91015625,
+      "p1_mean_score": 1.3704058994391026,
+      "p2_mean_score": 1.3761777594150642,
+      "delta_mean_score": 0.005771859975961524,
+      "ideal_p1_success": 0.42056226119687257,
+      "ideal_p2_success": 0.5027430899613506,
+      "ideal_depth_gain_pp": 8.218082876447808,
+      "measured_depth_gain_pp": 7.91015625,
+      "delta_95_ci_pp": [
+        3.6658392209854256,
+        12.154473279014574
+      ]
+    },
+    {
+      "record_id": "RPxeyBjaxb_",
+      "optimum_count": 1,
+      "distinct_scores": 8,
+      "range_score": 0.30326923076923085,
+      "best_second_distinct_gap": 0.0296153846153846,
+      "score_sd": 0.08633366701537495,
+      "shifted_score_entropy_bits": 3.7063980566777044,
+      "uniform_success": 0.0625,
+      "p1_success": 0.2880859375,
+      "p2_success": 0.25390625,
+      "delta_p2_minus_p1_pp": -3.41796875,
+      "p1_mean_score": 1.3292603612208107,
+      "p2_mean_score": 1.3309952352335166,
+      "delta_mean_score": 0.0017348740127058893,
+      "ideal_p1_success": 0.32106941627818236,
+      "ideal_p2_success": 0.34459657485562856,
+      "ideal_depth_gain_pp": 2.352715857744619,
+      "measured_depth_gain_pp": -3.41796875,
+      "delta_95_ci_pp": [
+        -7.265111448292055,
+        0.42917394829205535
+      ]
+    }
+  ],
+  "exploratory_correlations": {
+    "optimum_count": -0.3232473659944378,
+    "distinct_scores": -0.14982232430284861,
+    "range_score": -0.19689341428135645,
+    "best_second_distinct_gap": 0.6395359823844877,
+    "score_sd": -0.0878297561618926,
+    "shifted_score_entropy_bits": -0.8906877638948886
+  },
+  "critical_limitations": [
+    "These are optimization-score landscape descriptors, NOT independently measured musical-complexity features.",
+    "Five related TRAIN cases are insufficient for inferential correlations or predictive claims.",
+    "Model-selected 4x4 subset; original 10x10 task not solved by QAOA.",
+    "Ideal p1/p2 differ before hardware noise: depth effect is not attributable to noise alone.",
+    "Complexity analysis of full-song human chord sequences requires original HookTheory records and reliable parsing.",
+    "Bit-to-basis mapping must be independently audited before final publication."
+  ]
+}

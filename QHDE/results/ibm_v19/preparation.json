@@ -1,0 +1,2514 @@
+{
+  "version": "QHDE-v0.19",
+  "created_utc": "2026-10-28T20:22:14.265960+00:00",
+  "backend": "ibm_pittsburgh",
+  "queue": 1,
+  "source_instances": "QHDE/results/construct_v18/instances.json",
+  "source_sha256": "f6e19904b94b178c8bafa9aa599016f452e2fbbd076a886bb8d118daa4c69100",
+  "shots": 1024,
+  "seed_transpiler": 42,
+  "optimization_level": 2,
+  "circuit_names": [
+    "clip_00_uniform",
+    "clip_00_p1",
+    "clip_00_p2",
+    "clip_00_p3",
+    "clip_01_uniform",
+    "clip_01_p1",
+    "clip_01_p2",
+    "clip_01_p3",
+    "clip_02_uniform",
+    "clip_02_p1",
+    "clip_02_p2",
+    "clip_02_p3",
+    "clip_03_uniform",
+    "clip_03_p1",
+    "clip_03_p2",
+    "clip_03_p3",
+    "clip_04_uniform",
+    "clip_04_p1",
+    "clip_04_p2",
+    "clip_04_p3",
+    "clip_05_uniform",
+    "clip_05_p1",
+    "clip_05_p2",
+    "clip_05_p3",
+    "clip_06_uniform",
+    "clip_06_p1",
+    "clip_06_p2",
+    "clip_06_p3",
+    "clip_07_uniform",
+    "clip_07_p1",
+    "clip_07_p2",
+    "clip_07_p3",
+    "clip_08_uniform",
+    "clip_08_p1",
+    "clip_08_p2",
+    "clip_08_p3",
+    "clip_09_uniform",
+    "clip_09_p1",
+    "clip_09_p2",
+    "clip_09_p3",
+    "clip_10_uniform",
+    "clip_10_p1",
+    "clip_10_p2",
+    "clip_10_p3",
+    "clip_11_uniform",
+    "clip_11_p1",
+    "clip_11_p2",
+    "clip_11_p3",
+    "clip_12_uniform",
+    "clip_12_p1",
+    "clip_12_p2",
+    "clip_12_p3",
+    "clip_13_uniform",
+    "clip_13_p1",
+    "clip_13_p2",
+    "clip_13_p3",
+    "clip_14_uniform",
+    "clip_14_p1",
+    "clip_14_p2",
+    "clip_14_p3",
+    "clip_15_uniform",
+    "clip_15_p1",
+    "clip_15_p2",
+    "clip_15_p3"
+  ],
+  "circuits_sha256": "f85842316a8a8b3c6d8e685dc82b80d2dca56ae7fcc8ac56d24f5083da880bc8",
+  "records": [
+    {
+      "record_id": "dPoDrNVqgnM",
+      "stratum": "low_entropy__high_repetition",
+      "music_features": {
+        "n_chords": 16,
+        "chord_entropy_bits": 2.75,
+        "conditional_transition_entropy_bits": 0.26666666666666666,
+        "repeated_bigram_rate": 0.4666666666666667
+      },
+      "full_optimum_represented": false,
+      "optimal_basis_indices": [
+        0
+      ],
+      "scores_16": [
+        1.2347457627118645,
+        1.1897457627118646,
+        1.0897457627118645,
+        1.2272457627118645,
+        1.1105084745762714,
+        1.1555084745762714,
+        1.0105084745762714,
+        1.1480084745762713,
+        1.1327542372881356,
+        1.1327542372881356,
+        0.9277542372881356,
+        1.0202542372881356,
+        1.1327542372881356,
+        1.1327542372881356,
+        0.8827542372881356,
+        1.0652542372881355
+      ],
+      "uniform_optimal_probability": 0.0625,
+      "models": {
+        "p1": {
+          "params": [
+            3.129031799417408,
+            5.814644420254214
+          ],
+          "ideal_optimal_probability": 0.1815800009367069,
+          "ideal_expected_score": 1.1749826071722893,
+          "max_probability_error": 1.6653345369377348e-16
+        },
+        "p2": {
+          "params": [
+            2.951520961003267,
+            0.8995545773861763,
+            6.26339047346205,
+            5.0075455187833695
+          ],
+          "ideal_optimal_probability": 0.10129533119707101,
+          "ideal_expected_score": 1.1788901871736008,
+          "max_probability_error": 1.6653345369377348e-16
+        },
+        "p3": {
+          "params": [
+            2.2222091063346525,
+            0.7538461192704928,
+            1.4128655963922243,
+            5.040539781033936,
+            5.352115656943673,
+            6.0295108593628655
+          ],
+          "ideal_optimal_probability": 0.23480936610416353,
+          "ideal_expected_score": 1.1897369044092123,
+          "max_probability_error": 3.885780586188048e-16
+        }
+      },
+      "names": [
+        "clip_00_uniform",
+        "clip_00_p1",
+        "clip_00_p2",
+        "clip_00_p3"
+      ]
+    },
+    {
+      "record_id": "LAgQnYKlxyO",
+      "stratum": "low_entropy__high_repetition",
+      "music_features": {
+        "n_chords": 16,
+        "chord_entropy_bits": 2.0,
+        "conditional_transition_entropy_bits": 0.0,
+        "repeated_bigram_rate": 0.7333333333333334
+      },
+      "full_optimum_represented": true,
+      "optimal_basis_indices": [
+        8,
+        12
+      ],
+      "scores_16": [
+        0.9375,
+        0.7550000000000001,
+        0.7925,
+        0.655,
+        0.8925000000000001,
+        0.8,
+        0.7925,
+        0.655,
+        0.98,
+        0.8425,
+        0.7749999999999999,
+        0.5925,
+        0.98,
+        0.8425,
+        0.73,
+        0.6375
+      ],
+      "uniform_optimal_probability": 0.125,
+      "models": {
+        "p1": {
+          "params": [
+            3.5162198055788196,
+            2.4007776606368836
+          ],
+          "ideal_optimal_probability": 0.5090081253484928,
+          "ideal_expected_score": 0.9340975686714814,
+          "max_probability_error": 2.220446049250313e-16
+        },
+        "p2": {
+          "params": [
+            2.258149895960205,
+            5.531727155307303,
+            3.664336171144928,
+            5.912758404386746
+          ],
+          "ideal_optimal_probability": 0.6777202300741317,
+          "ideal_expected_score": 0.9552837304439984,
+          "max_probability_error": 6.106226635438361e-16
+        },
+        "p3": {
+          "params": [
+            2.389916117680698,
+            2.170214363672519,
+            4.185916850936146,
+            5.830987415536832,
+            5.2009093761166545,
+            2.951329057255883
+          ],
+          "ideal_optimal_probability": 0.8228746405530474,
+          "ideal_expected_score": 0.9650838441931313,
+          "max_probability_error": 1.1102230246251565e-16
+        }
+      },
+      "names": [
+        "clip_01_uniform",
+        "clip_01_p1",
+        "clip_01_p2",
+        "clip_01_p3"
+      ]
+    },
+    {
+      "record_id": "QLgnvz_Yg-V",
+      "stratum": "low_entropy__high_repetition",
+      "music_features": {
+        "n_chords": 16,
+        "chord_entropy_bits": 2.0,
+        "conditional_transition_entropy_bits": 0.0,
+        "repeated_bigram_rate": 0.7333333333333334
+      },
+      "full_optimum_represented": true,
+      "optimal_basis_indices": [
+        0
+      ],
+      "scores_16": [
+        1.4375,
+        1.2893750000000002,
+        1.155,
+        1.155,
+        1.3925,
+        1.334375,
+        1.155,
+        1.155,
+        1.205,
+        1.1018750000000002,
+        0.8625,
+        0.8175000000000001,
+        1.205,
+        1.1018750000000002,
+        0.8175000000000001,
+        0.8625
+      ],
+      "uniform_optimal_probability": 0.0625,
+      "models": {
+        "p1": {
+          "params": [
+            3.5505971928485387,
+            2.3794352285893545
+          ],
+          "ideal_optimal_probability": 0.30571898217020516,
+          "ideal_expected_score": 1.359478447460417,
+          "max_probability_error": 4.996003610813204e-16
+        },
+        "p2": {
+          "params": [
+            1.9941781875749514,
+            2.4168597422005407,
+            4.060006714652547,
+            2.7339219066047935
+          ],
+          "ideal_optimal_probability": 0.4137272868548962,
+          "ideal_expected_score": 1.3882386303238818,
+          "max_probability_error": 2.7755575615628914e-16
+        },
+        "p3": {
+          "params": [
+            2.3898565920258354,
+            0.8291790947724818,
+            2.1635895045302997,
+            1.6600597168391038,
+            6.261135725106955,
+            2.8688618243312494
+          ],
+          "ideal_optimal_probability": 0.45912176343273997,
+          "ideal_expected_score": 1.3891063765101963,
+          "max_probability_error": 6.106226635438361e-16
+        }
+      },
+      "names": [
+        "clip_02_uniform",
+        "clip_02_p1",
+        "clip_02_p2",
+        "clip_02_p3"
+      ]
+    },
+    {
+      "record_id": "dPoD-yjqmnM",
+      "stratum": "low_entropy__high_repetition",
+      "music_features": {
+        "n_chords": 16,
+        "chord_entropy_bits": 2.625,
+        "conditional_transition_entropy_bits": 0.4,
+        "repeated_bigram_rate": 0.4666666666666667
+      },
+      "full_optimum_represented": false,
+      "optimal_basis_indices": [
+        0
+      ],
+      "scores_16": [
+        1.4375,
+        1.1175000000000002,
+        1.155,
+        1.155,
+        1.1175,
+        0.8875,
+        0.88,
+        0.88,
+        1.205,
+        0.9299999999999999,
+        0.8625,
+        0.8175,
+        1.205,
+        0.9299999999999999,
+        0.8175,
+        0.8625
+      ],
+      "uniform_optimal_probability": 0.0625,
+      "models": {
+        "p1": {
+          "params": [
+            4.025619004138599,
+            2.551340650928466
+          ],
+          "ideal_optimal_probability": 0.4605856571234418,
+          "ideal_expected_score": 1.2639489751651762,
+          "max_probability_error": 1.6653345369377348e-16
+        },
+        "p2": {
+          "params": [
+            2.883462963933645,
+            5.425625617571671,
+            4.445781816853178,
+            2.62567205022353
+          ],
+          "ideal_optimal_probability": 0.9347581404068595,
+          "ideal_expected_score": 1.4128188709721816,
+          "max_probability_error": 2.220446049250313e-16
+        },
+        "p3": {
+          "params": [
+            1.312103797257109,
+            0.5115862808601859,
+            2.9329702154033916,
+            5.219131657311651,
+            4.2207718321908825,
+            2.6642008480089316
+          ],
+          "ideal_optimal_probability": 0.9232145370706016,
+          "ideal_expected_score": 1.4133911417244773,
+          "max_probability_error": 1.5543122344752192e-15
+        }
+      },
+      "names": [
+        "clip_03_uniform",
+        "clip_03_p1",
+        "clip_03_p2",
+        "clip_03_p3"
+      ]
+    },
+    {
+      "record_id": "dPoDJekZgnM",
+      "stratum": "low_entropy__low_repetition",
+      "music_features": {
+        "n_chords": 10,
+        "chord_entropy_bits": 2.321928094887362,
+        "conditional_transition_entropy_bits": 0.0,
+        "repeated_bigram_rate": 0.4444444444444444
+      },
+      "full_optimum_represented": false,
+      "optimal_basis_indices": [
+        0
+      ],
+      "scores_16": [
+        1.4375,
+        1.1175000000000002,
+        1.155,
+        1.155,
+        1.1175000000000002,
+        0.8875000000000001,
+        0.8800000000000001,
+        0.8800000000000001,
+        1.205,
+        0.93,
+        0.8625,
+        0.8175000000000001,
+        1.205,
+        0.93,
+        0.8175000000000001,
+        0.8625
+      ],
+      "uniform_optimal_probability": 0.0625,
+      "models": {
+        "p1": {
+          "params": [
+            4.021809225179662,
+            5.6876077274143135
+          ],
+          "ideal_optimal_probability": 0.46110481202694414,
+          "ideal_expected_score": 1.2640444987573987,
+          "max_probability_error": 1.6653345369377348e-16
+        },
+        "p2": {
+          "params": [
+            3.8679007229336877,
+            1.075735252172144,
+            6.256769401436122,
+            1.4167222533408068
+          ],
+          "ideal_optimal_probability": 0.4688797706208886,
+          "ideal_expected_score": 1.266705183637805,
+          "max_probability_error": 3.3306690738754696e-16
+        },
+        "p3": {
+          "params": [
+            2.5108827271608365,
+            5.534376227103434,
+            2.4657546034466775,
+            5.949398135703281,
+            2.7964769944142516,
+            5.949576985331676
+          ],
+          "ideal_optimal_probability": 0.9519523231967895,
+          "ideal_expected_score": 1.4217833210001445,
+          "max_probability_error": 8.881784197001252e-16
+        }
+      },
+      "names": [
+        "clip_04_uniform",
+        "clip_04_p1",
+        "clip_04_p2",
+        "clip_04_p3"
+      ]
+    },
+    {
+      "record_id": "jDgXQwLyxKl",
+      "stratum": "low_entropy__low_repetition",
+      "music_features": {
+        "n_chords": 10,
+        "chord_entropy_bits": 1.9219280948873623,
+        "conditional_transition_entropy_bits": 0.3060986113514965,
+        "repeated_bigram_rate": 0.4444444444444444
+      },
+      "full_optimum_represented": true,
+      "optimal_basis_indices": [
+        8,
+        9
+      ],
+      "scores_16": [
+        1.4375,
+        1.3925,
+        1.4300000000000002,
+        1.155,
+        1.3925,
+        1.4375,
+        1.4300000000000002,
+        1.155,
+        1.48,
+        1.48,
+        1.4125,
+        1.0925,
+        1.205,
+        1.205,
+        1.0925,
+        0.8625
+      ],
+      "uniform_optimal_probability": 0.125,
+      "models": {
+        "p1": {
+          "params": [
+            2.856586259926184,
+            5.843716353311385
+          ],
+          "ideal_optimal_probability": 0.26967855128217094,
+          "ideal_expected_score": 1.4336929869273125,
+          "max_probability_error": 1.1102230246251565e-16
+        },
+        "p2": {
+          "params": [
+            2.497998294677947,
+            2.728888692029121,
+            2.4187302933607975,
+            3.0402489098897787
+          ],
+          "ideal_optimal_probability": 0.2781372374167297,
+          "ideal_expected_score": 1.4353453242843197,
+          "max_probability_error": 2.7755575615628914e-16
+        },
+        "p3": {
+          "params": [
+            1.0113735095036998,
+            2.6267187663212304,
+            0.838838875122923,
+            2.9913670879671517,
+            2.819234754571048,
+            5.989074011193093
+          ],
+          "ideal_optimal_probability": 0.27239426835720937,
+          "ideal_expected_score": 1.4361724855916422,
+          "max_probability_error": 2.636779683484747e-16
+        }
+      },
+      "names": [
+        "clip_05_uniform",
+        "clip_05_p1",
+        "clip_05_p2",
+        "clip_05_p3"
+      ]
+    },
+    {
+      "record_id": "AQodnNrqgDl",
+      "stratum": "low_entropy__low_repetition",
+      "music_features": {
+        "n_chords": 10,
+        "chord_entropy_bits": 3.1219280948873624,
+        "conditional_transition_entropy_bits": 0.2222222222222222,
+        "repeated_bigram_rate": 0.0
+      },
+      "full_optimum_represented": false,
+      "optimal_basis_indices": [
+        8,
+        12
+      ],
+      "scores_16": [
+        1.0414008394693064,
+        0.8864008394693064,
+        0.9239008394693063,
+        0.9239008394693063,
+        0.8625,
+        0.7975,
+        0.79,
+        0.79,
+        1.091099160530694,
+        0.9810991605306938,
+        0.9135991605306938,
+        0.8685991605306937,
+        1.091099160530694,
+        0.9810991605306938,
+        0.8685991605306937,
+        0.9135991605306938
+      ],
+      "uniform_optimal_probability": 0.125,
+      "models": {
+        "p1": {
+          "params": [
+            2.993173936586121,
+            5.733188046531334
+          ],
+          "ideal_optimal_probability": 0.4987442683904262,
+          "ideal_expected_score": 1.0179834896606799,
+          "max_probability_error": 2.7755575615628914e-16
+        },
+        "p2": {
+          "params": [
+            3.013005972751133,
+            4.368234067561065,
+            0.024380827218951323,
+            1.3535921794634322
+          ],
+          "ideal_optimal_probability": 0.5009471505577169,
+          "ideal_expected_score": 1.0177607260687294,
+          "max_probability_error": 1.3877787807814457e-16
+        },
+        "p3": {
+          "params": [
+            2.6013651203706756,
+            5.436798690445224,
+            2.8727428440553084,
+            0.35749456614145453,
+            1.0967102674070857,
+            2.338155444017839
+          ],
+          "ideal_optimal_probability": 0.8747050900323513,
+          "ideal_expected_score": 1.07288255955949,
+          "max_probability_error": 4.85722573273506e-17
+        }
+      },
+      "names": [
+        "clip_06_uniform",
+        "clip_06_p1",
+        "clip_06_p2",
+        "clip_06_p3"
+      ]
+    },
+    {
+      "record_id": "_NgbbeRrgQA",
+      "stratum": "low_entropy__low_repetition",
+      "music_features": {
+        "n_chords": 11,
+        "chord_entropy_bits": 2.7321588913645702,
+        "conditional_transition_entropy_bits": 0.4,
+        "repeated_bigram_rate": 0.09999999999999998
+      },
+      "full_optimum_represented": true,
+      "optimal_basis_indices": [
+        0,
+        5
+      ],
+      "scores_16": [
+        0.9816176470588235,
+        0.9366176470588234,
+        0.8366176470588236,
+        0.8366176470588236,
+        0.9366176470588234,
+        0.9816176470588235,
+        0.8366176470588236,
+        0.8366176470588236,
+        0.8623529411764705,
+        0.8623529411764705,
+        0.6573529411764705,
+        0.6123529411764705,
+        0.8623529411764705,
+        0.8623529411764705,
+        0.6123529411764705,
+        0.6573529411764705
+      ],
+      "uniform_optimal_probability": 0.125,
+      "models": {
+        "p1": {
+          "params": [
+            2.9655595972232067,
+            2.4215085527842346
+          ],
+          "ideal_optimal_probability": 0.4501207815470885,
+          "ideal_expected_score": 0.939743745348314,
+          "max_probability_error": 3.3306690738754696e-16
+        },
+        "p2": {
+          "params": [
+            1.9811876599445475,
+            2.4385764348158427,
+            4.11835273333941,
+            5.9270820195204665
+          ],
+          "ideal_optimal_probability": 0.618201102472805,
+          "ideal_expected_score": 0.9590585560440454,
+          "max_probability_error": 4.996003610813204e-16
+        },
+        "p3": {
+          "params": [
+            1.3305920021974875,
+            3.595054141951026,
+            4.454066028929063,
+            5.327871911206375,
+            5.578261206088564,
+            0.560117015904874
+          ],
+          "ideal_optimal_probability": 0.48218081794335066,
+          "ideal_expected_score": 0.949093754209439,
+          "max_probability_error": 3.0531133177191805e-16
+        }
+      },
+      "names": [
+        "clip_07_uniform",
+        "clip_07_p1",
+        "clip_07_p2",
+        "clip_07_p3"
+      ]
+    },
+    {
+      "record_id": "jDgXOMDnmKl",
+      "stratum": "high_entropy__high_repetition",
+      "music_features": {
+        "n_chords": 27,
+        "chord_entropy_bits": 2.3037464107788743,
+        "conditional_transition_entropy_bits": 0.7593172142167997,
+        "repeated_bigram_rate": 0.6153846153846154
+      },
+      "full_optimum_represented": false,
+      "optimal_basis_indices": [
+        8,
+        12
+      ],
+      "scores_16": [
+        1.2101814516129032,
+        0.9933064516129033,
+        1.0651814516129035,
+        1.0651814516129035,
+        1.1651814516129033,
+        1.0383064516129032,
+        1.0651814516129035,
+        1.0651814516129035,
+        1.2260685483870968,
+        1.0541935483870968,
+        1.021068548387097,
+        0.9760685483870969,
+        1.2260685483870968,
+        1.0541935483870968,
+        0.9760685483870969,
+        1.021068548387097
+      ],
+      "uniform_optimal_probability": 0.125,
+      "models": {
+        "p1": {
+          "params": [
+            2.4379354556327395,
+            5.739520946939053
+          ],
+          "ideal_optimal_probability": 0.35324874610627194,
+          "ideal_expected_score": 1.150441604227312,
+          "max_probability_error": 2.498001805406602e-16
+        },
+        "p2": {
+          "params": [
+            2.447687812068764,
+            5.272357268589479,
+            0.0067297804852681775,
+            3.6152102105629456
+          ],
+          "ideal_optimal_probability": 0.3526625256968997,
+          "ideal_expected_score": 1.150191693005201,
+          "max_probability_error": 1.942890293094024e-16
+        },
+        "p3": {
+          "params": [
+            2.2454626921004732,
+            2.4339461886650637,
+            4.004007416672314,
+            5.587237998996138,
+            0.8770385941793362,
+            3.586406411737642
+          ],
+          "ideal_optimal_probability": 0.4322305188163261,
+          "ideal_expected_score": 1.1760810307769582,
+          "max_probability_error": 4.163336342344337e-16
+        }
+      },
+      "names": [
+        "clip_08_uniform",
+        "clip_08_p1",
+        "clip_08_p2",
+        "clip_08_p3"
+      ]
+    },
+    {
+      "record_id": "AQodGpPKxDl",
+      "stratum": "high_entropy__high_repetition",
+      "music_features": {
+        "n_chords": 28,
+        "chord_entropy_bits": 2.4356987807516504,
+        "conditional_transition_entropy_bits": 0.6128919039497402,
+        "repeated_bigram_rate": 0.6666666666666667
+      },
+      "full_optimum_represented": true,
+      "optimal_basis_indices": [
+        0
+      ],
+      "scores_16": [
+        1.4064516129032258,
+        1.2828801843317974,
+        1.1239516129032259,
+        1.1239516129032259,
+        1.2683064516129032,
+        1.2347350230414746,
+        1.0308064516129032,
+        1.0308064516129032,
+        1.2937096774193548,
+        1.215138248847926,
+        0.9512096774193547,
+        0.9062096774193547,
+        1.205,
+        1.1264285714285713,
+        0.8174999999999999,
+        0.8624999999999998
+      ],
+      "uniform_optimal_probability": 0.0625,
+      "models": {
+        "p1": {
+          "params": [
+            3.6989257332533456,
+            5.517437067637026
+          ],
+          "ideal_optimal_probability": 0.3958263633458626,
+          "ideal_expected_score": 1.3081183234551765,
+          "max_probability_error": 4.440892098500626e-16
+        },
+        "p2": {
+          "params": [
+            2.1880000706643745,
+            2.368469252622805,
+            4.635879001455675,
+            5.902362708413034
+          ],
+          "ideal_optimal_probability": 0.5769055917077016,
+          "ideal_expected_score": 1.338866970263037,
+          "max_probability_error": 4.440892098500626e-16
+        },
+        "p3": {
+          "params": [
+            1.3496683360871051,
+            0.22564688020886406,
+            1.5862061591651153,
+            2.2112374573685187,
+            5.376124555447616,
+            5.96899679197017
+          ],
+          "ideal_optimal_probability": 0.6184359347216208,
+          "ideal_expected_score": 1.3432330704626247,
+          "max_probability_error": 5.551115123125783e-16
+        }
+      },
+      "names": [
+        "clip_09_uniform",
+        "clip_09_p1",
+        "clip_09_p2",
+        "clip_09_p3"
+      ]
+    },
+    {
+      "record_id": "ZOxVvdrZxdq",
+      "stratum": "high_entropy__high_repetition",
+      "music_features": {
+        "n_chords": 30,
+        "chord_entropy_bits": 1.872905595320056,
+        "conditional_transition_entropy_bits": 0.8627431037466853,
+        "repeated_bigram_rate": 0.7241379310344828
+      },
+      "full_optimum_represented": false,
+      "optimal_basis_indices": [
+        8,
+        9
+      ],
+      "scores_16": [
+        1.0136904761904761,
+        0.9686904761904762,
+        1.0061904761904763,
+        0.8883333333333334,
+        0.9686904761904762,
+        1.0136904761904761,
+        1.0061904761904763,
+        0.8883333333333334,
+        1.0561904761904763,
+        1.0561904761904763,
+        0.9886904761904762,
+        0.8258333333333334,
+        1.010357142857143,
+        1.010357142857143,
+        0.8978571428571429,
+        0.8250000000000001
+      ],
+      "uniform_optimal_probability": 0.125,
+      "models": {
+        "p1": {
+          "params": [
+            2.257431519794965,
+            2.686914455369511
+          ],
+          "ideal_optimal_probability": 0.2864463553606331,
+          "ideal_expected_score": 1.0130681029132231,
+          "max_probability_error": 2.498001805406602e-16
+        },
+        "p2": {
+          "params": [
+            0.5860469875130748,
+            3.450483617035303,
+            1.7545478806335886,
+            2.561486283611674
+          ],
+          "ideal_optimal_probability": 0.26852079184283234,
+          "ideal_expected_score": 1.012144372791696,
+          "max_probability_error": 2.498001805406602e-16
+        },
+        "p3": {
+          "params": [
+            2.5354764739338935,
+            2.048336590711097,
+            2.96329276048428,
+            1.0164964229012854,
+            6.274344774404866,
+            1.6607189653112235
+          ],
+          "ideal_optimal_probability": 0.3705729363271418,
+          "ideal_expected_score": 1.0185141405252078,
+          "max_probability_error": 2.220446049250313e-16
+        }
+      },
+      "names": [
+        "clip_10_uniform",
+        "clip_10_p1",
+        "clip_10_p2",
+        "clip_10_p3"
+      ]
+    },
+    {
+      "record_id": "ANmpQAvngyM",
+      "stratum": "high_entropy__high_repetition",
+      "music_features": {
+        "n_chords": 30,
+        "chord_entropy_bits": 2.440223928941852,
+        "conditional_transition_entropy_bits": 0.8444905170921746,
+        "repeated_bigram_rate": 0.6206896551724138
+      },
+      "full_optimum_represented": false,
+      "optimal_basis_indices": [
+        12
+      ],
+      "scores_16": [
+        1.0870967741935484,
+        0.9733467741935484,
+        0.9420967741935484,
+        1.0108467741935483,
+        1.0420967741935485,
+        1.0183467741935484,
+        0.9420967741935484,
+        1.0108467741935483,
+        1.0675000000000001,
+        0.99875,
+        0.8625,
+        0.88625,
+        1.1295967741935484,
+        1.0608467741935483,
+        0.8795967741935484,
+        0.9933467741935484
+      ],
+      "uniform_optimal_probability": 0.0625,
+      "models": {
+        "p1": {
+          "params": [
+            2.683849854245095,
+            2.6901930342587503
+          ],
+          "ideal_optimal_probability": 0.1681338164074115,
+          "ideal_expected_score": 1.048949200537778,
+          "max_probability_error": 2.7755575615628914e-16
+        },
+        "p2": {
+          "params": [
+            2.494764025296609,
+            1.1641663166750493,
+            3.689485536193647,
+            1.446975499641936
+          ],
+          "ideal_optimal_probability": 0.21441745779193022,
+          "ideal_expected_score": 1.0534646870139015,
+          "max_probability_error": 1.942890293094024e-16
+        },
+        "p3": {
+          "params": [
+            2.511540755953746,
+            2.65930369917531,
+            3.996212805693305,
+            1.5041223129511405,
+            1.1977643769722846,
+            4.504979446884612
+          ],
+          "ideal_optimal_probability": 0.35577298677658115,
+          "ideal_expected_score": 1.0720262062987325,
+          "max_probability_error": 5.551115123125783e-16
+        }
+      },
+      "names": [
+        "clip_11_uniform",
+        "clip_11_p1",
+        "clip_11_p2",
+        "clip_11_p3"
+      ]
+    },
+    {
+      "record_id": "zngRNKQegJj",
+      "stratum": "high_entropy__low_repetition",
+      "music_features": {
+        "n_chords": 17,
+        "chord_entropy_bits": 3.4992275471326924,
+        "conditional_transition_entropy_bits": 0.5,
+        "repeated_bigram_rate": 0.0
+      },
+      "full_optimum_represented": false,
+      "optimal_basis_indices": [
+        8,
+        9,
+        12,
+        13
+      ],
+      "scores_16": [
+        0.8,
+        0.7550000000000001,
+        0.7925,
+        0.7925,
+        0.7550000000000001,
+        0.8,
+        0.7925,
+        0.7925,
+        0.8425,
+        0.8425,
+        0.7749999999999999,
+        0.73,
+        0.8425,
+        0.8425,
+        0.73,
+        0.7749999999999999
+      ],
+      "uniform_optimal_probability": 0.25,
+      "models": {
+        "p1": {
+          "params": [
+            2.2044246373788385,
+            5.932616354750485
+          ],
+          "ideal_optimal_probability": 0.4990618069750498,
+          "ideal_expected_score": 0.8165649584243655,
+          "max_probability_error": 2.220446049250313e-16
+        },
+        "p2": {
+          "params": [
+            1.4291748801216246,
+            2.736715053293696,
+            1.6657207543929244,
+            2.8677258843883857
+          ],
+          "ideal_optimal_probability": 0.6078984686084739,
+          "ideal_expected_score": 0.8216838520630538,
+          "max_probability_error": 1.3877787807814457e-16
+        },
+        "p3": {
+          "params": [
+            2.3676662417641907,
+            5.298827816691635,
+            2.100533423715265,
+            1.2358672839052098,
+            2.917303366051087,
+            4.332056000330161
+          ],
+          "ideal_optimal_probability": 0.8417616722687371,
+          "ideal_expected_score": 0.8347028506623594,
+          "max_probability_error": 5.551115123125783e-16
+        }
+      },
+      "names": [
+        "clip_12_uniform",
+        "clip_12_p1",
+        "clip_12_p2",
+        "clip_12_p3"
+      ]
+    },
+    {
+      "record_id": "WeglOnvlmrY",
+      "stratum": "high_entropy__low_repetition",
+      "music_features": {
+        "n_chords": 16,
+        "chord_entropy_bits": 3.077819531114783,
+        "conditional_transition_entropy_bits": 0.8,
+        "repeated_bigram_rate": 0.0
+      },
+      "full_optimum_represented": false,
+      "optimal_basis_indices": [
+        0
+      ],
+      "scores_16": [
+        1.4375,
+        1.1175000000000002,
+        1.155,
+        1.155,
+        1.1175,
+        0.8875,
+        0.88,
+        0.88,
+        1.205,
+        0.9299999999999999,
+        0.8625,
+        0.8175,
+        1.205,
+        0.9299999999999999,
+        0.8175,
+        0.8625
+      ],
+      "uniform_optimal_probability": 0.0625,
+      "models": {
+        "p1": {
+          "params": [
+            4.042855084436786,
+            5.672598153800074
+          ],
+          "ideal_optimal_probability": 0.4622738270429761,
+          "ideal_expected_score": 1.2640561058833355,
+          "max_probability_error": 4.440892098500626e-16
+        },
+        "p2": {
+          "params": [
+            2.9047321875060454,
+            5.440683003795511,
+            4.413937554627385,
+            5.781895814421586
+          ],
+          "ideal_optimal_probability": 0.9324819579957475,
+          "ideal_expected_score": 1.412561465822935,
+          "max_probability_error": 1.1102230246251565e-15
+        },
+        "p3": {
+          "params": [
+            2.379497072935007,
+            6.191349152874111,
+            0.5555805400695023,
+            5.501964163346229,
+            4.414864268071568,
+            5.767538570061351
+          ],
+          "ideal_optimal_probability": 0.9373617184346891,
+          "ideal_expected_score": 1.4134887324105891,
+          "max_probability_error": 2.220446049250313e-16
+        }
+      },
+      "names": [
+        "clip_13_uniform",
+        "clip_13_p1",
+        "clip_13_p2",
+        "clip_13_p3"
+      ]
+    },
+    {
+      "record_id": "veoYWNOVgdn",
+      "stratum": "high_entropy__low_repetition",
+      "music_features": {
+        "n_chords": 18,
+        "chord_entropy_bits": 3.016875695766564,
+        "conditional_transition_entropy_bits": 0.7502875001272629,
+        "repeated_bigram_rate": 0.23529411764705888
+      },
+      "full_optimum_represented": true,
+      "optimal_basis_indices": [
+        0
+      ],
+      "scores_16": [
+        1.4375,
+        1.3587280701754387,
+        1.155,
+        1.155,
+        1.1175,
+        1.1287280701754385,
+        0.8799999999999999,
+        0.8799999999999999,
+        1.205,
+        1.1712280701754387,
+        0.8625,
+        0.8174999999999999,
+        1.205,
+        1.1712280701754387,
+        0.8174999999999999,
+        0.8625
+      ],
+      "uniform_optimal_probability": 0.0625,
+      "models": {
+        "p1": {
+          "params": [
+            3.5429672662472287,
+            5.622232556771329
+          ],
+          "ideal_optimal_probability": 0.3521103394506701,
+          "ideal_expected_score": 1.3079607868433423,
+          "max_probability_error": 1.1102230246251565e-16
+        },
+        "p2": {
+          "params": [
+            2.3536441401954478,
+            2.264210750217154,
+            4.656315310655267,
+            5.845768256138515
+          ],
+          "ideal_optimal_probability": 0.5478931447710501,
+          "ideal_expected_score": 1.3687357453948907,
+          "max_probability_error": 4.996003610813204e-16
+        },
+        "p3": {
+          "params": [
+            2.4060805739931257,
+            5.318938873587764,
+            1.9175068637861068,
+            0.13668015270636336,
+            2.5498161008909723,
+            5.757519060229592
+          ],
+          "ideal_optimal_probability": 0.523845236007951,
+          "ideal_expected_score": 1.3635839669479042,
+          "max_probability_error": 2.7755575615628914e-16
+        }
+      },
+      "names": [
+        "clip_14_uniform",
+        "clip_14_p1",
+        "clip_14_p2",
+        "clip_14_p3"
+      ]
+    },
+    {
+      "record_id": "yvmrdppJxOW",
+      "stratum": "high_entropy__low_repetition",
+      "music_features": {
+        "n_chords": 15,
+        "chord_entropy_bits": 3.1898980954642875,
+        "conditional_transition_entropy_bits": 0.4824919644402477,
+        "repeated_bigram_rate": 0.0714285714285714
+      },
+      "full_optimum_represented": true,
+      "optimal_basis_indices": [
+        0,
+        5
+      ],
+      "scores_16": [
+        1.4375,
+        1.3925,
+        1.4300000000000002,
+        1.155,
+        1.3925,
+        1.4375,
+        1.4300000000000002,
+        1.155,
+        1.205,
+        1.205,
+        1.1375,
+        0.8175,
+        1.205,
+        1.205,
+        1.0925,
+        0.8625
+      ],
+      "uniform_optimal_probability": 0.125,
+      "models": {
+        "p1": {
+          "params": [
+            3.0518302797387937,
+            5.69755257358626
+          ],
+          "ideal_optimal_probability": 0.36814901534472355,
+          "ideal_expected_score": 1.3955670570006498,
+          "max_probability_error": 1.6653345369377348e-16
+        },
+        "p2": {
+          "params": [
+            3.065199632074829,
+            4.956189719129196,
+            0.010082625389860878,
+            0.7467190423332246
+          ],
+          "ideal_optimal_probability": 0.36697020952733383,
+          "ideal_expected_score": 1.395390899619516,
+          "max_probability_error": 3.0531133177191805e-16
+        },
+        "p3": {
+          "params": [
+            1.1866424747833901,
+            2.8585378789934315,
+            0.032261909866915905,
+            0.8510178292004972,
+            2.487868276991331,
+            5.385838827249441
+          ],
+          "ideal_optimal_probability": 0.4300137947213265,
+          "ideal_expected_score": 1.4021144091717648,
+          "max_probability_error": 2.220446049250313e-16
+        }
+      },
+      "names": [
+        "clip_15_uniform",
+        "clip_15_p1",
+        "clip_15_p2",
+        "clip_15_p3"
+      ]
+    }
+  ],
+  "transpiled": [
+    {
+      "name": "clip_00_uniform",
+      "depth": 4,
+      "size": 16,
+      "two_qubit_gates": 0,
+      "operations": {
+        "rz": 8,
+        "sx": 4,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        101,
+        77,
+        97,
+        43
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_00_p1",
+      "depth": 46,
+      "size": 71,
+      "two_qubit_gates": 13,
+      "operations": {
+        "sx": 28,
+        "rz": 26,
+        "cz": 13,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        64,
+        77,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_00_p2",
+      "depth": 116,
+      "size": 165,
+      "two_qubit_gates": 34,
+      "operations": {
+        "sx": 62,
+        "rz": 59,
+        "cz": 34,
+        "x": 6,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        77,
+        64,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_00_p3",
+      "depth": 181,
+      "size": 236,
+      "two_qubit_gates": 52,
+      "operations": {
+        "sx": 100,
+        "rz": 78,
+        "cz": 52,
+        "measure": 4,
+        "x": 2
+      },
+      "logical_to_physical": [
+        77,
+        66,
+        65,
+        64
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_01_uniform",
+      "depth": 4,
+      "size": 16,
+      "two_qubit_gates": 0,
+      "operations": {
+        "rz": 8,
+        "sx": 4,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        101,
+        77,
+        97,
+        43
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_01_p1",
+      "depth": 44,
+      "size": 69,
+      "two_qubit_gates": 11,
+      "operations": {
+        "rz": 27,
+        "sx": 27,
+        "cz": 11,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        64,
+        77,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_01_p2",
+      "depth": 125,
+      "size": 161,
+      "two_qubit_gates": 32,
+      "operations": {
+        "sx": 68,
+        "rz": 57,
+        "cz": 32,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        77,
+        64,
+        65,
+        66
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_01_p3",
+      "depth": 120,
+      "size": 186,
+      "two_qubit_gates": 35,
+      "operations": {
+        "sx": 75,
+        "rz": 68,
+        "cz": 35,
+        "x": 4,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        64,
+        77,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_02_uniform",
+      "depth": 4,
+      "size": 16,
+      "two_qubit_gates": 0,
+      "operations": {
+        "rz": 8,
+        "sx": 4,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        101,
+        77,
+        97,
+        43
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_02_p1",
+      "depth": 43,
+      "size": 69,
+      "two_qubit_gates": 11,
+      "operations": {
+        "rz": 27,
+        "sx": 26,
+        "cz": 11,
+        "measure": 4,
+        "x": 1
+      },
+      "logical_to_physical": [
+        64,
+        77,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_02_p2",
+      "depth": 123,
+      "size": 166,
+      "two_qubit_gates": 32,
+      "operations": {
+        "sx": 70,
+        "rz": 58,
+        "cz": 32,
+        "measure": 4,
+        "x": 2
+      },
+      "logical_to_physical": [
+        77,
+        64,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_02_p3",
+      "depth": 130,
+      "size": 195,
+      "two_qubit_gates": 39,
+      "operations": {
+        "sx": 80,
+        "rz": 68,
+        "cz": 39,
+        "x": 4,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        64,
+        77,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_03_uniform",
+      "depth": 4,
+      "size": 16,
+      "two_qubit_gates": 0,
+      "operations": {
+        "rz": 8,
+        "sx": 4,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        101,
+        77,
+        97,
+        43
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_03_p1",
+      "depth": 86,
+      "size": 106,
+      "two_qubit_gates": 20,
+      "operations": {
+        "sx": 44,
+        "rz": 38,
+        "cz": 20,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        66,
+        64,
+        65,
+        77
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_03_p2",
+      "depth": 126,
+      "size": 170,
+      "two_qubit_gates": 34,
+      "operations": {
+        "sx": 71,
+        "rz": 59,
+        "cz": 34,
+        "measure": 4,
+        "x": 2
+      },
+      "logical_to_physical": [
+        77,
+        64,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_03_p3",
+      "depth": 182,
+      "size": 243,
+      "two_qubit_gates": 52,
+      "operations": {
+        "sx": 100,
+        "rz": 81,
+        "cz": 52,
+        "x": 6,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        77,
+        66,
+        65,
+        64
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_04_uniform",
+      "depth": 4,
+      "size": 16,
+      "two_qubit_gates": 0,
+      "operations": {
+        "rz": 8,
+        "sx": 4,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        101,
+        77,
+        97,
+        43
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_04_p1",
+      "depth": 86,
+      "size": 106,
+      "two_qubit_gates": 20,
+      "operations": {
+        "sx": 44,
+        "rz": 38,
+        "cz": 20,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        66,
+        64,
+        65,
+        77
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_04_p2",
+      "depth": 162,
+      "size": 210,
+      "two_qubit_gates": 39,
+      "operations": {
+        "sx": 90,
+        "rz": 77,
+        "cz": 39,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        64,
+        66,
+        77,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_04_p3",
+      "depth": 145,
+      "size": 208,
+      "two_qubit_gates": 45,
+      "operations": {
+        "sx": 84,
+        "rz": 71,
+        "cz": 45,
+        "x": 4,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        64,
+        77,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_05_uniform",
+      "depth": 4,
+      "size": 16,
+      "two_qubit_gates": 0,
+      "operations": {
+        "rz": 8,
+        "sx": 4,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        101,
+        77,
+        97,
+        43
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_05_p1",
+      "depth": 45,
+      "size": 71,
+      "two_qubit_gates": 13,
+      "operations": {
+        "sx": 28,
+        "rz": 26,
+        "cz": 13,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        64,
+        77,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_05_p2",
+      "depth": 97,
+      "size": 142,
+      "two_qubit_gates": 29,
+      "operations": {
+        "sx": 56,
+        "rz": 51,
+        "cz": 29,
+        "measure": 4,
+        "x": 2
+      },
+      "logical_to_physical": [
+        64,
+        77,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_05_p3",
+      "depth": 148,
+      "size": 215,
+      "two_qubit_gates": 45,
+      "operations": {
+        "sx": 84,
+        "rz": 78,
+        "cz": 45,
+        "x": 4,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        64,
+        77,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_06_uniform",
+      "depth": 4,
+      "size": 16,
+      "two_qubit_gates": 0,
+      "operations": {
+        "rz": 8,
+        "sx": 4,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        101,
+        77,
+        97,
+        43
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_06_p1",
+      "depth": 49,
+      "size": 75,
+      "two_qubit_gates": 13,
+      "operations": {
+        "rz": 30,
+        "sx": 28,
+        "cz": 13,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        64,
+        77,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_06_p2",
+      "depth": 95,
+      "size": 139,
+      "two_qubit_gates": 29,
+      "operations": {
+        "sx": 56,
+        "rz": 48,
+        "cz": 29,
+        "measure": 4,
+        "x": 2
+      },
+      "logical_to_physical": [
+        64,
+        77,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_06_p3",
+      "depth": 144,
+      "size": 207,
+      "two_qubit_gates": 45,
+      "operations": {
+        "sx": 84,
+        "rz": 70,
+        "cz": 45,
+        "x": 4,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        64,
+        77,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_07_uniform",
+      "depth": 4,
+      "size": 16,
+      "two_qubit_gates": 0,
+      "operations": {
+        "rz": 8,
+        "sx": 4,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        101,
+        77,
+        97,
+        43
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_07_p1",
+      "depth": 34,
+      "size": 59,
+      "two_qubit_gates": 9,
+      "operations": {
+        "rz": 23,
+        "sx": 22,
+        "cz": 9,
+        "measure": 4,
+        "x": 1
+      },
+      "logical_to_physical": [
+        64,
+        77,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_07_p2",
+      "depth": 72,
+      "size": 113,
+      "two_qubit_gates": 21,
+      "operations": {
+        "sx": 46,
+        "rz": 40,
+        "cz": 21,
+        "measure": 4,
+        "x": 2
+      },
+      "logical_to_physical": [
+        64,
+        77,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_07_p3",
+      "depth": 108,
+      "size": 165,
+      "two_qubit_gates": 33,
+      "operations": {
+        "sx": 70,
+        "rz": 55,
+        "cz": 33,
+        "measure": 4,
+        "x": 3
+      },
+      "logical_to_physical": [
+        64,
+        77,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_08_uniform",
+      "depth": 4,
+      "size": 16,
+      "two_qubit_gates": 0,
+      "operations": {
+        "rz": 8,
+        "sx": 4,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        101,
+        77,
+        97,
+        43
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_08_p1",
+      "depth": 42,
+      "size": 68,
+      "two_qubit_gates": 11,
+      "operations": {
+        "rz": 27,
+        "sx": 26,
+        "cz": 11,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        64,
+        77,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_08_p2",
+      "depth": 82,
+      "size": 128,
+      "two_qubit_gates": 25,
+      "operations": {
+        "sx": 52,
+        "rz": 45,
+        "cz": 25,
+        "measure": 4,
+        "x": 2
+      },
+      "logical_to_physical": [
+        64,
+        77,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_08_p3",
+      "depth": 169,
+      "size": 234,
+      "two_qubit_gates": 48,
+      "operations": {
+        "sx": 99,
+        "rz": 81,
+        "cz": 48,
+        "measure": 4,
+        "x": 2
+      },
+      "logical_to_physical": [
+        66,
+        64,
+        77,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_09_uniform",
+      "depth": 4,
+      "size": 16,
+      "two_qubit_gates": 0,
+      "operations": {
+        "rz": 8,
+        "sx": 4,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        101,
+        77,
+        97,
+        43
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_09_p1",
+      "depth": 87,
+      "size": 107,
+      "two_qubit_gates": 20,
+      "operations": {
+        "sx": 44,
+        "rz": 39,
+        "cz": 20,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        66,
+        64,
+        65,
+        77
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_09_p2",
+      "depth": 129,
+      "size": 172,
+      "two_qubit_gates": 34,
+      "operations": {
+        "sx": 72,
+        "rz": 60,
+        "cz": 34,
+        "measure": 4,
+        "x": 2
+      },
+      "logical_to_physical": [
+        77,
+        64,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_09_p3",
+      "depth": 182,
+      "size": 243,
+      "two_qubit_gates": 52,
+      "operations": {
+        "sx": 100,
+        "rz": 81,
+        "cz": 52,
+        "x": 6,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        77,
+        66,
+        65,
+        64
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_10_uniform",
+      "depth": 4,
+      "size": 16,
+      "two_qubit_gates": 0,
+      "operations": {
+        "rz": 8,
+        "sx": 4,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        101,
+        77,
+        97,
+        43
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_10_p1",
+      "depth": 48,
+      "size": 75,
+      "two_qubit_gates": 13,
+      "operations": {
+        "rz": 30,
+        "sx": 28,
+        "cz": 13,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        64,
+        77,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_10_p2",
+      "depth": 97,
+      "size": 142,
+      "two_qubit_gates": 29,
+      "operations": {
+        "sx": 56,
+        "rz": 51,
+        "cz": 29,
+        "measure": 4,
+        "x": 2
+      },
+      "logical_to_physical": [
+        64,
+        77,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_10_p3",
+      "depth": 181,
+      "size": 238,
+      "two_qubit_gates": 52,
+      "operations": {
+        "sx": 100,
+        "rz": 80,
+        "cz": 52,
+        "measure": 4,
+        "x": 2
+      },
+      "logical_to_physical": [
+        77,
+        66,
+        65,
+        64
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_11_uniform",
+      "depth": 4,
+      "size": 16,
+      "two_qubit_gates": 0,
+      "operations": {
+        "rz": 8,
+        "sx": 4,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        101,
+        77,
+        97,
+        43
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_11_p1",
+      "depth": 45,
+      "size": 68,
+      "two_qubit_gates": 13,
+      "operations": {
+        "sx": 26,
+        "rz": 24,
+        "cz": 13,
+        "measure": 4,
+        "x": 1
+      },
+      "logical_to_physical": [
+        64,
+        77,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_11_p2",
+      "depth": 126,
+      "size": 165,
+      "two_qubit_gates": 34,
+      "operations": {
+        "sx": 70,
+        "rz": 56,
+        "cz": 34,
+        "measure": 4,
+        "x": 1
+      },
+      "logical_to_physical": [
+        77,
+        64,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_11_p3",
+      "depth": 161,
+      "size": 224,
+      "two_qubit_gates": 52,
+      "operations": {
+        "sx": 89,
+        "rz": 74,
+        "cz": 52,
+        "x": 5,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        66,
+        64,
+        77,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_12_uniform",
+      "depth": 4,
+      "size": 16,
+      "two_qubit_gates": 0,
+      "operations": {
+        "rz": 8,
+        "sx": 4,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        101,
+        77,
+        97,
+        43
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_12_p1",
+      "depth": 33,
+      "size": 58,
+      "two_qubit_gates": 9,
+      "operations": {
+        "rz": 22,
+        "sx": 22,
+        "cz": 9,
+        "measure": 4,
+        "x": 1
+      },
+      "logical_to_physical": [
+        64,
+        77,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_12_p2",
+      "depth": 71,
+      "size": 113,
+      "two_qubit_gates": 21,
+      "operations": {
+        "sx": 46,
+        "rz": 40,
+        "cz": 21,
+        "measure": 4,
+        "x": 2
+      },
+      "logical_to_physical": [
+        64,
+        77,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_12_p3",
+      "depth": 107,
+      "size": 166,
+      "two_qubit_gates": 33,
+      "operations": {
+        "sx": 70,
+        "rz": 56,
+        "cz": 33,
+        "measure": 4,
+        "x": 3
+      },
+      "logical_to_physical": [
+        64,
+        77,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_13_uniform",
+      "depth": 4,
+      "size": 16,
+      "two_qubit_gates": 0,
+      "operations": {
+        "rz": 8,
+        "sx": 4,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        101,
+        77,
+        97,
+        43
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_13_p1",
+      "depth": 85,
+      "size": 111,
+      "two_qubit_gates": 20,
+      "operations": {
+        "sx": 44,
+        "rz": 39,
+        "cz": 20,
+        "x": 4,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        66,
+        64,
+        65,
+        77
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_13_p2",
+      "depth": 129,
+      "size": 170,
+      "two_qubit_gates": 34,
+      "operations": {
+        "sx": 72,
+        "rz": 60,
+        "cz": 34,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        77,
+        64,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_13_p3",
+      "depth": 183,
+      "size": 243,
+      "two_qubit_gates": 52,
+      "operations": {
+        "sx": 100,
+        "rz": 81,
+        "cz": 52,
+        "x": 6,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        77,
+        66,
+        65,
+        64
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_14_uniform",
+      "depth": 4,
+      "size": 16,
+      "two_qubit_gates": 0,
+      "operations": {
+        "rz": 8,
+        "sx": 4,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        101,
+        77,
+        97,
+        43
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_14_p1",
+      "depth": 84,
+      "size": 110,
+      "two_qubit_gates": 20,
+      "operations": {
+        "sx": 44,
+        "rz": 38,
+        "cz": 20,
+        "x": 4,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        66,
+        64,
+        65,
+        77
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_14_p2",
+      "depth": 111,
+      "size": 157,
+      "two_qubit_gates": 34,
+      "operations": {
+        "sx": 62,
+        "rz": 54,
+        "cz": 34,
+        "measure": 4,
+        "x": 3
+      },
+      "logical_to_physical": [
+        77,
+        64,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_14_p3",
+      "depth": 142,
+      "size": 207,
+      "two_qubit_gates": 45,
+      "operations": {
+        "sx": 84,
+        "rz": 70,
+        "cz": 45,
+        "x": 4,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        64,
+        77,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_15_uniform",
+      "depth": 4,
+      "size": 16,
+      "two_qubit_gates": 0,
+      "operations": {
+        "rz": 8,
+        "sx": 4,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        101,
+        77,
+        97,
+        43
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_15_p1",
+      "depth": 41,
+      "size": 66,
+      "two_qubit_gates": 11,
+      "operations": {
+        "sx": 26,
+        "rz": 25,
+        "cz": 11,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        64,
+        77,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_15_p2",
+      "depth": 85,
+      "size": 132,
+      "two_qubit_gates": 25,
+      "operations": {
+        "sx": 52,
+        "rz": 49,
+        "cz": 25,
+        "measure": 4,
+        "x": 2
+      },
+      "logical_to_physical": [
+        64,
+        77,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    },
+    {
+      "name": "clip_15_p3",
+      "depth": 131,
+      "size": 198,
+      "two_qubit_gates": 39,
+      "operations": {
+        "sx": 78,
+        "rz": 73,
+        "cz": 39,
+        "x": 4,
+        "measure": 4
+      },
+      "logical_to_physical": [
+        64,
+        77,
+        66,
+        65
+      ],
+      "mapping_verified": true
+    }
+  ],
+  "total_2q_gates": 1432,
+  "warning": "16 TRAIN clips, fixed four candidates per segment, first TWO segments only; no quantum advantage claim.",
+  "qpu_jobs_submitted": 0
+}

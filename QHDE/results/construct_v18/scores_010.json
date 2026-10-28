@@ -1,0 +1,1021 @@
+{
+  "model": "harmonix_corrected_candidates_frozen_emh_scoring",
+  "candidate_variant": "corrected",
+  "tonic": "B",
+  "mode": "major",
+  "candidate_count": 10,
+  "pair_count": 100,
+  "segments": 2,
+  "second_segment_is_final": false,
+  "total_song_segments": null,
+  "task": "first_two_segments_local_prefix",
+  "candidate_vocabulary": [
+    {
+      "symbol": "B",
+      "roman": "I",
+      "function": "tonic",
+      "pitch_classes": [
+        3,
+        6,
+        11
+      ]
+    },
+    {
+      "symbol": "C#m",
+      "roman": "ii",
+      "function": "predominant",
+      "pitch_classes": [
+        1,
+        4,
+        8
+      ]
+    },
+    {
+      "symbol": "Ebm",
+      "roman": "iii",
+      "function": "tonic",
+      "pitch_classes": [
+        3,
+        6,
+        10
+      ]
+    },
+    {
+      "symbol": "E",
+      "roman": "IV",
+      "function": "predominant",
+      "pitch_classes": [
+        4,
+        8,
+        11
+      ]
+    },
+    {
+      "symbol": "F#",
+      "roman": "V",
+      "function": "dominant",
+      "pitch_classes": [
+        1,
+        6,
+        10
+      ]
+    },
+    {
+      "symbol": "Abm",
+      "roman": "vi",
+      "function": "tonic",
+      "pitch_classes": [
+        3,
+        8,
+        11
+      ]
+    },
+    {
+      "symbol": "Bbdim",
+      "roman": "vii°",
+      "function": "dominant",
+      "pitch_classes": [
+        1,
+        4,
+        10
+      ]
+    },
+    {
+      "symbol": "C#m7",
+      "roman": "ii7",
+      "function": "predominant",
+      "pitch_classes": [
+        1,
+        4,
+        8,
+        11
+      ]
+    },
+    {
+      "symbol": "F#7",
+      "roman": "V7",
+      "function": "dominant",
+      "pitch_classes": [
+        1,
+        4,
+        6,
+        10
+      ]
+    },
+    {
+      "symbol": "Bbm7b5",
+      "roman": "viiø7",
+      "function": "dominant",
+      "pitch_classes": [
+        1,
+        4,
+        8,
+        10
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "a": "B",
+      "a_roman": "I",
+      "b": "B",
+      "b_roman": "I",
+      "a_index": 0,
+      "b_index": 0,
+      "score": 1.0136904761904761
+    },
+    {
+      "a": "B",
+      "a_roman": "I",
+      "b": "C#m",
+      "b_roman": "ii",
+      "a_index": 0,
+      "b_index": 1,
+      "score": 1.0704761904761906
+    },
+    {
+      "a": "B",
+      "a_roman": "I",
+      "b": "Ebm",
+      "b_roman": "iii",
+      "a_index": 0,
+      "b_index": 2,
+      "score": 0.9686904761904762
+    },
+    {
+      "a": "B",
+      "a_roman": "I",
+      "b": "E",
+      "b_roman": "IV",
+      "a_index": 0,
+      "b_index": 3,
+      "score": 1.0704761904761906
+    },
+    {
+      "a": "B",
+      "a_roman": "I",
+      "b": "F#",
+      "b_roman": "V",
+      "a_index": 0,
+      "b_index": 4,
+      "score": 1.0061904761904763
+    },
+    {
+      "a": "B",
+      "a_roman": "I",
+      "b": "Abm",
+      "b_roman": "vi",
+      "a_index": 0,
+      "b_index": 5,
+      "score": 1.0079761904761906
+    },
+    {
+      "a": "B",
+      "a_roman": "I",
+      "b": "Bbdim",
+      "b_roman": "vii°",
+      "a_index": 0,
+      "b_index": 6,
+      "score": 0.8883333333333334
+    },
+    {
+      "a": "B",
+      "a_roman": "I",
+      "b": "C#m7",
+      "b_roman": "ii7",
+      "a_index": 0,
+      "b_index": 7,
+      "score": 1.0704761904761906
+    },
+    {
+      "a": "B",
+      "a_roman": "I",
+      "b": "F#7",
+      "b_roman": "V7",
+      "a_index": 0,
+      "b_index": 8,
+      "score": 1.0061904761904763
+    },
+    {
+      "a": "B",
+      "a_roman": "I",
+      "b": "Bbm7b5",
+      "b_roman": "viiø7",
+      "a_index": 0,
+      "b_index": 9,
+      "score": 1.0454761904761907
+    },
+    {
+      "a": "C#m",
+      "a_roman": "ii",
+      "b": "B",
+      "b_roman": "I",
+      "a_index": 1,
+      "b_index": 0,
+      "score": 1.0561904761904763
+    },
+    {
+      "a": "C#m",
+      "a_roman": "ii",
+      "b": "C#m",
+      "b_roman": "ii",
+      "a_index": 1,
+      "b_index": 1,
+      "score": 1.1654761904761906
+    },
+    {
+      "a": "C#m",
+      "a_roman": "ii",
+      "b": "Ebm",
+      "b_roman": "iii",
+      "a_index": 1,
+      "b_index": 2,
+      "score": 1.0561904761904763
+    },
+    {
+      "a": "C#m",
+      "a_roman": "ii",
+      "b": "E",
+      "b_roman": "IV",
+      "a_index": 1,
+      "b_index": 3,
+      "score": 1.1204761904761906
+    },
+    {
+      "a": "C#m",
+      "a_roman": "ii",
+      "b": "F#",
+      "b_roman": "V",
+      "a_index": 1,
+      "b_index": 4,
+      "score": 1.1936904761904763
+    },
+    {
+      "a": "C#m",
+      "a_roman": "ii",
+      "b": "Abm",
+      "b_roman": "vi",
+      "a_index": 1,
+      "b_index": 5,
+      "score": 1.0954761904761905
+    },
+    {
+      "a": "C#m",
+      "a_roman": "ii",
+      "b": "Bbdim",
+      "b_roman": "vii°",
+      "a_index": 1,
+      "b_index": 6,
+      "score": 1.0758333333333334
+    },
+    {
+      "a": "C#m",
+      "a_roman": "ii",
+      "b": "C#m7",
+      "b_roman": "ii7",
+      "a_index": 1,
+      "b_index": 7,
+      "score": 1.1204761904761906
+    },
+    {
+      "a": "C#m",
+      "a_roman": "ii",
+      "b": "F#7",
+      "b_roman": "V7",
+      "a_index": 1,
+      "b_index": 8,
+      "score": 1.1936904761904763
+    },
+    {
+      "a": "C#m",
+      "a_roman": "ii",
+      "b": "Bbm7b5",
+      "b_roman": "viiø7",
+      "a_index": 1,
+      "b_index": 9,
+      "score": 1.2329761904761907
+    },
+    {
+      "a": "Ebm",
+      "a_roman": "iii",
+      "b": "B",
+      "b_roman": "I",
+      "a_index": 2,
+      "b_index": 0,
+      "score": 0.9686904761904762
+    },
+    {
+      "a": "Ebm",
+      "a_roman": "iii",
+      "b": "C#m",
+      "b_roman": "ii",
+      "a_index": 2,
+      "b_index": 1,
+      "score": 1.0704761904761906
+    },
+    {
+      "a": "Ebm",
+      "a_roman": "iii",
+      "b": "Ebm",
+      "b_roman": "iii",
+      "a_index": 2,
+      "b_index": 2,
+      "score": 1.0136904761904761
+    },
+    {
+      "a": "Ebm",
+      "a_roman": "iii",
+      "b": "E",
+      "b_roman": "IV",
+      "a_index": 2,
+      "b_index": 3,
+      "score": 1.0704761904761906
+    },
+    {
+      "a": "Ebm",
+      "a_roman": "iii",
+      "b": "F#",
+      "b_roman": "V",
+      "a_index": 2,
+      "b_index": 4,
+      "score": 1.0061904761904763
+    },
+    {
+      "a": "Ebm",
+      "a_roman": "iii",
+      "b": "Abm",
+      "b_roman": "vi",
+      "a_index": 2,
+      "b_index": 5,
+      "score": 1.0079761904761906
+    },
+    {
+      "a": "Ebm",
+      "a_roman": "iii",
+      "b": "Bbdim",
+      "b_roman": "vii°",
+      "a_index": 2,
+      "b_index": 6,
+      "score": 0.8883333333333334
+    },
+    {
+      "a": "Ebm",
+      "a_roman": "iii",
+      "b": "C#m7",
+      "b_roman": "ii7",
+      "a_index": 2,
+      "b_index": 7,
+      "score": 1.0704761904761906
+    },
+    {
+      "a": "Ebm",
+      "a_roman": "iii",
+      "b": "F#7",
+      "b_roman": "V7",
+      "a_index": 2,
+      "b_index": 8,
+      "score": 1.0061904761904763
+    },
+    {
+      "a": "Ebm",
+      "a_roman": "iii",
+      "b": "Bbm7b5",
+      "b_roman": "viiø7",
+      "a_index": 2,
+      "b_index": 9,
+      "score": 1.0454761904761907
+    },
+    {
+      "a": "E",
+      "a_roman": "IV",
+      "b": "B",
+      "b_roman": "I",
+      "a_index": 3,
+      "b_index": 0,
+      "score": 1.0561904761904763
+    },
+    {
+      "a": "E",
+      "a_roman": "IV",
+      "b": "C#m",
+      "b_roman": "ii",
+      "a_index": 3,
+      "b_index": 1,
+      "score": 1.1204761904761906
+    },
+    {
+      "a": "E",
+      "a_roman": "IV",
+      "b": "Ebm",
+      "b_roman": "iii",
+      "a_index": 3,
+      "b_index": 2,
+      "score": 1.0561904761904763
+    },
+    {
+      "a": "E",
+      "a_roman": "IV",
+      "b": "E",
+      "b_roman": "IV",
+      "a_index": 3,
+      "b_index": 3,
+      "score": 1.1654761904761906
+    },
+    {
+      "a": "E",
+      "a_roman": "IV",
+      "b": "F#",
+      "b_roman": "V",
+      "a_index": 3,
+      "b_index": 4,
+      "score": 1.1936904761904763
+    },
+    {
+      "a": "E",
+      "a_roman": "IV",
+      "b": "Abm",
+      "b_roman": "vi",
+      "a_index": 3,
+      "b_index": 5,
+      "score": 1.0954761904761905
+    },
+    {
+      "a": "E",
+      "a_roman": "IV",
+      "b": "Bbdim",
+      "b_roman": "vii°",
+      "a_index": 3,
+      "b_index": 6,
+      "score": 1.0758333333333334
+    },
+    {
+      "a": "E",
+      "a_roman": "IV",
+      "b": "C#m7",
+      "b_roman": "ii7",
+      "a_index": 3,
+      "b_index": 7,
+      "score": 1.1204761904761906
+    },
+    {
+      "a": "E",
+      "a_roman": "IV",
+      "b": "F#7",
+      "b_roman": "V7",
+      "a_index": 3,
+      "b_index": 8,
+      "score": 1.1936904761904763
+    },
+    {
+      "a": "E",
+      "a_roman": "IV",
+      "b": "Bbm7b5",
+      "b_roman": "viiø7",
+      "a_index": 3,
+      "b_index": 9,
+      "score": 1.2329761904761907
+    },
+    {
+      "a": "F#",
+      "a_roman": "V",
+      "b": "B",
+      "b_roman": "I",
+      "a_index": 4,
+      "b_index": 0,
+      "score": 1.0561904761904763
+    },
+    {
+      "a": "F#",
+      "a_roman": "V",
+      "b": "C#m",
+      "b_roman": "ii",
+      "a_index": 4,
+      "b_index": 1,
+      "score": 0.9079761904761905
+    },
+    {
+      "a": "F#",
+      "a_roman": "V",
+      "b": "Ebm",
+      "b_roman": "iii",
+      "a_index": 4,
+      "b_index": 2,
+      "score": 1.0561904761904763
+    },
+    {
+      "a": "F#",
+      "a_roman": "V",
+      "b": "E",
+      "b_roman": "IV",
+      "a_index": 4,
+      "b_index": 3,
+      "score": 0.9079761904761905
+    },
+    {
+      "a": "F#",
+      "a_roman": "V",
+      "b": "F#",
+      "b_roman": "V",
+      "a_index": 4,
+      "b_index": 4,
+      "score": 0.9886904761904762
+    },
+    {
+      "a": "F#",
+      "a_roman": "V",
+      "b": "Abm",
+      "b_roman": "vi",
+      "a_index": 4,
+      "b_index": 5,
+      "score": 1.0954761904761905
+    },
+    {
+      "a": "F#",
+      "a_roman": "V",
+      "b": "Bbdim",
+      "b_roman": "vii°",
+      "a_index": 4,
+      "b_index": 6,
+      "score": 0.8258333333333334
+    },
+    {
+      "a": "F#",
+      "a_roman": "V",
+      "b": "C#m7",
+      "b_roman": "ii7",
+      "a_index": 4,
+      "b_index": 7,
+      "score": 0.9079761904761905
+    },
+    {
+      "a": "F#",
+      "a_roman": "V",
+      "b": "F#7",
+      "b_roman": "V7",
+      "a_index": 4,
+      "b_index": 8,
+      "score": 0.9436904761904763
+    },
+    {
+      "a": "F#",
+      "a_roman": "V",
+      "b": "Bbm7b5",
+      "b_roman": "viiø7",
+      "a_index": 4,
+      "b_index": 9,
+      "score": 0.9829761904761907
+    },
+    {
+      "a": "Abm",
+      "a_roman": "vi",
+      "b": "B",
+      "b_roman": "I",
+      "a_index": 5,
+      "b_index": 0,
+      "score": 1.1061904761904762
+    },
+    {
+      "a": "Abm",
+      "a_roman": "vi",
+      "b": "C#m",
+      "b_roman": "ii",
+      "a_index": 5,
+      "b_index": 1,
+      "score": 1.2079761904761908
+    },
+    {
+      "a": "Abm",
+      "a_roman": "vi",
+      "b": "Ebm",
+      "b_roman": "iii",
+      "a_index": 5,
+      "b_index": 2,
+      "score": 1.1061904761904762
+    },
+    {
+      "a": "Abm",
+      "a_roman": "vi",
+      "b": "E",
+      "b_roman": "IV",
+      "a_index": 5,
+      "b_index": 3,
+      "score": 1.2079761904761908
+    },
+    {
+      "a": "Abm",
+      "a_roman": "vi",
+      "b": "F#",
+      "b_roman": "V",
+      "a_index": 5,
+      "b_index": 4,
+      "score": 1.1436904761904763
+    },
+    {
+      "a": "Abm",
+      "a_roman": "vi",
+      "b": "Abm",
+      "b_roman": "vi",
+      "a_index": 5,
+      "b_index": 5,
+      "score": 1.1904761904761907
+    },
+    {
+      "a": "Abm",
+      "a_roman": "vi",
+      "b": "Bbdim",
+      "b_roman": "vii°",
+      "a_index": 5,
+      "b_index": 6,
+      "score": 1.0258333333333334
+    },
+    {
+      "a": "Abm",
+      "a_roman": "vi",
+      "b": "C#m7",
+      "b_roman": "ii7",
+      "a_index": 5,
+      "b_index": 7,
+      "score": 1.2079761904761908
+    },
+    {
+      "a": "Abm",
+      "a_roman": "vi",
+      "b": "F#7",
+      "b_roman": "V7",
+      "a_index": 5,
+      "b_index": 8,
+      "score": 1.1436904761904763
+    },
+    {
+      "a": "Abm",
+      "a_roman": "vi",
+      "b": "Bbm7b5",
+      "b_roman": "viiø7",
+      "a_index": 5,
+      "b_index": 9,
+      "score": 1.1829761904761906
+    },
+    {
+      "a": "Bbdim",
+      "a_roman": "vii°",
+      "b": "B",
+      "b_roman": "I",
+      "a_index": 6,
+      "b_index": 0,
+      "score": 1.010357142857143
+    },
+    {
+      "a": "Bbdim",
+      "a_roman": "vii°",
+      "b": "C#m",
+      "b_roman": "ii",
+      "a_index": 6,
+      "b_index": 1,
+      "score": 0.8621428571428572
+    },
+    {
+      "a": "Bbdim",
+      "a_roman": "vii°",
+      "b": "Ebm",
+      "b_roman": "iii",
+      "a_index": 6,
+      "b_index": 2,
+      "score": 1.010357142857143
+    },
+    {
+      "a": "Bbdim",
+      "a_roman": "vii°",
+      "b": "E",
+      "b_roman": "IV",
+      "a_index": 6,
+      "b_index": 3,
+      "score": 0.8621428571428572
+    },
+    {
+      "a": "Bbdim",
+      "a_roman": "vii°",
+      "b": "F#",
+      "b_roman": "V",
+      "a_index": 6,
+      "b_index": 4,
+      "score": 0.8978571428571429
+    },
+    {
+      "a": "Bbdim",
+      "a_roman": "vii°",
+      "b": "Abm",
+      "b_roman": "vi",
+      "a_index": 6,
+      "b_index": 5,
+      "score": 1.049642857142857
+    },
+    {
+      "a": "Bbdim",
+      "a_roman": "vii°",
+      "b": "Bbdim",
+      "b_roman": "vii°",
+      "a_index": 6,
+      "b_index": 6,
+      "score": 0.8250000000000001
+    },
+    {
+      "a": "Bbdim",
+      "a_roman": "vii°",
+      "b": "C#m7",
+      "b_roman": "ii7",
+      "a_index": 6,
+      "b_index": 7,
+      "score": 0.8621428571428572
+    },
+    {
+      "a": "Bbdim",
+      "a_roman": "vii°",
+      "b": "F#7",
+      "b_roman": "V7",
+      "a_index": 6,
+      "b_index": 8,
+      "score": 0.8978571428571429
+    },
+    {
+      "a": "Bbdim",
+      "a_roman": "vii°",
+      "b": "Bbm7b5",
+      "b_roman": "viiø7",
+      "a_index": 6,
+      "b_index": 9,
+      "score": 0.9371428571428573
+    },
+    {
+      "a": "C#m7",
+      "a_roman": "ii7",
+      "b": "B",
+      "b_roman": "I",
+      "a_index": 7,
+      "b_index": 0,
+      "score": 1.0561904761904763
+    },
+    {
+      "a": "C#m7",
+      "a_roman": "ii7",
+      "b": "C#m",
+      "b_roman": "ii",
+      "a_index": 7,
+      "b_index": 1,
+      "score": 1.1204761904761906
+    },
+    {
+      "a": "C#m7",
+      "a_roman": "ii7",
+      "b": "Ebm",
+      "b_roman": "iii",
+      "a_index": 7,
+      "b_index": 2,
+      "score": 1.0561904761904763
+    },
+    {
+      "a": "C#m7",
+      "a_roman": "ii7",
+      "b": "E",
+      "b_roman": "IV",
+      "a_index": 7,
+      "b_index": 3,
+      "score": 1.1204761904761906
+    },
+    {
+      "a": "C#m7",
+      "a_roman": "ii7",
+      "b": "F#",
+      "b_roman": "V",
+      "a_index": 7,
+      "b_index": 4,
+      "score": 1.1936904761904763
+    },
+    {
+      "a": "C#m7",
+      "a_roman": "ii7",
+      "b": "Abm",
+      "b_roman": "vi",
+      "a_index": 7,
+      "b_index": 5,
+      "score": 1.0954761904761905
+    },
+    {
+      "a": "C#m7",
+      "a_roman": "ii7",
+      "b": "Bbdim",
+      "b_roman": "vii°",
+      "a_index": 7,
+      "b_index": 6,
+      "score": 1.0758333333333334
+    },
+    {
+      "a": "C#m7",
+      "a_roman": "ii7",
+      "b": "C#m7",
+      "b_roman": "ii7",
+      "a_index": 7,
+      "b_index": 7,
+      "score": 1.1654761904761906
+    },
+    {
+      "a": "C#m7",
+      "a_roman": "ii7",
+      "b": "F#7",
+      "b_roman": "V7",
+      "a_index": 7,
+      "b_index": 8,
+      "score": 1.1936904761904763
+    },
+    {
+      "a": "C#m7",
+      "a_roman": "ii7",
+      "b": "Bbm7b5",
+      "b_roman": "viiø7",
+      "a_index": 7,
+      "b_index": 9,
+      "score": 1.2329761904761907
+    },
+    {
+      "a": "F#7",
+      "a_roman": "V7",
+      "b": "B",
+      "b_roman": "I",
+      "a_index": 8,
+      "b_index": 0,
+      "score": 1.0561904761904763
+    },
+    {
+      "a": "F#7",
+      "a_roman": "V7",
+      "b": "C#m",
+      "b_roman": "ii",
+      "a_index": 8,
+      "b_index": 1,
+      "score": 0.9079761904761905
+    },
+    {
+      "a": "F#7",
+      "a_roman": "V7",
+      "b": "Ebm",
+      "b_roman": "iii",
+      "a_index": 8,
+      "b_index": 2,
+      "score": 1.0561904761904763
+    },
+    {
+      "a": "F#7",
+      "a_roman": "V7",
+      "b": "E",
+      "b_roman": "IV",
+      "a_index": 8,
+      "b_index": 3,
+      "score": 0.9079761904761905
+    },
+    {
+      "a": "F#7",
+      "a_roman": "V7",
+      "b": "F#",
+      "b_roman": "V",
+      "a_index": 8,
+      "b_index": 4,
+      "score": 0.9436904761904763
+    },
+    {
+      "a": "F#7",
+      "a_roman": "V7",
+      "b": "Abm",
+      "b_roman": "vi",
+      "a_index": 8,
+      "b_index": 5,
+      "score": 1.0954761904761905
+    },
+    {
+      "a": "F#7",
+      "a_roman": "V7",
+      "b": "Bbdim",
+      "b_roman": "vii°",
+      "a_index": 8,
+      "b_index": 6,
+      "score": 0.8258333333333334
+    },
+    {
+      "a": "F#7",
+      "a_roman": "V7",
+      "b": "C#m7",
+      "b_roman": "ii7",
+      "a_index": 8,
+      "b_index": 7,
+      "score": 0.9079761904761905
+    },
+    {
+      "a": "F#7",
+      "a_roman": "V7",
+      "b": "F#7",
+      "b_roman": "V7",
+      "a_index": 8,
+      "b_index": 8,
+      "score": 0.9886904761904762
+    },
+    {
+      "a": "F#7",
+      "a_roman": "V7",
+      "b": "Bbm7b5",
+      "b_roman": "viiø7",
+      "a_index": 8,
+      "b_index": 9,
+      "score": 0.9829761904761907
+    },
+    {
+      "a": "Bbm7b5",
+      "a_roman": "viiø7",
+      "b": "B",
+      "b_roman": "I",
+      "a_index": 9,
+      "b_index": 0,
+      "score": 1.1936904761904763
+    },
+    {
+      "a": "Bbm7b5",
+      "a_roman": "viiø7",
+      "b": "C#m",
+      "b_roman": "ii",
+      "a_index": 9,
+      "b_index": 1,
+      "score": 1.0454761904761907
+    },
+    {
+      "a": "Bbm7b5",
+      "a_roman": "viiø7",
+      "b": "Ebm",
+      "b_roman": "iii",
+      "a_index": 9,
+      "b_index": 2,
+      "score": 1.1936904761904763
+    },
+    {
+      "a": "Bbm7b5",
+      "a_roman": "viiø7",
+      "b": "E",
+      "b_roman": "IV",
+      "a_index": 9,
+      "b_index": 3,
+      "score": 1.0454761904761907
+    },
+    {
+      "a": "Bbm7b5",
+      "a_roman": "viiø7",
+      "b": "F#",
+      "b_roman": "V",
+      "a_index": 9,
+      "b_index": 4,
+      "score": 1.0811904761904763
+    },
+    {
+      "a": "Bbm7b5",
+      "a_roman": "viiø7",
+      "b": "Abm",
+      "b_roman": "vi",
+      "a_index": 9,
+      "b_index": 5,
+      "score": 1.2329761904761907
+    },
+    {
+      "a": "Bbm7b5",
+      "a_roman": "viiø7",
+      "b": "Bbdim",
+      "b_roman": "vii°",
+      "a_index": 9,
+      "b_index": 6,
+      "score": 0.9633333333333334
+    },
+    {
+      "a": "Bbm7b5",
+      "a_roman": "viiø7",
+      "b": "C#m7",
+      "b_roman": "ii7",
+      "a_index": 9,
+      "b_index": 7,
+      "score": 1.0454761904761907
+    },
+    {
+      "a": "Bbm7b5",
+      "a_roman": "viiø7",
+      "b": "F#7",
+      "b_roman": "V7",
+      "a_index": 9,
+      "b_index": 8,
+      "score": 1.0811904761904763
+    },
+    {
+      "a": "Bbm7b5",
+      "a_roman": "viiø7",
+      "b": "Bbm7b5",
+      "b_roman": "viiø7",
+      "a_index": 9,
+      "b_index": 9,
+      "score": 1.1654761904761906
+    }
+  ],
+  "record_id": "ZOxVvdrZxdq",
+  "source_split": "TRAIN"
+}

@@ -1,0 +1,131 @@
+{
+  "version": "QHDE-v0.12",
+  "created_utc": "2026-10-28T16:47:12.911864+00:00",
+  "backend": "ibm_marrakesh",
+  "backend_pending_jobs_at_preparation": 2,
+  "seed_transpiler": 42,
+  "optimization_level": 2,
+  "shots_proposed": 1024,
+  "circuits_order": [
+    "uniform",
+    "qaoa"
+  ],
+  "score_file": "QHDE/results/hooktheory_v04/scores_000.json",
+  "summary_file": "QHDE/results/hardware_v10/summary.json",
+  "problem": {
+    "source_record_id": "LAgQGkwEoyO",
+    "full_optimum_represented": true,
+    "subset_optimum": 1.48,
+    "a_indices": [
+      9,
+      2,
+      6,
+      5
+    ],
+    "b_indices": [
+      6,
+      9,
+      2,
+      4
+    ],
+    "optimal_basis_indices": [
+      2
+    ],
+    "p": 1,
+    "qaoa_params": [
+      2.4896384493286576,
+      5.8475764826807595
+    ],
+    "ideal_qaoa_optimum_probability": 0.16271333488338338,
+    "ideal_uniform_optimum_probability": 0.0625
+  },
+  "transpiled": [
+    {
+      "name": "uniform_control",
+      "depth": 4,
+      "size": 16,
+      "operations": {
+        "rz": 8,
+        "sx": 4,
+        "measure": 4
+      },
+      "two_qubit_count": 0,
+      "two_qubit_by_gate": {},
+      "two_qubit_error_metadata_missing": 0,
+      "product_of_2q_gate_fidelities_partial": 1.0
+    },
+    {
+      "name": "QHDE_p1",
+      "depth": 83,
+      "size": 103,
+      "operations": {
+        "sx": 44,
+        "rz": 35,
+        "cz": 20,
+        "measure": 4
+      },
+      "two_qubit_count": 20,
+      "two_qubit_by_gate": {
+        "cz": 20
+      },
+      "two_qubit_error_metadata_missing": 0,
+      "product_of_2q_gate_fidelities_partial": 0.9672096927513012
+    }
+  ],
+  "physical_qubits_used": [
+    6,
+    14,
+    86,
+    87,
+    88,
+    97,
+    148
+  ],
+  "qubit_properties": [
+    {
+      "qubit": 6,
+      "t1_s": 0.00022606322009032415,
+      "t2_s": 0.00022477229654519236,
+      "readout_error": 0.004150390625
+    },
+    {
+      "qubit": 14,
+      "t1_s": 0.000268673831334502,
+      "t2_s": 0.00011005485945501887,
+      "readout_error": 0.0029296875
+    },
+    {
+      "qubit": 86,
+      "t1_s": 0.00023953427097075198,
+      "t2_s": 4.087893226723832e-05,
+      "readout_error": 0.0048828125
+    },
+    {
+      "qubit": 87,
+      "t1_s": 0.00015578616389368133,
+      "t2_s": 7.942016766569106e-05,
+      "readout_error": 0.0029296875
+    },
+    {
+      "qubit": 88,
+      "t1_s": 0.00020420946854945307,
+      "t2_s": 0.00017879757677850312,
+      "readout_error": 0.045654296875
+    },
+    {
+      "qubit": 97,
+      "t1_s": 0.0001743459336058924,
+      "t2_s": 9.313946713690322e-05,
+      "readout_error": 0.006103515625
+    },
+    {
+      "qubit": 148,
+      "t1_s": 5.995624241520696e-05,
+      "t2_s": 3.274060903217735e-05,
+      "readout_error": 0.00244140625
+    }
+  ],
+  "qpy_file": "prepared_circuits.qpy",
+  "qpu_jobs_submitted": 0,
+  "warning": "Topology and calibration reflect metadata at preparation time. No runtime is guaranteed. Candidate reduction uses model scores and changes original 100-pair problem."
+}
