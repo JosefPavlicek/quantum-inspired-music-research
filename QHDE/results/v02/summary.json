@@ -1,0 +1,24 @@
+{
+  "version": "QHDE-v0.2-score-interface",
+  "simulation_only": true,
+  "source": "ILLUSTRATIVE_ONLY_NOT_EMH",
+  "source_input": "data/example_scores.json",
+  "score_provenance_note": "Generated from v0.1 demo rules. Replace with corrected EMH-exported scores before scientific interpretation.",
+  "n_qubits": 4,
+  "candidate_pairs": 16,
+  "depth": 1,
+  "grid_points_per_parameter": 51,
+  "best_gamma": 1.3823007675795091,
+  "best_beta": 2.7646015351590183,
+  "uniform_expected_score": 1.4625,
+  "qaoa_expected_score": 2.0123823478260565,
+  "exact_optimum_score": 2.7,
+  "uniform_optimum_probability": 0.0625,
+  "qaoa_optimum_probability": 0.15407502474946708,
+  "optimal_pairs": [
+    {
+      "chord_A": "G7",
+      "chord_B": "Cmaj7"
+    }
+  ]
+}

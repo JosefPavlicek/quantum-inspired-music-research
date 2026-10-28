@@ -1,0 +1,42 @@
+{
+  "source": "ILLUSTRATIVE_ONLY_NOT_EMH",
+  "note": "Generated from v0.1 demo rules. Replace with corrected EMH-exported scores before scientific interpretation.",
+  "chords_A": [
+    "Cmaj7",
+    "Dm7",
+    "G7",
+    "A7"
+  ],
+  "chords_B": [
+    "Cmaj7",
+    "Dm7",
+    "G7",
+    "A7"
+  ],
+  "pair_scores": [
+    [
+      1.9,
+      1.5,
+      2.2,
+      1.3
+    ],
+    [
+      1.7,
+      1.3,
+      2.4,
+      1.1
+    ],
+    [
+      2.7,
+      0.9,
+      1.0,
+      0.7
+    ],
+    [
+      1.2,
+      2.0,
+      0.9,
+      0.6
+    ]
+  ]
+}
