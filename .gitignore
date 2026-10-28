@@ -1,3 +1,10 @@
 # Shared datasets for new research projects
 /data/*
 !/data/README.md
+
+# IBM Quantum credentials
+.qiskit/
+qiskit-ibm.json
+.env
+.env.*
+!.env.example
