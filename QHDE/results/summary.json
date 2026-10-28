@@ -1,0 +1,22 @@
+{
+  "version": "QHDE-prototype-0.1",
+  "simulation_only": true,
+  "note": "Illustrative rule weights; NOT corrected EMH scores or empirical music preferences.",
+  "qubits": 4,
+  "candidate_pairs": 16,
+  "qaoa_depth_p": 1,
+  "best_gamma": 1.3823007675795091,
+  "best_beta": 2.7646015351590183,
+  "uniform_expected_score": 1.4625,
+  "qaoa_expected_score": 2.0123823478260565,
+  "exact_optimum_score": 2.7,
+  "uniform_optimum_probability": 0.0625,
+  "qaoa_optimum_probability": 0.15407502474946708,
+  "optimal_pairs": [
+    {
+      "a": "G7",
+      "b": "Cmaj7",
+      "score": 2.7
+    }
+  ]
+}
