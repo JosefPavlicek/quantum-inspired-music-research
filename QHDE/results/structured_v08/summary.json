@@ -1,0 +1,666 @@
+{
+  "version": "QHDE-v0.8",
+  "simulation_only": true,
+  "no_ibm_calls": true,
+  "note": "Generic Walsh decomposition, not yet a physically local music-factor Hamiltonian. Fixed gamma,beta for equivalence/resource analysis, not optimized QAOA.",
+  "records": [
+    {
+      "file": "scores_000.json",
+      "record_id": "LAgQGkwEoyO",
+      "results": [
+        {
+          "max_terms": null,
+          "max_degree": null,
+          "kept_nonidentity_terms": 127,
+          "max_energy_error_valid": 4.440892098500626e-16,
+          "rmse_energy_valid": 1.9325535822211315e-16,
+          "max_statevector_error_up_to_global_phase": 2.0816681711721685e-16,
+          "top_optimum_preserved": true,
+          "optimal_overlap": 1,
+          "original_optima": [
+            92
+          ],
+          "approx_optima": [
+            92
+          ],
+          "p_original_optima": 0.005011020928889879,
+          "p_invalid": 0.4059249339278676,
+          "depth": 770,
+          "cx": 642,
+          "gates": 818,
+          "ops": {
+            "cx": 642,
+            "rz": 155,
+            "sx": 21
+          },
+          "invalid_score": 0.004999999999999893,
+          "variant": "exact"
+        },
+        {
+          "max_terms": 16,
+          "max_degree": null,
+          "kept_nonidentity_terms": 16,
+          "max_energy_error_valid": 0.6068894909274194,
+          "rmse_energy_valid": 0.18357895774588423,
+          "max_statevector_error_up_to_global_phase": 0.02494197348999563,
+          "top_optimum_preserved": false,
+          "optimal_overlap": 1,
+          "original_optima": [
+            92
+          ],
+          "approx_optima": [
+            92,
+            93,
+            94,
+            95
+          ],
+          "p_original_optima": 0.0037343702192917387,
+          "p_invalid": 0.40321016535540527,
+          "depth": 68,
+          "cx": 48,
+          "gates": 108,
+          "ops": {
+            "cx": 48,
+            "rz": 43,
+            "sx": 17
+          },
+          "invalid_score": 0.004999999999999893,
+          "variant": "top16"
+        },
+        {
+          "max_terms": 32,
+          "max_degree": null,
+          "kept_nonidentity_terms": 32,
+          "max_energy_error_valid": 0.3103370715725804,
+          "rmse_energy_valid": 0.11693871485702526,
+          "max_statevector_error_up_to_global_phase": 0.014961556530051694,
+          "top_optimum_preserved": true,
+          "optimal_overlap": 1,
+          "original_optima": [
+            92
+          ],
+          "approx_optima": [
+            92
+          ],
+          "p_original_optima": 0.003977060560054704,
+          "p_invalid": 0.40589683690295847,
+          "depth": 147,
+          "cx": 112,
+          "gates": 195,
+          "ops": {
+            "cx": 112,
+            "rz": 62,
+            "sx": 21
+          },
+          "invalid_score": 0.004999999999999893,
+          "variant": "top32"
+        },
+        {
+          "max_terms": null,
+          "max_degree": 2,
+          "kept_nonidentity_terms": 28,
+          "max_energy_error_valid": 0.7897334929435484,
+          "rmse_energy_valid": 0.2101192844841524,
+          "max_statevector_error_up_to_global_phase": 0.037924684592054975,
+          "top_optimum_preserved": false,
+          "optimal_overlap": 0,
+          "original_optima": [
+            92
+          ],
+          "approx_optima": [
+            28
+          ],
+          "p_original_optima": 0.0037405595189001425,
+          "p_invalid": 0.40662115535227,
+          "depth": 41,
+          "cx": 42,
+          "gates": 119,
+          "ops": {
+            "rz": 56,
+            "cx": 42,
+            "sx": 21
+          },
+          "invalid_score": 0.004999999999999893,
+          "variant": "degree2"
+        }
+      ]
+    },
+    {
+      "file": "scores_001.json",
+      "record_id": "bWgMvrVkxlX",
+      "results": [
+        {
+          "max_terms": null,
+          "max_degree": null,
+          "kept_nonidentity_terms": 127,
+          "max_energy_error_valid": 4.440892098500626e-16,
+          "rmse_energy_valid": 1.8477793714103673e-16,
+          "max_statevector_error_up_to_global_phase": 2.0595777971499126e-16,
+          "top_optimum_preserved": true,
+          "optimal_overlap": 9,
+          "original_optima": [
+            16,
+            18,
+            19,
+            36,
+            38,
+            39,
+            76,
+            78,
+            79
+          ],
+          "approx_optima": [
+            16,
+            18,
+            19,
+            36,
+            38,
+            39,
+            76,
+            78,
+            79
+          ],
+          "p_original_optima": 0.05073948340931361,
+          "p_invalid": 0.3778623167852409,
+          "depth": 770,
+          "cx": 642,
+          "gates": 818,
+          "ops": {
+            "cx": 642,
+            "rz": 155,
+            "sx": 21
+          },
+          "invalid_score": 0.30161764705882366,
+          "variant": "exact"
+        },
+        {
+          "max_terms": 16,
+          "max_degree": null,
+          "kept_nonidentity_terms": 16,
+          "max_energy_error_valid": 0.32460133272058833,
+          "rmse_energy_valid": 0.13366613062688687,
+          "max_statevector_error_up_to_global_phase": 0.019424265096761713,
+          "top_optimum_preserved": false,
+          "optimal_overlap": 3,
+          "original_optima": [
+            16,
+            18,
+            19,
+            36,
+            38,
+            39,
+            76,
+            78,
+            79
+          ],
+          "approx_optima": [
+            36,
+            37,
+            38,
+            39
+          ],
+          "p_original_optima": 0.04634214396031512,
+          "p_invalid": 0.3728703617927297,
+          "depth": 60,
+          "cx": 40,
+          "gates": 99,
+          "ops": {
+            "rz": 42,
+            "cx": 40,
+            "sx": 17
+          },
+          "invalid_score": 0.30161764705882366,
+          "variant": "top16"
+        },
+        {
+          "max_terms": 32,
+          "max_degree": null,
+          "kept_nonidentity_terms": 32,
+          "max_energy_error_valid": 0.23628561580882335,
+          "rmse_energy_valid": 0.08002601460824245,
+          "max_statevector_error_up_to_global_phase": 0.011595234779088453,
+          "top_optimum_preserved": false,
+          "optimal_overlap": 1,
+          "original_optima": [
+            16,
+            18,
+            19,
+            36,
+            38,
+            39,
+            76,
+            78,
+            79
+          ],
+          "approx_optima": [
+            39
+          ],
+          "p_original_optima": 0.04963222674838493,
+          "p_invalid": 0.377349233201653,
+          "depth": 145,
+          "cx": 114,
+          "gates": 196,
+          "ops": {
+            "cx": 114,
+            "rz": 61,
+            "sx": 21
+          },
+          "invalid_score": 0.30161764705882366,
+          "variant": "top32"
+        },
+        {
+          "max_terms": null,
+          "max_degree": 2,
+          "kept_nonidentity_terms": 28,
+          "max_energy_error_valid": 0.5598655790441174,
+          "rmse_energy_valid": 0.18515842276873667,
+          "max_statevector_error_up_to_global_phase": 0.03670885107840372,
+          "top_optimum_preserved": false,
+          "optimal_overlap": 0,
+          "original_optima": [
+            16,
+            18,
+            19,
+            36,
+            38,
+            39,
+            76,
+            78,
+            79
+          ],
+          "approx_optima": [
+            67
+          ],
+          "p_original_optima": 0.05539750937864159,
+          "p_invalid": 0.37602019522483393,
+          "depth": 41,
+          "cx": 42,
+          "gates": 119,
+          "ops": {
+            "rz": 56,
+            "cx": 42,
+            "sx": 21
+          },
+          "invalid_score": 0.30161764705882366,
+          "variant": "degree2"
+        }
+      ]
+    },
+    {
+      "file": "scores_002.json",
+      "record_id": "DpgvlyPBoad",
+      "results": [
+        {
+          "max_terms": null,
+          "max_degree": null,
+          "kept_nonidentity_terms": 127,
+          "max_energy_error_valid": 4.440892098500626e-16,
+          "rmse_energy_valid": 1.6653345369377348e-16,
+          "max_statevector_error_up_to_global_phase": 2.6694457840969114e-16,
+          "top_optimum_preserved": true,
+          "optimal_overlap": 3,
+          "original_optima": [
+            7,
+            27,
+            57
+          ],
+          "approx_optima": [
+            7,
+            27,
+            57
+          ],
+          "p_original_optima": 0.02031255787161016,
+          "p_invalid": 0.32975689473121533,
+          "depth": 770,
+          "cx": 642,
+          "gates": 818,
+          "ops": {
+            "cx": 642,
+            "rz": 155,
+            "sx": 21
+          },
+          "invalid_score": 0.17999999999999994,
+          "variant": "exact"
+        },
+        {
+          "max_terms": 16,
+          "max_degree": null,
+          "kept_nonidentity_terms": 16,
+          "max_energy_error_valid": 0.22642578125000012,
+          "rmse_energy_valid": 0.08315923367336668,
+          "max_statevector_error_up_to_global_phase": 0.009902741903643854,
+          "top_optimum_preserved": false,
+          "optimal_overlap": 0,
+          "original_optima": [
+            7,
+            27,
+            57
+          ],
+          "approx_optima": [
+            36,
+            37,
+            38,
+            39
+          ],
+          "p_original_optima": 0.018896667687710676,
+          "p_invalid": 0.3248698446715308,
+          "depth": 68,
+          "cx": 48,
+          "gates": 107,
+          "ops": {
+            "cx": 48,
+            "rz": 42,
+            "sx": 17
+          },
+          "invalid_score": 0.17999999999999994,
+          "variant": "top16"
+        },
+        {
+          "max_terms": 32,
+          "max_degree": null,
+          "kept_nonidentity_terms": 32,
+          "max_energy_error_valid": 0.15529296874999987,
+          "rmse_energy_valid": 0.05407103197103868,
+          "max_statevector_error_up_to_global_phase": 0.005950350821182473,
+          "top_optimum_preserved": false,
+          "optimal_overlap": 0,
+          "original_optima": [
+            7,
+            27,
+            57
+          ],
+          "approx_optima": [
+            77
+          ],
+          "p_original_optima": 0.01970896244864239,
+          "p_invalid": 0.3290892504824703,
+          "depth": 143,
+          "cx": 110,
+          "gates": 193,
+          "ops": {
+            "cx": 110,
+            "rz": 62,
+            "sx": 21
+          },
+          "invalid_score": 0.17999999999999994,
+          "variant": "top32"
+        },
+        {
+          "max_terms": null,
+          "max_degree": 2,
+          "kept_nonidentity_terms": 28,
+          "max_energy_error_valid": 0.3428710937499999,
+          "rmse_energy_valid": 0.10624931503972687,
+          "max_statevector_error_up_to_global_phase": 0.02104034919246477,
+          "top_optimum_preserved": false,
+          "optimal_overlap": 0,
+          "original_optima": [
+            7,
+            27,
+            57
+          ],
+          "approx_optima": [
+            33
+          ],
+          "p_original_optima": 0.020231946052111396,
+          "p_invalid": 0.3256494045416114,
+          "depth": 41,
+          "cx": 42,
+          "gates": 119,
+          "ops": {
+            "rz": 56,
+            "cx": 42,
+            "sx": 21
+          },
+          "invalid_score": 0.17999999999999994,
+          "variant": "degree2"
+        }
+      ]
+    },
+    {
+      "file": "scores_003.json",
+      "record_id": "nZgWXMVQxry",
+      "results": [
+        {
+          "max_terms": null,
+          "max_degree": null,
+          "kept_nonidentity_terms": 127,
+          "max_energy_error_valid": 4.440892098500626e-16,
+          "rmse_energy_valid": 1.8343894894033214e-16,
+          "max_statevector_error_up_to_global_phase": 2.470869871868516e-16,
+          "top_optimum_preserved": true,
+          "optimal_overlap": 2,
+          "original_optima": [
+            33,
+            77
+          ],
+          "approx_optima": [
+            33,
+            77
+          ],
+          "p_original_optima": 0.00832909854659539,
+          "p_invalid": 0.38103805121985884,
+          "depth": 770,
+          "cx": 642,
+          "gates": 818,
+          "ops": {
+            "cx": 642,
+            "rz": 155,
+            "sx": 21
+          },
+          "invalid_score": 0.25583333333333336,
+          "variant": "exact"
+        },
+        {
+          "max_terms": 16,
+          "max_degree": null,
+          "kept_nonidentity_terms": 16,
+          "max_energy_error_valid": 0.3014107572115384,
+          "rmse_energy_valid": 0.12255238304314978,
+          "max_statevector_error_up_to_global_phase": 0.01938765509562192,
+          "top_optimum_preserved": false,
+          "optimal_overlap": 0,
+          "original_optima": [
+            33,
+            77
+          ],
+          "approx_optima": [
+            37,
+            39
+          ],
+          "p_original_optima": 0.00887676494222875,
+          "p_invalid": 0.37560018461276096,
+          "depth": 57,
+          "cx": 38,
+          "gates": 97,
+          "ops": {
+            "rz": 41,
+            "cx": 38,
+            "sx": 18
+          },
+          "invalid_score": 0.25583333333333336,
+          "variant": "top16"
+        },
+        {
+          "max_terms": 32,
+          "max_degree": null,
+          "kept_nonidentity_terms": 32,
+          "max_energy_error_valid": 0.1647100360576923,
+          "rmse_energy_valid": 0.07559632632570817,
+          "max_statevector_error_up_to_global_phase": 0.009933397919632147,
+          "top_optimum_preserved": false,
+          "optimal_overlap": 1,
+          "original_optima": [
+            33,
+            77
+          ],
+          "approx_optima": [
+            77
+          ],
+          "p_original_optima": 0.008760054136480327,
+          "p_invalid": 0.38219309328455753,
+          "depth": 147,
+          "cx": 114,
+          "gates": 196,
+          "ops": {
+            "cx": 114,
+            "rz": 61,
+            "sx": 21
+          },
+          "invalid_score": 0.25583333333333336,
+          "variant": "top32"
+        },
+        {
+          "max_terms": null,
+          "max_degree": 2,
+          "kept_nonidentity_terms": 28,
+          "max_energy_error_valid": 0.44417217548076904,
+          "rmse_energy_valid": 0.14831655951931258,
+          "max_statevector_error_up_to_global_phase": 0.029511385073506393,
+          "top_optimum_preserved": false,
+          "optimal_overlap": 1,
+          "original_optima": [
+            33,
+            77
+          ],
+          "approx_optima": [
+            33
+          ],
+          "p_original_optima": 0.008796773546037764,
+          "p_invalid": 0.3786404377750786,
+          "depth": 41,
+          "cx": 42,
+          "gates": 119,
+          "ops": {
+            "rz": 56,
+            "cx": 42,
+            "sx": 21
+          },
+          "invalid_score": 0.25583333333333336,
+          "variant": "degree2"
+        }
+      ]
+    },
+    {
+      "file": "scores_004.json",
+      "record_id": "RPxeyBjaxb_",
+      "results": [
+        {
+          "max_terms": null,
+          "max_degree": null,
+          "kept_nonidentity_terms": 127,
+          "max_energy_error_valid": 4.440892098500626e-16,
+          "rmse_energy_valid": 1.6983146601011028e-16,
+          "max_statevector_error_up_to_global_phase": 1.9478403400799705e-16,
+          "top_optimum_preserved": true,
+          "optimal_overlap": 1,
+          "original_optima": [
+            7
+          ],
+          "approx_optima": [
+            7
+          ],
+          "p_original_optima": 0.005618620482927479,
+          "p_invalid": 0.3738999121319038,
+          "depth": 770,
+          "cx": 642,
+          "gates": 818,
+          "ops": {
+            "cx": 642,
+            "rz": 155,
+            "sx": 21
+          },
+          "invalid_score": 0.24785714285714233,
+          "variant": "exact"
+        },
+        {
+          "max_terms": 16,
+          "max_degree": null,
+          "kept_nonidentity_terms": 16,
+          "max_energy_error_valid": 0.26674300309065935,
+          "rmse_energy_valid": 0.09642948201431482,
+          "max_statevector_error_up_to_global_phase": 0.012315607410370891,
+          "top_optimum_preserved": false,
+          "optimal_overlap": 0,
+          "original_optima": [
+            7
+          ],
+          "approx_optima": [
+            56,
+            57,
+            58,
+            59
+          ],
+          "p_original_optima": 0.00555614290246593,
+          "p_invalid": 0.37044999171527426,
+          "depth": 69,
+          "cx": 48,
+          "gates": 107,
+          "ops": {
+            "cx": 48,
+            "rz": 42,
+            "sx": 17
+          },
+          "invalid_score": 0.24785714285714233,
+          "variant": "top16"
+        },
+        {
+          "max_terms": 32,
+          "max_degree": null,
+          "kept_nonidentity_terms": 32,
+          "max_energy_error_valid": 0.12562435611263734,
+          "rmse_energy_valid": 0.05578439950320597,
+          "max_statevector_error_up_to_global_phase": 0.007963210483929948,
+          "top_optimum_preserved": false,
+          "optimal_overlap": 0,
+          "original_optima": [
+            7
+          ],
+          "approx_optima": [
+            6
+          ],
+          "p_original_optima": 0.005303287052305307,
+          "p_invalid": 0.3737113570571204,
+          "depth": 157,
+          "cx": 122,
+          "gates": 205,
+          "ops": {
+            "cx": 122,
+            "rz": 62,
+            "sx": 21
+          },
+          "invalid_score": 0.24785714285714233,
+          "variant": "top32"
+        },
+        {
+          "max_terms": null,
+          "max_degree": 2,
+          "kept_nonidentity_terms": 28,
+          "max_energy_error_valid": 0.43794535542582425,
+          "rmse_energy_valid": 0.14924115107888059,
+          "max_statevector_error_up_to_global_phase": 0.026846114701390845,
+          "top_optimum_preserved": false,
+          "optimal_overlap": 0,
+          "original_optima": [
+            7
+          ],
+          "approx_optima": [
+            28
+          ],
+          "p_original_optima": 0.0062363826028771835,
+          "p_invalid": 0.37004510233354493,
+          "depth": 41,
+          "cx": 42,
+          "gates": 119,
+          "ops": {
+            "rz": 56,
+            "cx": 42,
+            "sx": 21
+          },
+          "invalid_score": 0.24785714285714233,
+          "variant": "degree2"
+        }
+      ]
+    }
+  ]
+}

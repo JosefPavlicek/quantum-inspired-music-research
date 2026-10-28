@@ -1,0 +1,128 @@
+{
+  "version": "QHDE-v0.6",
+  "simulation_only": true,
+  "hardware_jobs_submitted": 0,
+  "warning": "Generic DiagonalGate is not an efficient native hardware cost oracle. Transpile and assess depth before QPU use.",
+  "records": [
+    {
+      "score_file": "QHDE/results/hooktheory_v04/scores_000.json",
+      "record_id": "LAgQGkwEoyO",
+      "comparisons": [
+        {
+          "model": "qaoa_p1_full",
+          "max_amplitude_absolute_error": 2.5018537765542007e-16,
+          "max_probability_absolute_error": 4.336808689942018e-17,
+          "valid_probability": 0.9800349521801291,
+          "optimum_probability_given_valid": 0.015323643311458404,
+          "invalid_probability": 0.01996504781987085,
+          "circuit_instructions_before_transpile": 15
+        },
+        {
+          "model": "qaoa_p2_full",
+          "max_amplitude_absolute_error": 2.423651445728339e-16,
+          "max_probability_absolute_error": 5.551115123125783e-17,
+          "valid_probability": 0.9683071211947956,
+          "optimum_probability_given_valid": 0.022066749076863,
+          "invalid_probability": 0.03169287880520444,
+          "circuit_instructions_before_transpile": 23
+        }
+      ]
+    },
+    {
+      "score_file": "QHDE/results/hooktheory_v04/scores_001.json",
+      "record_id": "bWgMvrVkxlX",
+      "comparisons": [
+        {
+          "model": "qaoa_p1_full",
+          "max_amplitude_absolute_error": 1.716587549445839e-16,
+          "max_probability_absolute_error": 5.551115123125783e-17,
+          "valid_probability": 0.9285100027063055,
+          "optimum_probability_given_valid": 0.20373468802448516,
+          "invalid_probability": 0.07148999729369454,
+          "circuit_instructions_before_transpile": 15
+        },
+        {
+          "model": "qaoa_p2_full",
+          "max_amplitude_absolute_error": 2.5133742693021536e-16,
+          "max_probability_absolute_error": 6.245004513516506e-17,
+          "valid_probability": 0.969960799222606,
+          "optimum_probability_given_valid": 0.1164081206966767,
+          "invalid_probability": 0.03003920077739397,
+          "circuit_instructions_before_transpile": 23
+        }
+      ]
+    },
+    {
+      "score_file": "QHDE/results/hooktheory_v04/scores_002.json",
+      "record_id": "DpgvlyPBoad",
+      "comparisons": [
+        {
+          "model": "qaoa_p1_full",
+          "max_amplitude_absolute_error": 1.6943551349561353e-16,
+          "max_probability_absolute_error": 2.7755575615628914e-17,
+          "valid_probability": 0.991250749637789,
+          "optimum_probability_given_valid": 0.03413542218041262,
+          "invalid_probability": 0.00874925036221097,
+          "circuit_instructions_before_transpile": 15
+        },
+        {
+          "model": "qaoa_p2_full",
+          "max_amplitude_absolute_error": 2.8609792490763985e-16,
+          "max_probability_absolute_error": 4.163336342344337e-17,
+          "valid_probability": 0.9733121997321401,
+          "optimum_probability_given_valid": 0.042986603114824586,
+          "invalid_probability": 0.026687800267859885,
+          "circuit_instructions_before_transpile": 23
+        }
+      ]
+    },
+    {
+      "score_file": "QHDE/results/hooktheory_v04/scores_003.json",
+      "record_id": "nZgWXMVQxry",
+      "comparisons": [
+        {
+          "model": "qaoa_p1_full",
+          "max_amplitude_absolute_error": 2.1163626406917047e-16,
+          "max_probability_absolute_error": 4.85722573273506e-17,
+          "valid_probability": 0.9459832092816187,
+          "optimum_probability_given_valid": 0.057336643568794435,
+          "invalid_probability": 0.05401679071838128,
+          "circuit_instructions_before_transpile": 15
+        },
+        {
+          "model": "qaoa_p2_full",
+          "max_amplitude_absolute_error": 2.470869871868516e-16,
+          "max_probability_absolute_error": 6.591949208711867e-17,
+          "valid_probability": 0.9546898111137878,
+          "optimum_probability_given_valid": 0.02563283294033582,
+          "invalid_probability": 0.04531018888621219,
+          "circuit_instructions_before_transpile": 23
+        }
+      ]
+    },
+    {
+      "score_file": "QHDE/results/hooktheory_v04/scores_004.json",
+      "record_id": "RPxeyBjaxb_",
+      "comparisons": [
+        {
+          "model": "qaoa_p1_full",
+          "max_amplitude_absolute_error": 2.6945789820192466e-16,
+          "max_probability_absolute_error": 6.071532165918825e-17,
+          "valid_probability": 0.9927350954125751,
+          "optimum_probability_given_valid": 0.01399751379373005,
+          "invalid_probability": 0.007264904587424903,
+          "circuit_instructions_before_transpile": 15
+        },
+        {
+          "model": "qaoa_p2_full",
+          "max_amplitude_absolute_error": 3.6743392481035993e-16,
+          "max_probability_absolute_error": 1.1796119636642288e-16,
+          "valid_probability": 0.944253522542003,
+          "optimum_probability_given_valid": 0.03458453864097261,
+          "invalid_probability": 0.05574647745799699,
+          "circuit_instructions_before_transpile": 23
+        }
+      ]
+    }
+  ]
+}

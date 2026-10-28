@@ -1,0 +1,6 @@
+id,status,pairs,tonic,mode,file,task,reason
+LAgQGkwEoyO,ok,100,A,minor,scores_000.json,first_two_segments_local_prefix,
+bWgMvrVkxlX,ok,100,A,minor,scores_001.json,first_two_segments_local_prefix,
+DpgvlyPBoad,ok,100,D#,minor,scores_002.json,first_two_segments_local_prefix,
+nZgWXMVQxry,ok,100,D,minor,scores_003.json,first_two_segments_local_prefix,
+RPxeyBjaxb_,ok,100,C#,major,scores_004.json,first_two_segments_local_prefix,

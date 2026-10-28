@@ -1,0 +1,26 @@
+{
+  "backend": "generic_backend_5q",
+  "backend_qubits": 5,
+  "score_file": "QHDE/results/hooktheory_v04/scores_000.json",
+  "record_id": "LAgQGkwEoyO",
+  "p": 1,
+  "seed_transpiler": 42,
+  "optimization_level": 2,
+  "physical_depth": 72,
+  "physical_size": 119,
+  "gate_counts": {
+    "rz": 53,
+    "sx": 42,
+    "cx": 19,
+    "measure": 4,
+    "x": 1
+  },
+  "two_qubit_operations": {
+    "cx": 19
+  },
+  "two_qubit_total": 19,
+  "layout": "TranspileLayout(initial_layout=Layout({\n1: <Qubit register=(4, \"q\"), index=0>,\n2: <Qubit register=(4, \"q\"), index=1>,\n0: <Qubit register=(4, \"q\"), index=2>,\n3: <Qubit register=(4, \"q\"), index=3>,\n4: <Qubit register=(1, \"ancilla\"), index=0>\n}), input_qubit_mapping={<Qubit register=(4, \"q\"), index=0>: 0, <Qubit register=(4, \"q\"), index=1>: 1, <Qubit register=(4, \"q\"), index=2>: 2, <Qubit register=(4, \"q\"), index=3>: 3, <Qubit register=(1, \"ancilla\"), index=0>: 4}, final_layout=Layout({\n3: <Qubit register=(5, \"q\"), index=1>,\n2: <Qubit register=(5, \"q\"), index=2>,\n0: <Qubit register=(5, \"q\"), index=0>,\n1: <Qubit register=(5, \"q\"), index=3>,\n4: <Qubit register=(5, \"q\"), index=4>\n}), _input_qubit_count=4, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])",
+  "full_optimum_represented": true,
+  "qpu_jobs_submitted": 0,
+  "warning": "Compilation is not execution; gate counts and backend calibrations may change. No QPU fidelity claim."
+}

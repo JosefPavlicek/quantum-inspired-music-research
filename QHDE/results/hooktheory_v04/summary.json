@@ -1,0 +1,55 @@
+{
+  "version": "QHDE-v0.4",
+  "simulation_only": true,
+  "reference_blind": true,
+  "model": "HARMONIX corrected candidates + frozen EMH scoring",
+  "manifest": "/workspaces/quantum-inspired-music-research/HARMONIX/results/corpus_manifests/train_full.json",
+  "archive_name": "Hooktheory.json.gz",
+  "rows": [
+    {
+      "id": "LAgQGkwEoyO",
+      "status": "ok",
+      "pairs": 100,
+      "tonic": "A",
+      "mode": "minor",
+      "file": "scores_000.json",
+      "task": "first_two_segments_local_prefix"
+    },
+    {
+      "id": "bWgMvrVkxlX",
+      "status": "ok",
+      "pairs": 100,
+      "tonic": "A",
+      "mode": "minor",
+      "file": "scores_001.json",
+      "task": "first_two_segments_local_prefix"
+    },
+    {
+      "id": "DpgvlyPBoad",
+      "status": "ok",
+      "pairs": 100,
+      "tonic": "D#",
+      "mode": "minor",
+      "file": "scores_002.json",
+      "task": "first_two_segments_local_prefix"
+    },
+    {
+      "id": "nZgWXMVQxry",
+      "status": "ok",
+      "pairs": 100,
+      "tonic": "D",
+      "mode": "minor",
+      "file": "scores_003.json",
+      "task": "first_two_segments_local_prefix"
+    },
+    {
+      "id": "RPxeyBjaxb_",
+      "status": "ok",
+      "pairs": 100,
+      "tonic": "C#",
+      "mode": "major",
+      "file": "scores_004.json",
+      "task": "first_two_segments_local_prefix"
+    }
+  ]
+}

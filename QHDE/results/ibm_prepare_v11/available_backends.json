@@ -1,0 +1,133 @@
+[
+  {
+    "backend": "ibm_boston",
+    "qubits": 156,
+    "operational": true,
+    "pending_jobs": 316,
+    "basis_gates": [
+      "measure_reset_2",
+      "x",
+      "cz",
+      "xslow",
+      "sx",
+      "reset",
+      "id",
+      "reset_2",
+      "delay",
+      "if_else",
+      "measure_reset",
+      "rz",
+      "measure",
+      "measure_2"
+    ]
+  },
+  {
+    "backend": "ibm_fez",
+    "qubits": 156,
+    "operational": true,
+    "pending_jobs": 30,
+    "basis_gates": [
+      "measure_reset_2",
+      "x",
+      "cz",
+      "xslow",
+      "sx",
+      "reset",
+      "id",
+      "reset_2",
+      "delay",
+      "if_else",
+      "measure_reset",
+      "rz",
+      "measure",
+      "measure_2"
+    ]
+  },
+  {
+    "backend": "ibm_kingston",
+    "qubits": 156,
+    "operational": true,
+    "pending_jobs": 27,
+    "basis_gates": [
+      "measure_reset_2",
+      "x",
+      "cz",
+      "xslow",
+      "sx",
+      "reset",
+      "id",
+      "reset_2",
+      "delay",
+      "if_else",
+      "measure_reset",
+      "rz",
+      "measure",
+      "measure_2"
+    ]
+  },
+  {
+    "backend": "ibm_marrakesh",
+    "qubits": 156,
+    "operational": true,
+    "pending_jobs": 12,
+    "basis_gates": [
+      "measure_reset_2",
+      "x",
+      "cz",
+      "xslow",
+      "sx",
+      "reset",
+      "id",
+      "reset_2",
+      "delay",
+      "if_else",
+      "measure_reset",
+      "rz",
+      "measure",
+      "measure_2"
+    ]
+  },
+  {
+    "backend": "ibm_phoenix",
+    "qubits": 120,
+    "operational": true,
+    "pending_jobs": 5000,
+    "basis_gates": [
+      "measure_reset_2",
+      "x",
+      "cz",
+      "xslow",
+      "sx",
+      "reset",
+      "id",
+      "delay",
+      "if_else",
+      "measure_reset",
+      "rz",
+      "measure",
+      "measure_2"
+    ]
+  },
+  {
+    "backend": "ibm_pittsburgh",
+    "qubits": 156,
+    "operational": true,
+    "pending_jobs": 2,
+    "basis_gates": [
+      "measure_reset_2",
+      "x",
+      "cz",
+      "xslow",
+      "sx",
+      "reset",
+      "id",
+      "reset_2",
+      "delay",
+      "if_else",
+      "measure_reset",
+      "rz",
+      "measure",
+      "measure_2"
+    ]
+  }
+]

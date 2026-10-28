@@ -1,0 +1,76 @@
+{
+  "version": "QHDE-v0.9",
+  "experiment": "exact_feasible_subspace_projector_mixer",
+  "no_hardware_calls": true,
+  "simulation_only": true,
+  "records": [
+    {
+      "file": "scores_000.json",
+      "record_id": "LAgQGkwEoyO",
+      "uniform_valid_optimum_probability": 0.01,
+      "depths": {
+        "p1": {
+          "params": [
+            -3.1157430476328365,
+            1.7413355144437475
+          ],
+          "optimized_normalized_energy": -0.6509208761985099,
+          "metrics": {
+            "invalid_probability": 0.0,
+            "valid_probability": 1.0000000000000004,
+            "optimum_probability": 0.04364318275987646,
+            "top10_probability": 0.3489768734034362,
+            "expected_score": 1.2225541461964018,
+            "n_optima": 1
+          },
+          "qiskit_statevector_max_abs_error": 1.3757236967108301e-14,
+          "resource_audit": {
+            "depth": 1287,
+            "cx": 464,
+            "operations": {
+              "rz": 754,
+              "cx": 464,
+              "sx": 330,
+              "x": 1
+            },
+            "backend_topology_aware": false
+          }
+        },
+        "p2": {
+          "params": [
+            3.1386840403591814,
+            0.7292734505472298,
+            -0.26508528975692913,
+            -2.51408111212275
+          ],
+          "optimized_normalized_energy": -0.6540920221896753,
+          "metrics": {
+            "invalid_probability": 0.0,
+            "valid_probability": 1.0000000000000002,
+            "optimum_probability": 0.04699064237305027,
+            "top10_probability": 0.3579193971018147,
+            "expected_score": 1.2248928663648855,
+            "n_optima": 1
+          },
+          "qiskit_statevector_max_abs_error": 1.795491860953555e-14,
+          "resource_audit": {
+            "depth": 2266,
+            "cx": 856,
+            "operations": {
+              "rz": 1350,
+              "cx": 856,
+              "sx": 556,
+              "x": 2
+            },
+            "backend_topology_aware": false
+          }
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "Mixer is not standard X mixer; do not compare cost fairness without resource accounting.",
+    "Exact feasible preparation/reflection may be more expensive than v0.7.",
+    "Only p=1,p=2 and limited random-restart classical search; no quantum advantage claim."
+  ]
+}

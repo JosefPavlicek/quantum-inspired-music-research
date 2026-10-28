@@ -1,0 +1,43 @@
+{
+  "version": "QHDE-v0.7",
+  "hardware_jobs_submitted": 0,
+  "limitations": "Basis-only: no backend connectivity, routing, timing, fidelity or QPU execution",
+  "records": [
+    {
+      "record_id": "LAgQGkwEoyO",
+      "input": "QHDE/results/hooktheory_v04/scores_000.json",
+      "basis": "cx",
+      "optimization_level": 1,
+      "audit_type": "offline_basis_only_NO_HARDWARE_TOPOLOGY",
+      "hardware_jobs_submitted": 0,
+      "results": [
+        {
+          "p": 1,
+          "original_depth": 3,
+          "basis_depth": 250,
+          "basis_size": 307,
+          "two_qubit_gates": 126,
+          "greater_than_two_qubit_gates": 0,
+          "gate_counts": {
+            "rz": 160,
+            "cx": 126,
+            "sx": 21
+          }
+        },
+        {
+          "p": 2,
+          "original_depth": 5,
+          "basis_depth": 482,
+          "basis_size": 593,
+          "two_qubit_gates": 252,
+          "greater_than_two_qubit_gates": 0,
+          "gate_counts": {
+            "rz": 306,
+            "cx": 252,
+            "sx": 35
+          }
+        }
+      ]
+    }
+  ]
+}

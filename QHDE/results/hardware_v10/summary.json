@@ -1,0 +1,455 @@
+{
+  "version": "QHDE-v0.10",
+  "simulation_only": true,
+  "qpu_jobs": 0,
+  "seed": 42,
+  "starts": 64,
+  "warning": "Deterministic score-based reduction changes the problem. No quantum advantage claim. CX count excludes physical backend topology.",
+  "records": [
+    {
+      "score_file": "QHDE/results/hooktheory_v04/scores_000.json",
+      "record_id": "LAgQGkwEoyO",
+      "selection": "top4 marginal mean score per position, stable tie-break",
+      "a_indices": [
+        9,
+        2,
+        6,
+        5
+      ],
+      "b_indices": [
+        6,
+        9,
+        2,
+        4
+      ],
+      "full_optimum_represented": true,
+      "full_optimum": 1.48,
+      "subset_optimum": 1.48,
+      "uniform_optimum_probability": 0.0625,
+      "models": {
+        "p1": {
+          "params": [
+            2.4896384493286576,
+            5.8475764826807595
+          ],
+          "expected_normalized_score": 0.7696411697748415,
+          "optimum_probability": 0.16271333488338338,
+          "expected_raw_score": 1.3622197593848786,
+          "probabilities": [
+            0.1274360372252174,
+            0.12168889105793448,
+            0.16271333488338338,
+            0.0040724963054366205,
+            0.09315367076169494,
+            0.09486381968760628,
+            0.07003205254023026,
+            0.001385458933310498,
+            0.07931238162985425,
+            0.04707598739633276,
+            0.08496102880504007,
+            0.0016088605666417933,
+            0.044715560253374975,
+            0.04579025440472029,
+            0.01926237143672339,
+            0.001927794112498725
+          ],
+          "invalid_probability": 0.0,
+          "statevector_max_error": 2.2247786310271853e-16,
+          "cx_count": 14,
+          "transpiled_depth": 32,
+          "topology_aware": false
+        },
+        "p2": {
+          "params": [
+            2.1788346151340168,
+            2.5295395088984183,
+            4.066344931534257,
+            6.018621900341305
+          ],
+          "expected_normalized_score": 0.8127152732184387,
+          "optimum_probability": 0.24517211235617115,
+          "expected_raw_score": 1.3842431316294275,
+          "probabilities": [
+            0.27547324219544966,
+            0.11078544361839648,
+            0.24517211235617115,
+            0.002779176803578597,
+            0.12996828551878392,
+            0.046719861220172285,
+            0.019410848415458697,
+            0.00758459361763851,
+            0.07919248379314084,
+            0.010095308817736633,
+            0.044472881841157524,
+            0.0005466748369857056,
+            0.016853118649204624,
+            0.006696292845092206,
+            0.0013752236498025476,
+            0.0028744518212304934
+          ],
+          "invalid_probability": 0.0,
+          "statevector_max_error": 3.4506610788621483e-16,
+          "cx_count": 28,
+          "transpiled_depth": 59,
+          "topology_aware": false
+        }
+      }
+    },
+    {
+      "score_file": "QHDE/results/hooktheory_v04/scores_001.json",
+      "record_id": "bWgMvrVkxlX",
+      "selection": "top4 marginal mean score per position, stable tie-break",
+      "a_indices": [
+        1,
+        3,
+        7,
+        6
+      ],
+      "b_indices": [
+        6,
+        8,
+        9,
+        1
+      ],
+      "full_optimum_represented": true,
+      "full_optimum": 1.4233823529411764,
+      "subset_optimum": 1.4233823529411764,
+      "uniform_optimum_probability": 0.5625,
+      "models": {
+        "p1": {
+          "params": [
+            2.5294877478855593,
+            5.83391136846572
+          ],
+          "expected_normalized_score": 0.9863240923284052,
+          "optimum_probability": 0.9789443426290418,
+          "expected_raw_score": 1.4208181202527523,
+          "probabilities": [
+            0.1495797007486673,
+            0.13581099796153448,
+            0.13581099796153448,
+            0.004803865050363458,
+            0.13581099796153454,
+            0.07153016250855916,
+            0.07153016250855916,
+            0.0007692515218112921,
+            0.13581099796153448,
+            0.07153016250855916,
+            0.07153016250855916,
+            0.0007692515218112922,
+            0.004803865050363466,
+            0.0007692515218112922,
+            0.0007692515218112914,
+            0.00837092118298605
+          ],
+          "invalid_probability": 0.0,
+          "statevector_max_error": 2.7755575615628914e-16,
+          "cx_count": 14,
+          "transpiled_depth": 32,
+          "topology_aware": false
+        },
+        "p2": {
+          "params": [
+            2.558782389278291,
+            4.601314513829959,
+            0.013926657408819099,
+            1.2295423312429636
+          ],
+          "expected_normalized_score": 0.9862211209012243,
+          "optimum_probability": 0.9793124763916021,
+          "expected_raw_score": 1.420798813110156,
+          "probabilities": [
+            0.1508784935273987,
+            0.1360706899239104,
+            0.1360706899239104,
+            0.00435400519798163,
+            0.1360706899239104,
+            0.07103780579214046,
+            0.07103780579214052,
+            0.0008346986601285558,
+            0.13607068992391033,
+            0.07103780579214049,
+            0.07103780579214046,
+            0.0008346986601285556,
+            0.00435400519798163,
+            0.0008346986601285572,
+            0.0008346986601285572,
+            0.008640718571920428
+          ],
+          "invalid_probability": 0.0,
+          "statevector_max_error": 2.7755575615628914e-16,
+          "cx_count": 28,
+          "transpiled_depth": 59,
+          "topology_aware": false
+        }
+      }
+    },
+    {
+      "score_file": "QHDE/results/hooktheory_v04/scores_002.json",
+      "record_id": "DpgvlyPBoad",
+      "selection": "top4 marginal mean score per position, stable tie-break",
+      "a_indices": [
+        0,
+        2,
+        5,
+        1
+      ],
+      "b_indices": [
+        7,
+        4,
+        6,
+        8
+      ],
+      "full_optimum_represented": true,
+      "full_optimum": 0.9550000000000001,
+      "subset_optimum": 0.9550000000000001,
+      "uniform_optimum_probability": 0.1875,
+      "models": {
+        "p1": {
+          "params": [
+            2.011420570278241,
+            5.805124168139013
+          ],
+          "expected_normalized_score": 0.6016405719823275,
+          "optimum_probability": 0.4807420035006896,
+          "expected_raw_score": 0.8902665929471284,
+          "probabilities": [
+            0.18540242942777332,
+            0.001622987084149705,
+            0.0016229870841497056,
+            0.06551693621513076,
+            0.1476697870364581,
+            0.009653447584087923,
+            0.009653447584087923,
+            0.0350987930061569,
+            0.1476697870364581,
+            0.009653447584087925,
+            0.009653447584087923,
+            0.03509879300615689,
+            0.1024732755962162,
+            0.04995373262031577,
+            0.04995373262031577,
+            0.13930296893036734
+          ],
+          "invalid_probability": 0.0,
+          "statevector_max_error": 2.2887833992611187e-16,
+          "cx_count": 14,
+          "transpiled_depth": 32,
+          "topology_aware": false
+        },
+        "p2": {
+          "params": [
+            1.6141781875749515,
+            2.436859742200541,
+            2.2300067146525464,
+            2.7339219066047935
+          ],
+          "expected_normalized_score": 0.819096815421915,
+          "optimum_probability": 0.7464121660295435,
+          "expected_raw_score": 0.925603232506061,
+          "probabilities": [
+            0.2414630169007987,
+            9.396607927728454e-05,
+            9.396607927728454e-05,
+            0.005265135142296555,
+            0.2524745745643724,
+            0.0014914482966789633,
+            0.001491448296678964,
+            0.018688446601391826,
+            0.2524745745643724,
+            0.0014914482966789655,
+            0.0014914482966789655,
+            0.018688446601391826,
+            0.06286606049020375,
+            0.05743620209146549,
+            0.05743620209146549,
+            0.02705361560697099
+          ],
+          "invalid_probability": 0.0,
+          "statevector_max_error": 6.871957671317179e-16,
+          "cx_count": 28,
+          "transpiled_depth": 59,
+          "topology_aware": false
+        }
+      }
+    },
+    {
+      "score_file": "QHDE/results/hooktheory_v04/scores_003.json",
+      "record_id": "nZgWXMVQxry",
+      "selection": "top4 marginal mean score per position, stable tie-break",
+      "a_indices": [
+        3,
+        7,
+        0,
+        5
+      ],
+      "b_indices": [
+        3,
+        7,
+        0,
+        5
+      ],
+      "full_optimum_represented": true,
+      "full_optimum": 1.4125,
+      "subset_optimum": 1.4125,
+      "uniform_optimum_probability": 0.125,
+      "models": {
+        "p1": {
+          "params": [
+            2.943112788059103,
+            5.5302321491663315
+          ],
+          "expected_normalized_score": 0.8470834081178695,
+          "optimum_probability": 0.42056226119687257,
+          "expected_raw_score": 1.376015669552225,
+          "probabilities": [
+            0.21028113059843628,
+            0.19443985164788488,
+            0.0017177231564284529,
+            0.001161479808365737,
+            0.19443985164788488,
+            0.21028113059843628,
+            0.001161479808365737,
+            0.0017177231564284529,
+            0.044178258558561216,
+            0.039582143925293974,
+            0.002348562552618178,
+            0.006290849752411168,
+            0.039582143925293974,
+            0.044178258558561216,
+            0.006290849752411168,
+            0.002348562552618178
+          ],
+          "invalid_probability": 0.0,
+          "statevector_max_error": 2.2887833992611187e-16,
+          "cx_count": 12,
+          "transpiled_depth": 23,
+          "topology_aware": false
+        },
+        "p2": {
+          "params": [
+            1.5808087162483975,
+            5.784789529383813,
+            2.161330235541753,
+            5.860170919467938
+          ],
+          "expected_normalized_score": 0.8746481431857471,
+          "optimum_probability": 0.5027430899613506,
+          "expected_raw_score": 1.3825923326241893,
+          "probabilities": [
+            0.2513715449806753,
+            0.16922725298078117,
+            0.0031078649698487756,
+            0.002322170410333723,
+            0.16922725298078117,
+            0.2513715449806753,
+            0.002322170410333723,
+            0.0031078649698487756,
+            0.036223396148828,
+            0.03605624487853222,
+            0.0009977506006013611,
+            0.0006937750303994654,
+            0.03605624487853222,
+            0.036223396148828,
+            0.0006937750303994654,
+            0.0009977506006013611
+          ],
+          "invalid_probability": 0.0,
+          "statevector_max_error": 3.6427540840452094e-16,
+          "cx_count": 24,
+          "transpiled_depth": 43,
+          "topology_aware": false
+        }
+      }
+    },
+    {
+      "score_file": "QHDE/results/hooktheory_v04/scores_004.json",
+      "record_id": "RPxeyBjaxb_",
+      "selection": "top4 marginal mean score per position, stable tie-break",
+      "a_indices": [
+        0,
+        5,
+        2,
+        3
+      ],
+      "b_indices": [
+        7,
+        4,
+        6,
+        8
+      ],
+      "full_optimum_represented": true,
+      "full_optimum": 1.415714285714286,
+      "subset_optimum": 1.415714285714286,
+      "uniform_optimum_probability": 0.0625,
+      "models": {
+        "p1": {
+          "params": [
+            2.962223001145803,
+            5.705971143109703
+          ],
+          "expected_normalized_score": 0.726719209952456,
+          "optimum_probability": 0.32106941627818236,
+          "expected_raw_score": 1.3328366307325594,
+          "probabilities": [
+            0.32106941627818236,
+            0.09759985074776825,
+            0.09759985074776825,
+            0.11007491924174591,
+            0.07059455135079347,
+            0.030439069261975853,
+            0.030439069261975874,
+            0.0595525450966083,
+            0.03750145519150268,
+            0.024879703363529623,
+            0.024879703363529612,
+            0.03884870496462978,
+            0.037112687943645646,
+            0.007570535245885011,
+            0.0075705352458850135,
+            0.004267402694574205
+          ],
+          "invalid_probability": 0.0,
+          "statevector_max_error": 1.0103182026100664e-16,
+          "cx_count": 14,
+          "transpiled_depth": 32,
+          "topology_aware": false
+        },
+        "p2": {
+          "params": [
+            1.5732506902858205,
+            3.8120464276941988,
+            3.0104279678439076,
+            2.1172234469164333
+          ],
+          "expected_normalized_score": 0.7636266729901976,
+          "optimum_probability": 0.34459657485562856,
+          "expected_raw_score": 1.3440295286576585,
+          "probabilities": [
+            0.34459657485562856,
+            0.2002410661739045,
+            0.20024106617390455,
+            0.15103597020406537,
+            0.02589678603487662,
+            0.007012789963472791,
+            0.007012789963472782,
+            0.016873983611973432,
+            0.006287182380630277,
+            0.00045257548689438845,
+            0.0004525754868943874,
+            0.016681404125333858,
+            0.005675166724270054,
+            0.004605569350516407,
+            0.004605569350516409,
+            0.008328930113645012
+          ],
+          "invalid_probability": 0.0,
+          "statevector_max_error": 4.518280359883027e-16,
+          "cx_count": 28,
+          "transpiled_depth": 59,
+          "topology_aware": false
+        }
+      }
+    }
+  ]
+}

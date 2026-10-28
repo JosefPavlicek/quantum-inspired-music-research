@@ -1,0 +1,105 @@
+{
+  "source": "QHDE/results/hooktheory_v04/scores_004.json",
+  "record_id": "RPxeyBjaxb_",
+  "n_qubits": 7,
+  "n_valid": 100,
+  "n_invalid": 28,
+  "score_source": "harmonix_corrected_candidates_frozen_emh_scoring",
+  "cadence_final": false,
+  "classical_optimum": 1.415714285714286,
+  "optimal_pairs": [
+    {
+      "a": "C#",
+      "b": "Ebm7",
+      "index": 7
+    }
+  ],
+  "baselines": {
+    "uniform_valid": {
+      "valid_probability": 0.9999999999999999,
+      "invalid_probability": 1.1102230246251565e-16,
+      "optimum_probability_unconditional": 0.01,
+      "optimum_probability_given_valid": 0.010000000000000002,
+      "top10_probability_given_valid": 0.1,
+      "expected_score_given_valid": 1.084259615384616
+    },
+    "uniform_all_128": {
+      "valid_probability": 0.78125,
+      "invalid_probability": 0.21875,
+      "optimum_probability_unconditional": 0.0078125,
+      "optimum_probability_given_valid": 0.01,
+      "top10_probability_given_valid": 0.1,
+      "expected_score_given_valid": 1.0842596153846151
+    }
+  },
+  "models": {
+    "qaoa_p1_full": {
+      "params": [
+        0.5761444270296705,
+        2.7557672020029496
+      ],
+      "trained_objective": 0.4458061970511527,
+      "metrics": {
+        "valid_probability": 0.9927350954125769,
+        "invalid_probability": 0.007264904587423127,
+        "optimum_probability_unconditional": 0.013895823191557462,
+        "optimum_probability_given_valid": 0.01399751379373005,
+        "top10_probability_given_valid": 0.12043308261283617,
+        "expected_score_given_valid": 1.1025561823942955
+      },
+      "note": "Ideal statevector; classical parameter search."
+    },
+    "qaoa_p1_separable_cost_control": {
+      "params": [
+        1.3310123583023823,
+        2.3144887346305465
+      ],
+      "trained_objective": 1.0807919953770204,
+      "metrics": {
+        "valid_probability": 0.9999876414702707,
+        "invalid_probability": 1.2358529729250556e-05,
+        "optimum_probability_unconditional": 0.03530811832217116,
+        "optimum_probability_given_valid": 0.035308554683993916,
+        "top10_probability_given_valid": 0.3007557270277331,
+        "expected_score_given_valid": 1.17853475356348
+      },
+      "note": "Ideal statevector; classical parameter search. Separable control changes phase-cost model."
+    },
+    "qaoa_p2_full": {
+      "params": [
+        1.6879966888146525,
+        1.4352953656431937,
+        0.8888164401947005,
+        2.6446808265398163
+      ],
+      "trained_objective": 0.4231431160417858,
+      "metrics": {
+        "valid_probability": 0.9442535225420047,
+        "invalid_probability": 0.055746477457995325,
+        "optimum_probability_unconditional": 0.032656572437228464,
+        "optimum_probability_given_valid": 0.03458453864097261,
+        "top10_probability_given_valid": 0.2635427116164963,
+        "expected_score_given_valid": 1.1624059022921303
+      },
+      "note": "Ideal statevector; classical parameter search."
+    },
+    "qaoa_p2_separable_cost_control": {
+      "params": [
+        0.80779050245877,
+        0.7756777103562467,
+        1.3610833776209215,
+        1.9280567915419362
+      ],
+      "trained_objective": 1.0907826286018016,
+      "metrics": {
+        "valid_probability": 0.9999965719155822,
+        "invalid_probability": 3.428084417778088e-06,
+        "optimum_probability_unconditional": 0.035726115450590734,
+        "optimum_probability_given_valid": 0.035726237923150266,
+        "top10_probability_given_valid": 0.3082500474260179,
+        "expected_score_given_valid": 1.1808822951324438
+      },
+      "note": "Ideal statevector; classical parameter search. Separable control changes phase-cost model."
+    }
+  }
+}

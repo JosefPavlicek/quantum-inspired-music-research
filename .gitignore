@@ -8,3 +8,11 @@ qiskit-ibm.json
 .env
 .env.*
 !.env.example
+
+# Python temporary files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local ZIP archives
+QHDE_*.zip
