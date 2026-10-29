@@ -1,0 +1,251 @@
+{
+  "version": "QHDE-v0.22",
+  "offline_only": true,
+  "split": "TRAIN",
+  "source_selection_sha256": "69bed367bea333ac2669498ae913e1d5c89b01220fa43c8e8d77d008e6a2989f",
+  "source_archive_sha256": "917b7cd58f5f4e07d6c36acf7bfad958c99ee05472dab3555399141094698e0c",
+  "scope": "first FOUR consecutive melody segments, corrected HARMONIX candidates, frozen EMH scores",
+  "note": "Reference harmony used ONLY in frozen v0.17 selection; no original full-song entropy attribution to 4-segment circuit",
+  "records": [
+    {
+      "record_id": "dPoDrNVqgnM",
+      "stratum": "low_entropy__high_repetition",
+      "music_features": {
+        "n_chords": 16,
+        "chord_entropy_bits": 2.75,
+        "conditional_transition_entropy_bits": 0.26666666666666666,
+        "repeated_bigram_rate": 0.4666666666666667
+      },
+      "status": "ok",
+      "file": "instance_000.json",
+      "n_feasible": 256,
+      "n_optimal": 1,
+      "total_song_segments": 16
+    },
+    {
+      "record_id": "LAgQnYKlxyO",
+      "stratum": "low_entropy__high_repetition",
+      "music_features": {
+        "n_chords": 16,
+        "chord_entropy_bits": 2.0,
+        "conditional_transition_entropy_bits": 0.0,
+        "repeated_bigram_rate": 0.7333333333333334
+      },
+      "status": "ok",
+      "file": "instance_001.json",
+      "n_feasible": 256,
+      "n_optimal": 4,
+      "total_song_segments": 32
+    },
+    {
+      "record_id": "QLgnvz_Yg-V",
+      "stratum": "low_entropy__high_repetition",
+      "music_features": {
+        "n_chords": 16,
+        "chord_entropy_bits": 2.0,
+        "conditional_transition_entropy_bits": 0.0,
+        "repeated_bigram_rate": 0.7333333333333334
+      },
+      "status": "ok",
+      "file": "instance_002.json",
+      "n_feasible": 256,
+      "n_optimal": 1,
+      "total_song_segments": 32
+    },
+    {
+      "record_id": "dPoD-yjqmnM",
+      "stratum": "low_entropy__high_repetition",
+      "music_features": {
+        "n_chords": 16,
+        "chord_entropy_bits": 2.625,
+        "conditional_transition_entropy_bits": 0.4,
+        "repeated_bigram_rate": 0.4666666666666667
+      },
+      "status": "ok",
+      "file": "instance_003.json",
+      "n_feasible": 64,
+      "n_optimal": 1,
+      "total_song_segments": 32
+    },
+    {
+      "record_id": "dPoDJekZgnM",
+      "stratum": "low_entropy__low_repetition",
+      "music_features": {
+        "n_chords": 10,
+        "chord_entropy_bits": 2.321928094887362,
+        "conditional_transition_entropy_bits": 0.0,
+        "repeated_bigram_rate": 0.4444444444444444
+      },
+      "status": "ok",
+      "file": "instance_004.json",
+      "n_feasible": 256,
+      "n_optimal": 1,
+      "total_song_segments": 16
+    },
+    {
+      "record_id": "jDgXQwLyxKl",
+      "stratum": "low_entropy__low_repetition",
+      "music_features": {
+        "n_chords": 10,
+        "chord_entropy_bits": 1.9219280948873623,
+        "conditional_transition_entropy_bits": 0.3060986113514965,
+        "repeated_bigram_rate": 0.4444444444444444
+      },
+      "status": "ok",
+      "file": "instance_005.json",
+      "n_feasible": 256,
+      "n_optimal": 4,
+      "total_song_segments": 16
+    },
+    {
+      "record_id": "AQodnNrqgDl",
+      "stratum": "low_entropy__low_repetition",
+      "music_features": {
+        "n_chords": 10,
+        "chord_entropy_bits": 3.1219280948873624,
+        "conditional_transition_entropy_bits": 0.2222222222222222,
+        "repeated_bigram_rate": 0.0
+      },
+      "status": "ok",
+      "file": "instance_006.json",
+      "n_feasible": 256,
+      "n_optimal": 2,
+      "total_song_segments": 14
+    },
+    {
+      "record_id": "_NgbbeRrgQA",
+      "stratum": "low_entropy__low_repetition",
+      "music_features": {
+        "n_chords": 11,
+        "chord_entropy_bits": 2.7321588913645702,
+        "conditional_transition_entropy_bits": 0.4,
+        "repeated_bigram_rate": 0.09999999999999998
+      },
+      "status": "ok",
+      "file": "instance_007.json",
+      "n_feasible": 64,
+      "n_optimal": 1,
+      "total_song_segments": 24
+    },
+    {
+      "record_id": "jDgXOMDnmKl",
+      "stratum": "high_entropy__high_repetition",
+      "music_features": {
+        "n_chords": 27,
+        "chord_entropy_bits": 2.3037464107788743,
+        "conditional_transition_entropy_bits": 0.7593172142167997,
+        "repeated_bigram_rate": 0.6153846153846154
+      },
+      "status": "ok",
+      "file": "instance_008.json",
+      "n_feasible": 256,
+      "n_optimal": 4,
+      "total_song_segments": 24
+    },
+    {
+      "record_id": "AQodGpPKxDl",
+      "stratum": "high_entropy__high_repetition",
+      "music_features": {
+        "n_chords": 28,
+        "chord_entropy_bits": 2.4356987807516504,
+        "conditional_transition_entropy_bits": 0.6128919039497402,
+        "repeated_bigram_rate": 0.6666666666666667
+      },
+      "status": "ok",
+      "file": "instance_009.json",
+      "n_feasible": 64,
+      "n_optimal": 1,
+      "total_song_segments": 36
+    },
+    {
+      "record_id": "ZOxVvdrZxdq",
+      "stratum": "high_entropy__high_repetition",
+      "music_features": {
+        "n_chords": 30,
+        "chord_entropy_bits": 1.872905595320056,
+        "conditional_transition_entropy_bits": 0.8627431037466853,
+        "repeated_bigram_rate": 0.7241379310344828
+      },
+      "status": "ok",
+      "file": "instance_010.json",
+      "n_feasible": 64,
+      "n_optimal": 2,
+      "total_song_segments": 32
+    },
+    {
+      "record_id": "ANmpQAvngyM",
+      "stratum": "high_entropy__high_repetition",
+      "music_features": {
+        "n_chords": 30,
+        "chord_entropy_bits": 2.440223928941852,
+        "conditional_transition_entropy_bits": 0.8444905170921746,
+        "repeated_bigram_rate": 0.6206896551724138
+      },
+      "status": "ok",
+      "file": "instance_011.json",
+      "n_feasible": 256,
+      "n_optimal": 1,
+      "total_song_segments": 48
+    },
+    {
+      "record_id": "zngRNKQegJj",
+      "stratum": "high_entropy__low_repetition",
+      "music_features": {
+        "n_chords": 17,
+        "chord_entropy_bits": 3.4992275471326924,
+        "conditional_transition_entropy_bits": 0.5,
+        "repeated_bigram_rate": 0.0
+      },
+      "status": "ok",
+      "file": "instance_012.json",
+      "n_feasible": 256,
+      "n_optimal": 16,
+      "total_song_segments": 32
+    },
+    {
+      "record_id": "WeglOnvlmrY",
+      "stratum": "high_entropy__low_repetition",
+      "music_features": {
+        "n_chords": 16,
+        "chord_entropy_bits": 3.077819531114783,
+        "conditional_transition_entropy_bits": 0.8,
+        "repeated_bigram_rate": 0.0
+      },
+      "status": "ok",
+      "file": "instance_013.json",
+      "n_feasible": 256,
+      "n_optimal": 1,
+      "total_song_segments": 32
+    },
+    {
+      "record_id": "veoYWNOVgdn",
+      "stratum": "high_entropy__low_repetition",
+      "music_features": {
+        "n_chords": 18,
+        "chord_entropy_bits": 3.016875695766564,
+        "conditional_transition_entropy_bits": 0.7502875001272629,
+        "repeated_bigram_rate": 0.23529411764705888
+      },
+      "status": "ok",
+      "file": "instance_014.json",
+      "n_feasible": 256,
+      "n_optimal": 1,
+      "total_song_segments": 15
+    },
+    {
+      "record_id": "yvmrdppJxOW",
+      "stratum": "high_entropy__low_repetition",
+      "music_features": {
+        "n_chords": 15,
+        "chord_entropy_bits": 3.1898980954642875,
+        "conditional_transition_entropy_bits": 0.4824919644402477,
+        "repeated_bigram_rate": 0.0714285714285714
+      },
+      "status": "ok",
+      "file": "instance_015.json",
+      "n_feasible": 256,
+      "n_optimal": 2,
+      "total_song_segments": 16
+    }
+  ]
+}

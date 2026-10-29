@@ -1,0 +1,123 @@
+{
+  "version": "QHDE-v0.26",
+  "offline_only": true,
+  "source_job": "dbh8j5kdgr2s73ct1100",
+  "backend": "ibm_marrakesh",
+  "source_analysis_sha256": "442246f4aa338f1d65bbd4340f83d746a935f3d5ee522d6f1c86326bf3dd1ba6",
+  "n_records": 12,
+  "n_circuits": 48,
+  "aggregates": {
+    "uniform": {
+      "hardware_mean": 0.012044270833333334,
+      "ideal_mean": 0.012369791666666666,
+      "mean_gap_pp": -0.032552083333333336,
+      "mean_retention_ratio": 0.9231770833333334,
+      "ratio_of_means": 0.9736842105263158,
+      "energy_gap_mean": 0.0045895328701348005
+    },
+    "p1": {
+      "hardware_mean": 0.06681315104166667,
+      "ideal_mean": 0.09913881554364794,
+      "mean_gap_pp": -3.2325664501981257,
+      "mean_retention_ratio": 0.6659846851786276,
+      "ratio_of_means": 0.673935336782905,
+      "energy_gap_mean": 0.052810674005616474
+    },
+    "p2": {
+      "hardware_mean": 0.10343424479166667,
+      "ideal_mean": 0.19116112286490503,
+      "mean_gap_pp": -8.772687807323836,
+      "mean_retention_ratio": 0.6043231020245061,
+      "ratio_of_means": 0.5410841035118025,
+      "energy_gap_mean": 0.08364797830728678
+    },
+    "p3": {
+      "hardware_mean": 0.12491861979166667,
+      "ideal_mean": 0.28165540659566324,
+      "mean_gap_pp": -15.67367868039966,
+      "mean_retention_ratio": 0.4745019566525856,
+      "ratio_of_means": 0.4435157886778875,
+      "energy_gap_mean": 0.11203410647032892
+    }
+  },
+  "paired_comparisons": {
+    "p1_minus_uniform": {
+      "mean_difference_pp": 5.476888020833334,
+      "positive": 12,
+      "negative": 0,
+      "ties": 0,
+      "exact_p_two_sided": 0.00048828125,
+      "bootstrap_95_pp": [
+        3.7434895833333335,
+        7.405598958333333
+      ]
+    },
+    "p2_minus_p1": {
+      "mean_difference_pp": 3.662109375,
+      "positive": 11,
+      "negative": 1,
+      "ties": 0,
+      "exact_p_two_sided": 0.0029296875,
+      "bootstrap_95_pp": [
+        1.7496744791666667,
+        5.729166666666666
+      ]
+    },
+    "p3_minus_p2": {
+      "mean_difference_pp": 2.1484375,
+      "positive": 9,
+      "negative": 2,
+      "ties": 1,
+      "exact_p_two_sided": 0.0205078125,
+      "bootstrap_95_pp": [
+        0.6266276041666667,
+        3.939005533854164
+      ]
+    },
+    "p3_minus_p1": {
+      "mean_difference_pp": 5.810546875,
+      "positive": 11,
+      "negative": 1,
+      "ties": 0,
+      "exact_p_two_sided": 0.00341796875,
+      "bootstrap_95_pp": [
+        2.6611328125,
+        9.342447916666668
+      ]
+    },
+    "p3_minus_uniform": {
+      "mean_difference_pp": 11.287434895833332,
+      "positive": 12,
+      "negative": 0,
+      "ties": 0,
+      "exact_p_two_sided": 0.00048828125,
+      "bootstrap_95_pp": [
+        7.446085611979167,
+        15.625
+      ]
+    }
+  },
+  "winner_counts_no_ties": {
+    "p1": 1,
+    "p2": 1,
+    "p3": 9
+  },
+  "tied_winners": 1,
+  "spearman_exploratory": {
+    "p1_cx_logical_vs_gap_pp": -0.34314145758016334,
+    "p1_depth_logical_vs_gap_pp": -0.3807485019303284,
+    "p2_cx_logical_vs_gap_pp": -0.1264205370032181,
+    "p2_depth_logical_vs_gap_pp": -0.09698310898225346,
+    "p3_cx_logical_vs_gap_pp": -0.10113642960257445,
+    "p3_depth_logical_vs_gap_pp": -0.08261524098488257
+  },
+  "methodological_notes": [
+    "Paired tests use songs/instances as units, not 1024 shots as independent songs.",
+    "Music cases may share Hamiltonian landscapes; song-level confidence intervals may overstate independent information.",
+    "Per-instance Wilson intervals capture shot uncertainty, not device drift or instance-sampling uncertainty.",
+    "CX/depth here come from v0.23 logical circuits, not backend-transpiled v0.25 circuits.",
+    "Correlation of noise gap with depth is confounded by QAOA layer count and instance-specific effects.",
+    "Global optimum is defined by the modeled corrected-EMH score, not human preference.",
+    "No quantum advantage is claimed; 256 states are trivially classically enumerable."
+  ]
+}

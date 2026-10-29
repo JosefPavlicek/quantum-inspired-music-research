@@ -1,0 +1,914 @@
+{
+  "version": "QHDE-v0.21",
+  "job_id": "dbh6b11q260s73bukkf0",
+  "backend": "ibm_pittsburgh",
+  "means": {
+    "uniform": {
+      "replicate_probability": 0.09814453125,
+      "original_probability": 0.1025390625,
+      "difference_rep_minus_original": -0.00439453125
+    },
+    "p1": {
+      "replicate_probability": 0.34228515625,
+      "original_probability": 0.333251953125,
+      "difference_rep_minus_original": 0.009033203125
+    },
+    "p2": {
+      "replicate_probability": 0.4351806640625,
+      "original_probability": 0.427001953125,
+      "difference_rep_minus_original": 0.0081787109375
+    },
+    "p3": {
+      "replicate_probability": 0.52459716796875,
+      "original_probability": 0.510986328125,
+      "difference_rep_minus_original": 0.01361083984375
+    }
+  },
+  "winner_counts": {
+    "p1": 1,
+    "p2": 4,
+    "p3": 11
+  },
+  "records": [
+    {
+      "record_id": "dPoDrNVqgnM",
+      "stratum": "low_entropy__high_repetition",
+      "n_optima": 1,
+      "music_features": {
+        "n_chords": 16,
+        "chord_entropy_bits": 2.75,
+        "conditional_transition_entropy_bits": 0.26666666666666666,
+        "repeated_bigram_rate": 0.4666666666666667
+      },
+      "results": [
+        {
+          "model": "uniform",
+          "replicate_hits": 67,
+          "replicate_probability": 0.0654296875,
+          "original_probability": 0.0751953125,
+          "replicate_expected_score": 1.1004796328787076,
+          "original_expected_score": 1.106080798132945,
+          "difference_rep_minus_original": -0.009765625,
+          "ideal_probability": 0.0625
+        },
+        {
+          "model": "p1",
+          "replicate_hits": 177,
+          "replicate_probability": 0.1728515625,
+          "original_probability": 0.158203125,
+          "replicate_expected_score": 1.1747738181938558,
+          "original_expected_score": 1.1702229128045551,
+          "difference_rep_minus_original": 0.0146484375,
+          "ideal_probability": 0.1815800009367069
+        },
+        {
+          "model": "p2",
+          "replicate_hits": 85,
+          "replicate_probability": 0.0830078125,
+          "original_probability": 0.0830078125,
+          "replicate_expected_score": 1.1694940909692797,
+          "original_expected_score": 1.1693073027012713,
+          "difference_rep_minus_original": 0.0,
+          "ideal_probability": 0.10129533119707101
+        },
+        {
+          "model": "p3",
+          "replicate_hits": 329,
+          "replicate_probability": 0.3212890625,
+          "original_probability": 0.2763671875,
+          "replicate_expected_score": 1.1878455210540255,
+          "original_expected_score": 1.1820664228019069,
+          "difference_rep_minus_original": 0.044921875,
+          "ideal_probability": 0.23480936610416353
+        }
+      ]
+    },
+    {
+      "record_id": "LAgQnYKlxyO",
+      "stratum": "low_entropy__high_repetition",
+      "n_optima": 2,
+      "music_features": {
+        "n_chords": 16,
+        "chord_entropy_bits": 2.0,
+        "conditional_transition_entropy_bits": 0.0,
+        "repeated_bigram_rate": 0.7333333333333334
+      },
+      "results": [
+        {
+          "model": "uniform",
+          "replicate_hits": 116,
+          "replicate_probability": 0.11328125,
+          "original_probability": 0.109375,
+          "replicate_expected_score": 0.7856494140625001,
+          "original_expected_score": 0.787626953125,
+          "difference_rep_minus_original": 0.00390625,
+          "ideal_probability": 0.125
+        },
+        {
+          "model": "p1",
+          "replicate_hits": 443,
+          "replicate_probability": 0.4326171875,
+          "original_probability": 0.47265625,
+          "replicate_expected_score": 0.9209497070312499,
+          "original_expected_score": 0.9236328125,
+          "difference_rep_minus_original": -0.0400390625,
+          "ideal_probability": 0.5090081253484928
+        },
+        {
+          "model": "p2",
+          "replicate_hits": 609,
+          "replicate_probability": 0.5947265625,
+          "original_probability": 0.5986328125,
+          "replicate_expected_score": 0.9360742187500001,
+          "original_expected_score": 0.931220703125,
+          "difference_rep_minus_original": -0.00390625,
+          "ideal_probability": 0.6777202300741317
+        },
+        {
+          "model": "p3",
+          "replicate_hits": 720,
+          "replicate_probability": 0.703125,
+          "original_probability": 0.6796875,
+          "replicate_expected_score": 0.946220703125,
+          "original_expected_score": 0.94333251953125,
+          "difference_rep_minus_original": 0.0234375,
+          "ideal_probability": 0.8228746405530474
+        }
+      ]
+    },
+    {
+      "record_id": "QLgnvz_Yg-V",
+      "stratum": "low_entropy__high_repetition",
+      "n_optima": 1,
+      "music_features": {
+        "n_chords": 16,
+        "chord_entropy_bits": 2.0,
+        "conditional_transition_entropy_bits": 0.0,
+        "repeated_bigram_rate": 0.7333333333333334
+      },
+      "results": [
+        {
+          "model": "uniform",
+          "replicate_hits": 79,
+          "replicate_probability": 0.0771484375,
+          "original_probability": 0.0654296875,
+          "replicate_expected_score": 1.1416107177734376,
+          "original_expected_score": 1.1343316650390625,
+          "difference_rep_minus_original": 0.01171875,
+          "ideal_probability": 0.0625
+        },
+        {
+          "model": "p1",
+          "replicate_hits": 296,
+          "replicate_probability": 0.2890625,
+          "original_probability": 0.2734375,
+          "replicate_expected_score": 1.3439813232421876,
+          "original_expected_score": 1.3424462890625,
+          "difference_rep_minus_original": 0.015625,
+          "ideal_probability": 0.30571898217020516
+        },
+        {
+          "model": "p2",
+          "replicate_hits": 299,
+          "replicate_probability": 0.2919921875,
+          "original_probability": 0.322265625,
+          "replicate_expected_score": 1.366524658203125,
+          "original_expected_score": 1.365596923828125,
+          "difference_rep_minus_original": -0.0302734375,
+          "ideal_probability": 0.4137272868548962
+        },
+        {
+          "model": "p3",
+          "replicate_hits": 400,
+          "replicate_probability": 0.390625,
+          "original_probability": 0.3623046875,
+          "replicate_expected_score": 1.361474609375,
+          "original_expected_score": 1.3610137939453124,
+          "difference_rep_minus_original": 0.0283203125,
+          "ideal_probability": 0.45912176343273997
+        }
+      ]
+    },
+    {
+      "record_id": "dPoD-yjqmnM",
+      "stratum": "low_entropy__high_repetition",
+      "n_optima": 1,
+      "music_features": {
+        "n_chords": 16,
+        "chord_entropy_bits": 2.625,
+        "conditional_transition_entropy_bits": 0.4,
+        "repeated_bigram_rate": 0.4666666666666667
+      },
+      "results": [
+        {
+          "model": "uniform",
+          "replicate_hits": 55,
+          "replicate_probability": 0.0537109375,
+          "original_probability": 0.0654296875,
+          "replicate_expected_score": 1.01223876953125,
+          "original_expected_score": 1.02061279296875,
+          "difference_rep_minus_original": -0.01171875,
+          "ideal_probability": 0.0625
+        },
+        {
+          "model": "p1",
+          "replicate_hits": 413,
+          "replicate_probability": 0.4033203125,
+          "original_probability": 0.3828125,
+          "replicate_expected_score": 1.2363232421875,
+          "original_expected_score": 1.22625,
+          "difference_rep_minus_original": 0.0205078125,
+          "ideal_probability": 0.4605856571234418
+        },
+        {
+          "model": "p2",
+          "replicate_hits": 832,
+          "replicate_probability": 0.8125,
+          "original_probability": 0.7900390625,
+          "replicate_expected_score": 1.3673291015625,
+          "original_expected_score": 1.362158203125,
+          "difference_rep_minus_original": 0.0224609375,
+          "ideal_probability": 0.9347581404068595
+        },
+        {
+          "model": "p3",
+          "replicate_hits": 802,
+          "replicate_probability": 0.783203125,
+          "original_probability": 0.7509765625,
+          "replicate_expected_score": 1.3556762695312496,
+          "original_expected_score": 1.3506884765625,
+          "difference_rep_minus_original": 0.0322265625,
+          "ideal_probability": 0.9232145370706016
+        }
+      ]
+    },
+    {
+      "record_id": "dPoDJekZgnM",
+      "stratum": "low_entropy__low_repetition",
+      "n_optima": 1,
+      "music_features": {
+        "n_chords": 10,
+        "chord_entropy_bits": 2.321928094887362,
+        "conditional_transition_entropy_bits": 0.0,
+        "repeated_bigram_rate": 0.4444444444444444
+      },
+      "results": [
+        {
+          "model": "uniform",
+          "replicate_hits": 65,
+          "replicate_probability": 0.0634765625,
+          "original_probability": 0.0546875,
+          "replicate_expected_score": 1.0186669921875002,
+          "original_expected_score": 1.0152587890625,
+          "difference_rep_minus_original": 0.0087890625,
+          "ideal_probability": 0.0625
+        },
+        {
+          "model": "p1",
+          "replicate_hits": 421,
+          "replicate_probability": 0.4111328125,
+          "original_probability": 0.3828125,
+          "replicate_expected_score": 1.2391918945312501,
+          "original_expected_score": 1.2241845703125,
+          "difference_rep_minus_original": 0.0283203125,
+          "ideal_probability": 0.46110481202694414
+        },
+        {
+          "model": "p2",
+          "replicate_hits": 363,
+          "replicate_probability": 0.3544921875,
+          "original_probability": 0.37109375,
+          "replicate_expected_score": 1.2173046875,
+          "original_expected_score": 1.22269775390625,
+          "difference_rep_minus_original": -0.0166015625,
+          "ideal_probability": 0.4688797706208886
+        },
+        {
+          "model": "p3",
+          "replicate_hits": 852,
+          "replicate_probability": 0.83203125,
+          "original_probability": 0.794921875,
+          "replicate_expected_score": 1.37509033203125,
+          "original_expected_score": 1.3644262695312501,
+          "difference_rep_minus_original": 0.037109375,
+          "ideal_probability": 0.9519523231967895
+        }
+      ]
+    },
+    {
+      "record_id": "jDgXQwLyxKl",
+      "stratum": "low_entropy__low_repetition",
+      "n_optima": 2,
+      "music_features": {
+        "n_chords": 10,
+        "chord_entropy_bits": 1.9219280948873623,
+        "conditional_transition_entropy_bits": 0.3060986113514965,
+        "repeated_bigram_rate": 0.4444444444444444
+      },
+      "results": [
+        {
+          "model": "uniform",
+          "replicate_hits": 106,
+          "replicate_probability": 0.103515625,
+          "original_probability": 0.125,
+          "replicate_expected_score": 1.2862353515625,
+          "original_expected_score": 1.2921875,
+          "difference_rep_minus_original": -0.021484375,
+          "ideal_probability": 0.125
+        },
+        {
+          "model": "p1",
+          "replicate_hits": 253,
+          "replicate_probability": 0.2470703125,
+          "original_probability": 0.26953125,
+          "replicate_expected_score": 1.419111328125,
+          "original_expected_score": 1.42413818359375,
+          "difference_rep_minus_original": -0.0224609375,
+          "ideal_probability": 0.26967855128217094
+        },
+        {
+          "model": "p2",
+          "replicate_hits": 251,
+          "replicate_probability": 0.2451171875,
+          "original_probability": 0.2392578125,
+          "replicate_expected_score": 1.4223876953125,
+          "original_expected_score": 1.417978515625,
+          "difference_rep_minus_original": 0.005859375,
+          "ideal_probability": 0.2781372374167297
+        },
+        {
+          "model": "p3",
+          "replicate_hits": 212,
+          "replicate_probability": 0.20703125,
+          "original_probability": 0.2412109375,
+          "replicate_expected_score": 1.42326171875,
+          "original_expected_score": 1.4208911132812498,
+          "difference_rep_minus_original": -0.0341796875,
+          "ideal_probability": 0.27239426835720937
+        }
+      ]
+    },
+    {
+      "record_id": "AQodnNrqgDl",
+      "stratum": "low_entropy__low_repetition",
+      "n_optima": 2,
+      "music_features": {
+        "n_chords": 10,
+        "chord_entropy_bits": 3.1219280948873624,
+        "conditional_transition_entropy_bits": 0.2222222222222222,
+        "repeated_bigram_rate": 0.0
+      },
+      "results": [
+        {
+          "model": "uniform",
+          "replicate_hits": 150,
+          "replicate_probability": 0.146484375,
+          "original_probability": 0.1181640625,
+          "replicate_expected_score": 0.9254688832096072,
+          "original_expected_score": 0.9189108023346847,
+          "difference_rep_minus_original": 0.0283203125,
+          "ideal_probability": 0.125
+        },
+        {
+          "model": "p1",
+          "replicate_hits": 511,
+          "replicate_probability": 0.4990234375,
+          "original_probability": 0.470703125,
+          "replicate_expected_score": 1.0147782624093136,
+          "original_expected_score": 1.0097400427446168,
+          "difference_rep_minus_original": 0.0283203125,
+          "ideal_probability": 0.4987442683904262
+        },
+        {
+          "model": "p2",
+          "replicate_hits": 515,
+          "replicate_probability": 0.5029296875,
+          "original_probability": 0.474609375,
+          "replicate_expected_score": 1.0118474605206456,
+          "original_expected_score": 1.0090476722290305,
+          "difference_rep_minus_original": 0.0283203125,
+          "ideal_probability": 0.5009471505577169
+        },
+        {
+          "model": "p3",
+          "replicate_hits": 735,
+          "replicate_probability": 0.7177734375,
+          "original_probability": 0.7353515625,
+          "replicate_expected_score": 1.0493761963541777,
+          "original_expected_score": 1.0518704502115181,
+          "difference_rep_minus_original": -0.017578125,
+          "ideal_probability": 0.8747050900323513
+        }
+      ]
+    },
+    {
+      "record_id": "_NgbbeRrgQA",
+      "stratum": "low_entropy__low_repetition",
+      "n_optima": 2,
+      "music_features": {
+        "n_chords": 11,
+        "chord_entropy_bits": 2.7321588913645702,
+        "conditional_transition_entropy_bits": 0.4,
+        "repeated_bigram_rate": 0.09999999999999998
+      },
+      "results": [
+        {
+          "model": "uniform",
+          "replicate_hits": 126,
+          "replicate_probability": 0.123046875,
+          "original_probability": 0.12109375,
+          "replicate_expected_score": 0.8219202378216911,
+          "original_expected_score": 0.8212751321231617,
+          "difference_rep_minus_original": 0.001953125,
+          "ideal_probability": 0.125
+        },
+        {
+          "model": "p1",
+          "replicate_hits": 441,
+          "replicate_probability": 0.4306640625,
+          "original_probability": 0.4150390625,
+          "replicate_expected_score": 0.934420237821691,
+          "original_expected_score": 0.9309044692095588,
+          "difference_rep_minus_original": 0.015625,
+          "ideal_probability": 0.4501207815470885
+        },
+        {
+          "model": "p2",
+          "replicate_hits": 612,
+          "replicate_probability": 0.59765625,
+          "original_probability": 0.5771484375,
+          "replicate_expected_score": 0.9522493968290442,
+          "original_expected_score": 0.9478761201746323,
+          "difference_rep_minus_original": 0.0205078125,
+          "ideal_probability": 0.618201102472805
+        },
+        {
+          "model": "p3",
+          "replicate_hits": 460,
+          "replicate_probability": 0.44921875,
+          "original_probability": 0.439453125,
+          "replicate_expected_score": 0.9388564165900735,
+          "original_expected_score": 0.9323920036764707,
+          "difference_rep_minus_original": 0.009765625,
+          "ideal_probability": 0.48218081794335066
+        }
+      ]
+    },
+    {
+      "record_id": "jDgXOMDnmKl",
+      "stratum": "high_entropy__high_repetition",
+      "n_optima": 2,
+      "music_features": {
+        "n_chords": 27,
+        "chord_entropy_bits": 2.3037464107788743,
+        "conditional_transition_entropy_bits": 0.7593172142167997,
+        "repeated_bigram_rate": 0.6153846153846154
+      },
+      "results": [
+        {
+          "model": "uniform",
+          "replicate_hits": 124,
+          "replicate_probability": 0.12109375,
+          "original_probability": 0.1181640625,
+          "replicate_expected_score": 1.074678935389365,
+          "original_expected_score": 1.0773094521799396,
+          "difference_rep_minus_original": 0.0029296875,
+          "ideal_probability": 0.125
+        },
+        {
+          "model": "p1",
+          "replicate_hits": 318,
+          "replicate_probability": 0.310546875,
+          "original_probability": 0.333984375,
+          "replicate_expected_score": 1.1427436877835182,
+          "original_expected_score": 1.1475116360572075,
+          "difference_rep_minus_original": -0.0234375,
+          "ideal_probability": 0.35324874610627194
+        },
+        {
+          "model": "p2",
+          "replicate_hits": 346,
+          "replicate_probability": 0.337890625,
+          "original_probability": 0.3359375,
+          "replicate_expected_score": 1.1435440161920365,
+          "original_expected_score": 1.1397150839528731,
+          "difference_rep_minus_original": 0.001953125,
+          "ideal_probability": 0.3526625256968997
+        },
+        {
+          "model": "p3",
+          "replicate_hits": 378,
+          "replicate_probability": 0.369140625,
+          "original_probability": 0.345703125,
+          "replicate_expected_score": 1.156248287077873,
+          "original_expected_score": 1.154236272996472,
+          "difference_rep_minus_original": 0.0234375,
+          "ideal_probability": 0.4322305188163261
+        }
+      ]
+    },
+    {
+      "record_id": "AQodGpPKxDl",
+      "stratum": "high_entropy__high_repetition",
+      "n_optima": 1,
+      "music_features": {
+        "n_chords": 28,
+        "chord_entropy_bits": 2.4356987807516504,
+        "conditional_transition_entropy_bits": 0.6128919039497402,
+        "repeated_bigram_rate": 0.6666666666666667
+      },
+      "results": [
+        {
+          "model": "uniform",
+          "replicate_hits": 65,
+          "replicate_probability": 0.0634765625,
+          "original_probability": 0.068359375,
+          "replicate_expected_score": 1.1210667145197293,
+          "original_expected_score": 1.1217670380904377,
+          "difference_rep_minus_original": -0.0048828125,
+          "ideal_probability": 0.0625
+        },
+        {
+          "model": "p1",
+          "replicate_hits": 335,
+          "replicate_probability": 0.3271484375,
+          "original_probability": 0.2666015625,
+          "replicate_expected_score": 1.2849071815596198,
+          "original_expected_score": 1.2677263532366072,
+          "difference_rep_minus_original": 0.060546875,
+          "ideal_probability": 0.3958263633458626
+        },
+        {
+          "model": "p2",
+          "replicate_hits": 500,
+          "replicate_probability": 0.48828125,
+          "original_probability": 0.4775390625,
+          "replicate_expected_score": 1.3197701927923386,
+          "original_expected_score": 1.3145088610671083,
+          "difference_rep_minus_original": 0.0107421875,
+          "ideal_probability": 0.5769055917077016
+        },
+        {
+          "model": "p3",
+          "replicate_hits": 561,
+          "replicate_probability": 0.5478515625,
+          "original_probability": 0.537109375,
+          "replicate_expected_score": 1.3170444808467743,
+          "original_expected_score": 1.316570510512673,
+          "difference_rep_minus_original": 0.0107421875,
+          "ideal_probability": 0.6184359347216208
+        }
+      ]
+    },
+    {
+      "record_id": "ZOxVvdrZxdq",
+      "stratum": "high_entropy__high_repetition",
+      "n_optima": 2,
+      "music_features": {
+        "n_chords": 30,
+        "chord_entropy_bits": 1.872905595320056,
+        "conditional_transition_entropy_bits": 0.8627431037466853,
+        "repeated_bigram_rate": 0.7241379310344828
+      },
+      "results": [
+        {
+          "model": "uniform",
+          "replicate_hits": 121,
+          "replicate_probability": 0.1181640625,
+          "original_probability": 0.1318359375,
+          "replicate_expected_score": 0.9628612118675596,
+          "original_expected_score": 0.9642967587425597,
+          "difference_rep_minus_original": -0.013671875,
+          "ideal_probability": 0.125
+        },
+        {
+          "model": "p1",
+          "replicate_hits": 270,
+          "replicate_probability": 0.263671875,
+          "original_probability": 0.2451171875,
+          "replicate_expected_score": 1.0098689778645833,
+          "original_expected_score": 1.008779761904762,
+          "difference_rep_minus_original": 0.0185546875,
+          "ideal_probability": 0.2864463553606331
+        },
+        {
+          "model": "p2",
+          "replicate_hits": 229,
+          "replicate_probability": 0.2236328125,
+          "original_probability": 0.23046875,
+          "replicate_expected_score": 1.0044537062872023,
+          "original_expected_score": 1.006332775297619,
+          "difference_rep_minus_original": -0.0068359375,
+          "ideal_probability": 0.26852079184283234
+        },
+        {
+          "model": "p3",
+          "replicate_hits": 324,
+          "replicate_probability": 0.31640625,
+          "original_probability": 0.302734375,
+          "replicate_expected_score": 1.006680617559524,
+          "original_expected_score": 1.007900855654762,
+          "difference_rep_minus_original": 0.013671875,
+          "ideal_probability": 0.3705729363271418
+        }
+      ]
+    },
+    {
+      "record_id": "ANmpQAvngyM",
+      "stratum": "high_entropy__high_repetition",
+      "n_optima": 1,
+      "music_features": {
+        "n_chords": 30,
+        "chord_entropy_bits": 2.440223928941852,
+        "conditional_transition_entropy_bits": 0.8444905170921746,
+        "repeated_bigram_rate": 0.6206896551724138
+      },
+      "results": [
+        {
+          "model": "uniform",
+          "replicate_hits": 63,
+          "replicate_probability": 0.0615234375,
+          "original_probability": 0.064453125,
+          "replicate_expected_score": 0.9912234201738912,
+          "original_expected_score": 0.993699951171875,
+          "difference_rep_minus_original": -0.0029296875,
+          "ideal_probability": 0.0625
+        },
+        {
+          "model": "p1",
+          "replicate_hits": 175,
+          "replicate_probability": 0.1708984375,
+          "original_probability": 0.1552734375,
+          "replicate_expected_score": 1.049027335874496,
+          "original_expected_score": 1.0460900485131048,
+          "difference_rep_minus_original": 0.015625,
+          "ideal_probability": 0.1681338164074115
+        },
+        {
+          "model": "p2",
+          "replicate_hits": 210,
+          "replicate_probability": 0.205078125,
+          "original_probability": 0.2080078125,
+          "replicate_expected_score": 1.0458550434727822,
+          "original_expected_score": 1.0450871030745967,
+          "difference_rep_minus_original": -0.0029296875,
+          "ideal_probability": 0.21441745779193022
+        },
+        {
+          "model": "p3",
+          "replicate_hits": 351,
+          "replicate_probability": 0.3427734375,
+          "original_probability": 0.3310546875,
+          "replicate_expected_score": 1.065506119266633,
+          "original_expected_score": 1.0616581479964717,
+          "difference_rep_minus_original": 0.01171875,
+          "ideal_probability": 0.35577298677658115
+        }
+      ]
+    },
+    {
+      "record_id": "zngRNKQegJj",
+      "stratum": "high_entropy__low_repetition",
+      "n_optima": 4,
+      "music_features": {
+        "n_chords": 17,
+        "chord_entropy_bits": 3.4992275471326924,
+        "conditional_transition_entropy_bits": 0.5,
+        "repeated_bigram_rate": 0.0
+      },
+      "results": [
+        {
+          "model": "uniform",
+          "replicate_hits": 247,
+          "replicate_probability": 0.2412109375,
+          "original_probability": 0.2392578125,
+          "replicate_expected_score": 0.7898999023437501,
+          "original_expected_score": 0.789267578125,
+          "difference_rep_minus_original": 0.001953125,
+          "ideal_probability": 0.25
+        },
+        {
+          "model": "p1",
+          "replicate_hits": 462,
+          "replicate_probability": 0.451171875,
+          "original_probability": 0.4716796875,
+          "replicate_expected_score": 0.8136083984375,
+          "original_expected_score": 0.81348876953125,
+          "difference_rep_minus_original": -0.0205078125,
+          "ideal_probability": 0.4990618069750498
+        },
+        {
+          "model": "p2",
+          "replicate_hits": 585,
+          "replicate_probability": 0.5712890625,
+          "original_probability": 0.548828125,
+          "replicate_expected_score": 0.8189843750000001,
+          "original_expected_score": 0.8179980468750001,
+          "difference_rep_minus_original": 0.0224609375,
+          "ideal_probability": 0.6078984686084739
+        },
+        {
+          "model": "p3",
+          "replicate_hits": 774,
+          "replicate_probability": 0.755859375,
+          "original_probability": 0.775390625,
+          "replicate_expected_score": 0.82892822265625,
+          "original_expected_score": 0.8299707031250001,
+          "difference_rep_minus_original": -0.01953125,
+          "ideal_probability": 0.8417616722687371
+        }
+      ]
+    },
+    {
+      "record_id": "WeglOnvlmrY",
+      "stratum": "high_entropy__low_repetition",
+      "n_optima": 1,
+      "music_features": {
+        "n_chords": 16,
+        "chord_entropy_bits": 3.077819531114783,
+        "conditional_transition_entropy_bits": 0.8,
+        "repeated_bigram_rate": 0.0
+      },
+      "results": [
+        {
+          "model": "uniform",
+          "replicate_hits": 52,
+          "replicate_probability": 0.05078125,
+          "original_probability": 0.0625,
+          "replicate_expected_score": 1.0013134765625,
+          "original_expected_score": 1.01902099609375,
+          "difference_rep_minus_original": -0.01171875,
+          "ideal_probability": 0.0625
+        },
+        {
+          "model": "p1",
+          "replicate_hits": 420,
+          "replicate_probability": 0.41015625,
+          "original_probability": 0.400390625,
+          "replicate_expected_score": 1.2360205078125,
+          "original_expected_score": 1.2312158203124999,
+          "difference_rep_minus_original": 0.009765625,
+          "ideal_probability": 0.4622738270429761
+        },
+        {
+          "model": "p2",
+          "replicate_hits": 817,
+          "replicate_probability": 0.7978515625,
+          "original_probability": 0.78125,
+          "replicate_expected_score": 1.36547607421875,
+          "original_expected_score": 1.35962158203125,
+          "difference_rep_minus_original": 0.0166015625,
+          "ideal_probability": 0.9324819579957475
+        },
+        {
+          "model": "p3",
+          "replicate_hits": 786,
+          "replicate_probability": 0.767578125,
+          "original_probability": 0.7333984375,
+          "replicate_expected_score": 1.3548120117187499,
+          "original_expected_score": 1.3418457031249997,
+          "difference_rep_minus_original": 0.0341796875,
+          "ideal_probability": 0.9373617184346891
+        }
+      ]
+    },
+    {
+      "record_id": "veoYWNOVgdn",
+      "stratum": "high_entropy__low_repetition",
+      "n_optima": 1,
+      "music_features": {
+        "n_chords": 18,
+        "chord_entropy_bits": 3.016875695766564,
+        "conditional_transition_entropy_bits": 0.7502875001272629,
+        "repeated_bigram_rate": 0.23529411764705888
+      },
+      "results": [
+        {
+          "model": "uniform",
+          "replicate_hits": 56,
+          "replicate_probability": 0.0546875,
+          "original_probability": 0.0849609375,
+          "replicate_expected_score": 1.0685409385279605,
+          "original_expected_score": 1.0861802271792762,
+          "difference_rep_minus_original": -0.0302734375,
+          "ideal_probability": 0.0625
+        },
+        {
+          "model": "p1",
+          "replicate_hits": 307,
+          "replicate_probability": 0.2998046875,
+          "original_probability": 0.2958984375,
+          "replicate_expected_score": 1.279945432428728,
+          "original_expected_score": 1.2750447591145835,
+          "difference_rep_minus_original": 0.00390625,
+          "ideal_probability": 0.3521103394506701
+        },
+        {
+          "model": "p2",
+          "replicate_hits": 527,
+          "replicate_probability": 0.5146484375,
+          "original_probability": 0.482421875,
+          "replicate_expected_score": 1.3457122053179824,
+          "original_expected_score": 1.3332690429687502,
+          "difference_rep_minus_original": 0.0322265625,
+          "ideal_probability": 0.5478931447710501
+        },
+        {
+          "model": "p3",
+          "replicate_hits": 525,
+          "replicate_probability": 0.5126953125,
+          "original_probability": 0.484375,
+          "replicate_expected_score": 1.3446970942982457,
+          "original_expected_score": 1.3398845685992327,
+          "difference_rep_minus_original": 0.0283203125,
+          "ideal_probability": 0.523845236007951
+        }
+      ]
+    },
+    {
+      "record_id": "yvmrdppJxOW",
+      "stratum": "high_entropy__low_repetition",
+      "n_optima": 2,
+      "music_features": {
+        "n_chords": 15,
+        "chord_entropy_bits": 3.1898980954642875,
+        "conditional_transition_entropy_bits": 0.4824919644402477,
+        "repeated_bigram_rate": 0.0714285714285714
+      },
+      "results": [
+        {
+          "model": "uniform",
+          "replicate_hits": 116,
+          "replicate_probability": 0.11328125,
+          "original_probability": 0.13671875,
+          "replicate_expected_score": 1.2216748046875001,
+          "original_expected_score": 1.22834716796875,
+          "difference_rep_minus_original": -0.0234375,
+          "ideal_probability": 0.125
+        },
+        {
+          "model": "p1",
+          "replicate_hits": 366,
+          "replicate_probability": 0.357421875,
+          "original_probability": 0.337890625,
+          "replicate_expected_score": 1.3841870117187498,
+          "original_expected_score": 1.38137939453125,
+          "difference_rep_minus_original": 0.01953125,
+          "ideal_probability": 0.36814901534472355
+        },
+        {
+          "model": "p2",
+          "replicate_hits": 350,
+          "replicate_probability": 0.341796875,
+          "original_probability": 0.3115234375,
+          "replicate_expected_score": 1.3713940429687501,
+          "original_expected_score": 1.3672167968750002,
+          "difference_rep_minus_original": 0.0302734375,
+          "ideal_probability": 0.36697020952733383
+        },
+        {
+          "model": "p3",
+          "replicate_hits": 386,
+          "replicate_probability": 0.376953125,
+          "original_probability": 0.3857421875,
+          "replicate_expected_score": 1.3773779296875,
+          "original_expected_score": 1.3791821289062498,
+          "difference_rep_minus_original": -0.0087890625,
+          "ideal_probability": 0.4300137947213265
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "caller": "qiskit_ibm_runtime~sampler.py",
+    "qiskit_version": "qiskit_ibm_runtime-0.51.0,qiskit-2.6.1*",
+    "timestamps": {
+      "created": "2026-10-28T21:13:40.869515Z",
+      "finished": "2026-10-28T23:12:22.449308Z",
+      "running": "2026-10-28T23:07:43.775155Z"
+    },
+    "usage": {
+      "qpu_charge_time_seconds": 20,
+      "value": 0.318926,
+      "unit": "resource_units",
+      "status": "complete",
+      "details": [
+        {
+          "value": 0.318926,
+          "unit": "resource_units",
+          "metric": {
+            "id": "caffe3ca-729c-5750-8777-df63bbf8bfd9",
+            "value": 20
+          }
+        }
+      ]
+    },
+    "circuits_execution_time_ns": 17307176448
+  },
+  "cautions": [
+    "Second measurement is a replication, not a new independent musical task.",
+    "Single calibration epoch per job; shot-level uncertainty does not capture drift.",
+    "Only two melody segments and score-precomputed 16-state optimization.",
+    "No quantum advantage claim."
+  ]
+}

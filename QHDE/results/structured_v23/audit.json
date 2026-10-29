@@ -1,0 +1,907 @@
+{
+  "version": "QHDE-v0.23",
+  "offline_only": true,
+  "source_manifest_sha256": "ed61945464801e5a8685965492820911244fd7ef3fbe293dcebee217ea2d9685",
+  "representation": "exact 8-qubit Pauli-Z/Walsh parity-gadget cost, no truncation",
+  "probe_parameters_not_optimized": true,
+  "qiskit_available": true,
+  "no_ibm_jobs_submitted": true,
+  "records": [
+    {
+      "record_id": "dPoDrNVqgnM",
+      "stratum": "low_entropy__high_repetition",
+      "source_file": "instance_000.json",
+      "n_feasible": 256,
+      "n_infeasible": 0,
+      "n_nonzero_z_terms": 19,
+      "n_nonlocal_z_terms": 0,
+      "max_z_order": 4,
+      "energy_max_error": 4.440892098500626e-16,
+      "exact_chain_local": true,
+      "estimated_cx_per_cost_layer": 36,
+      "qiskit_validation": {
+        "basis_phase_max_error": 1.0299525296675035e-15,
+        "p1_probability_max_error": 1.3877787807814457e-17
+      },
+      "circuits": {
+        "p1": {
+          "cx": 36,
+          "depth": 37,
+          "gammas": [
+            0.6
+          ],
+          "betas": [
+            0.35
+          ]
+        },
+        "p2": {
+          "cx": 72,
+          "depth": 62,
+          "gammas": [
+            0.6,
+            0.71
+          ],
+          "betas": [
+            0.35,
+            0.31
+          ]
+        },
+        "p3": {
+          "cx": 108,
+          "depth": 87,
+          "gammas": [
+            0.6,
+            0.71,
+            0.82
+          ],
+          "betas": [
+            0.35,
+            0.31,
+            0.26999999999999996
+          ]
+        }
+      },
+      "note": "Pauli-Z expansion exact. Dense or nonlocal terms are retained, not truncated."
+    },
+    {
+      "record_id": "LAgQnYKlxyO",
+      "stratum": "low_entropy__high_repetition",
+      "source_file": "instance_001.json",
+      "n_feasible": 256,
+      "n_infeasible": 0,
+      "n_nonzero_z_terms": 16,
+      "n_nonlocal_z_terms": 0,
+      "max_z_order": 4,
+      "energy_max_error": 3.3306690738754696e-16,
+      "exact_chain_local": true,
+      "estimated_cx_per_cost_layer": 32,
+      "qiskit_validation": {
+        "basis_phase_max_error": 6.804363002006077e-16,
+        "p1_probability_max_error": 1.1275702593849246e-17
+      },
+      "circuits": {
+        "p1": {
+          "cx": 32,
+          "depth": 33,
+          "gammas": [
+            0.6
+          ],
+          "betas": [
+            0.35
+          ]
+        },
+        "p2": {
+          "cx": 64,
+          "depth": 56,
+          "gammas": [
+            0.6,
+            0.71
+          ],
+          "betas": [
+            0.35,
+            0.31
+          ]
+        },
+        "p3": {
+          "cx": 96,
+          "depth": 79,
+          "gammas": [
+            0.6,
+            0.71,
+            0.82
+          ],
+          "betas": [
+            0.35,
+            0.31,
+            0.26999999999999996
+          ]
+        }
+      },
+      "note": "Pauli-Z expansion exact. Dense or nonlocal terms are retained, not truncated."
+    },
+    {
+      "record_id": "QLgnvz_Yg-V",
+      "stratum": "low_entropy__high_repetition",
+      "source_file": "instance_002.json",
+      "n_feasible": 256,
+      "n_infeasible": 0,
+      "n_nonzero_z_terms": 17,
+      "n_nonlocal_z_terms": 0,
+      "max_z_order": 4,
+      "energy_max_error": 3.3306690738754696e-16,
+      "exact_chain_local": true,
+      "estimated_cx_per_cost_layer": 34,
+      "qiskit_validation": {
+        "basis_phase_max_error": 1.013852008287852e-15,
+        "p1_probability_max_error": 1.9081958235744878e-17
+      },
+      "circuits": {
+        "p1": {
+          "cx": 34,
+          "depth": 36,
+          "gammas": [
+            0.6
+          ],
+          "betas": [
+            0.35
+          ]
+        },
+        "p2": {
+          "cx": 68,
+          "depth": 59,
+          "gammas": [
+            0.6,
+            0.71
+          ],
+          "betas": [
+            0.35,
+            0.31
+          ]
+        },
+        "p3": {
+          "cx": 102,
+          "depth": 82,
+          "gammas": [
+            0.6,
+            0.71,
+            0.82
+          ],
+          "betas": [
+            0.35,
+            0.31,
+            0.26999999999999996
+          ]
+        }
+      },
+      "note": "Pauli-Z expansion exact. Dense or nonlocal terms are retained, not truncated."
+    },
+    {
+      "record_id": "dPoD-yjqmnM",
+      "stratum": "low_entropy__high_repetition",
+      "source_file": "instance_003.json",
+      "n_feasible": 64,
+      "n_infeasible": 192,
+      "n_nonzero_z_terms": 63,
+      "n_nonlocal_z_terms": 36,
+      "max_z_order": 8,
+      "energy_max_error": 8.881784197001252e-16,
+      "exact_chain_local": false,
+      "estimated_cx_per_cost_layer": 290,
+      "qiskit_validation": {
+        "basis_phase_max_error": 2.396642123083981e-15,
+        "p1_probability_max_error": 4.683753385137379e-17
+      },
+      "circuits": {
+        "p1": {
+          "cx": 290,
+          "depth": 309,
+          "gammas": [
+            0.6
+          ],
+          "betas": [
+            0.35
+          ]
+        },
+        "p2": {
+          "cx": 580,
+          "depth": 617,
+          "gammas": [
+            0.6,
+            0.71
+          ],
+          "betas": [
+            0.35,
+            0.31
+          ]
+        },
+        "p3": {
+          "cx": 870,
+          "depth": 925,
+          "gammas": [
+            0.6,
+            0.71,
+            0.82
+          ],
+          "betas": [
+            0.35,
+            0.31,
+            0.26999999999999996
+          ]
+        }
+      },
+      "note": "Pauli-Z expansion exact. Dense or nonlocal terms are retained, not truncated."
+    },
+    {
+      "record_id": "dPoDJekZgnM",
+      "stratum": "low_entropy__low_repetition",
+      "source_file": "instance_004.json",
+      "n_feasible": 256,
+      "n_infeasible": 0,
+      "n_nonzero_z_terms": 20,
+      "n_nonlocal_z_terms": 0,
+      "max_z_order": 4,
+      "energy_max_error": 2.220446049250313e-16,
+      "exact_chain_local": true,
+      "estimated_cx_per_cost_layer": 36,
+      "qiskit_validation": {
+        "basis_phase_max_error": 5.551115123125783e-16,
+        "p1_probability_max_error": 1.1275702593849246e-17
+      },
+      "circuits": {
+        "p1": {
+          "cx": 36,
+          "depth": 37,
+          "gammas": [
+            0.6
+          ],
+          "betas": [
+            0.35
+          ]
+        },
+        "p2": {
+          "cx": 72,
+          "depth": 62,
+          "gammas": [
+            0.6,
+            0.71
+          ],
+          "betas": [
+            0.35,
+            0.31
+          ]
+        },
+        "p3": {
+          "cx": 108,
+          "depth": 87,
+          "gammas": [
+            0.6,
+            0.71,
+            0.82
+          ],
+          "betas": [
+            0.35,
+            0.31,
+            0.26999999999999996
+          ]
+        }
+      },
+      "note": "Pauli-Z expansion exact. Dense or nonlocal terms are retained, not truncated."
+    },
+    {
+      "record_id": "jDgXQwLyxKl",
+      "stratum": "low_entropy__low_repetition",
+      "source_file": "instance_005.json",
+      "n_feasible": 256,
+      "n_infeasible": 0,
+      "n_nonzero_z_terms": 21,
+      "n_nonlocal_z_terms": 0,
+      "max_z_order": 4,
+      "energy_max_error": 4.440892098500626e-16,
+      "exact_chain_local": true,
+      "estimated_cx_per_cost_layer": 38,
+      "qiskit_validation": {
+        "basis_phase_max_error": 1.2212453270876722e-15,
+        "p1_probability_max_error": 8.673617379884035e-18
+      },
+      "circuits": {
+        "p1": {
+          "cx": 38,
+          "depth": 40,
+          "gammas": [
+            0.6
+          ],
+          "betas": [
+            0.35
+          ]
+        },
+        "p2": {
+          "cx": 76,
+          "depth": 65,
+          "gammas": [
+            0.6,
+            0.71
+          ],
+          "betas": [
+            0.35,
+            0.31
+          ]
+        },
+        "p3": {
+          "cx": 114,
+          "depth": 90,
+          "gammas": [
+            0.6,
+            0.71,
+            0.82
+          ],
+          "betas": [
+            0.35,
+            0.31,
+            0.26999999999999996
+          ]
+        }
+      },
+      "note": "Pauli-Z expansion exact. Dense or nonlocal terms are retained, not truncated."
+    },
+    {
+      "record_id": "AQodnNrqgDl",
+      "stratum": "low_entropy__low_repetition",
+      "source_file": "instance_006.json",
+      "n_feasible": 256,
+      "n_infeasible": 0,
+      "n_nonzero_z_terms": 21,
+      "n_nonlocal_z_terms": 0,
+      "max_z_order": 4,
+      "energy_max_error": 3.3306690738754696e-16,
+      "exact_chain_local": true,
+      "estimated_cx_per_cost_layer": 38,
+      "qiskit_validation": {
+        "basis_phase_max_error": 6.804363002006077e-16,
+        "p1_probability_max_error": 8.673617379884035e-18
+      },
+      "circuits": {
+        "p1": {
+          "cx": 38,
+          "depth": 40,
+          "gammas": [
+            0.6
+          ],
+          "betas": [
+            0.35
+          ]
+        },
+        "p2": {
+          "cx": 76,
+          "depth": 65,
+          "gammas": [
+            0.6,
+            0.71
+          ],
+          "betas": [
+            0.35,
+            0.31
+          ]
+        },
+        "p3": {
+          "cx": 114,
+          "depth": 90,
+          "gammas": [
+            0.6,
+            0.71,
+            0.82
+          ],
+          "betas": [
+            0.35,
+            0.31,
+            0.26999999999999996
+          ]
+        }
+      },
+      "note": "Pauli-Z expansion exact. Dense or nonlocal terms are retained, not truncated."
+    },
+    {
+      "record_id": "_NgbbeRrgQA",
+      "stratum": "low_entropy__low_repetition",
+      "source_file": "instance_007.json",
+      "n_feasible": 64,
+      "n_infeasible": 192,
+      "n_nonzero_z_terms": 43,
+      "n_nonlocal_z_terms": 24,
+      "max_z_order": 8,
+      "energy_max_error": 7.216449660063518e-16,
+      "exact_chain_local": false,
+      "estimated_cx_per_cost_layer": 202,
+      "qiskit_validation": {
+        "basis_phase_max_error": 1.2325475812854657e-15,
+        "p1_probability_max_error": 1.9081958235744878e-17
+      },
+      "circuits": {
+        "p1": {
+          "cx": 202,
+          "depth": 219,
+          "gammas": [
+            0.6
+          ],
+          "betas": [
+            0.35
+          ]
+        },
+        "p2": {
+          "cx": 404,
+          "depth": 437,
+          "gammas": [
+            0.6,
+            0.71
+          ],
+          "betas": [
+            0.35,
+            0.31
+          ]
+        },
+        "p3": {
+          "cx": 606,
+          "depth": 655,
+          "gammas": [
+            0.6,
+            0.71,
+            0.82
+          ],
+          "betas": [
+            0.35,
+            0.31,
+            0.26999999999999996
+          ]
+        }
+      },
+      "note": "Pauli-Z expansion exact. Dense or nonlocal terms are retained, not truncated."
+    },
+    {
+      "record_id": "jDgXOMDnmKl",
+      "stratum": "high_entropy__high_repetition",
+      "source_file": "instance_008.json",
+      "n_feasible": 256,
+      "n_infeasible": 0,
+      "n_nonzero_z_terms": 17,
+      "n_nonlocal_z_terms": 0,
+      "max_z_order": 4,
+      "energy_max_error": 3.3306690738754696e-16,
+      "exact_chain_local": true,
+      "estimated_cx_per_cost_layer": 34,
+      "qiskit_validation": {
+        "basis_phase_max_error": 7.021666937153402e-16,
+        "p1_probability_max_error": 1.9081958235744878e-17
+      },
+      "circuits": {
+        "p1": {
+          "cx": 34,
+          "depth": 36,
+          "gammas": [
+            0.6
+          ],
+          "betas": [
+            0.35
+          ]
+        },
+        "p2": {
+          "cx": 68,
+          "depth": 59,
+          "gammas": [
+            0.6,
+            0.71
+          ],
+          "betas": [
+            0.35,
+            0.31
+          ]
+        },
+        "p3": {
+          "cx": 102,
+          "depth": 82,
+          "gammas": [
+            0.6,
+            0.71,
+            0.82
+          ],
+          "betas": [
+            0.35,
+            0.31,
+            0.26999999999999996
+          ]
+        }
+      },
+      "note": "Pauli-Z expansion exact. Dense or nonlocal terms are retained, not truncated."
+    },
+    {
+      "record_id": "AQodGpPKxDl",
+      "stratum": "high_entropy__high_repetition",
+      "source_file": "instance_009.json",
+      "n_feasible": 64,
+      "n_infeasible": 192,
+      "n_nonzero_z_terms": 63,
+      "n_nonlocal_z_terms": 36,
+      "max_z_order": 8,
+      "energy_max_error": 7.771561172376096e-16,
+      "exact_chain_local": false,
+      "estimated_cx_per_cost_layer": 290,
+      "qiskit_validation": {
+        "basis_phase_max_error": 1.4475537224895361e-15,
+        "p1_probability_max_error": 1.214306433183765e-17
+      },
+      "circuits": {
+        "p1": {
+          "cx": 290,
+          "depth": 309,
+          "gammas": [
+            0.6
+          ],
+          "betas": [
+            0.35
+          ]
+        },
+        "p2": {
+          "cx": 580,
+          "depth": 617,
+          "gammas": [
+            0.6,
+            0.71
+          ],
+          "betas": [
+            0.35,
+            0.31
+          ]
+        },
+        "p3": {
+          "cx": 870,
+          "depth": 925,
+          "gammas": [
+            0.6,
+            0.71,
+            0.82
+          ],
+          "betas": [
+            0.35,
+            0.31,
+            0.26999999999999996
+          ]
+        }
+      },
+      "note": "Pauli-Z expansion exact. Dense or nonlocal terms are retained, not truncated."
+    },
+    {
+      "record_id": "ZOxVvdrZxdq",
+      "stratum": "high_entropy__high_repetition",
+      "source_file": "instance_010.json",
+      "n_feasible": 64,
+      "n_infeasible": 192,
+      "n_nonzero_z_terms": 63,
+      "n_nonlocal_z_terms": 36,
+      "max_z_order": 8,
+      "energy_max_error": 1.1102230246251565e-15,
+      "exact_chain_local": false,
+      "estimated_cx_per_cost_layer": 290,
+      "qiskit_validation": {
+        "basis_phase_max_error": 1.0053497077208614e-15,
+        "p1_probability_max_error": 2.6020852139652106e-17
+      },
+      "circuits": {
+        "p1": {
+          "cx": 290,
+          "depth": 309,
+          "gammas": [
+            0.6
+          ],
+          "betas": [
+            0.35
+          ]
+        },
+        "p2": {
+          "cx": 580,
+          "depth": 617,
+          "gammas": [
+            0.6,
+            0.71
+          ],
+          "betas": [
+            0.35,
+            0.31
+          ]
+        },
+        "p3": {
+          "cx": 870,
+          "depth": 925,
+          "gammas": [
+            0.6,
+            0.71,
+            0.82
+          ],
+          "betas": [
+            0.35,
+            0.31,
+            0.26999999999999996
+          ]
+        }
+      },
+      "note": "Pauli-Z expansion exact. Dense or nonlocal terms are retained, not truncated."
+    },
+    {
+      "record_id": "ANmpQAvngyM",
+      "stratum": "high_entropy__high_repetition",
+      "source_file": "instance_011.json",
+      "n_feasible": 256,
+      "n_infeasible": 0,
+      "n_nonzero_z_terms": 20,
+      "n_nonlocal_z_terms": 0,
+      "max_z_order": 4,
+      "energy_max_error": 3.3306690738754696e-16,
+      "exact_chain_local": true,
+      "estimated_cx_per_cost_layer": 38,
+      "qiskit_validation": {
+        "basis_phase_max_error": 6.753223014464258e-16,
+        "p1_probability_max_error": 1.9081958235744878e-17
+      },
+      "circuits": {
+        "p1": {
+          "cx": 38,
+          "depth": 40,
+          "gammas": [
+            0.6
+          ],
+          "betas": [
+            0.35
+          ]
+        },
+        "p2": {
+          "cx": 76,
+          "depth": 65,
+          "gammas": [
+            0.6,
+            0.71
+          ],
+          "betas": [
+            0.35,
+            0.31
+          ]
+        },
+        "p3": {
+          "cx": 114,
+          "depth": 90,
+          "gammas": [
+            0.6,
+            0.71,
+            0.82
+          ],
+          "betas": [
+            0.35,
+            0.31,
+            0.26999999999999996
+          ]
+        }
+      },
+      "note": "Pauli-Z expansion exact. Dense or nonlocal terms are retained, not truncated."
+    },
+    {
+      "record_id": "zngRNKQegJj",
+      "stratum": "high_entropy__low_repetition",
+      "source_file": "instance_012.json",
+      "n_feasible": 256,
+      "n_infeasible": 0,
+      "n_nonzero_z_terms": 13,
+      "n_nonlocal_z_terms": 0,
+      "max_z_order": 4,
+      "energy_max_error": 3.3306690738754696e-16,
+      "exact_chain_local": true,
+      "estimated_cx_per_cost_layer": 30,
+      "qiskit_validation": {
+        "basis_phase_max_error": 7.066778860128639e-16,
+        "p1_probability_max_error": 1.3877787807814457e-17
+      },
+      "circuits": {
+        "p1": {
+          "cx": 30,
+          "depth": 31,
+          "gammas": [
+            0.6
+          ],
+          "betas": [
+            0.35
+          ]
+        },
+        "p2": {
+          "cx": 60,
+          "depth": 52,
+          "gammas": [
+            0.6,
+            0.71
+          ],
+          "betas": [
+            0.35,
+            0.31
+          ]
+        },
+        "p3": {
+          "cx": 90,
+          "depth": 73,
+          "gammas": [
+            0.6,
+            0.71,
+            0.82
+          ],
+          "betas": [
+            0.35,
+            0.31,
+            0.26999999999999996
+          ]
+        }
+      },
+      "note": "Pauli-Z expansion exact. Dense or nonlocal terms are retained, not truncated."
+    },
+    {
+      "record_id": "WeglOnvlmrY",
+      "stratum": "high_entropy__low_repetition",
+      "source_file": "instance_013.json",
+      "n_feasible": 256,
+      "n_infeasible": 0,
+      "n_nonzero_z_terms": 20,
+      "n_nonlocal_z_terms": 0,
+      "max_z_order": 4,
+      "energy_max_error": 3.3306690738754696e-16,
+      "exact_chain_local": true,
+      "estimated_cx_per_cost_layer": 36,
+      "qiskit_validation": {
+        "basis_phase_max_error": 5.635475559608569e-16,
+        "p1_probability_max_error": 1.3877787807814457e-17
+      },
+      "circuits": {
+        "p1": {
+          "cx": 36,
+          "depth": 37,
+          "gammas": [
+            0.6
+          ],
+          "betas": [
+            0.35
+          ]
+        },
+        "p2": {
+          "cx": 72,
+          "depth": 62,
+          "gammas": [
+            0.6,
+            0.71
+          ],
+          "betas": [
+            0.35,
+            0.31
+          ]
+        },
+        "p3": {
+          "cx": 108,
+          "depth": 87,
+          "gammas": [
+            0.6,
+            0.71,
+            0.82
+          ],
+          "betas": [
+            0.35,
+            0.31,
+            0.26999999999999996
+          ]
+        }
+      },
+      "note": "Pauli-Z expansion exact. Dense or nonlocal terms are retained, not truncated."
+    },
+    {
+      "record_id": "veoYWNOVgdn",
+      "stratum": "high_entropy__low_repetition",
+      "source_file": "instance_014.json",
+      "n_feasible": 256,
+      "n_infeasible": 0,
+      "n_nonzero_z_terms": 21,
+      "n_nonlocal_z_terms": 0,
+      "max_z_order": 4,
+      "energy_max_error": 3.3306690738754696e-16,
+      "exact_chain_local": true,
+      "estimated_cx_per_cost_layer": 38,
+      "qiskit_validation": {
+        "basis_phase_max_error": 1.0087920413118926e-15,
+        "p1_probability_max_error": 2.2551405187698492e-17
+      },
+      "circuits": {
+        "p1": {
+          "cx": 38,
+          "depth": 40,
+          "gammas": [
+            0.6
+          ],
+          "betas": [
+            0.35
+          ]
+        },
+        "p2": {
+          "cx": 76,
+          "depth": 65,
+          "gammas": [
+            0.6,
+            0.71
+          ],
+          "betas": [
+            0.35,
+            0.31
+          ]
+        },
+        "p3": {
+          "cx": 114,
+          "depth": 90,
+          "gammas": [
+            0.6,
+            0.71,
+            0.82
+          ],
+          "betas": [
+            0.35,
+            0.31,
+            0.26999999999999996
+          ]
+        }
+      },
+      "note": "Pauli-Z expansion exact. Dense or nonlocal terms are retained, not truncated."
+    },
+    {
+      "record_id": "yvmrdppJxOW",
+      "stratum": "high_entropy__low_repetition",
+      "source_file": "instance_015.json",
+      "n_feasible": 256,
+      "n_infeasible": 0,
+      "n_nonzero_z_terms": 17,
+      "n_nonlocal_z_terms": 0,
+      "max_z_order": 4,
+      "energy_max_error": 3.3306690738754696e-16,
+      "exact_chain_local": true,
+      "estimated_cx_per_cost_layer": 34,
+      "qiskit_validation": {
+        "basis_phase_max_error": 5.578801654593729e-16,
+        "p1_probability_max_error": 1.3877787807814457e-17
+      },
+      "circuits": {
+        "p1": {
+          "cx": 34,
+          "depth": 35,
+          "gammas": [
+            0.6
+          ],
+          "betas": [
+            0.35
+          ]
+        },
+        "p2": {
+          "cx": 68,
+          "depth": 60,
+          "gammas": [
+            0.6,
+            0.71
+          ],
+          "betas": [
+            0.35,
+            0.31
+          ]
+        },
+        "p3": {
+          "cx": 102,
+          "depth": 85,
+          "gammas": [
+            0.6,
+            0.71,
+            0.82
+          ],
+          "betas": [
+            0.35,
+            0.31,
+            0.26999999999999996
+          ]
+        }
+      },
+      "note": "Pauli-Z expansion exact. Dense or nonlocal terms are retained, not truncated."
+    }
+  ]
+}
