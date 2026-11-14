@@ -1,0 +1,69 @@
+{
+  "version": "QHDE-v0.33",
+  "job_id": "dbhmj3c2d77s739d1v00",
+  "backend": "ibm_marrakesh",
+  "n_records": 24,
+  "shots_per_model": 4096,
+  "means": {
+    "uniform": {
+      "hardware_optimum_probability": 0.007598876953125,
+      "ideal_optimum_probability": 0.007975260416666666,
+      "noise_gap_pp": 0.037638346354166664
+    },
+    "p1": {
+      "hardware_optimum_probability": 0.07759602864583333,
+      "ideal_optimum_probability": 0.10479929342352379,
+      "noise_gap_pp": 2.7203264777690457
+    },
+    "p2": {
+      "hardware_optimum_probability": 0.12645467122395834,
+      "ideal_optimum_probability": 0.2067028639209104,
+      "noise_gap_pp": 8.024819269695206
+    },
+    "p3": {
+      "hardware_optimum_probability": 0.15172322591145834,
+      "ideal_optimum_probability": 0.29707032400030325,
+      "noise_gap_pp": 14.534709808884495
+    }
+  },
+  "p3_minus_p2_mean_pp": 2.52685546875,
+  "p3_minus_p2_positive": 22,
+  "p3_minus_p2_negative": 2,
+  "p3_minus_p2_ties": 0,
+  "exploratory_music_entropy_vs_hardware_gain_spearman": {
+    "rho": 0.13101203960718155,
+    "p_uncorrected": 0.5417282192819554
+  },
+  "qpu_metrics": {
+    "caller": "qiskit_ibm_runtime~sampler.py",
+    "qiskit_version": "qiskit_ibm_runtime-0.51.0,qiskit-2.6.1*",
+    "timestamps": {
+      "created": "2026-10-29T15:43:09.501408Z",
+      "finished": "2026-10-29T15:45:12.32354Z",
+      "running": "2026-10-29T15:43:10.964456Z"
+    },
+    "usage": {
+      "qpu_charge_time_seconds": 110,
+      "value": 1.828767,
+      "unit": "resource_units",
+      "status": "complete",
+      "details": [
+        {
+          "value": 1.828767,
+          "unit": "resource_units",
+          "metric": {
+            "id": "caffe3ca-729c-5750-8777-df63bbf8bfd9",
+            "value": 110
+          }
+        }
+      ]
+    },
+    "circuits_execution_time_ns": 107639783424
+  },
+  "notes": [
+    "Hardware-selected set comes from TRAIN, not a held-out test.",
+    "Two repetitions within one job do not establish separate calibration replication.",
+    "Same energy models and parameters as v0.30, model-scored optimum.",
+    "No quantum advantage; classical DP beats quantum for unconstrained four-chord chains."
+  ]
+}

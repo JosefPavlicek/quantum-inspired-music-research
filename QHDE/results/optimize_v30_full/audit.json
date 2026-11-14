@@ -1,0 +1,21 @@
+{
+  "version": "QHDE-v0.30",
+  "source_manifest_sha256": "7b5b672006c8b8c7fb686c4fae7aa61259d8ace6eb4225b0d3347962831417c7",
+  "starts": 6,
+  "maxiter": 120,
+  "seed": 42,
+  "optimizer": "qhde_optimize_v24.optimize",
+  "offline_only": true,
+  "n_completed": 400,
+  "n_unique": 389,
+  "feasibility": {
+    "256": 305,
+    "64": 69,
+    "4": 12,
+    "16": 14
+  },
+  "output_descriptions": {
+    "metrics.csv": "all depth measurements",
+    "runs.jsonl": "resumable complete per-instance models"
+  }
+}

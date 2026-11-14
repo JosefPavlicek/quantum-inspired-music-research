@@ -1,0 +1,205 @@
+{
+  "version": "QHDE-v0.33-final",
+  "research_question": "How do musical complexity and harmonic decision dependencies influence QAOA effectiveness and useful circuit depth?",
+  "data_scope": "HookTheory TRAIN, internal hash validation only; full-song music proxies",
+  "target": "ideal optimal-state probability gain, percentage points",
+  "models": {
+    "mean": {
+      "validation_mae_pp": 4.477230021082502,
+      "gain_vs_mean_pp": 0.0,
+      "bootstrap_CI95_gain_pp": [
+        0.0,
+        0.0
+      ],
+      "target": "gain32"
+    },
+    "music": {
+      "validation_mae_pp": 4.58465236499269,
+      "gain_vs_mean_pp": -0.10742234391018822,
+      "bootstrap_CI95_gain_pp": [
+        -0.29363342652354035,
+        0.0764003224261423
+      ],
+      "target": "gain32"
+    },
+    "optimization": {
+      "validation_mae_pp": 3.9264510869181044,
+      "gain_vs_mean_pp": 0.5507789341643978,
+      "bootstrap_CI95_gain_pp": [
+        -0.1129036908977182,
+        1.2056649410810714
+      ],
+      "target": "gain32"
+    },
+    "optimization_plus_music": {
+      "validation_mae_pp": 3.9074326118525544,
+      "gain_vs_mean_pp": 0.5697974092299478,
+      "bootstrap_CI95_gain_pp": [
+        -0.08617151972049372,
+        1.220900979116119
+      ],
+      "target": "gain32"
+    },
+    "optimization_plus_local": {
+      "validation_mae_pp": 3.753970517890779,
+      "gain_vs_mean_pp": 0.7232595031917229,
+      "bootstrap_CI95_gain_pp": [
+        0.026611956367427032,
+        1.4249928009463164
+      ],
+      "target": "gain32"
+    },
+    "all": {
+      "validation_mae_pp": 3.7837851150837882,
+      "gain_vs_mean_pp": 0.6934449059987133,
+      "bootstrap_CI95_gain_pp": [
+        -0.005901811069354976,
+        1.3957764112964217
+      ],
+      "target": "gain32"
+    }
+  },
+  "descriptive": {
+    "train_unique": {
+      "n": 298,
+      "gain21_mean_pp": 8.442214263431213,
+      "gain32_mean_pp": 7.025040787269082,
+      "gain32_positive": 268,
+      "minimal_p_2pp": {
+        "1": 39,
+        "2": 53,
+        "3": 206
+      }
+    },
+    "validation_clean": {
+      "n": 91,
+      "gain21_mean_pp": 7.23068723594014,
+      "gain32_mean_pp": 5.490373193971789,
+      "gain32_positive": 83,
+      "minimal_p_2pp": {
+        "3": 61,
+        "2": 17,
+        "1": 13
+      }
+    }
+  },
+  "correlations": {
+    "chord_entropy_bits__gain21": {
+      "rho": -0.04247746317977005,
+      "p_uncorrected_exploratory": 0.4650707263525912
+    },
+    "chord_entropy_bits__gain32": {
+      "rho": -0.06331792965955003,
+      "p_uncorrected_exploratory": 0.2759172392322294
+    },
+    "conditional_transition_entropy_bits__gain21": {
+      "rho": -0.05535345722715387,
+      "p_uncorrected_exploratory": 0.3409635243508991
+    },
+    "conditional_transition_entropy_bits__gain32": {
+      "rho": -0.026642559914965416,
+      "p_uncorrected_exploratory": 0.6469019484596028
+    },
+    "repeated_bigram_rate__gain21": {
+      "rho": 0.06207889872354741,
+      "p_uncorrected_exploratory": 0.28544173532198036
+    },
+    "repeated_bigram_rate__gain32": {
+      "rho": 0.07169723099572019,
+      "p_uncorrected_exploratory": 0.2171756347519217
+    },
+    "feasible_fraction__gain21": {
+      "rho": 0.5656114293674478,
+      "p_uncorrected_exploratory": 1.347706532515573e-26
+    },
+    "feasible_fraction__gain32": {
+      "rho": 0.5160649320929973,
+      "p_uncorrected_exploratory": 1.1066774276034015e-21
+    },
+    "log2_n_optimal__gain21": {
+      "rho": 0.08027419728552308,
+      "p_uncorrected_exploratory": 0.16692411177171693
+    },
+    "log2_n_optimal__gain32": {
+      "rho": -0.005075852664836609,
+      "p_uncorrected_exploratory": 0.9304687367055765
+    },
+    "energy_gap__gain21": {
+      "rho": 0.1574478712440941,
+      "p_uncorrected_exploratory": 0.00645832049374686
+    },
+    "energy_gap__gain32": {
+      "rho": 0.21560871679077687,
+      "p_uncorrected_exploratory": 0.00017644879647454553
+    },
+    "energy_sd__gain21": {
+      "rho": -0.4614673732153129,
+      "p_uncorrected_exploratory": 4.024630048139216e-17
+    },
+    "energy_sd__gain32": {
+      "rho": -0.5593290203225185,
+      "p_uncorrected_exploratory": 6.292786961361806e-26
+    },
+    "interaction_residual_rms__gain21": {
+      "rho": 0.19937297512170957,
+      "p_uncorrected_exploratory": 0.000536042022414798
+    },
+    "interaction_residual_rms__gain32": {
+      "rho": 0.22506172416425732,
+      "p_uncorrected_exploratory": 8.882959118175791e-05
+    },
+    "interaction_range__gain21": {
+      "rho": 0.12502032781239952,
+      "p_uncorrected_exploratory": 0.03095994717025893
+    },
+    "interaction_range__gain32": {
+      "rho": 0.12254605400605682,
+      "p_uncorrected_exploratory": 0.03446761571802094
+    },
+    "unary_margin_mean__gain21": {
+      "rho": 0.4168821914237655,
+      "p_uncorrected_exploratory": 5.869046603212179e-14
+    },
+    "unary_margin_mean__gain32": {
+      "rho": 0.3073075495320579,
+      "p_uncorrected_exploratory": 6.155285386309873e-08
+    },
+    "transition_strength_rms__gain21": {
+      "rho": 0.16251490552957362,
+      "p_uncorrected_exploratory": 0.004917767016134386
+    },
+    "transition_strength_rms__gain32": {
+      "rho": 0.15473866248099954,
+      "p_uncorrected_exploratory": 0.007448126221248331
+    }
+  },
+  "split_counts": {
+    "validation_clean": 91,
+    "train_unique": 298,
+    "validation_excluded": 4,
+    "train_duplicate_excluded": 7
+  },
+  "incremental_comparisons": {
+    "local_over_optimization": {
+      "mae_gain_pp": 0.1724805690273252,
+      "instance_bootstrap_CI95": [
+        -0.20420619152601985,
+        0.529897933861587
+      ]
+    },
+    "music_over_optimization": {
+      "mae_gain_pp": 0.019018475065550107,
+      "instance_bootstrap_CI95": [
+        -0.08898406497654456,
+        0.1248881864235434
+      ]
+    },
+    "music_over_optimization_plus_local": {
+      "mae_gain_pp": -0.029814597193009613,
+      "instance_bootstrap_CI95": [
+        -0.1362590947436427,
+        0.07848293311197317
+      ]
+    }
+  }
+}

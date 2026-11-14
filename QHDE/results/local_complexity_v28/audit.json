@@ -1,0 +1,175 @@
+{
+  "version": "QHDE-v0.28",
+  "offline_only": true,
+  "source_job": "dbh8j5kdgr2s73ct1100",
+  "scope": "four encoded melody segments / frozen corrected-EMH decision factors",
+  "warning": "These are model-derived local decision descriptors, NOT HookTheory reference-harmony entropy.",
+  "inputs_sha256": {
+    "manifest": "ed61945464801e5a8685965492820911244fd7ef3fbe293dcebee217ea2d9685",
+    "hardware": "442246f4aa338f1d65bbd4340f83d746a935f3d5ee522d6f1c86326bf3dd1ba6"
+  },
+  "n_instances": 12,
+  "tests": [
+    {
+      "predictor": "unary_ambiguity_bits",
+      "outcome": "hardware_gain_p3_p2",
+      "rho": -0.23117373455165427,
+      "permutation_p": 0.46550689862027594,
+      "fdr_q": 0.5977628003811003
+    },
+    {
+      "predictor": "unary_ambiguity_bits",
+      "outcome": "ideal_gain_p3_p2",
+      "rho": 0.11188811188811189,
+      "permutation_p": 0.7126574685062987,
+      "fdr_q": 0.7835632873425316
+    },
+    {
+      "predictor": "unary_ambiguity_bits",
+      "outcome": "hardware_noise_gap_p3",
+      "rho": 0.3356643356643357,
+      "permutation_p": 0.29514097180563886,
+      "fdr_q": 0.4767661852244936
+    },
+    {
+      "predictor": "unary_margin_mean",
+      "outcome": "hardware_gain_p3_p2",
+      "rho": 0.3947368421052632,
+      "permutation_p": 0.20635872825434912,
+      "fdr_q": 0.4767661852244936
+    },
+    {
+      "predictor": "unary_margin_mean",
+      "outcome": "ideal_gain_p3_p2",
+      "rho": 0.7215422623884966,
+      "permutation_p": 0.013397320535892822,
+      "fdr_q": 0.26244751049790044
+    },
+    {
+      "predictor": "unary_margin_mean",
+      "outcome": "hardware_noise_gap_p3",
+      "rho": 0.5919448657459025,
+      "permutation_p": 0.04339132173565287,
+      "fdr_q": 0.3037392521495701
+    },
+    {
+      "predictor": "coupling_rms",
+      "outcome": "hardware_gain_p3_p2",
+      "rho": -0.4203158810030078,
+      "permutation_p": 0.16756648670265947,
+      "fdr_q": 0.4767661852244936
+    },
+    {
+      "predictor": "coupling_rms",
+      "outcome": "ideal_gain_p3_p2",
+      "rho": 0.055944055944055944,
+      "permutation_p": 0.8658268346330734,
+      "fdr_q": 0.8658268346330734
+    },
+    {
+      "predictor": "coupling_rms",
+      "outcome": "hardware_noise_gap_p3",
+      "rho": 0.22377622377622378,
+      "permutation_p": 0.4839032193561288,
+      "fdr_q": 0.5977628003811003
+    },
+    {
+      "predictor": "coupling_to_unary_ratio",
+      "outcome": "hardware_gain_p3_p2",
+      "rho": -0.34676060182748136,
+      "permutation_p": 0.2565486902619476,
+      "fdr_q": 0.4767661852244936
+    },
+    {
+      "predictor": "coupling_to_unary_ratio",
+      "outcome": "ideal_gain_p3_p2",
+      "rho": 0.10489510489510491,
+      "permutation_p": 0.74625074985003,
+      "fdr_q": 0.7835632873425316
+    },
+    {
+      "predictor": "coupling_to_unary_ratio",
+      "outcome": "hardware_noise_gap_p3",
+      "rho": 0.2797202797202798,
+      "permutation_p": 0.379124175164967,
+      "fdr_q": 0.5307738452309538
+    },
+    {
+      "predictor": "frustration_loss",
+      "outcome": "hardware_gain_p3_p2",
+      "rho": -0.4171659860945442,
+      "permutation_p": 0.16936612677464508,
+      "fdr_q": 0.4767661852244936
+    },
+    {
+      "predictor": "frustration_loss",
+      "outcome": "ideal_gain_p3_p2",
+      "rho": -0.29186115364847715,
+      "permutation_p": 0.35492901419716055,
+      "fdr_q": 0.5307738452309538
+    },
+    {
+      "predictor": "frustration_loss",
+      "outcome": "hardware_noise_gap_p3",
+      "rho": -0.17440483571677293,
+      "permutation_p": 0.5748850229954009,
+      "fdr_q": 0.6706991934946344
+    },
+    {
+      "predictor": "unary_optimum_in_global",
+      "outcome": "hardware_gain_p3_p2",
+      "rho": 0.6668859288553501,
+      "permutation_p": 0.02499500099980004,
+      "fdr_q": 0.26244751049790044
+    },
+    {
+      "predictor": "unary_optimum_in_global",
+      "outcome": "ideal_gain_p3_p2",
+      "rho": 0.40967324519935133,
+      "permutation_p": 0.21455708858228353,
+      "fdr_q": 0.4767661852244936
+    },
+    {
+      "predictor": "unary_optimum_in_global",
+      "outcome": "hardware_noise_gap_p3",
+      "rho": 0.35846408954943243,
+      "permutation_p": 0.29054189162167565,
+      "fdr_q": 0.4767661852244936
+    },
+    {
+      "predictor": "near_optimal_fraction",
+      "outcome": "hardware_gain_p3_p2",
+      "rho": -0.34514625863483445,
+      "permutation_p": 0.26974605078984204,
+      "fdr_q": 0.4767661852244936
+    },
+    {
+      "predictor": "near_optimal_fraction",
+      "outcome": "ideal_gain_p3_p2",
+      "rho": -0.4805923750633493,
+      "permutation_p": 0.11397720455908818,
+      "fdr_q": 0.4767661852244936
+    },
+    {
+      "predictor": "near_optimal_fraction",
+      "outcome": "hardware_noise_gap_p3",
+      "rho": -0.3569105138338109,
+      "permutation_p": 0.2485502899420116,
+      "fdr_q": 0.4767661852244936
+    }
+  ],
+  "predictions": {
+    "local_margins": {
+      "mae_pp": 2.5528055537761,
+      "baseline_mae_pp": 2.503551136363636
+    },
+    "interaction": {
+      "mae_pp": 2.9015922132596423,
+      "baseline_mae_pp": 2.503551136363636
+    },
+    "combined": {
+      "mae_pp": 3.019310396214179,
+      "baseline_mae_pp": 2.503551136363636
+    }
+  }
+}

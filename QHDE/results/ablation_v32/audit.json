@@ -1,0 +1,47 @@
+{
+  "version": "v0.32",
+  "n": 400,
+  "n_unique": 389,
+  "seed": 42,
+  "shuffles": 30,
+  "threshold": 0.02,
+  "summaries": {
+    "all": {
+      "n": 400,
+      "mean_regret": 0.040489301474668817,
+      "median_regret": 0.018671217568294953,
+      "fraction_need_joint": 0.4975,
+      "mean_actual_minus_shuffled": 0.038710491756050576
+    },
+    "fully feasible": {
+      "n": 305,
+      "mean_regret": 0.04172680263106934,
+      "median_regret": 0.03198494825964264,
+      "fraction_need_joint": 0.5377049180327869,
+      "mean_actual_minus_shuffled": 0.02619819899049819
+    },
+    "restricted": {
+      "n": 95,
+      "mean_regret": 0.03651627144622497,
+      "median_regret": 0.0,
+      "fraction_need_joint": 0.3684210526315789,
+      "mean_actual_minus_shuffled": 0.07888153695071874
+    },
+    "training full feasible": {
+      "n": 235,
+      "mean_regret": 0.04048650504214926,
+      "median_regret": 0.03271028037383191,
+      "fraction_need_joint": 0.5404255319148936,
+      "mean_actual_minus_shuffled": 0.026907759845640013
+    },
+    "validation full feasible": {
+      "n": 70,
+      "mean_regret": 0.04589065882244394,
+      "median_regret": 0.027039835494446073,
+      "fraction_need_joint": 0.5285714285714286,
+      "mean_actual_minus_shuffled": 0.023816101833950675
+    }
+  },
+  "no_qpu": true,
+  "qaoa_not_rerun": true
+}

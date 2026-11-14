@@ -1,6 +1,4 @@
 # HARMONIX
-## Author: Josef Pavlíček ORCID: https://orcid.org/0000-0002-3959-5406
-
 **Human-Aware Reasoning for Musical Optimization and eXplainability**
 
 HARMONIX is an experimental, explainable **melody-to-harmony research system**. It studies how explicit structural rules change generated chord decisions and their agreement with human-annotated harmony. It is a research platform, **not** an AI-music-authenticity detector, a commercial arranger, or a system that infers a composer's intentions.
@@ -207,7 +205,7 @@ Overall exact chord agreement changes only slightly: RF vs Corrected EMH is **+0
 
 The repeated-motif matcher uses a transposition-invariant relative melodic signature. For each matched pair, the diagnostic approximates melodic transposition by the difference between the first sounding pitch classes. Reference and generated chord-root shifts are compared modulo 12. The four categories distinguish zero/nonzero melodic shift and whether the *reference* root shift matches that melodic shift. This is an **evaluation-only classification**: the generator does **not** observe the reference chords when making predictions. `repeated_pair_reference_relation` is a coarser binary same/different-root measure and must not be conflated with exact interval agreement.
 
-**Limitations:** the source contains human chord annotations, not unique correct harmonies or evidence of composer intention; a single pitch-class shift is not full phrase/transposition analysis; octave, enharmonic spelling and expressive context are omitted. Pairs are correlated, so the reported uncertainty uses **1,000 work-proxy-cluster bootstrap resamples**, seed **2027**. Artist/song identifiers are work proxies rather than verified unique works. TRAIN is exploratory, VALID is not a pristine confirmatory holdout, and the exploratory intervals are not adjusted for multiple comparisons. No claim is made that a future adaptive constraint selector has been implemented or validated.
+**Limitations:** the source contains human chord annotations, not unique correct harmonies or evidence of composer intention; a single pitch-class shift is not full phrase/transposition analysis; octave, enharmonic spelling and expressive context are omitted. Pairs are correlated, so the reported uncertainty uses **1,000 work-proxy-cluster bootstrap resamples**, seed **2027**. Artist/song identifiers are work proxies rather than verified unique works. TRAIN supported manual parameter selection, VALID was held out from parameter selection, and the exploratory intervals are not adjusted for multiple comparisons. No claim is made that a future adaptive constraint selector has been implemented or validated.
 
 ### Systems-engineering implications
 
@@ -218,3 +216,76 @@ Static structural constraints can improve stable relationships while hindering c
 The original baseline snapshot derives from the researcher-provided `EMH_CAiSE_2027.zip`; file hashes are recorded in `vendor/emh_sha256.json`. The v0.19 diagnostics add reporting only, not new scoring weights. For a paper, archive the precise source commit, manifest files, dataset identifier/version, result JSONLs and `.settings.json` sidecars, summary JSONs, bootstrap settings, failure counts and analysis scripts. Avoid committing copyrighted or bulky corpus data without permission.
 
 The software is a longer-term research platform, independent of any single conference submission. See the existing `INSTALL_*` and `UPGRADE_*` notes for historical migration details.
+
+
+## CAiSE structural sensitivity extension (November 2026)
+
+This extension tests whether the direction of the **combined RF versus corrected-baseline** context effects depends on one manually chosen weight pair. It does **not** introduce an adaptive constraint selector, alter the frozen EMH, or replace the fixed-weight VALID evaluation.
+
+### Modules and outputs
+
+- `harmonix.structural_sensitivity`: runs a 3 x 3 grid of structural weights on TRAIN; results are stored as per-record JSONL files under `results/structural_sensitivity/`, with resume settings sidecars.
+- `harmonix.rq_final_analysis`: computes paired reference-agreement comparisons and work-proxy-cluster bootstrap estimates for each completed run.
+- `harmonix.structural_multiplicity`: additional multiple-comparison analysis utility. Check its CLI `--help` and output before citing any simultaneous interval; the paper's reported context intervals are **unadjusted**.
+- Regression tests for these modules should be run with `python -m pytest -q tests`.
+
+The grid is `lambda_R in {0.06, 0.12, 0.18}` and `lambda_F in {0.03, 0.06, 0.09}`. The primary configuration remains `(0.12, 0.06)`. The experiment covers 17,923 TRAIN input records per grid setting; 17,911 succeed and yield 131,117 evaluable motif pairs per setting. The nine settings therefore represent 161,307 attempted record runs, **not** 161,307 independent observations.
+
+### Reproduce the sensitivity grid
+
+Start in the `HARMONIX/` directory, activate the environment, and make sure the authorized HookTheory archive and **original frozen TRAIN manifest** are available. Inspect CLI options before running, particularly if local archive discovery differs:
+
+```bash
+python -m harmonix.structural_sensitivity --help
+python -m harmonix.structural_sensitivity --limit 0
+```
+
+The full grid may take hours. Use `tmux` or another persistent terminal in remote Codespaces. Resume should preserve existing JSONLs and `.settings.json` sidecars; **do not delete or manually mix files from different settings**. A previous sidecar comparison bug arose because Python tuples and JSON arrays compared unequal; the corrected check compares JSON-normalized settings. Check that the local version contains that fix before relying on resume.
+
+Expected output naming convention:
+
+```text
+results/structural_sensitivity/train_r0.06_f0.03.jsonl
+results/structural_sensitivity/train_r0.06_f0.06.jsonl
+...
+results/structural_sensitivity/train_r0.18_f0.09.jsonl
+```
+
+### Re-run the per-setting analysis
+
+For each of the nine `(R,F)` combinations, analyze the corresponding JSONL with the frozen TRAIN manifest. Example for the primary setting:
+
+```bash
+mkdir -p results/structural_sensitivity/analysis
+python -m harmonix.rq_final_analysis \
+  --manifest results/corpus_manifests/train_full.json \
+  --results results/structural_sensitivity/train_r0.12_f0.06.jsonl \
+  --output results/structural_sensitivity/analysis/train_r0.12_f0.06.json \
+  --bootstrap 100 --seed 42
+```
+
+Repeat with all nine filenames. The `--bootstrap 100` runs were **preliminary exploratory analyses**, not the 1,000-resample intervals reported for the primary experiment. The context effect point estimates are in `transposition_pair_level[context]["combined"]["difference_percentage_points"]`; compare against the baseline for the **same** split and records. For final inferential use, run an appropriately powered, prespecified bootstrap and assess multiplicity; do not treat the exploratory grid as independent VALID replication.
+
+### Observed RF sensitivity results on TRAIN
+
+The table reports percentage-point differences from corrected baseline for the four evaluation-only contexts, in this order: (1) untransposed/same reference root; (2) untransposed/changed reference root; (3) transposed/reference tracks melody; (4) transposed/reference does not track melody.
+
+| lambda_R | lambda_F | Context 1 | Context 2 | Context 3 | Context 4 |
+| ---: | ---: | ---: | ---: | ---: | ---: |
+| 0.06 | 0.03 | +7.046 | -1.792 | -6.507 | +3.706 |
+| 0.06 | 0.06 | +6.839 | -1.850 | -6.890 | +3.747 |
+| 0.06 | 0.09 | +6.765 | -1.713 | -7.255 | +3.738 |
+| 0.12 | 0.03 | +4.973 | -1.435 | -8.523 | +4.049 |
+| 0.12 | 0.06 | +5.077 | -1.518 | -8.797 | +4.134 |
+| 0.12 | 0.09 | +5.085 | -1.565 | -8.998 | +4.255 |
+| 0.18 | 0.03 | +3.720 | -1.156 | -7.994 | +4.150 |
+| 0.18 | 0.06 | +3.879 | -1.250 | -8.040 | +4.045 |
+| 0.18 | 0.09 | +3.912 | -1.290 | -8.095 | +3.995 |
+
+All four context-effect directions persist across all nine TRAIN settings (**36/36 sign matches**). Effect sizes vary; this establishes **directional stability only within the tested TRAIN grid**, not statistical significance for 36 independent tests or robustness to other corpora. The primary setting reproduces the expected 131,117 TRAIN motif pairs and effects (+5.0768, -1.5177, -8.7972, +4.1342 pp).
+
+### Review package and identity protection
+
+A double-blind supplementary archive should contain only the necessary HARMONIX source, setup and run instructions, configurations, test fixtures that may legally be shared, evaluation summaries, and permitted derived results. The third-party HookTheory archive and potentially identifying record-level annotations must **not** be included without permission. Verify that each referenced script, manifest, and result file actually exists before claiming complete reproducibility. Avoid embedding personal names, email addresses, local absolute paths, Git remotes, commit histories, access tokens, or other identifying metadata in the archive. A GitHub repository that reveals an author's identity is **not** an anonymous review artifact; prepare the ZIP separately without `.git/`.
+
+The main research repository may also contain unrelated quantum-computing experiments. These are separate from the HARMONIX CAiSE evaluation and should not be placed in the anonymous review archive unless relevant. Retain their source and provenance in the main repository for subsequent research.

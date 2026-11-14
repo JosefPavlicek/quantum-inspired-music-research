@@ -1,0 +1,5 @@
+# Dependencies for QHDE v0.27–v0.28 offline analysis
+# Install into HARMONIX/.venv, without changing HARMONIX source code.
+numpy
+scipy
+scikit-learn

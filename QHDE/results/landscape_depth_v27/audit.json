@@ -1,0 +1,387 @@
+{
+  "version": "QHDE-v0.27",
+  "offline_only": true,
+  "job_id": "dbh8j5kdgr2s73ct1100",
+  "inputs_sha256": {
+    "QHDE/results/four_segments_v22/manifest.json": "ed61945464801e5a8685965492820911244fd7ef3fbe293dcebee217ea2d9685",
+    "QHDE/results/structured_v23/audit.json": "f4549f1fb8712d95da758746f568a07490b6eebe2feb546e618745542c4ae301",
+    "QHDE/results/ibm_v25/analysis.json": "442246f4aa338f1d65bbd4340f83d746a935f3d5ee522d6f1c86326bf3dd1ba6"
+  },
+  "n_instances": 12,
+  "n_unique_affine_normalized_landscapes": 12,
+  "affine_landscape_groups": [
+    [
+      "dPoDrNVqgnM"
+    ],
+    [
+      "LAgQnYKlxyO"
+    ],
+    [
+      "QLgnvz_Yg-V"
+    ],
+    [
+      "dPoDJekZgnM"
+    ],
+    [
+      "jDgXQwLyxKl"
+    ],
+    [
+      "AQodnNrqgDl"
+    ],
+    [
+      "jDgXOMDnmKl"
+    ],
+    [
+      "ANmpQAvngyM"
+    ],
+    [
+      "zngRNKQegJj"
+    ],
+    [
+      "WeglOnvlmrY"
+    ],
+    [
+      "veoYWNOVgdn"
+    ],
+    [
+      "yvmrdppJxOW"
+    ]
+  ],
+  "correlations": [
+    {
+      "feature": "chord_entropy_bits",
+      "target": "benefit_p3_vs_p2",
+      "dataset": "all_songs",
+      "n": 12,
+      "spearman_rho": -0.424561403508772,
+      "permutation_p": 0.1704914754262287,
+      "fdr_bh_q": 0.5881991614704979
+    },
+    {
+      "feature": "chord_entropy_bits",
+      "target": "benefit_p3_vs_p2",
+      "dataset": "unique_landscapes",
+      "n": 12,
+      "spearman_rho": -0.424561403508772,
+      "permutation_p": 0.1704914754262287,
+      "fdr_bh_q": 0.5881991614704979
+    },
+    {
+      "feature": "chord_entropy_bits",
+      "target": "noise_gap_p3",
+      "dataset": "all_songs",
+      "n": 12,
+      "spearman_rho": 0.3537658665108649,
+      "permutation_p": 0.25733713314334283,
+      "fdr_bh_q": 0.5881991614704979
+    },
+    {
+      "feature": "chord_entropy_bits",
+      "target": "noise_gap_p3",
+      "dataset": "unique_landscapes",
+      "n": 12,
+      "spearman_rho": 0.3537658665108649,
+      "permutation_p": 0.25733713314334283,
+      "fdr_bh_q": 0.5881991614704979
+    },
+    {
+      "feature": "conditional_transition_entropy_bits",
+      "target": "benefit_p3_vs_p2",
+      "dataset": "all_songs",
+      "n": 12,
+      "spearman_rho": -0.5961282737387799,
+      "permutation_p": 0.04534773261336933,
+      "fdr_bh_q": 0.36278186090695463
+    },
+    {
+      "feature": "conditional_transition_entropy_bits",
+      "target": "benefit_p3_vs_p2",
+      "dataset": "unique_landscapes",
+      "n": 12,
+      "spearman_rho": -0.5961282737387799,
+      "permutation_p": 0.04534773261336933,
+      "fdr_bh_q": 0.36278186090695463
+    },
+    {
+      "feature": "conditional_transition_entropy_bits",
+      "target": "noise_gap_p3",
+      "dataset": "all_songs",
+      "n": 12,
+      "spearman_rho": 0.03521214076019994,
+      "permutation_p": 0.9190540472976351,
+      "fdr_bh_q": 0.9190540472976351
+    },
+    {
+      "feature": "conditional_transition_entropy_bits",
+      "target": "noise_gap_p3",
+      "dataset": "unique_landscapes",
+      "n": 12,
+      "spearman_rho": 0.03521214076019994,
+      "permutation_p": 0.9190540472976351,
+      "fdr_bh_q": 0.9190540472976351
+    },
+    {
+      "feature": "repeated_bigram_rate",
+      "target": "benefit_p3_vs_p2",
+      "dataset": "all_songs",
+      "n": 12,
+      "spearman_rho": 0.189387947045781,
+      "permutation_p": 0.5503224838758062,
+      "fdr_bh_q": 0.7249483679662171
+    },
+    {
+      "feature": "repeated_bigram_rate",
+      "target": "benefit_p3_vs_p2",
+      "dataset": "unique_landscapes",
+      "n": 12,
+      "spearman_rho": 0.189387947045781,
+      "permutation_p": 0.5503224838758062,
+      "fdr_bh_q": 0.7249483679662171
+    },
+    {
+      "feature": "repeated_bigram_rate",
+      "target": "noise_gap_p3",
+      "dataset": "all_songs",
+      "n": 12,
+      "spearman_rho": -0.4664573052085449,
+      "permutation_p": 0.12659367031648416,
+      "fdr_bh_q": 0.5881991614704979
+    },
+    {
+      "feature": "repeated_bigram_rate",
+      "target": "noise_gap_p3",
+      "dataset": "unique_landscapes",
+      "n": 12,
+      "spearman_rho": -0.4664573052085449,
+      "permutation_p": 0.12659367031648416,
+      "fdr_bh_q": 0.5881991614704979
+    },
+    {
+      "feature": "landscape_std",
+      "target": "benefit_p3_vs_p2",
+      "dataset": "all_songs",
+      "n": 12,
+      "spearman_rho": 0.0665500144921429,
+      "permutation_p": 0.8405579721013949,
+      "fdr_bh_q": 0.8965951702414879
+    },
+    {
+      "feature": "landscape_std",
+      "target": "benefit_p3_vs_p2",
+      "dataset": "unique_landscapes",
+      "n": 12,
+      "spearman_rho": 0.0665500144921429,
+      "permutation_p": 0.8405579721013949,
+      "fdr_bh_q": 0.8965951702414879
+    },
+    {
+      "feature": "landscape_std",
+      "target": "noise_gap_p3",
+      "dataset": "all_songs",
+      "n": 12,
+      "spearman_rho": -0.27272727272727276,
+      "permutation_p": 0.38923053847307637,
+      "fdr_bh_q": 0.6919654017299135
+    },
+    {
+      "feature": "landscape_std",
+      "target": "noise_gap_p3",
+      "dataset": "unique_landscapes",
+      "n": 12,
+      "spearman_rho": -0.27272727272727276,
+      "permutation_p": 0.38923053847307637,
+      "fdr_bh_q": 0.6919654017299135
+    },
+    {
+      "feature": "landscape_gap",
+      "target": "benefit_p3_vs_p2",
+      "dataset": "all_songs",
+      "n": 12,
+      "spearman_rho": 0.17162898474289487,
+      "permutation_p": 0.5890205489725514,
+      "fdr_bh_q": 0.7249483679662171
+    },
+    {
+      "feature": "landscape_gap",
+      "target": "benefit_p3_vs_p2",
+      "dataset": "unique_landscapes",
+      "n": 12,
+      "spearman_rho": 0.17162898474289487,
+      "permutation_p": 0.5890205489725514,
+      "fdr_bh_q": 0.7249483679662171
+    },
+    {
+      "feature": "landscape_gap",
+      "target": "noise_gap_p3",
+      "dataset": "all_songs",
+      "n": 12,
+      "spearman_rho": 0.7762237762237763,
+      "permutation_p": 0.004199790010499475,
+      "fdr_bh_q": 0.0671966401679916
+    },
+    {
+      "feature": "landscape_gap",
+      "target": "noise_gap_p3",
+      "dataset": "unique_landscapes",
+      "n": 12,
+      "spearman_rho": 0.7762237762237763,
+      "permutation_p": 0.004199790010499475,
+      "fdr_bh_q": 0.0671966401679916
+    },
+    {
+      "feature": "pair_variance_share",
+      "target": "benefit_p3_vs_p2",
+      "dataset": "all_songs",
+      "n": 12,
+      "spearman_rho": -0.37828429290270704,
+      "permutation_p": 0.22098895055247236,
+      "fdr_bh_q": 0.5881991614704979
+    },
+    {
+      "feature": "pair_variance_share",
+      "target": "benefit_p3_vs_p2",
+      "dataset": "unique_landscapes",
+      "n": 12,
+      "spearman_rho": -0.37828429290270704,
+      "permutation_p": 0.22098895055247236,
+      "fdr_bh_q": 0.5881991614704979
+    },
+    {
+      "feature": "pair_variance_share",
+      "target": "noise_gap_p3",
+      "dataset": "all_songs",
+      "n": 12,
+      "spearman_rho": 0.2867132867132868,
+      "permutation_p": 0.36578171091445427,
+      "fdr_bh_q": 0.6919654017299135
+    },
+    {
+      "feature": "pair_variance_share",
+      "target": "noise_gap_p3",
+      "dataset": "unique_landscapes",
+      "n": 12,
+      "spearman_rho": 0.2867132867132868,
+      "permutation_p": 0.36578171091445427,
+      "fdr_bh_q": 0.6919654017299135
+    },
+    {
+      "feature": "z_terms",
+      "target": "benefit_p3_vs_p2",
+      "dataset": "all_songs",
+      "n": 12,
+      "spearman_rho": 0.36858657533401207,
+      "permutation_p": 0.23778811059447028,
+      "fdr_bh_q": 0.5881991614704979
+    },
+    {
+      "feature": "z_terms",
+      "target": "benefit_p3_vs_p2",
+      "dataset": "unique_landscapes",
+      "n": 12,
+      "spearman_rho": 0.36858657533401207,
+      "permutation_p": 0.23778811059447028,
+      "fdr_bh_q": 0.5881991614704979
+    },
+    {
+      "feature": "z_terms",
+      "target": "noise_gap_p3",
+      "dataset": "all_songs",
+      "n": 12,
+      "spearman_rho": 0.200045934187124,
+      "permutation_p": 0.5319734013299335,
+      "fdr_bh_q": 0.7249483679662171
+    },
+    {
+      "feature": "z_terms",
+      "target": "noise_gap_p3",
+      "dataset": "unique_landscapes",
+      "n": 12,
+      "spearman_rho": 0.200045934187124,
+      "permutation_p": 0.5319734013299335,
+      "fdr_bh_q": 0.7249483679662171
+    },
+    {
+      "feature": "cx_p3",
+      "target": "benefit_p3_vs_p2",
+      "dataset": "all_songs",
+      "n": 12,
+      "spearman_rho": 0.23700170642947793,
+      "permutation_p": 0.45147742612869357,
+      "fdr_bh_q": 0.7223638818059097
+    },
+    {
+      "feature": "cx_p3",
+      "target": "benefit_p3_vs_p2",
+      "dataset": "unique_landscapes",
+      "n": 12,
+      "spearman_rho": 0.23700170642947793,
+      "permutation_p": 0.45147742612869357,
+      "fdr_bh_q": 0.7223638818059097
+    },
+    {
+      "feature": "cx_p3",
+      "target": "noise_gap_p3",
+      "dataset": "all_songs",
+      "n": 12,
+      "spearman_rho": 0.10113642960257445,
+      "permutation_p": 0.7558622068896556,
+      "fdr_bh_q": 0.8638425221596063
+    },
+    {
+      "feature": "cx_p3",
+      "target": "noise_gap_p3",
+      "dataset": "unique_landscapes",
+      "n": 12,
+      "spearman_rho": 0.10113642960257445,
+      "permutation_p": 0.7558622068896556,
+      "fdr_bh_q": 0.8638425221596063
+    }
+  ],
+  "loo_predictors": [
+    {
+      "dataset": "all_songs",
+      "features": [
+        "chord_entropy_bits",
+        "conditional_transition_entropy_bits",
+        "repeated_bigram_rate"
+      ],
+      "loo_mae_pp": 2.540860723931233,
+      "baseline_loo_mae_pp": 2.503551136363636,
+      "loo_predictive_r2": 0.10562244236928076
+    },
+    {
+      "dataset": "all_songs",
+      "features": [
+        "landscape_std",
+        "landscape_gap",
+        "pair_variance_share"
+      ],
+      "loo_mae_pp": 2.514070030817152,
+      "baseline_loo_mae_pp": 2.503551136363636,
+      "loo_predictive_r2": 0.029294558805037507
+    },
+    {
+      "dataset": "unique_landscapes",
+      "features": [
+        "chord_entropy_bits",
+        "conditional_transition_entropy_bits",
+        "repeated_bigram_rate"
+      ],
+      "loo_mae_pp": 2.540860723931233,
+      "baseline_loo_mae_pp": 2.503551136363636,
+      "loo_predictive_r2": 0.10562244236928076
+    },
+    {
+      "dataset": "unique_landscapes",
+      "features": [
+        "landscape_std",
+        "landscape_gap",
+        "pair_variance_share"
+      ],
+      "loo_mae_pp": 2.514070030817152,
+      "baseline_loo_mae_pp": 2.503551136363636,
+      "loo_predictive_r2": 0.029294558805037507
+    }
+  ],
+  "exploratory_warning": "Music features are FULL-SONG HookTheory features, not four-segment-local metrics; selection is stratified on these features; duplicate landscapes may be dependent; multiple testing and small n make inference exploratory; postselected best depth is noisy with 1024 shots; no quantum advantage."
+}
