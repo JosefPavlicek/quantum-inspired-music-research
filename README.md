@@ -155,6 +155,47 @@ See [`HARMONIX/README.md`](HARMONIX/README.md) for installation, execution, outp
 
 ---
 
+### QHDE – Quantum Harmonic Dependency Experiment
+
+QHDE is an experimental study of **QAOA-based optimization of dependent harmonic decisions on real quantum hardware**, distinct from the quantum-*inspired* candidate-generation approach in `ISD2026_QuantumOne`. It investigates one fixed research question:
+
+> **How do musical complexity and harmonic decision dependencies influence QAOA effectiveness and useful circuit depth?**
+
+The experiment uses the **corrected EMH scoring model** to construct harmonic optimization problems, while retaining the published EMH baseline separately. Its aim is to examine how QAOA depth, musical features, optimization-landscape properties, and device noise affect the probability of selecting a *model-optimal* chord sequence. Model optimality is not equivalent to independently rated musical quality.
+
+#### Experimental Design
+
+- **Corpus:** 400 four-decision tasks sampled from HookTheory TRAIN excerpts, representing **389 distinct affine-normalized energy landscapes**; 305 tasks have 256 feasible states, while 95 have restricted feasible sets.
+- **Encoding:** four consecutive harmonic decisions, four chord candidates per decision, **8 qubits** and **256 computational-basis states**.
+- **Offline optimization (v0.30):** exact statevector QAOA at **p=1, p=2, p=3**, with six parameter initializations and up to 120 optimizer iterations per depth; the objective includes penalties for infeasible states.
+- **Hardware validation (v0.33):** 24 preselected, fully feasible tasks on **IBM Marrakesh**, comparing uniform sampling and QAOA depths p=1–3. Two repetitions yielded **192 executed circuits** at 2,048 shots each (**393,216 total shots**, or 4,096 per task/depth combination). The transpiled circuits reached a **maximum depth of 319**; the batch contained **15,272 two-qubit gates in total**, not per circuit. IBM reported **110 seconds of charged QPU time** for job `dbhmj3c2d77s739d1v00` (29 October 2026).
+- **Earlier hardware runs:** four principal batches across v0.19, v0.21, v0.25, and v0.33, including 4-qubit benchmarks on IBM Pittsburgh and 8-qubit benchmarks on IBM Marrakesh. Hardware results are not conflated with the 400-task ideal simulation.
+
+#### Main Results
+
+| QAOA depth | Offline: 400 tasks, ideal optimum probability | v0.33: 24 tasks, ideal | v0.33: IBM Marrakesh |
+|---|---:|---:|---:|
+| Uniform | — | 0.80% | 0.76% |
+| p=1 | 8.41% | 10.48% | 7.76% |
+| p=2 | 16.46% | 20.67% | 12.65% |
+| p=3 | 23.12% | 29.71% | 15.17% |
+
+On IBM Marrakesh, p=3 exceeded p=2 in **22 of the 24 tasks**, with a mean gain of **2.53 percentage points**. However, the ideal-to-hardware gap increased from **2.72 pp at p=1** to **8.02 pp at p=2** and **14.53 pp at p=3**. This illustrates a measured trade-off between increased algorithmic depth and hardware noise, rather than a demonstrated quantum speedup.
+
+The final complexity–depth analysis used **298 unique training landscapes** and **91 clean internal validation tasks** (11 additional records excluded for duplicate-landscape or validation-leakage controls). For predicting the *ideal* p=3 minus p=2 improvement, a constant training-mean baseline achieved **MAE 4.477 pp**, global music features **4.585 pp**, optimization-landscape features **3.926 pp**, and optimization plus local harmonic-interaction features **3.754 pp**. The last model improved on the baseline, but the *incremental* gain from local harmonic features relative to optimization features alone (**0.172 pp**) had an instance-bootstrap 95% interval spanning zero (**−0.204 to +0.530 pp**). On the 24 hardware tasks, whole-song transition entropy had no detectable association with the p=3 versus p=2 hardware gain (Spearman **ρ=0.131, uncorrected p=0.542**).
+
+A separate **non-QAOA ablation (v0.32)** measured a mean **4.05% normalized score-span loss** when inter-chord dependencies were ignored. This supports the relevance of dependencies to the *scoring model*, but does **not** establish their causal effect on QAOA performance or perceived musical quality.
+
+#### Scope, Limitations, and Reproducibility
+
+These results support an increased probability of reaching the **scoring model's global optimum** with greater QAOA depth on the studied tasks, while showing substantial hardware degradation. They **do not demonstrate quantum advantage** over classical methods: fully feasible four-chord chains admit efficient exact dynamic programming. Whole-song musical entropy is only a proxy for the local four-decision problem; distinct energy landscapes need not represent independent songs. The validation subset is an **internal partition of HookTheory TRAIN**, not an independently held-out external test corpus. Optimization-landscape predictors that require knowing the complete energy landscape are **diagnostic**, not yet a low-cost, deployable circuit-depth selector. The two within-job hardware repetitions are not independent calibration replications, and the final predictive models have **not** been validated on per-instance hardware outcomes.
+
+**Repository directory:** [`QHDE/`](QHDE/)
+
+See [`QHDE/README.md`](QHDE/README.md) for the versioned experimental workflow, software requirements, source-data preparation, quantum job retrieval, result locations, and reproducibility details. HookTheory/SheetSage source annotations remain subject to their original distribution terms.
+
+---
+
 ## Research Focus
 
 The repository supports a continuing research programme connecting computational models of harmony with explainable decision-making and human musical interpretation.
@@ -162,6 +203,7 @@ The repository supports a continuing research programme connecting computational
 The principal research areas include:
 
 - Quantum-inspired music generation and optimization
+- Hardware-executed QAOA, circuit-depth analysis, and quantum harmonic dependency experiments
 - Automatic melody harmonization
 - Explainable and interpretable music generation
 - Computational modeling of harmonic decision-making
