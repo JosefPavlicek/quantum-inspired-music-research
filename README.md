@@ -1,7 +1,9 @@
 # Quantum-Inspired Music Research
 
 **Author:** Josef Pavlíček  
+
 **ORCID:** [0000-0002-3959-5406](https://orcid.org/0000-0002-3959-5406)  
+
 **Research profiles:** [Google Scholar](https://scholar.google.com/citations?user=PXaXsPoAAAAJ) · [ResearchGate](https://www.researchgate.net/profile/Josef-Pavlicek)
 
 This repository collects research software, experimental workflows, evaluation results, and reproducibility materials related to quantum-inspired music generation, automatic melody harmonization, harmonic analysis, explainable computational music systems, and music education.
@@ -17,9 +19,13 @@ A hybrid quantum-inspired system for **automatic music harmonization from melody
 The system combines:
 
 - Beat-level melodic analysis
+
 - Overlapping harmonic blocks
+
 - Quantum-inspired candidate exploration
+
 - Rule-based harmonic optimization
+
 - MusicXML export and quantitative evaluation
 
 This research artifact accompanies the ISD 2026 paper:
@@ -41,14 +47,23 @@ The system processes melody without requiring access to a reference chord progre
 #### Main Capabilities
 
 - Automatic tonal-context estimation from melody
+
 - Meter-aware and duration-aware melodic analysis
+
 - Explicit diatonic chord candidate generation
+
 - Melody–chord compatibility scoring
+
 - Harmonic-function and transition scoring
+
 - Harmonic persistence and cadence modeling
+
 - Global Viterbi-like sequence optimization
+
 - Inspectable harmonic decisions and alternative candidates
+
 - JSON and CSV diagnostic outputs
+
 - Reproducible experimental configurations
 
 The frozen EMH v0.12 harmonic model uses a restricted candidate vocabulary and fixed scoring weights. This provides a controlled baseline for evaluating its harmonic decisions without adapting the model to the reference arrangements.
@@ -78,19 +93,29 @@ The experiment evaluates a frozen EMH model on 19 selected HookTheory excerpts, 
 Key results:
 
 | Evaluation measure | Result |
+
 |---|---:|
+
 | Exact chord agreement | 90 / 439 (20.50%) |
+
 | Chord-root agreement | 139 / 439 (31.66%) |
+
 | Harmonic-function agreement (EMH-inferred key) | 200 / 420 (47.62%) |
+
 | Candidate chord coverage | 236 / 439 (53.76%) |
+
 | Candidate root coverage | 420 / 439 (95.67%) |
+
 | Chord agreement given candidate coverage | 90 / 236 (38.14%) |
+
 | Root agreement on unmixed segments | 125 / 399 (31.33%) |
 
 The decision-level diagnostic distinguishes three mutually exclusive outcomes:
 
 - **90 segments (20.50%)**: The generated chord matches the human reference.
+
 - **203 segments (46.24%)**: The reference chord is unavailable in the model's candidate vocabulary.
+
 - **146 segments (33.26%)**: The reference chord is available but another candidate is selected.
 
 An additional post-hoc tonal-context audit found exact agreement between EMH-inferred keys and HookTheory key annotations in **8 of 19 excerpts (42.1%)**.
@@ -124,8 +149,11 @@ HARMONIX extends the Explainable Melody Harmonizer research into a **systems-eng
 HARMONIX uses a deterministic, Viterbi-style optimization engine and compares four controlled configurations:
 
 - **Corrected EMH:** corrected optimization baseline without the additional structural constraints.
+
 - **R (Repetition):** adds a repetition-consistency constraint (weight 0.12).
+
 - **F (Function):** adds a harmonic-function constraint (weight 0.06).
+
 - **RF (Combined):** applies both constraints with the same fixed weights.
 
 All four configurations use the same search mechanism. The experiment therefore evaluates **the effects of constraint design**, not competing optimization algorithms. The original EMH source is retained as a separate, frozen snapshot to preserve experimental provenance.
@@ -135,10 +163,15 @@ All four configurations use the same search mechanism. The experiment therefore 
 The current v0.19 diagnostic evaluation includes **17,911 successfully processed TRAIN records** and **1,821 VALID records**, with **131,117** and **12,517** evaluated motif pairs, respectively. The analysis compares generated chord-root relationships with human-reference relationships across stable, changed, and transposed melodic contexts.
 
 | Context | RF vs. Corrected EMH (TRAIN) | RF vs. Corrected EMH (VALID) |
+
 |---|---:|---:|
+
 | Untransposed motif; reference root unchanged | +5.08 pp | +5.00 pp |
+
 | Untransposed motif; reference root changed | −1.52 pp | −0.99 pp |
+
 | Transposed motif; reference harmony follows transposition | −8.80 pp | −8.93 pp |
+
 | Transposed motif; reference harmony does not follow transposition | +4.13 pp | +4.18 pp |
 
 The results show a **context-dependent trade-off**: explicit structural constraints can improve agreement where relationships remain stable, yet reduce agreement where the reference requires transformation. Effects have consistent directions across TRAIN and VALID; they should not be interpreted as proof of generalization beyond the evaluated corpus. Aggregate exact-chord agreement changes are small, so the main contribution concerns **structural decision behavior**, not an overall improvement in chord-prediction accuracy.
@@ -166,18 +199,27 @@ The experiment uses the **corrected EMH scoring model** to construct harmonic op
 #### Experimental Design
 
 - **Corpus:** 400 four-decision tasks sampled from HookTheory TRAIN excerpts, representing **389 distinct affine-normalized energy landscapes**; 305 tasks have 256 feasible states, while 95 have restricted feasible sets.
+
 - **Encoding:** four consecutive harmonic decisions, four chord candidates per decision, **8 qubits** and **256 computational-basis states**.
+
 - **Offline optimization (v0.30):** exact statevector QAOA at **p=1, p=2, p=3**, with six parameter initializations and up to 120 optimizer iterations per depth; the objective includes penalties for infeasible states.
+
 - **Hardware validation (v0.33):** 24 preselected, fully feasible tasks on **IBM Marrakesh**, comparing uniform sampling and QAOA depths p=1–3. Two repetitions yielded **192 executed circuits** at 2,048 shots each (**393,216 total shots**, or 4,096 per task/depth combination). The transpiled circuits reached a **maximum depth of 319**; the batch contained **15,272 two-qubit gates in total**, not per circuit. IBM reported **110 seconds of charged QPU time** for job `dbhmj3c2d77s739d1v00` (29 October 2026).
+
 - **Earlier hardware runs:** four principal batches across v0.19, v0.21, v0.25, and v0.33, including 4-qubit benchmarks on IBM Pittsburgh and 8-qubit benchmarks on IBM Marrakesh. Hardware results are not conflated with the 400-task ideal simulation.
 
 #### Main Results
 
 | QAOA depth | Offline: 400 tasks, ideal optimum probability | v0.33: 24 tasks, ideal | v0.33: IBM Marrakesh |
+
 |---|---:|---:|---:|
+
 | Uniform | — | 0.80% | 0.76% |
+
 | p=1 | 8.41% | 10.48% | 7.76% |
+
 | p=2 | 16.46% | 20.67% | 12.65% |
+
 | p=3 | 23.12% | 29.71% | 15.17% |
 
 On IBM Marrakesh, p=3 exceeded p=2 in **22 of the 24 tasks**, with a mean gain of **2.53 percentage points**. However, the ideal-to-hardware gap increased from **2.72 pp at p=1** to **8.02 pp at p=2** and **14.53 pp at p=3**. This illustrates a measured trade-off between increased algorithmic depth and hardware noise, rather than a demonstrated quantum speedup.
@@ -196,6 +238,24 @@ See [`QHDE/README.md`](QHDE/README.md) for the versioned experimental workflow, 
 
 ---
 
+### IHSI 2027 – Human-Centered Listening Study
+
+The IHSI2027-listening-study project investigates how listeners perceive automatically generated harmonic accompaniments and whether explicit harmonic preferences can be reflected in computational harmonization without compromising perceived musical quality. It builds on HARMONIX and the corrected Explainable Melody Harmonizer (EMH).
+
+The current pilot compares three harmonizations of the same melody:
+- HUMAN: harmony derived from the original annotated HookTheory excerpt, used as a listening reference.
+- BASELINE: harmony generated by the corrected EMH scoring model without an additional user-preference penalty.
+- GUIDED: harmony generated using the same model with an exploratory penalty on chord changes, favoring greater harmonic stability. GUIDED is not assumed to be musically superior or personalized to each participant.
+The pilot includes six annotated musical excerpts, rendered as three piano-audio variants each, and a browser-based listening interface. Participants hear blinded and randomized alternatives and rate perceived naturalness, melody–accompaniment fit, and alignment with their stated preference for harmonic stability. The web interface currently supports local CSV export; persistent server-side response collection is planned, not yet implemented.
+
+The repository also contains scripts for preparing the experimental corpus, generating harmonization variants, rendering audio, and publishing a web-ready audio manifest. This is a pilot research workflow, not a completed or validated listening study. HookTheory-derived material remains subject to third-party usage and redistribution terms; public deployment requires a rights review.
+
+Repository directory: [`IHSI2027-listening-study/`](IHSI2027-listening-study/)
+
+Setup and execution instructions: See the [project README](IHSI2027-listening-study/README.md) for the available workflow and run instructions. The web application also has its own [README](IHSI2027-listening-study/web/README.md).
+
+---
+
 ## Research Focus
 
 The repository supports a continuing research programme connecting computational models of harmony with explainable decision-making and human musical interpretation.
@@ -203,15 +263,25 @@ The repository supports a continuing research programme connecting computational
 The principal research areas include:
 
 - Quantum-inspired music generation and optimization
+
 - Hardware-executed QAOA, circuit-depth analysis, and quantum harmonic dependency experiments
+
 - Automatic melody harmonization
+
 - Explainable and interpretable music generation
+
 - Computational modeling of harmonic decision-making
+
 - Tonal context, harmonic function, and chord progression analysis
+
 - Corpus-based evaluation of generative music systems
+
 - Human-centered AI and human–AI musical co-creation
+
 - Music education and the exploration of harmonic alternatives
+
 - Reproducible computational music research
+
 - Constraint applicability, structural consistency, and context-sensitive decision optimization
 
 The broader objective is to move beyond generating plausible chord progressions toward understanding **which harmonic decisions a computational system makes, which alternatives it considers, why its choices differ from human references, and how those differences can be meaningfully examined by people**.
