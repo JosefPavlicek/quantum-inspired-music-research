@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "clips": [
+    {
+      "id": "clip_01",
+      "audio": {
+        "human": "/audio/clip_01/human_piano.wav",
+        "baseline": "/audio/clip_01/baseline_piano.wav",
+        "guided": "/audio/clip_01/guided_piano.wav"
+      }
+    },
+    {
+      "id": "clip_02",
+      "audio": {
+        "human": "/audio/clip_02/human_piano.wav",
+        "baseline": "/audio/clip_02/baseline_piano.wav",
+        "guided": "/audio/clip_02/guided_piano.wav"
+      }
+    },
+    {
+      "id": "clip_03",
+      "audio": {
+        "human": "/audio/clip_03/human_piano.wav",
+        "baseline": "/audio/clip_03/baseline_piano.wav",
+        "guided": "/audio/clip_03/guided_piano.wav"
+      }
+    },
+    {
+      "id": "clip_04",
+      "audio": {
+        "human": "/audio/clip_04/human_piano.wav",
+        "baseline": "/audio/clip_04/baseline_piano.wav",
+        "guided": "/audio/clip_04/guided_piano.wav"
+      }
+    },
+    {
+      "id": "clip_05",
+      "audio": {
+        "human": "/audio/clip_05/human_piano.wav",
+        "baseline": "/audio/clip_05/baseline_piano.wav",
+        "guided": "/audio/clip_05/guided_piano.wav"
+      }
+    },
+    {
+      "id": "clip_06",
+      "audio": {
+        "human": "/audio/clip_06/human_piano.wav",
+        "baseline": "/audio/clip_06/baseline_piano.wav",
+        "guided": "/audio/clip_06/guided_piano.wav"
+      }
+    }
+  ]
+}

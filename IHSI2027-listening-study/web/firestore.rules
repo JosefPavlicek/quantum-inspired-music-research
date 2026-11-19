@@ -1,0 +1,19 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /ihsi2027_sessions/{uid} {
+      allow create, update: if request.auth != null
+        && request.auth.uid == uid
+        && request.resource.data.auth_uid == uid
+        && request.resource.data.keys().hasOnly([
+          'participant_id','started_at','completed_at','language',
+          'preference','music_experience','age','completed','responses',
+          'clip_order','auth_uid','updatedAt'
+        ])
+        && request.resource.data.responses is list
+        && request.resource.data.responses.size() <= 18
+        && request.resource.data.completed == true;
+      allow read, delete: if false;
+    }
+  }
+}

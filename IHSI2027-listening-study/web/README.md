@@ -1,41 +1,21 @@
-# IHSI 2027 – Listening Pilot (local, static)
+# IHSI 2027 listening study — mobile-first React UI
 
-Minimal Vite web application for a **pilot only**, with six excerpts, three blinded conditions, randomized clip and condition order, pre-listening preference elicitation, three 1–5 ratings per condition, and client-side CSV export.
-
-## Audio layout
-
-Copy the 18 files from `IHSI2027-listening-study/experiments/full_corpus/` into:
-
-```
-public/audio/clip_01/human_piano.wav
-public/audio/clip_01/baseline_piano.wav
-public/audio/clip_01/guided_piano.wav
-...
-public/audio/clip_06/human_piano.wav
-public/audio/clip_06/baseline_piano.wav
-public/audio/clip_06/guided_piano.wav
-```
-
-From the repository root, if this application is at `IHSI2027-listening-study/web/`:
+Replace the **web** folder's `src.js`, `index.html`, and `package.json` with the files from this package; add `src/`, `src/firebase.js`, `src/styles.css`, `.env.example`, and `.gitignore`. Keep the existing `web/public/corpus.json` and `web/public/audio/` untouched. The old `src.js` is no longer used.
 
 ```bash
-for i in 01 02 03 04 05 06; do
-  mkdir -p "IHSI2027-listening-study/web/public/audio/clip_$i"
-  cp "IHSI2027-listening-study/experiments/full_corpus/clip_$i/"*_piano.wav "IHSI2027-listening-study/web/public/audio/clip_$i/"
-done
 cd IHSI2027-listening-study/web
 npm install
 npm run dev
 ```
 
-Vite prints the development URL. For Vercel: root directory `IHSI2027-listening-study/web`, build command `npm run build`, output directory `dist`.
+## Firebase
 
-## Research caveats
+Copy `.env.example` to `.env.local` and fill the four values from **Firebase Console → Project settings → Your apps → Web app**. Never put service-account private keys in client code. Enable Cloud Firestore. The application writes one document per completed participant to `ihsi2027_sessions/{participant_id}`. Without Firebase configuration it allows local CSV export **for testing only**; do not send the public study link until remote saving and security rules are verified.
 
-- `GUIDED` uses a fixed 0.15 chord-change penalty; it is **not** individualized to the participant's selected preference. The `preference_match` question is subjective perceived match, not a verified causal intervention or true personalized intent preservation.
-- All three stimuli should use identical piano instrument, tempo, and loudness. Audit alignment and final rendering before recruiting participants.
-- The audio uses normalized pitch register and synthetic voicing; inspect these for scientific validity.
-- HookTheory excerpt usage and public distribution rights must be reviewed before deployment. Do not publish audio to a public Vercel URL until permission/licensing is resolved.
-- This app does not send data to a server. Each participant must export their CSV and provide it to the researcher. For a real distributed study, add secure backend collection, privacy information, and data handling controls.
-- Preloading and WAV files may be heavy on mobile. Convert all three conditions to the **same** compressed audio codec/settings for public deployment, then update filenames in `src.js`.
-- No formal inferential conclusions should be drawn from this six-excerpt convenience pilot alone.
+**Security:** Anonymous UUIDs are not authorization. Do not use unrestricted Firestore `allow write: if true` for a public deployment. Recommended production setup: Firebase Anonymous Auth with rules restricting each participant to their own document, strict schema validation, App Check and rate limits; alternatively use a server-side validated submission endpoint. The current implementation intentionally does not claim to provide secure public writes without these controls.
+
+## Data collection
+
+Three blinded conditions are randomized within each of six shuffled excerpts. All ratings must be answered and playback must have started for all three variants before proceeding. The UI does **not** require complete playback. It records cumulative play time, maximum playhead position, duration and fraction reached. `started_at` and `completed_at` are ISO timestamps. The final demographic questions are optional. Avoid using these metrics as evidence that someone actually listened attentively; they only record player interaction.
+
+The study saves after completion. For resilience against interruptions, implement periodic saving after Firebase Auth/security configuration is in place. Confirm music/audio licensing before distributing HookTheory-derived clips publicly. Do not commit `.env.local`, credentials or personally identifying response data.
