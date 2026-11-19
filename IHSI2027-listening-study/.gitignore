@@ -1,0 +1,8 @@
+data/*
+!data/.gitkeep
+public/audio/*
+!public/audio/.gitkeep
+.env*
+node_modules/
+.next/
+*.csv
